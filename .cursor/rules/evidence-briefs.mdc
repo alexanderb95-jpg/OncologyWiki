@@ -1,0 +1,13 @@
+---
+description: Living UpToDate-style evidence briefs beside each pathway
+alwaysApply: true
+---
+
+# Evidence briefs
+
+- Path: `pathways/{disease}/{setting}/evidence.md`
+- Purpose: 60-second pre-visit skim, not a full guideline dump
+- Required sections: Bottom line, Who this applies to, Standard options, Landmark evidence, Biomarkers, Toxicity anchors, Watch list, Sources to re-check, Changelog
+- Never invent trial statistics; verify or leave qualitative
+- On every edit: set Last reviewed (YYYY-MM-DD) and append Changelog
+- Sister EpiAI project stays at `/Users/Alex/Documents/EpiAI`

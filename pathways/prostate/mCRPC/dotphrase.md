@@ -1,0 +1,13 @@
+#mCRPC
+- Discussed progression to mCRPC in the setting of ***. Prior therapies: ***.
+- Discussed disease extent: *** (bone / nodes / visceral). PSMA PET: ***. HRR / BRCA status: ***. MSI / TMB: ***.
+- Discussed prognosis and goals (disease control, QoL; not cure).
+- Discussed options including ***: ARPI switch / add, taxane (docetaxel or cabazitaxel), Pluvicto (PSMA+), PARP inhibitor (HRR), radium-223 (bone-predominant, no visceral), clinical trial, supportive care.
+- Discussed key toxicities of planned therapy: ***.
+- He / she opts to proceed with ***.
+- Labs: CBC, CMP, PSA, testosterone; ***
+- Imaging / staging: ***
+- Molecular: germline / somatic NGS status reviewed; *** pending
+- Bone health: calcium/vit D; ***DENOSUMAB/zoledronic; ***DEXA
+- Referrals: *** (rad onc / SW / palliative / cardio-onc)
+- Follow-up: ***

@@ -1,0 +1,12 @@
+#Adjuvant urothelial carcinoma
+- Discussed pathology and staging: *** (ypT / pT, N, margins, histology, variant features).
+- Discussed perioperative course: neoadjuvant *** (regimen / cycles / response); surgery date ***.
+- Discussed adjuvant options: observation vs adjuvant immunotherapy (e.g. nivolumab per CheckMate 274 criteria) vs other per *** guidelines / trial.
+- Eligibility / rationale: *** (risk features that drive adjuvant Rx).
+- Discussed prognosis and goals.
+- Discussed toxicities of planned adjuvant therapy: ***.
+- He / she opts to proceed with ***.
+- Labs: CBC, CMP; ***
+- Imaging surveillance plan: ***
+- Referrals: ***
+- Follow-up: ***

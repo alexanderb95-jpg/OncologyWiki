@@ -1,0 +1,13 @@
+---
+description: How to author and revise GU clinic dot phrases
+alwaysApply: true
+---
+
+# Dot phrases
+
+- Path: `pathways/{disease}/{setting}/dotphrase.md`
+- Line 1 = Epic trigger starting with `#`
+- Body = clinic-note bullets; fill-ins are `***`
+- Prefer counseling → decision → labs/NGS → procedures → meds → referrals → follow-up
+- Preserve the user's clinical wording; fix only clear typos unless asked to rewrite
+- When SOC changes, update the paired `evidence.md` in the same folder
