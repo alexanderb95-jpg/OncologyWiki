@@ -1,13 +1,15 @@
 #mCRPC
-- Discussed progression to mCRPC in the setting of ***. Prior therapies: ***.
-- Discussed disease extent: *** (bone / nodes / visceral). PSMA PET: ***. HRR / BRCA status: ***. MSI / TMB: ***.
-- Discussed prognosis and goals (disease control, QoL; not cure).
-- Discussed options including ***: ARPI switch / add, taxane (docetaxel or cabazitaxel), Pluvicto (PSMA+), PARP inhibitor (HRR), radium-223 (bone-predominant, no visceral), clinical trial, supportive care.
-- Discussed key toxicities of planned therapy: ***.
-- He / she opts to proceed with ***.
-- Labs: CBC, CMP, PSA, testosterone; ***
-- Imaging / staging: ***
-- Molecular: germline / somatic NGS status reviewed; *** pending
-- Bone health: calcium/vit D; ***DENOSUMAB/zoledronic; ***DEXA
-- Referrals: *** (rad onc / SW / palliative / cardio-onc)
-- Follow-up: ***
+- Discussed progression to mCRPC in the setting of *** (PSA / radiographic / symptomatic) on ***, with castrate testosterone. Prior therapies: *** (ADT ± ARPI ± docetaxel in HSPC; any CRPC lines)
+- Discussed disease extent: *** (bone / nodes / visceral). PSMA PET: ***. HRR / BRCA (germline + somatic): ***. MSI / TMB: ***. Discussed prognosis and goal of therapy to control but not cure the cancer, with attention to symptoms and QoL. Discussed next-line options based on prior exposure and biomarkers, with continued ADT. If ARPI-naive: abiraterone/prednisone or enzalutamide; if BRCA/HRR and ARPI-naive, discussed PARP + ARPI per label. After prior ARPI, switching to a second ARPI is generally not preferred. Taxane: docetaxel if chemo-naive and fit; cabazitaxel if prior docetaxel (preferred over another ARPI after docetaxel + ARPI). Pluvicto if PSMA+ after ARPI, including patients appropriate to delay taxane or after prior taxane. PARP monotherapy if BRCA / selected HRR after ARPI. Radium-223 if symptomatic bone-predominant without visceral disease. Pembrolizumab if MSI-H/dMMR. Clinical trial vs supportive care. Discussed potential side effects of planned therapy: *** (taxane: neuropathy, cytopenias, infection, alopecia, fatigue; cabazitaxel: diarrhea; Pluvicto: dry mouth, myelosuppression, fatigue, nausea, radiation precautions; PARP: cytopenias, nausea, fatigue, rare MDS/AML; ARPI: fatigue, cardiac, hepatotoxicity, falls). He opts to proceed with ***
+- Given patient education info on ***
+- CBC, CMP, PSA, testosterone
+- Germline (Invitae), blood NGS (Foundation), tissue NGS (Caris) if not already complete
+- ***PSMA PET for Pluvicto eligibility
+- Continue ADT
+- ***Will obtain DEXA
+- Continue calcium/vitamin D; ***denosumab / zoledronic acid for SRE prevention given bone mets; ***dental clearance
+- Rx sent for ***
+- referral to SW for the prostate cancer support group
+- ***refer to NM / rad onc for Pluvicto or Ra-223
+- ***refer to palliative care
+- follow up ***

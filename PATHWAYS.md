@@ -5,7 +5,7 @@ Each row = folder under `pathways/` with `dotphrase.md` + `evidence.md`.
 ## Prostate
 
 - [x] mHSPC — `pathways/prostate/mHSPC/` (phrase seeded from clinic note; evidence brief started)
-- [x] mCRPC — `pathways/prostate/mCRPC/` (stubs — flesh from clinic flow)
+- [x] mCRPC — `pathways/prostate/mCRPC/` (phrase + evidence drafted from clinic next-line flow)
 - [ ] Localized / adjuvant / salvage prostate
 - [ ] nmCRPC
 
