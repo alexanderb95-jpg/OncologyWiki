@@ -1,9 +1,9 @@
 #Metastatic urothelial carcinoma
-- Discussed workup and extent of disease: *** (sites). Histology: ***. Prior therapy: ***.
-- Biomarkers: PD-L1 ***; FGFR *** ; HER2 ***; NGS: ***.
+- Discussed workup and extent of disease: *** (sites). Histology: ***. Prior therapy: *** (including perioperative EV/IO if any).
+- Biomarkers: PD-L1 ***; FGFR3 ***; HER2 ***; NGS: ***.
 - Discussed prognosis and goals (control, QoL).
-- Discussed options: enfortumab + pembrolizumab; platinum chemo; EV monotherapy; sacituzumab; FGFR inhibitor if eligible; IO; clinical trial; supportive care.
-- He / she opts to proceed with ***. Discussed key toxicities: ***.
+- Discussed options: first-line enfortumab vedotin + pembrolizumab (EV-302) for most untreated la/mUC; nivolumab + gemcitabine-cisplatin if cisplatin-eligible and not using EV+pembro; maintenance avelumab if platinum already given without progression; EV monotherapy after platinum + PD-(L)1; erdafitinib if FGFR3-altered after PD-(L)1 (not instead of first PD-1 if eligible); sacituzumab — TROPiCS-04 did not meet OS; HER2-directed therapy / trial; supportive care.
+- He / she opts to proceed with ***. Discussed key toxicities: *** (EV: neuropathy, rash, hyperglycemia; IO irAEs; platinum; erdafitinib: phosphate, ocular).
 - Labs / staging: ***
 - Referrals: ***
 - Follow-up: ***

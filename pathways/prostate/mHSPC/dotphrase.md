@@ -1,10 +1,11 @@
 #Metastatic prostate cancer
 - Discussed his workup to date, including ***
-- Discussed that while biopsy is needed for a definitive diagnosis, this is overall very suspicious for ***synchronous ***high volume metastatic HSPC with involvement of the ***. Discussed prognosis and goal of therapy to control but not cure the cancer. Discussed treatment options including ADT + ARTA or triplet therapy with ADT + ARTA + docetaxel, though the specific contribution of chemotherapy to ADT+ARTA is not clear. Also discussed more recent data of triplet regimen including ADT/ARPI + Pluvicto for PSMA+ disease or a PARP inhibitor for HRR deficient patients. Discussed potential side effects of ADT (fatigue, hot flashes, weight gain, muscle loss, ED, loss of libido, mood changes, increased CV risk, loss of bone density), darolutamide (cytopenias, hepatotoxicity, fatigue, cardiac toxicity), and docetaxel. He opts to proceed with *** ADT + darolutamide (will start after tissue bx confirmation)
+- Discussed that while biopsy is needed for a definitive diagnosis, this is overall very suspicious for ***synchronous ***high volume metastatic HSPC with involvement of the ***. Discussed prognosis and goal of therapy to control but not cure the cancer. Discussed treatment options including ADT + ARTA or triplet therapy with ADT + ARTA + docetaxel, though the specific contribution of chemotherapy to ADT+ARTA is not clear. Also discussed more recent data of ADT/ARPI + Pluvicto for PSMA+ disease (PSMAddition; FDA-approved with ARPI) or niraparib/abiraterone (Akeega) for BRCA2-mutated disease (not all HRR hits). Discussed potential side effects of ADT (fatigue, hot flashes, weight gain, muscle loss, ED, loss of libido, mood changes, increased CV risk, loss of bone density), darolutamide (cytopenias, hepatotoxicity, fatigue, cardiac toxicity), and docetaxel. He opts to proceed with *** ADT + darolutamide (will start after tissue bx confirmation)
 - Given patient education info on *** and darolutamide
 - CBC, CMP, PSA, testosterone
 - Germline (Invitae), blood NGS (Foundation), tissue NGS (Caris)
 - ***will pursue prostate biopsy to obtain definitive tissue diagnosis
+- ***PSMA PET
 - ***Will obtain DEXA
 - Rx sent to start calcium/vitamin D
 - ***statin
