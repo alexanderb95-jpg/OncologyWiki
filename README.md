@@ -26,3 +26,11 @@ See `PATHWAYS.md` for coverage checklist. Sister product project (biomarker / me
 - Edit `dotphrase.md` whenever counseling or orders change.
 - Edit `evidence.md` when practice changes; bump **Last reviewed** and **Changelog**.
 - A Monday 8am routine (**GU clinic evidence refresh**) re-checks briefs and pings you only when something material changed.
+
+## Clinic page (canvas)
+
+Open the interactive clinic walkthrough beside chat:
+
+`~/.cursor/projects/Users-Alex-Projects-GU-clinic/canvases/clinic.canvas.tsx`
+
+It steps through each pathway with **Evidence** and **Dot phrase** side by side. Source markdown under `pathways/` remains canonical.
