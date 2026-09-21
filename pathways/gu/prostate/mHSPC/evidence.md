@@ -1,18 +1,18 @@
-# mHSPC — clinic evidence brief
+# Prostate → mHSPC
 
 Last reviewed: 2026-09-21
 Next review: 2026-12-20
 Owner: GU clinic
-Purpose: 60-second pre-visit skim (not a full guideline)
+Purpose: Disease → setting page for metastatic hormone-sensitive prostate cancer
 Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets; re-check NCCN (not retrieved this pass)
 
-## Bottom line (clinic)
-- Newly diagnosed metastatic HSPC is treated with intensified systemic therapy, not ADT alone, for most fit patients.
-- Backbone: ADT + ARPI (darolutamide, enzalutamide, apalutamide, or abiraterone/prednisone). Darolutamide + ADT without chemo is supported by ARANOTE (rPFS). Triplet ADT + darolutamide + docetaxel improved OS vs ADT + docetaxel in ARASENS; PEACE-1 supports adding abiraterone to ADT + docetaxel in de novo disease. Incremental benefit of chemo on top of a modern ADT+ARPI doublet was not the ARASENS question — counsel that uncertainty.
-- PSMA+ disease: 177Lu-PSMA-617 (Pluvicto) + ARPI + ADT improved rPFS vs ARPI + ADT in PSMAddition and is FDA-approved (31 Jul 2026) in that setting. OS HR was not in the retrieved Lancet abstract.
-- BRCA2-mutated mCSPC: niraparib + abiraterone + prednisone (Akeega) is FDA-approved (12 Dec 2025). AMPLITUDE enrolled HRR-altered disease; the FDA restriction is BRCA2. OS remains immature in AMPLITUDE.
-- PTEN-deficient mAPMN/S (IHC companion diagnostic): capivasertib + abiraterone + prednisone is FDA-approved (12 Jun 2026; CAPItello-281). rPFS improved; OS immature — counsel that and hyperglycemia/diarrhea/rash class toxicities.
-- Supportive care from day 1: bone health (Ca/Vit D, DEXA, denosumab/zoledronic when indicated), CV risk (statin discussion), sexual/QoL side effects of ADT.
+## Guidelines
+
+| Society | Setting-level direction | Published strength/category |
+|---|---|---|
+| NCCN Prostate Cancer | Use ADT with treatment intensification for eligible metastatic hormone-sensitive disease; select by disease volume, prior treatment, fitness, and labeled biomarker status. | Current categories not independently rechecked in this page; verify before use. |
+| EAU Prostate Cancer | Combine ADT with an androgen-receptor-pathway inhibitor for appropriate patients; consider docetaxel-containing therapy in selected de novo/high-volume disease. | Recheck the current guideline chapter. |
+| ASCO | Addresses systemic therapy intensification in noncastrate metastatic prostate cancer. | Exact current strength/category not verified in this page. |
 
 ## Who this applies to
 - Synchronous or metachronous metastatic hormone-sensitive prostate cancer (mHSPC / mCSPC / mAPMN/S).
@@ -26,7 +26,7 @@ Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets
 - PTEN-deficient by FDA-authorized IHC (VENTANA PTEN SP218): ADT + capivasertib 400 mg BID 4 days on / 3 off + abiraterone 1000 mg + prednisone 5 mg daily (CAPItello-281 / FDA 12 Jun 2026). OS immature — shared decision.
 - Local therapy: prostate RT / metastasis-directed therapy in selected low-volume / oligometastatic cases — coordinate with rad onc / urology. PEACE-1 RT interaction was not significant in the abi analysis; RT-specific coprimary details are not in this brief’s sources.
 
-## Landmark evidence (landscape table)
+## Key trials / landmark evidence
 
 Cross-trial comparisons are indirect. Abstract-level unless noted. HR with 95% CI only if published in the retrieved source.
 
@@ -52,7 +52,7 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 - PSMA PET (approved tracer) for staging and 177Lu-PSMA-617 eligibility.
 - Testosterone to confirm castration once on ADT; PSA kinetics for response.
 
-## Toxicity / counseling anchors
+## Toxicity anchors
 - ADT: fatigue, hot flashes, weight gain, sarcopenia, ED/libido, mood, CV risk, bone loss.
 - ARPI class: fatigue; darolutamide — cytopenias, hepatotoxicity, cardiac (clinic wording); enzalutamide — fatigue, falls, seizure (ENZAMET 1%); abi — mineralocorticoid, hepatic, hypertension (LATITUDE, PEACE-1).
 - Docetaxel: neuropathy, cytopenias, infection, alopecia, fatigue; febrile neutropenia 6.2% in CHAARTED combination arm.
@@ -71,6 +71,7 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 - ARASENS, ARANOTE, PEACE-1, ARCHES/ENZAMET updates, PSMAddition, AMPLITUDE, CAPItello-281
 
 ## Changelog
+- 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: added FDA-approved capivasertib + abi for PTEN-deficient mAPMN/S (CAPItello-281; FDA 12 Jun 2026) — was watch-list / “FDA not retrieved” on prior pass; PTEN companion diagnostic and toxicity anchors updated
 - 2026-09-14: expanded from qualitative stub to landscape table with both-arm outcomes from named-trial PubMed abstracts and FDA snippets; Pluvicto HSPC and Akeega BRCA2 mCSPC added
 - 2026-09-14: initial living brief (qualitative SOC; numbers deferred to primary sources)
