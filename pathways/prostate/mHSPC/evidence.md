@@ -1,6 +1,6 @@
 # mHSPC — clinic evidence brief
 
-Last reviewed: 2026-09-14
+Last reviewed: 2026-09-21
 Owner: GU clinic
 Purpose: 60-second pre-visit skim (not a full guideline)
 Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets; re-check NCCN (not retrieved this pass)
@@ -10,17 +10,19 @@ Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets
 - Backbone: ADT + ARPI (darolutamide, enzalutamide, apalutamide, or abiraterone/prednisone). Darolutamide + ADT without chemo is supported by ARANOTE (rPFS). Triplet ADT + darolutamide + docetaxel improved OS vs ADT + docetaxel in ARASENS; PEACE-1 supports adding abiraterone to ADT + docetaxel in de novo disease. Incremental benefit of chemo on top of a modern ADT+ARPI doublet was not the ARASENS question — counsel that uncertainty.
 - PSMA+ disease: 177Lu-PSMA-617 (Pluvicto) + ARPI + ADT improved rPFS vs ARPI + ADT in PSMAddition and is FDA-approved (31 Jul 2026) in that setting. OS HR was not in the retrieved Lancet abstract.
 - BRCA2-mutated mCSPC: niraparib + abiraterone + prednisone (Akeega) is FDA-approved (12 Dec 2025). AMPLITUDE enrolled HRR-altered disease; the FDA restriction is BRCA2. OS remains immature in AMPLITUDE.
+- PTEN-deficient mAPMN/S (IHC companion diagnostic): capivasertib + abiraterone + prednisone is FDA-approved (12 Jun 2026; CAPItello-281). rPFS improved; OS immature — counsel that and hyperglycemia/diarrhea/rash class toxicities.
 - Supportive care from day 1: bone health (Ca/Vit D, DEXA, denosumab/zoledronic when indicated), CV risk (statin discussion), sexual/QoL side effects of ADT.
 
 ## Who this applies to
 - Synchronous or metachronous metastatic hormone-sensitive prostate cancer (mHSPC / mCSPC / mAPMN/S).
-- Subclassify: high vs low volume (CHAARTED-style), de novo vs recurrent, visceral disease, fitness for docetaxel, PSMA PET status, BRCA2/HRR, comorbidities (hepatic, cardiac, falls).
+- Subclassify: high vs low volume (CHAARTED-style), de novo vs recurrent, visceral disease, fitness for docetaxel, PSMA PET status, BRCA2/HRR, PTEN IHC, comorbidities (hepatic, cardiac, falls).
 
 ## Standard options (decision tree sketch)
 - Fit, most patients: ADT + ARPI doublet (ARANOTE, ARCHES, ENZAMET, TITAN, LATITUDE, STAMPEDE abi).
 - Fit, high-volume / high-risk, chemo-fit: discuss ADT + ARPI ± docetaxel. ARASENS and PEACE-1 are triplets vs ADT+docetaxel ± placebo/no abi, not vs modern doublet.
 - PSMA+ and candidate for radioligand: ADT + ARPI + 177Lu-PSMA-617 7.4 GBq q6wk × up to 6 (PSMAddition / FDA).
 - BRCA2 (FDA): ADT + Akeega (niraparib 200 mg + abiraterone 1000 mg) + prednisone 5 mg daily. Do not treat every non-BRCA2 HRR hit as equivalent (FDA exploratory non-BRCA2m rPFS HR 0.88, CI crosses 1).
+- PTEN-deficient by FDA-authorized IHC (VENTANA PTEN SP218): ADT + capivasertib 400 mg BID 4 days on / 3 off + abiraterone 1000 mg + prednisone 5 mg daily (CAPItello-281 / FDA 12 Jun 2026). OS immature — shared decision.
 - Local therapy: prostate RT / metastasis-directed therapy in selected low-volume / oligometastatic cases — coordinate with rad onc / urology. PEACE-1 RT interaction was not significant in the abi analysis; RT-specific coprimary details are not in this brief’s sources.
 
 ## Landmark evidence (landscape table)
@@ -39,14 +41,15 @@ Cross-trial comparisons are indirect. Abstract-level unless noted. HR with 95% C
 | CHAARTED NCT00309985 | mHSPC; N=790 | ADT + docetaxel 75 mg/m² q3wk ×6 | ADT alone | Median OS 57.6 vs 44.0 mo; TTP 20.2 vs 11.7 mo | OS HR 0.61 (0.47–0.80) | Sweeney 2015 NEJM PMID 26244877 |
 | PSMAddition NCT04720157 | PSMA+ metastatic APMN/S; N=1144; 68% high-volume | 177Lu-PSMA-617 7.4 GBq q6wk ×≤6 + ADT + ARPI | ADT + ARPI (crossover after rPD allowed) | rPFS events 139/572 vs 172/572; median NR vs NR; dry mouth 46% vs 4% | rPFS HR 0.72 (0.58–0.90). OS HR not in Lancet abstract | Tagawa 2026 Lancet PMID 42561994; FDA 31 Jul 2026 |
 | AMPLITUDE NCT04497844 | HRR-altered mCSPC; N=696; BRCA 56% | Niraparib + AAP + ADT | Placebo + AAP + ADT | BRCA rPFS NR vs 26 mo; grade 3–4 AE 75% vs 59% | BRCA rPFS HR 0.52 (0.37–0.72); ITT rPFS HR 0.63 (0.49–0.80); OS HR 0.79 (0.59–1.04) immature | Attard 2025 Nat Med PMID 41057655; FDA Akeega BRCA2 mCSPC 12 Dec 2025 |
+| CAPItello-281 NCT04305496 | Newly diagnosed PTEN-deficient mAPMN/S; N=1012 | Capivasertib 400 mg BID 4 on/3 off + abi + pred + ADT | Placebo + abi + pred + ADT | Median rPFS 33.2 vs 25.7 mo; OS immature at rPFS analysis | rPFS HR 0.81 (0.66–0.98). OS not mature | FDA 12 Jun 2026; companion VENTANA PTEN (SP218) RxDx |
 
 STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.63 (0.52–0.76); metastatic subgroup HR 0.61. Not a pure mHSPC-only table row.
 
 ## Biomarkers
 - Germline + somatic NGS for BRCA2 (Akeega mCSPC) and other HRR genes (later PARP in CRPC). Non-BRCA2 HRR is not the FDA mCSPC indication.
+- PTEN IHC with FDA-authorized companion (VENTANA PTEN SP218): ≥90% viable malignant cells with no specific cytoplasmic staining defines deficiency for capivasertib + abi (FDA 12 Jun 2026).
 - PSMA PET (approved tracer) for staging and 177Lu-PSMA-617 eligibility.
 - Testosterone to confirm castration once on ADT; PSA kinetics for response.
-- PTEN IHC: CAPItello-281 rPFS positive in PTEN-deficient mHSPC (PMID 41120017); OS not significant; FDA status not in sources — not default SOC here.
 
 ## Toxicity / counseling anchors
 - ADT: fatigue, hot flashes, weight gain, sarcopenia, ED/libido, mood, CV risk, bone loss.
@@ -54,18 +57,19 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 - Docetaxel: neuropathy, cytopenias, infection, alopecia, fatigue; febrile neutropenia 6.2% in CHAARTED combination arm.
 - 177Lu-PSMA-617: dry mouth, cytopenias, GI; grade ≥3 AE 51% vs 43% in PSMAddition.
 - Niraparib/Akeega: anemia (29% grade 3–4 in AMPLITUDE; 25% transfusion), hypertension, MDS/AML warning on class labels.
+- Capivasertib: hyperglycemia, diarrhea, cutaneous adverse reactions, embryo-fetal toxicity (FDA label warnings).
 
 ## Watch list
-- CAPItello-281 (capivasertib + abi in PTEN-deficient mHSPC): rPFS HR 0.81; OS not significant. FDA indication not retrieved.
+- Mature OS from CAPItello-281, PSMAddition, and AMPLITUDE.
 - TALAPRO-3: no phase 3 primary in this pack.
-- Mature OS from PSMAddition and AMPLITUDE.
 - Prostate RT / MDT in oligometastatic HSPC — PEACE-1 RT coprimary not fully extracted here.
 
 ## Sources to re-check
 - NCCN Prostate Cancer (full text not retrieved this pass)
-- FDA labels: ARPIs, docetaxel, Pluvicto (mAPMN/S), Akeega
-- ARASENS, ARANOTE, PEACE-1, ARCHES/ENZAMET updates, PSMAddition, AMPLITUDE
+- FDA labels: ARPIs, docetaxel, Pluvicto (mAPMN/S), Akeega, Truqap (capivasertib)
+- ARASENS, ARANOTE, PEACE-1, ARCHES/ENZAMET updates, PSMAddition, AMPLITUDE, CAPItello-281
 
 ## Changelog
+- 2026-09-21: added FDA-approved capivasertib + abi for PTEN-deficient mAPMN/S (CAPItello-281; FDA 12 Jun 2026) — was watch-list / “FDA not retrieved” on prior pass; PTEN companion diagnostic and toxicity anchors updated
 - 2026-09-14: expanded from qualitative stub to landscape table with both-arm outcomes from named-trial PubMed abstracts and FDA snippets; Pluvicto HSPC and Akeega BRCA2 mCSPC added
 - 2026-09-14: initial living brief (qualitative SOC; numbers deferred to primary sources)
