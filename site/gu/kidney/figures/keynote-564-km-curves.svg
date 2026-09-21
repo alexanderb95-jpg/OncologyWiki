@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 940" role="img" aria-labelledby="title desc">
+  <title id="title">KEYNOTE-564 approximate reconstructed Kaplan-Meier curves</title>
+  <desc id="desc">Source-recreated disease-free and overall survival curves for pembrolizumab and placebo. The complete curve traces were approximately digitized from published KEYNOTE-564 figures; exact published landmark estimates at 12, 24, 36, and 48 months are labelled.</desc>
+  <style>
+    .title { fill:#1c1917; font:600 20px Arial,sans-serif; }
+    .subtitle { fill:#57534e; font:13px Arial,sans-serif; }
+    .panel-title { fill:#1c1917; font:600 16px Arial,sans-serif; }
+    .label { fill:#44403c; font:12px Arial,sans-serif; }
+    .small { fill:#57534e; font:11px Arial,sans-serif; }
+    .axis { stroke:#78716c; stroke-width:1.25; }
+    .grid { stroke:#e7e5e4; stroke-width:1; }
+    .landmark { stroke:#a8a29e; stroke-width:1; stroke-dasharray:4 4; }
+    .pembro { fill:none; stroke:#1d4ed8; stroke-width:3; stroke-linejoin:round; stroke-linecap:round; }
+    .placebo { fill:none; stroke:#b45309; stroke-width:3; stroke-linejoin:round; stroke-linecap:round; }
+    .pembro-dot { fill:#1d4ed8; }
+    .placebo-dot { fill:#b45309; }
+  </style>
+  <rect width="980" height="940" fill="#fffcf7"/>
+  <text x="52" y="34" class="title">KEYNOTE-564 disease-free and overall survival</text>
+  <text x="52" y="55" class="subtitle">Pembrolizumab 200 mg every 3 weeks for up to 17 cycles versus placebo; N=994</text>
+
+  <text x="100" y="91" class="panel-title">A. Disease-free survival</text>
+  <text x="100" y="111" class="subtitle">HR 0.72 (95% CI 0.59-0.87) at the September 15, 2023 data cutoff</text>
+  <line x1="100" y1="130" x2="900" y2="130" class="grid"/>
+  <line x1="100" y1="190" x2="900" y2="190" class="grid"/>
+  <line x1="100" y1="250" x2="900" y2="250" class="grid"/>
+  <line x1="100" y1="310" x2="900" y2="310" class="grid"/>
+  <line x1="100" y1="370" x2="900" y2="370" class="grid"/>
+  <line x1="100" y1="430" x2="900" y2="430" class="axis"/>
+  <line x1="100" y1="130" x2="100" y2="430" class="axis"/>
+  <text x="62" y="134" class="label">100%</text>
+  <text x="68" y="194" class="label">90%</text>
+  <text x="68" y="254" class="label">80%</text>
+  <text x="68" y="314" class="label">70%</text>
+  <text x="68" y="374" class="label">60%</text>
+  <text x="68" y="434" class="label">50%</text>
+  <line x1="228" y1="130" x2="228" y2="430" class="landmark"/>
+  <line x1="356" y1="130" x2="356" y2="430" class="landmark"/>
+  <line x1="484" y1="130" x2="484" y2="430" class="landmark"/>
+  <line x1="612" y1="130" x2="612" y2="430" class="landmark"/>
+  <path class="pembro" fill="none" stroke="#1d4ed8" stroke-width="3" d="M100 130 H132 V151 H164 V175 H196 V202 H228 V217 H260 V232 H292 V241 H324 V253 H356 V261 H388 V265 H420 V277 H452 V286 H484 V296 H516 V303 H548 V314 H580 V332 H612 V341 H644 V347 H676 V355 H708 V361 H740 V367 H772 V372 H804 V381 H836 V389 H868 V395 H900 V400"/>
+  <path class="placebo" fill="none" stroke="#b45309" stroke-width="3" d="M100 130 H132 V160 H164 V205 H196 V247 H228 V273 H260 V289 H292 V307 H324 V320 H356 V327 H388 V334 H420 V342 H452 V349 H484 V353 H516 V362 H548 V376 H580 V384 H612 V390 H644 V401 H676 V412 H708 V421 H740 V430 H772 V436 H804 V442 H836 V445 H868 V448 H900 V451"/>
+  <circle cx="228" cy="217" r="4.5" fill="#1d4ed8"/>
+  <circle cx="228" cy="273" r="4.5" fill="#b45309"/>
+  <circle cx="356" cy="260" r="4.5" fill="#1d4ed8"/>
+  <circle cx="356" cy="327" r="4.5" fill="#b45309"/>
+  <circle cx="484" cy="298" r="4.5" fill="#1d4ed8"/>
+  <circle cx="484" cy="353" r="4.5" fill="#b45309"/>
+  <circle cx="612" cy="341" r="4.5" fill="#1d4ed8"/>
+  <circle cx="612" cy="390" r="4.5" fill="#b45309"/>
+  <text x="204" y="209" class="small">12 m 85.5%</text>
+  <text x="204" y="289" class="small">76.1%</text>
+  <text x="332" y="252" class="small">24 m 78.2%</text>
+  <text x="332" y="343" class="small">67.2%</text>
+  <text x="460" y="290" class="small">36 m 72.4%</text>
+  <text x="460" y="369" class="small">62.9%</text>
+  <text x="588" y="333" class="small">48 m 64.9%</text>
+  <text x="588" y="406" class="small">56.6%</text>
+
+  <text x="100" y="496" class="panel-title">B. Overall survival</text>
+  <text x="100" y="516" class="subtitle">HR 0.62 (95% CI 0.44-0.87); two-sided P=.005 at the September 15, 2023 data cutoff</text>
+  <line x1="100" y1="540" x2="900" y2="540" class="grid"/>
+  <line x1="100" y1="612" x2="900" y2="612" class="grid"/>
+  <line x1="100" y1="684" x2="900" y2="684" class="grid"/>
+  <line x1="100" y1="756" x2="900" y2="756" class="grid"/>
+  <line x1="100" y1="792" x2="900" y2="792" class="axis"/>
+  <line x1="100" y1="540" x2="100" y2="792" class="axis"/>
+  <text x="62" y="544" class="label">100%</text>
+  <text x="68" y="616" class="label">90%</text>
+  <text x="68" y="688" class="label">80%</text>
+  <text x="68" y="760" class="label">70%</text>
+  <line x1="228" y1="540" x2="228" y2="792" class="landmark"/>
+  <line x1="356" y1="540" x2="356" y2="792" class="landmark"/>
+  <line x1="484" y1="540" x2="484" y2="792" class="landmark"/>
+  <line x1="612" y1="540" x2="612" y2="792" class="landmark"/>
+  <path class="pembro" fill="none" stroke="#1d4ed8" stroke-width="3" d="M100 540 H132 V542 H164 V544 H196 V547 H228 V550 H260 V555 H292 V560 H324 V564 H356 V567 H388 V570 H420 V574 H452 V579 H484 V584 H516 V590 H548 V594 H580 V599 H612 V603 H644 V612 H676 V620 H708 V625 H740 V632 H772 V638 H804 V643 H836 V648 H868 V651 H900 V654"/>
+  <path class="placebo" fill="none" stroke="#b45309" stroke-width="3" d="M100 540 H132 V542 H164 V546 H196 V550 H228 V554 H260 V564 H292 V574 H324 V580 H356 V584 H388 V594 H420 V603 H452 V611 H484 V616 H516 V625 H548 V634 H580 V638 H612 V641 H644 V651 H676 V664 H708 V674 H740 V683 H772 V691 H804 V699 H836 V704 H868 V708 H900 V711"/>
+  <circle cx="228" cy="550" r="4.5" fill="#1d4ed8"/>
+  <circle cx="228" cy="554" r="4.5" fill="#b45309"/>
+  <circle cx="356" cy="567" r="4.5" fill="#1d4ed8"/>
+  <circle cx="356" cy="584" r="4.5" fill="#b45309"/>
+  <circle cx="484" cy="584" r="4.5" fill="#1d4ed8"/>
+  <circle cx="484" cy="615" r="4.5" fill="#b45309"/>
+  <circle cx="612" cy="603" r="4.5" fill="#1d4ed8"/>
+  <circle cx="612" cy="641" r="4.5" fill="#b45309"/>
+  <text x="204" y="543" class="small">12 m 98.6%</text>
+  <text x="204" y="571" class="small">98.0%</text>
+  <text x="332" y="559" class="small">24 m 96.3%</text>
+  <text x="332" y="602" class="small">93.9%</text>
+  <text x="460" y="576" class="small">36 m 93.9%</text>
+  <text x="460" y="633" class="small">89.5%</text>
+  <text x="588" y="595" class="small">48 m 91.2%</text>
+  <text x="588" y="659" class="small">86.0%</text>
+
+  <line x1="100" y1="792" x2="900" y2="792" class="axis"/>
+  <g class="label">
+    <text x="96" y="815">0</text><text x="158" y="815">6</text><text x="222" y="815">12</text><text x="350" y="815">24</text><text x="478" y="815">36</text><text x="606" y="815">48</text><text x="734" y="815">60</text><text x="862" y="815">72</text>
+  </g>
+  <text x="445" y="839" class="label">Months since randomization</text>
+  <line x1="110" y1="868" x2="140" y2="868" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="148" y="872" class="label">Pembrolizumab</text>
+  <line x1="300" y1="868" x2="330" y2="868" stroke="#b45309" stroke-width="3"/>
+  <text x="338" y="872" class="label">Placebo</text>
+  <text x="100" y="899" class="small">Curve positions between labeled points are approximate visual digitization of Choueiri et al., NEJM 2024, PMID 38631003, Figures 1A and 2A.</text>
+  <text x="100" y="918" class="small">Exact labels are published Kaplan-Meier estimates; this is not journal artwork or individual-patient data.</text>
+</svg>
