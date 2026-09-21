@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 940" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 1020" role="img" aria-labelledby="title desc">
   <title id="title">KEYNOTE-564 approximate reconstructed Kaplan-Meier curves</title>
   <desc id="desc">Source-recreated disease-free and overall survival curves for pembrolizumab and placebo. The complete curve traces were approximately digitized from published KEYNOTE-564 figures; exact published landmark estimates at 12, 24, 36, and 48 months are labelled.</desc>
   <style>
@@ -15,7 +15,7 @@
     .pembro-dot { fill:#1d4ed8; }
     .placebo-dot { fill:#b45309; }
   </style>
-  <rect width="980" height="940" fill="#fffcf7"/>
+  <rect width="980" height="1020" fill="#fffcf7"/>
   <text x="52" y="34" class="title">KEYNOTE-564 disease-free and overall survival</text>
   <text x="52" y="55" class="subtitle">Pembrolizumab 200 mg every 3 weeks for up to 17 cycles versus placebo; N=994</text>
 
@@ -48,59 +48,48 @@
   <circle cx="484" cy="353" r="4.5" fill="#b45309"/>
   <circle cx="612" cy="341" r="4.5" fill="#1d4ed8"/>
   <circle cx="612" cy="390" r="4.5" fill="#b45309"/>
-  <text x="204" y="209" class="small">12 m 85.5%</text>
-  <text x="204" y="289" class="small">76.1%</text>
-  <text x="332" y="252" class="small">24 m 78.2%</text>
-  <text x="332" y="343" class="small">67.2%</text>
-  <text x="460" y="290" class="small">36 m 72.4%</text>
-  <text x="460" y="369" class="small">62.9%</text>
-  <text x="588" y="333" class="small">48 m 64.9%</text>
-  <text x="588" y="406" class="small">56.6%</text>
+  <text x="100" y="469" class="small">Landmarks (12, 24, 36, and 48 months): pembrolizumab 85.5%, 78.2%, 72.4%, 64.9%</text>
+  <text x="100" y="486" class="small">Placebo 76.1%, 67.2%, 62.9%, 56.6%</text>
 
-  <text x="100" y="496" class="panel-title">B. Overall survival</text>
-  <text x="100" y="516" class="subtitle">HR 0.62 (95% CI 0.44-0.87); two-sided P=.005 at the September 15, 2023 data cutoff</text>
-  <line x1="100" y1="540" x2="900" y2="540" class="grid"/>
-  <line x1="100" y1="612" x2="900" y2="612" class="grid"/>
-  <line x1="100" y1="684" x2="900" y2="684" class="grid"/>
-  <line x1="100" y1="756" x2="900" y2="756" class="grid"/>
-  <line x1="100" y1="792" x2="900" y2="792" class="axis"/>
-  <line x1="100" y1="540" x2="100" y2="792" class="axis"/>
-  <text x="62" y="544" class="label">100%</text>
-  <text x="68" y="616" class="label">90%</text>
-  <text x="68" y="688" class="label">80%</text>
-  <text x="68" y="760" class="label">70%</text>
-  <line x1="228" y1="540" x2="228" y2="792" class="landmark"/>
-  <line x1="356" y1="540" x2="356" y2="792" class="landmark"/>
-  <line x1="484" y1="540" x2="484" y2="792" class="landmark"/>
-  <line x1="612" y1="540" x2="612" y2="792" class="landmark"/>
-  <path class="pembro" fill="none" stroke="#1d4ed8" stroke-width="3" d="M100 540 H132 V542 H164 V544 H196 V547 H228 V550 H260 V555 H292 V560 H324 V564 H356 V567 H388 V570 H420 V574 H452 V579 H484 V584 H516 V590 H548 V594 H580 V599 H612 V603 H644 V612 H676 V620 H708 V625 H740 V632 H772 V638 H804 V643 H836 V648 H868 V651 H900 V654"/>
-  <path class="placebo" fill="none" stroke="#b45309" stroke-width="3" d="M100 540 H132 V542 H164 V546 H196 V550 H228 V554 H260 V564 H292 V574 H324 V580 H356 V584 H388 V594 H420 V603 H452 V611 H484 V616 H516 V625 H548 V634 H580 V638 H612 V641 H644 V651 H676 V664 H708 V674 H740 V683 H772 V691 H804 V699 H836 V704 H868 V708 H900 V711"/>
-  <circle cx="228" cy="550" r="4.5" fill="#1d4ed8"/>
-  <circle cx="228" cy="554" r="4.5" fill="#b45309"/>
-  <circle cx="356" cy="567" r="4.5" fill="#1d4ed8"/>
-  <circle cx="356" cy="584" r="4.5" fill="#b45309"/>
-  <circle cx="484" cy="584" r="4.5" fill="#1d4ed8"/>
-  <circle cx="484" cy="615" r="4.5" fill="#b45309"/>
-  <circle cx="612" cy="603" r="4.5" fill="#1d4ed8"/>
-  <circle cx="612" cy="641" r="4.5" fill="#b45309"/>
-  <text x="204" y="543" class="small">12 m 98.6%</text>
-  <text x="204" y="571" class="small">98.0%</text>
-  <text x="332" y="559" class="small">24 m 96.3%</text>
-  <text x="332" y="602" class="small">93.9%</text>
-  <text x="460" y="576" class="small">36 m 93.9%</text>
-  <text x="460" y="633" class="small">89.5%</text>
-  <text x="588" y="595" class="small">48 m 91.2%</text>
-  <text x="588" y="659" class="small">86.0%</text>
+  <text x="100" y="530" class="panel-title">B. Overall survival</text>
+  <text x="100" y="550" class="subtitle">HR 0.62 (95% CI 0.44-0.87); two-sided P=.005 at the September 15, 2023 data cutoff</text>
+  <line x1="100" y1="574" x2="900" y2="574" class="grid"/>
+  <line x1="100" y1="646" x2="900" y2="646" class="grid"/>
+  <line x1="100" y1="718" x2="900" y2="718" class="grid"/>
+  <line x1="100" y1="790" x2="900" y2="790" class="grid"/>
+  <line x1="100" y1="826" x2="900" y2="826" class="axis"/>
+  <line x1="100" y1="574" x2="100" y2="826" class="axis"/>
+  <text x="62" y="578" class="label">100%</text>
+  <text x="68" y="650" class="label">90%</text>
+  <text x="68" y="722" class="label">80%</text>
+  <text x="68" y="794" class="label">70%</text>
+  <line x1="228" y1="574" x2="228" y2="826" class="landmark"/>
+  <line x1="356" y1="574" x2="356" y2="826" class="landmark"/>
+  <line x1="484" y1="574" x2="484" y2="826" class="landmark"/>
+  <line x1="612" y1="574" x2="612" y2="826" class="landmark"/>
+  <path class="pembro" fill="none" stroke="#1d4ed8" stroke-width="3" d="M100 574 H132 V576 H164 V578 H196 V581 H228 V584 H260 V589 H292 V594 H324 V598 H356 V601 H388 V604 H420 V608 H452 V613 H484 V618 H516 V624 H548 V628 H580 V633 H612 V637 H644 V646 H676 V654 H708 V659 H740 V666 H772 V672 H804 V677 H836 V682 H868 V685 H900 V688"/>
+  <path class="placebo" fill="none" stroke="#b45309" stroke-width="3" d="M100 574 H132 V576 H164 V580 H196 V584 H228 V588 H260 V598 H292 V608 H324 V614 H356 V618 H388 V628 H420 V637 H452 V645 H484 V650 H516 V659 H548 V668 H580 V672 H612 V675 H644 V685 H676 V698 H708 V708 H740 V717 H772 V725 H804 V733 H836 V738 H868 V742 H900 V745"/>
+  <circle cx="228" cy="584" r="4.5" fill="#1d4ed8"/>
+  <circle cx="228" cy="588" r="4.5" fill="#b45309"/>
+  <circle cx="356" cy="601" r="4.5" fill="#1d4ed8"/>
+  <circle cx="356" cy="618" r="4.5" fill="#b45309"/>
+  <circle cx="484" cy="618" r="4.5" fill="#1d4ed8"/>
+  <circle cx="484" cy="649" r="4.5" fill="#b45309"/>
+  <circle cx="612" cy="637" r="4.5" fill="#1d4ed8"/>
+  <circle cx="612" cy="675" r="4.5" fill="#b45309"/>
 
-  <line x1="100" y1="792" x2="900" y2="792" class="axis"/>
+  <text x="100" y="852" class="small">Landmarks (12, 24, 36, and 48 months): pembrolizumab 98.6%, 96.3%, 93.9%, 91.2%</text>
+  <text x="100" y="869" class="small">Placebo 98.0%, 93.9%, 89.5%, 86.0%</text>
+
+  <line x1="100" y1="826" x2="900" y2="826" class="axis"/>
   <g class="label">
-    <text x="96" y="815">0</text><text x="158" y="815">6</text><text x="222" y="815">12</text><text x="350" y="815">24</text><text x="478" y="815">36</text><text x="606" y="815">48</text><text x="734" y="815">60</text><text x="862" y="815">72</text>
+    <text x="96" y="893">0</text><text x="158" y="893">6</text><text x="222" y="893">12</text><text x="350" y="893">24</text><text x="478" y="893">36</text><text x="606" y="893">48</text><text x="734" y="893">60</text><text x="862" y="893">72</text>
   </g>
-  <text x="445" y="839" class="label">Months since randomization</text>
-  <line x1="110" y1="868" x2="140" y2="868" stroke="#1d4ed8" stroke-width="3"/>
-  <text x="148" y="872" class="label">Pembrolizumab</text>
-  <line x1="300" y1="868" x2="330" y2="868" stroke="#b45309" stroke-width="3"/>
-  <text x="338" y="872" class="label">Placebo</text>
-  <text x="100" y="899" class="small">Curve positions between labeled points are approximate visual digitization of Choueiri et al., NEJM 2024, PMID 38631003, Figures 1A and 2A.</text>
-  <text x="100" y="918" class="small">Exact labels are published Kaplan-Meier estimates; this is not journal artwork or individual-patient data.</text>
+  <text x="445" y="917" class="label">Months since randomization</text>
+  <line x1="110" y1="946" x2="140" y2="946" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="148" y="950" class="label">Pembrolizumab</text>
+  <line x1="300" y1="946" x2="330" y2="946" stroke="#b45309" stroke-width="3"/>
+  <text x="338" y="950" class="label">Placebo</text>
+  <text x="100" y="977" class="small">Curve positions between published landmarks are approximate visual digitization of Choueiri et al., NEJM 2024, PMID 38631003, Figures 1A and 2A.</text>
+  <text x="100" y="996" class="small">Published landmark estimates are displayed in separate rows so labels do not obscure the curves; this is not journal artwork or individual-patient data.</text>
 </svg>
