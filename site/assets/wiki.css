@@ -164,6 +164,47 @@ body {
 .phrase-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .phrase-head h2 { margin: 0; font-size: 1.15rem; }
 .trigger { font-family: var(--sans); }
+.phrase-tools {
+  margin: 1rem 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #faf8f4;
+  font-family: var(--sans);
+}
+.phrase-tools h3, .phrase-calculator h4 { margin: 0; font-size: 0.95rem; }
+.phrase-tools-note, .calculator-note, .calculator-result {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.phrase-tools-grid { display: grid; gap: 0.8rem; margin-top: 0.8rem; }
+.phrase-control { display: grid; gap: 0.3rem; }
+.phrase-control label, .calculator-field label { font-size: 0.82rem; font-weight: 650; }
+.phrase-control select, .calculator-field select {
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--ink);
+  background: var(--paper);
+  font: inherit;
+}
+.phrase-calculator {
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper);
+}
+.calculator-fields { display: grid; gap: 0.65rem; margin-top: 0.75rem; }
+.calculator-field { display: grid; gap: 0.3rem; }
+.calculator-result { color: var(--ink); font-weight: 650; }
+.phrase-fill-in {
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 0.92em;
+  font-weight: 650;
+}
 .copy-btn {
   font-family: var(--sans);
   font-size: 0.8rem;
