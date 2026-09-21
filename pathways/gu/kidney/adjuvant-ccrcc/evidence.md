@@ -70,16 +70,6 @@ Trial results are not head-to-head efficacy comparisons: eligibility, recurrence
 | Tumor genomic or expression signature | Investigational | No validated molecular assay selects adjuvant pembrolizumab in this setting. |
 | Germline evaluation | Hereditary-risk assessment, not adjuvant selection | Consider when age, bilateral/multifocal disease, family history, or syndrome features raise concern. |
 
-## Toxicity anchors
-
-| Counseling anchor | Evidence and practical discussion |
-|---|---|
-| Pembrolizumab benefit-risk | In the [57.2-month KEYNOTE-564 analysis](https://pubmed.ncbi.nlm.nih.gov/38631003/), grade 3–4 treatment-related AEs were 18.6% versus 1.2%, and serious all-cause AEs 20.7% versus 11.5%, with pembrolizumab versus placebo. |
-| Treatment discontinuation and steroids | At the [30-month analysis](https://pubmed.ncbi.nlm.nih.gov/36055304/), AEs led to discontinuation in 21% versus 2%; immune-mediated AEs occurred in 36% versus 7%; high-dose systemic corticosteroids were used in 8% versus 1%. |
-| Immune-mediated toxicity | Discuss thyroid, adrenal/pituitary, hepatic, bowel, lung, renal, and diabetes toxicity; endocrinopathy or organ injury can persist after treatment. New pulmonary, gastrointestinal, hepatic, endocrine, or renal symptoms need prompt assessment. |
-| Baseline and on-treatment checks | Review autoimmune disease, immunosuppression, and baseline endocrinopathy. Check CBC, creatinine/liver tests, and thyroid function per local protocol and the [current label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf). In a post-nephrectomy patient, promptly evaluate a creatinine rise rather than assuming treatment causality. |
-| Pembrolizumab plus belzutifan | In [LITESPARK-022](https://pubmed.ncbi.nlm.nih.gov/42384869/), grade ≥3 treatment-emergent AEs among treated participants were 52.1% with pembrolizumab plus belzutifan versus 30.2% with pembrolizumab plus placebo. Follow the label for monitoring and dose modification; OS remains immature. |
-
 ## Watch list
 
 | Trial or publication | Why it may change care | Evidence status |
@@ -88,6 +78,44 @@ Trial results are not head-to-head efficacy comparisons: eligibility, recurrence
 | [RAMPART](https://pubmed.ncbi.nlm.nih.gov/39555240/), NCT03288532 | Tests adjuvant durvalumab alone or with tremelimumab against active monitoring in resected RCC, including non-clear-cell disease; longer follow-up may contextualize the discordant ICI-trial results. | Phase 3 platform. Enrollment closed in June 2023; congress reporting and OS follow-up are pending peer-reviewed maturity. |
 | [MRD GATE RCC](https://clinicaltrials.gov/study/NCT06005818), NCT06005818 | Tests whether an MRD-guided strategy can safely observe MRD-negative, otherwise KEYNOTE-564–eligible clear-cell RCC while treating MRD-positive participants with pembrolizumab. | Recruiting, nonrandomized phase 2; no efficacy results. |
 | [STRIKE](https://clinicaltrials.gov/study/NCT06661720), NCT06661720 | Phase 3 test of adding tivozanib to adjuvant pembrolizumab for high-risk RCC. | Registry-posted trial; no efficacy results. |
+
+## Toxicity
+
+### Trial safety: use endpoint labels and timepoints
+
+The trial rates below are not interchangeable: KEYNOTE-564 reported both all-cause and treatment-related endpoints at different data cutoffs, while LITESPARK-022 reported treatment-emergent endpoints. LITESPARK-022 compared pembrolizumab plus belzutifan with pembrolizumab plus placebo—not with surveillance.
+
+| Regimen and comparator | Grade ≥3 / serious events | Immune events and discontinuation | Key named signals |
+|---|---|---|---|
+| Pembrolizumab versus placebo, KEYNOTE-564 | At 30.1 months, grade ≥3 **all-cause** AEs: 32% versus 18%. At 57.2 months, grade 3–4 **treatment-related** AEs: 18.6% versus 1.2%; serious **all-cause** AEs: 20.7% versus 11.5%. | At 30.1 months, immune-mediated AEs: 36% versus 7%; high-dose systemic corticosteroids for these events: 8% versus 1%; AEs leading to discontinuation: 21% versus 2%. At 57.2 months, immune-mediated AEs or infusion reactions: 36.5% versus 7.3%; some episodes remained ongoing at data cutoff. | At 30.1 months, hypothyroidism was 21% versus 4% and hyperthyroidism 13% versus 0%. The US label's KEYNOTE-564 table reports diarrhea (including colitis) 27% / grade 3–4 2.7%, hepatotoxicity (including immune-mediated hepatitis) 14% / 3.7%, and acute-kidney-injury composite events 13% / 1.2% with pembrolizumab. |
+| Pembrolizumab plus belzutifan versus pembrolizumab plus placebo, LITESPARK-022 | Grade ≥3 **treatment-emergent** AEs: 52.1% versus 30.2%; serious treatment-emergent AEs: 29.5% versus 19.9%. | Immune-mediated AEs or infusion reactions: 35.4% versus 38.7% (grade ≥3: 9.4% versus 8.3%). Treatment-emergent AEs led to discontinuation of **all study treatment** in 11.9% versus 9.0%. | In the WELIREG-label safety population, decreased hemoglobin laboratory abnormality was 95% / grade 3–4 11% versus 26% / 0.7%. Hypoxia was 7% overall and grade ≥3 in 5% with the combination. These are distinct from immune-mediated toxicity. |
+
+- [KEYNOTE-564 30.1-month analysis](https://pubmed.ncbi.nlm.nih.gov/36055304/) (safety population: 488 pembrolizumab, 496 placebo) reported no treatment-related deaths; serious treatment-related AEs were 12% versus <1%, most commonly adrenal insufficiency, colitis, and diabetic ketoacidosis (each 1%) in the pembrolizumab group.
+- In the [WELIREG label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215383s015lbl.pdf) LITESPARK-022 safety population (915 combination, 913 control), permanent discontinuation, interruption, and dose reduction of **belzutifan** for adverse reactions were 27%, 52%, and 34%, respectively. These are belzutifan-specific actions, not discontinuation of all study therapy. Serious combination events included pneumonia (2.0%), hypoxia (1.9%), pneumonitis (1.6%), diarrhea (1.1%), and acute kidney injury (1.1%).
+
+### Real-world adjuvant pembrolizumab: contextual evidence
+
+| Cohort | Safety reported | Interpretation boundary |
+|---|---|---|
+| [ARON-1](https://pubmed.ncbi.nlm.nih.gov/41236632/): retrospective, 311 clear-cell RCC patients across 40 hospitals in 12 countries; median follow-up 15.4 months | 59/311 (19%) had CTCAE-defined severe AEs and 59/311 (19%) stopped because of them; 61/311 (20%) stopped overall. Colitis, hypertransaminasemia, and nephritis were reported in 4%, 4%, and 3%. | Same adjuvant setting, but retrospective with limited follow-up; do not treat these as directly comparable with randomized trial ascertainment. |
+| [Mattigk et al.](https://pubmed.ncbi.nlm.nih.gov/39719131/): retrospective seven-center cohort, 52 RCC patients; median follow-up 6 months | Grade ≥3 AEs: 26%; treatment discontinuation: 20%. | The retrieved abstract did not report named-event rates. |
+| Pembrolizumab plus belzutifan | No adjuvant real-world cohort was retrieved. | Do not import belzutifan monotherapy or metastatic-RCC real-world rates into this adjuvant-combination decision. |
+
+### Named toxicities: recognize, test, act
+
+| Toxicity | Regimen context | What to watch for and team action |
+|---|---|---|
+| Endocrine toxicity | Pembrolizumab: thyroid events were common in KEYNOTE-564. Adrenal or pituitary dysfunction and diabetes were less common but potentially serious. | Report new or worsening fatigue, headache, dizziness, temperature intolerance, thirst, or confusion. Check thyroid testing at baseline and periodically; assess adrenal/pituitary or glucose abnormalities promptly when symptoms or labs suggest them. Hypothyroidism may require long-term thyroid replacement. |
+| Colitis and hepatitis | Pembrolizumab, alone or in combination | Contact the oncology team promptly for diarrhea, severe abdominal pain, jaundice, severe nausea/vomiting, or easy bruising/bleeding. Evaluate stool symptoms and liver tests rather than assuming a routine treatment effect; immune-mediated colitis or hepatitis may require a hold, corticosteroids, and specialist input. |
+| Pneumonitis and nephritis | Pembrolizumab, alone or in combination | Urgent assessment for new or worsening cough, chest pain, or shortness of breath. Promptly assess new kidney symptoms or a creatinine rise—especially after nephrectomy—and exclude other causes before attributing it to immunotherapy. |
+| Anemia and hypoxia | Belzutifan-containing regimen | Check hemoglobin and oxygen saturation before treatment and periodically. Report worsening fatigue, dizziness, chest discomfort, or shortness of breath promptly; severe anemia or hypoxia may require transfusion, oxygen, and belzutifan hold, dose reduction, or discontinuation. |
+
+### Patient counseling and action plan
+
+- Immune toxicities can begin during therapy or after pembrolizumab has stopped. They may require treatment interruption, corticosteroids, hormone replacement, or another specialist; some endocrine effects can be lasting.
+- Give patients the clinic's day-and-after-hours number. Ask them to call promptly for new symptoms rather than waiting for the next infusion; new chest pain or marked breathing difficulty needs urgent assessment.
+- Before and during pembrolizumab, review autoimmune history, immunosuppression, and baseline endocrine disease; check CBC, creatinine/liver tests, and thyroid function per the [KEYTRUDA label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s190lbl.pdf) and institutional protocol. Add hemoglobin and pulse-oximetry monitoring for belzutifan.
+- For belzutifan, review the [boxed embryo-fetal warning](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215383s015lbl.pdf) and label-specific pregnancy-prevention counseling before treatment.
 
 ## Guideline references
 
@@ -102,6 +130,7 @@ Trial results are not head-to-head efficacy comparisons: eligibility, recurrence
 ## Sources
 
 - [Choueiri et al. (2021). Adjuvant pembrolizumab after nephrectomy in renal-cell carcinoma. *New England Journal of Medicine*. DOI: 10.1056/NEJMoa2106391 | PMID: 34407342](https://pubmed.ncbi.nlm.nih.gov/34407342/)
+- [Powles et al. (2022). KEYNOTE-564 30-month follow-up. *Lancet Oncology*. DOI: 10.1016/S1470-2045(22)00487-9 | PMID: 36055304](https://pubmed.ncbi.nlm.nih.gov/36055304/)
 - [Choueiri et al. (2024). Overall survival with adjuvant pembrolizumab in renal-cell carcinoma. *New England Journal of Medicine*. DOI: 10.1056/NEJMoa2312695 | PMID: 38631003](https://pubmed.ncbi.nlm.nih.gov/38631003/)
 - [Haas et al. (2026). Five-year KEYNOTE-564 results. *Annals of Oncology*. DOI: 10.1016/j.annonc.2026.08.006 | PMID: 42648402](https://pubmed.ncbi.nlm.nih.gov/42648402/)
 - [Choueiri et al. (2026). Adjuvant pembrolizumab plus belzutifan for renal-cell carcinoma. *New England Journal of Medicine*. DOI: 10.1056/NEJMoa2518245 | PMID: 42384869](https://pubmed.ncbi.nlm.nih.gov/42384869/)
@@ -112,9 +141,12 @@ Trial results are not head-to-head efficacy comparisons: eligibility, recurrence
 - [Pal et al. (2022). IMmotion010. *Lancet*. DOI: 10.1016/S0140-6736(22)01658-0 | PMID: 36099926](https://pubmed.ncbi.nlm.nih.gov/36099926/); [Motzer et al. (2023). CheckMate 914 Part A. *Lancet*. DOI: 10.1016/S0140-6736(22)02574-0 | PMID: 36774933](https://pubmed.ncbi.nlm.nih.gov/36774933/); [Allaf et al. (2024). PROSPER. *Lancet Oncology*. DOI: 10.1016/S1470-2045(24)00211-0 | PMID: 38942046](https://pubmed.ncbi.nlm.nih.gov/38942046/)
 - [Motzer et al. (2025). CheckMate 914 Part B. *Journal of Clinical Oncology*. DOI: 10.1200/JCO.24.00773 | PMID: 39303200](https://pubmed.ncbi.nlm.nih.gov/39303200/)
 - [EAU Renal Cell Carcinoma guideline](https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management); [NCCN Kidney Cancer guideline](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1440); [ESMO RCC guideline](https://doi.org/10.1016/j.annonc.2024.05.537); [AUA renal mass guideline](https://pubmed.ncbi.nlm.nih.gov/34115531/); [FDA Keytruda label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf).
+- [Kopp et al. (2025). ARON-1 real-world adjuvant pembrolizumab. *Cancer Immunology, Immunotherapy*. DOI: 10.1007/s00262-025-04230-w | PMID: 41236632](https://pubmed.ncbi.nlm.nih.gov/41236632/); [Mattigk et al. (2025). Seven-center real-world adjuvant pembrolizumab. *Urologia Internationalis*. DOI: 10.1159/000543278 | PMID: 39719131](https://pubmed.ncbi.nlm.nih.gov/39719131/)
+- [FDA WELIREG label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215383s015lbl.pdf).
 
 ## Changelog
 
 - 2026-09-21: Replaced the mixed landmark table with an OpenEvidence-style cross-trial comparison that makes population, regimen, comparator, endpoint, outcome, and generalizability differences explicit; calculated ARR/NNT only from verified paired landmark estimates.
 - 2026-09-21: Rebuilt around explicit KEYNOTE-564 eligibility, trial-versus-guideline timing, linked primary sources, current FDA-labeled pembrolizumab–belzutifan positioning, a named-trial watch list, and a complete paired counseling phrase.
 - 2026-09-21: Replaced landmark-only survival display with full source-recreated DFS/OS KM traces, explicitly labeling visual digitization as approximate and keeping later five-year estimates separate.
+- 2026-09-21: Moved and expanded Toxicity to the page bottom; separated trial endpoint/timepoint labels, added regimen-specific anemia/hypoxia and immune-toxicity counseling, and added same-setting real-world pembrolizumab context. Repositioned KM landmark values into dedicated rows to prevent label overlap.
