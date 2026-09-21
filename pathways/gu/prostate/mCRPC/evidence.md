@@ -87,11 +87,16 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 
 | SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
 |---|---|---|
-| Continued ADT with abiraterone/prednisone or enzalutamide | A directly comparable named-event rate for every ARPI was not extracted in this page. | Monitor blood pressure, potassium and liver tests for abiraterone; assess fatigue, falls, cognition, cardiovascular symptoms, metabolic effects, and bone health for all ADT/ARPI pathways. |
-| Docetaxel or cabazitaxel | TROPIC febrile neutropenia 8% vs 1%; CARD used routine G-CSF. | Check CBC and sensory symptoms; fever/infection, severe diarrhea, dehydration, or progressive numbness/weakness needs urgent assessment. |
-| 177Lu-PSMA-617 | This page's retrieved pivotal reports did not provide a single named rate for marrow or renal monitoring. | Check CBC and renal function and review xerostomia, nausea, fatigue, and radiation precautions; bleeding, fever, reduced urine output, or marked fatigue should prompt contact. |
-| PARP monotherapy or PARP plus ARPI | TALAPRO-2 final analysis: grade ≥3 anemia 49% vs 4%. | Monitor CBC; dyspnea, chest symptoms, bleeding, or marked fatigue needs urgent assessment. |
-| Radium-223 with or without enzalutamide | PEACE-3 fractures 24.3% vs 13.4%. | Check CBC and bone protection; new focal bone pain, a fall, fracture symptoms, bleeding, or persistent gastrointestinal symptoms should prompt contact. |
+| Abiraterone/prednisone plus ADT | COU-AA-302: grade 3–4 ALT increase 6% vs 1%, hypertension 4% vs 3%, hypokalemia 3% vs 2%, and cardiac disorders 8% vs 4%. | Monitor blood pressure, potassium, liver tests, fluid retention, and cardiovascular symptoms; swelling, shortness of breath, palpitations, weakness, or jaundice needs prompt contact. |
+| Enzalutamide plus ADT | PREVAIL: grade ≥3 AEs 46% vs 37%; grade ≥3 hypertension 7%. | Monitor fatigue, falls/cognition, blood pressure, and seizure-like symptoms; a fall, new confusion, loss of consciousness, or chest symptoms needs prompt contact. |
+| Docetaxel/prednisone | TAX327: neutropenia 41%, grade 3–4 32%; febrile neutropenia 3%; infection 32%, grade 3–4 6%; sensory neuropathy 30%, grade 3–4 2%. | Check CBC and sensory symptoms; fever/infection, severe diarrhea, dehydration, or progressive numbness/weakness needs urgent assessment. |
+| Cabazitaxel/prednisone | TROPIC: grade 3–4 neutropenia 81.7%, febrile neutropenia 7.5%, and grade 3–4 diarrhea 6.2%. CARD with routine G-CSF: grade ≥3 neutropenia 44.7% and febrile neutropenia 3.2%. | Check CBC and sensory symptoms; fever/infection, severe diarrhea, dehydration, or progressive numbness/weakness needs urgent assessment. |
+| 177Lu-PSMA-617 | PSMAfore: dry mouth 60.8%, grade ≥3 0.9%; hematologic AEs 39.2%, grade ≥3 13.2%; anemia 27.3%, grade ≥3 6.2%. | Check CBC and renal function and review xerostomia, nausea, fatigue, and radiation precautions; bleeding, fever, reduced urine output, or marked fatigue should prompt contact. |
+| Olaparib or rucaparib monotherapy | PROfound olaparib: anemia 50%, grade ≥3 23%. TRITON3 rucaparib: anemia/decreased hemoglobin 47%, grade ≥3 24%; neutropenia/decreased neutrophils 14%, grade ≥3 7%. | Monitor CBC and thromboembolic symptoms; dyspnea, chest pain, leg swelling, fever/infection, bleeding, or marked fatigue needs urgent assessment. |
+| Olaparib plus abiraterone/prednisone | PROpel: anemia 46.0% vs 16.4%, grade 3–4 16% vs 3%; pulmonary embolism 6.5% vs 1.8%. | Monitor CBC and thromboembolic symptoms; chest pain, new breathlessness, unilateral leg swelling, bleeding, or profound fatigue needs prompt contact. |
+| Niraparib plus abiraterone/prednisone | MAGNITUDE: anemia 52.4%, grade 3 30.7%; hypertension 34.0%, grade 3 16.5%; thrombocytopenia 24.1%, grade 3 8.5%. | Monitor CBC, blood pressure, potassium, and liver tests; bleeding, fever, breathlessness, severe fatigue, or high-pressure symptoms needs prompt contact. |
+| Talazoparib plus enzalutamide | TALAPRO-2: grade 3–4 anemia 46.7%, neutropenia 18.3%, and thrombocytopenia 7.3%. | Monitor CBC; dyspnea, chest symptoms, fever, infection symptoms, or bleeding needs urgent assessment. |
+| Radium-223 with or without enzalutamide | ALSYMPCA: grade 3–4 anemia 13%, neutropenia 2%, and thrombocytopenia 7%. PEACE-3 fractures 24.3% vs 13.4%. | Check CBC and bone protection; new focal bone pain, a fall, fracture symptoms, bleeding, or persistent gastrointestinal symptoms should prompt contact. |
 | Pembrolizumab for MSI-H/dMMR disease | Prostate-specific randomized safety rates were not retrieved in this page. | Review bowel, lung, liver, skin, and endocrine symptoms before each dose; persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, or marked fatigue needs prompt contact. |
 
 ## Guideline references
@@ -108,6 +113,7 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - [Gillessen et al. (2025). PEACE-3. *Annals of Oncology*. PMID: 40450503](https://pubmed.ncbi.nlm.nih.gov/40450503/)
 
 ## Changelog
+- 2026-09-21: Replaced grouped monitoring with pivotal rates for each listed ARPI, taxane, radioligand, PARP, and radium-223 regimen.
 - 2026-09-21: Added a prior-exposure sequencing table and regimen-level on-treatment monitoring for ADT/ARPI, taxane, radioligand, PARP, radium-223, and pembrolizumab pathways.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.

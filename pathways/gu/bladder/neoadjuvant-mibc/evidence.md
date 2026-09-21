@@ -68,7 +68,8 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 
 | SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
 |---|---|---|
-| Perioperative EV plus pembrolizumab, EV-303 or EV-304 | Grade ≥3 AEs 71.3% vs 45.9% in EV-303 and 75.7% vs 67.2% in EV-304. The retrieved primary reports did not provide comparable perioperative rates for EV neuropathy or hyperglycemia. | Check neuropathy, skin, glucose, visual symptoms, and immune-mediated bowel, lung, liver, and endocrine symptoms before each treatment; new numbness/weakness, thirst/polyuria, rash, vision change, dyspnea, or persistent diarrhea requires prompt contact and a pre-dose assessment. |
+| Perioperative EV plus pembrolizumab, EV-303 | FDA label: rash 54%, grade 3–4 7%; peripheral neuropathy 39%, grade 3–4 3%; increased glucose 72%, grade 3–4 12%; increased creatinine 47%, grade 3–4 8%. | Check neuropathy, skin, glucose, renal function, visual symptoms, and immune-mediated bowel, lung, liver, and endocrine symptoms before each treatment; new numbness/weakness, thirst/polyuria, rash, vision change, dyspnea, or persistent diarrhea requires prompt contact and a pre-dose assessment. |
+| Perioperative EV plus pembrolizumab, EV-304 | FDA label: rash 63%, grade 3–4 12%; peripheral neuropathy 43%, grade 3–4 3%; hyperglycemia 20%, grade 3–4 7%; dry eye 25%, no grade 3–4 event; increased creatinine 49%, grade 3–4 8%. | Use the same EV and immune monitoring; focus on cumulative neuropathy, glucose, renal function, and visual symptoms before postoperative doses. |
 | Perioperative durvalumab plus GC, NIAGARA | Grade 3–4 treatment-related AEs 40.6% vs 40.9%; a comparable named monitoring rate was not extracted from the retrieved primary source set. | Check CBC, renal function, electrolyte replacement needs, neuropathy/hearing symptoms, and immune-mediated bowel, lung, liver, and endocrine symptoms. Fever, infection symptoms, dyspnea, severe diarrhea, or reduced urine output needs urgent assessment. |
 
 ## Guideline references
@@ -83,8 +84,10 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 - [Vulsteke et al. (2026). EV-303 / KEYNOTE-905. *New England Journal of Medicine*. PMID: 41707170](https://pubmed.ncbi.nlm.nih.gov/41707170/)
 - [EV-304 / KEYNOTE-B15 (2026). *New England Journal of Medicine*. PMID: 42485627](https://pubmed.ncbi.nlm.nih.gov/42485627/)
 - [Powles et al. (2024). NIAGARA. *New England Journal of Medicine*. PMID: 39282910](https://pubmed.ncbi.nlm.nih.gov/39282910/)
+- [FDA Padcev label, revised 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761137s037lbl.pdf)
 
 ## Changelog
 
-- 2026-09-21: Added cystectomy-anchored therapy sequencing and all-regimen on-treatment monitoring; retained the absence of comparable perioperative EV named-event rates rather than importing metastatic rates.
+- 2026-09-21: Added FDA-label EV-303 and EV-304 named monitoring rates without transferring metastatic rates into the perioperative setting.
+- 2026-09-21: Added cystectomy-anchored therapy sequencing and all-regimen on-treatment monitoring.
 - 2026-09-21: Created resectable MIBC neoadjuvant/perioperative setting page with source-linked phase 3 evidence.

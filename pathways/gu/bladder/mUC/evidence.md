@@ -79,13 +79,14 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 
 | SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
 |---|---|---|
-| EV plus pembrolizumab | EV-302 update: peripheral neuropathy 64.3%; grade ≥3 peripheral sensory neuropathy 4.1%. Primary analysis: hyperglycemia 10.9%, grade ≥3 5.0%. | Check sensory and motor symptoms, skin, glucose, and visual symptoms at each treatment review. New or worsening numbness/weakness, thirst/polyuria, rash, or vision change should prompt contact before the next dose. |
-| Nivolumab plus GC | CheckMate 901: grade ≥3 treatment-related AEs 61.8%; the retrieved primary report did not supply a single comparable named monitoring rate in this page. | Check CBC and renal function and review fever, neuropathy, hearing change, and immune-mediated diarrhea, dyspnea, hepatitis, or endocrinopathy; fever, dyspnea, or severe diarrhea needs urgent assessment. |
-| Avelumab maintenance | JAVELIN long-term follow-up: treatment-related-AE discontinuation 10.2%; a comparable named immune-event rate was not reported in the retrieved text. | Review thyroid, hepatic, renal, pulmonary, and bowel symptoms during and after treatment; new cough/dyspnea, persistent diarrhea/abdominal pain, jaundice, or marked fatigue should prompt urgent contact. |
+| EV plus pembrolizumab | EV-302 FDA label: peripheral neuropathy 67%, grade 3–4 8%; rash 68%, grade 3–4 15%; increased glucose 66%, grade 3–4 14%; dry eye 24%, no grade 3–4 event. | Check sensory and motor symptoms, skin, glucose, and visual symptoms at each treatment review. New or worsening numbness/weakness, thirst/polyuria, rash, or vision change should prompt contact before the next dose. |
+| Nivolumab plus GC | CheckMate 901: anemia 57.2%, grade ≥3 22.0%; neutropenia 30.6%, grade ≥3 18.8%; decreased neutrophils 24.7%, grade ≥3 14.5%; one treatment-related grade-5 sepsis. | Check CBC and renal function and review fever, neuropathy, hearing change, and immune-mediated diarrhea, dyspnea, hepatitis, or endocrinopathy; fever, dyspnea, or severe diarrhea needs urgent assessment. |
+| Avelumab maintenance | JAVELIN Bladder 100: infusion reaction 10.2%, grade ≥3 0.9%; long-term treatment-related-AE discontinuation 10.2%. | Premedicate during the first four infusions per label and review thyroid, hepatic, renal, pulmonary, and bowel symptoms during and after treatment; new cough/dyspnea, persistent diarrhea/abdominal pain, jaundice, or marked fatigue should prompt urgent contact. |
 | EV monotherapy | EV-301: peripheral neuropathy 48.0%, grade ≥3 7.4%; hyperglycemia 6.8%, grade ≥3 4.4%; skin reactions 47.3%, grade ≥3 14.9%. | Monitor sensory symptoms, glucose, and skin from the first cycles; hold and assess for progressive neuropathy, severe rash/blistering, or symptomatic hyperglycemia. |
-| Erdafitinib | Same-disease BLC2001 safety report: hyperphosphatemia 78%, grade 3 2.0%; central serous retinopathy 27%, grade 3 4.0%. These are not THOR cohort 1 rates. | Monitor serum phosphate and nail/skin changes; arrange prompt ophthalmic assessment and hold treatment for visual change. |
+| Erdafitinib | THOR cohort 1: hyperphosphatemia 80.0%, grade 3–4 5.2%; central serous retinopathy 17.0%, grade 3–4 2.2%. | Check phosphate on days 14–21 then monthly; arrange scheduled ophthalmic monitoring and hold treatment for visual change. |
 | Sacituzumab govitecan | TROPiCS-04 reported grade ≥3 treatment-related AEs 67%; this page's retrieved primary source did not provide a named rate for neutropenia or diarrhea. | Check CBC and review bowel symptoms; fever, infection symptoms, severe diarrhea, or dehydration needs urgent contact. |
-| Pembrolizumab or an indicated HER2-directed agent | No comparable later-line urothelial rate was retrieved for every tumor-agnostic use listed here. | Use the selected agent's label-specific monitoring; report diarrhea, abdominal pain, cough/dyspnea, jaundice, rash, or endocrine symptoms promptly. |
+| Pembrolizumab after platinum if PD-1–naive | KEYNOTE-045: pruritus 19.5%, grade 3–5 3.1%; hypothyroidism 7.1%, no grade 3–5 event; grade 3–5 pneumonitis 2.3% and colitis 1.1%. | Check liver enzymes, creatinine, and thyroid function; report diarrhea/abdominal pain, cough/dyspnea, jaundice, rash, or endocrine symptoms promptly. |
+| Tumor-agnostic HER2-directed agent, when an individual indication applies | No urothelial-specific safety rate was retrieved for every tumor-agnostic option listed here. | Use the selected agent's label-specific monitoring and report its designated serious symptoms promptly. |
 
 ## Guideline references
 
@@ -101,9 +102,11 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - [Powles et al. (2023). EV-301 long-term outcomes. *Annals of Oncology*. PMID: 37678672](https://pubmed.ncbi.nlm.nih.gov/37678672/)
 - [Loriot et al. (2023). THOR cohort 1. *New England Journal of Medicine*. PMID: 37870920](https://pubmed.ncbi.nlm.nih.gov/37870920/)
 - [Siefker-Radtke et al. (2023). Erdafitinib adverse-event management. *European Urology Oncology*. PMID: 37101768](https://pubmed.ncbi.nlm.nih.gov/37101768/)
+- [FDA Padcev label, revised 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761137s037lbl.pdf); [FDA Balversa label, revised 2025](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/212018s011lbl.pdf)
 - [TROPiCS-04 (2025). *Annals of Oncology*. PMID: 39934055](https://pubmed.ncbi.nlm.nih.gov/39934055/)
 
 ## Changelog
+- 2026-09-21: Updated on-treatment monitoring with retrieved EV-302 label, CheckMate 901, JAVELIN, THOR, and KEYNOTE-045 named-event rates.
 - 2026-09-21: Added therapy sequencing and regimen-level on-treatment monitoring, including trial-specific EV neuropathy, hyperglycemia, skin-reaction, and erdafitinib phosphate/ocular data.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.

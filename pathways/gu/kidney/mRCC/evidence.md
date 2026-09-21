@@ -73,11 +73,11 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 
 | SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
 |---|---|---|
-| Nivolumab plus ipilimumab | CheckMate 214: grade 3–4 treatment-related AEs 46% vs 63%; discontinuation due to treatment-related AEs 22% vs 12%. | Review bowel, lung, liver, skin, and endocrine symptoms before each infusion. Persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, severe rash, or marked fatigue needs prompt contact; immune effects can persist and may require corticosteroids or hormone replacement. |
-| Pembrolizumab plus axitinib | KEYNOTE-426: grade ≥3 treatment-related AEs 62.9% vs 58.1%; discontinuation of either study drug for any AE 30.5%. Grade ≥3 hypertension and increased ALT each occurred in ≥10% of the combination arm. | Check blood pressure and liver tests and review diarrhea, hand-foot/skin effects, proteinuria, and immune symptoms; severe headache/chest symptoms, jaundice, persistent diarrhea, or dyspnea needs prompt contact. |
-| Nivolumab plus cabozantinib | CheckMate 9ER: grade ≥3 AEs 75.3% vs 70.6%. | Monitor blood pressure, renal protein loss, diarrhea, hand-foot/skin changes, liver tests, and immune symptoms; severe diarrhea, bleeding, chest symptoms, jaundice, or dyspnea needs prompt contact. |
-| Pembrolizumab plus lenvatinib | CLEAR: grade ≥3 AEs 82.4% vs 71.8%. | Monitor blood pressure, renal protein loss, diarrhea, hand-foot/skin changes, liver tests, and immune symptoms; severe diarrhea, bleeding, chest symptoms, jaundice, or dyspnea needs prompt contact. |
-| Belzutifan | LITESPARK-005: grade ≥3 any-cause AEs 61.8% vs 62.5%; discontinuation 5.9% vs 14.7%. The retrieved trial text did not provide specific anemia or hypoxia frequencies. | Check CBC and oxygen saturation; new fatigue, lightheadedness, or shortness of breath should prompt contact and marked breathing difficulty needs urgent assessment. |
+| Nivolumab plus ipilimumab | CheckMate 214: diarrhea 27%, grade 3–4 4%; hypothyroidism 16%, grade 3–4 <1%; increased lipase 16%, grade 3–4 10%; grade 3–4 treatment-related AEs 46% vs 63%. | Review bowel, lung, liver, skin, and endocrine symptoms before each infusion. Persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, severe rash, or marked fatigue needs prompt contact; immune effects can persist and may require corticosteroids or hormone replacement. |
+| Pembrolizumab plus axitinib | KEYNOTE-426: hypertension 44.5%, grade 3–5 22.1%; ALT increase 26.8%, grade 3–5 13.3%; diarrhea 54.3%, grade 3–5 9.1%; proteinuria 17.5%, grade 3–5 2.8%. | Check blood pressure and liver tests and review diarrhea, hand-foot/skin effects, proteinuria, and immune symptoms; severe headache/chest symptoms, jaundice, persistent diarrhea, or dyspnea needs prompt contact. |
+| Nivolumab plus cabozantinib | CheckMate 9ER: diarrhea 63.8%, grade ≥3 6.9%; hypertension 34.7%, grade ≥3 12.5%; hand-foot syndrome 40.0%, grade ≥3 7.5%; ALT increase 28.1%, grade ≥3 5.3%. | Monitor blood pressure, renal protein loss, diarrhea, hand-foot/skin changes, liver tests, thyroid function, and immune symptoms; severe diarrhea, bleeding, chest symptoms, jaundice, or dyspnea needs prompt contact. |
+| Pembrolizumab plus lenvatinib | CLEAR: hypertension 55.4%, grade ≥3 27.6%; diarrhea 61.4%, grade ≥3 9.7%; proteinuria 29.5%, grade ≥3 7.7%; hypothyroidism 47.2%, grade ≥3 1.4%. | Monitor blood pressure, renal protein loss, diarrhea, hand-foot/skin changes, liver tests, thyroid function, and immune symptoms; severe diarrhea, bleeding, chest symptoms, jaundice, or dyspnea needs prompt contact. |
+| Belzutifan | LITESPARK-005 label: decreased hemoglobin 88%, grade 3–4 29%; hypoxia 15%, grade 3–4 10%. LITESPARK-005 trial: grade ≥3 any-cause AEs 61.8% vs 62.5%; discontinuation 5.9% vs 14.7%. | Check CBC and oxygen saturation; new fatigue, lightheadedness, palpitations, or shortness of breath should prompt contact and marked breathing difficulty needs urgent assessment. |
 
 ## Guideline references
 
@@ -92,8 +92,10 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 - [Rini et al. (2019). KEYNOTE-426. *New England Journal of Medicine*. PMID: 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
 - [Choueiri et al. (2021). CheckMate 9ER. *New England Journal of Medicine*. PMID: 33657295](https://pubmed.ncbi.nlm.nih.gov/33657295/)
 - [Motzer et al. (2021). CLEAR. *New England Journal of Medicine*. PMID: 33616314](https://pubmed.ncbi.nlm.nih.gov/33616314/)
+- [FDA Welireg label, revised 2025](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215383s012lbl.pdf)
 
 ## Changelog
+- 2026-09-21: Added trial- and label-verified named monitoring rates for every listed IO/IO, IO/VEGFR, and belzutifan regimen.
 - 2026-09-21: Added therapy sequencing and regimen-level on-treatment monitoring for IO/IO, each listed IO/VEGFR doublet, and belzutifan.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.

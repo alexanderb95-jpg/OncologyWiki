@@ -79,12 +79,15 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 
 | SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
 |---|---|---|
-| ADT with darolutamide, enzalutamide, or apalutamide | A directly comparable named-event rate for every ARPI was not extracted in this page. | Monitor blood pressure, falls/cognition, cardiovascular symptoms, and ADT-associated metabolic and bone effects; report syncope, a fall, chest symptoms, or troublesome fatigue promptly. |
-| ADT plus abiraterone/prednisone | PEACE-1 docetaxel population grade ≥3 AEs 63% vs 52%; this retrieved source did not provide a single abiraterone-specific monitoring rate here. | Monitor blood pressure, potassium, liver tests, fluid retention, and corticosteroid effects; severe headache, chest symptoms, weakness, jaundice, or edema needs prompt contact. |
-| ADT plus ARPI plus docetaxel | ARASENS grade 3–4 AEs 66.1% vs 63.5%; PEACE-1 docetaxel population grade ≥3 AEs 63% vs 52%. | Check CBC and assess infection, sensory symptoms, diarrhea/dehydration, and fatigue; fever or infection symptoms needs urgent assessment. |
-| ADT plus 177Lu-PSMA-617 plus ARPI | PSMAddition grade ≥3 AEs 51% vs 43%; dry mouth 46% vs 4%. | Monitor CBC, renal function, xerostomia, nausea, and marrow reserve; bleeding, fever, reduced urine output, or worsening fatigue needs prompt assessment. |
-| ADT plus niraparib/abiraterone/prednisone | AMPLITUDE grade 3–4 AEs 75% vs 59%; grade 3–4 anemia 29%. | Monitor CBC, blood pressure, potassium, and liver tests; dyspnea, chest symptoms, bleeding, or marked fatigue should prompt urgent contact. |
-| ADT plus capivasertib/abiraterone/prednisone | CAPItello-281 grade-specific monitoring rates were not extracted in this source pack. | Monitor glucose, diarrhea, rash, blood pressure, potassium, and liver tests; persistent diarrhea, symptomatic hyperglycemia, extensive rash, or dehydration needs prompt contact. |
+| ADT backbone | This page does not specify one ADT product, so no defensible generic pivotal frequency is assigned. | Monitor hot flashes, energy/mood and sexual changes, bone density, metabolic health, and cardiovascular risk; chest symptoms, syncope, or severe mood symptoms needs prompt contact. |
+| Darolutamide plus ADT | ARANOTE: hypertension 8.5%, grade 3–4 4.3%; ALT increase 9.0%, grade 3–4 2.0%. | Monitor blood pressure and liver tests; sustained hypertension symptoms or jaundice needs prompt contact. |
+| Enzalutamide plus ADT | ENZAMET: grade 3–4 fatigue 6% vs 1%, hypertension 10% vs 6%, and memory impairment 13% vs 4%. | Monitor fatigue, blood pressure, falls/cognition, and seizure-like symptoms; a fall, new confusion, loss of consciousness, or chest symptoms needs prompt contact. |
+| Apalutamide plus ADT | TITAN: rash 27.1% vs 8.5%, grade ≥3 treatment-related rash 6.3%; hypothyroidism 6.5% vs 1.1%; ischemic heart disease 4.4% vs 1.5%. | Monitor skin, thyroid symptoms, blood pressure, and cardiovascular symptoms; a spreading/blistering rash, cold intolerance, palpitations, or chest symptoms needs prompt contact. |
+| Abiraterone/prednisone plus ADT | LATITUDE: hypertension 37%, grade 3–4 20%; hypokalemia 20%, grade 3–4 10%; ALT increase 16%, grade 3–4 5.5%. | Monitor blood pressure, potassium, liver tests, fluid retention, and corticosteroid effects; severe headache, chest symptoms, weakness, jaundice, or edema needs prompt contact. |
+| ARPI plus docetaxel plus ADT | ARASENS: grade 3–4 neutropenia 33.7% vs 34.2%, febrile neutropenia 7.8% vs 7.4%, and hypertension 6.4% vs 3.2%. PEACE-1 docetaxel population grade ≥3 AEs 63% vs 52%. | Check CBC and assess infection, sensory symptoms, diarrhea/dehydration, and fatigue; fever or infection symptoms needs urgent assessment. |
+| ADT plus 177Lu-PSMA-617 plus ARPI | PSMAddition: dry mouth 46% vs 4%; cytopenias 44% vs 20%, grade ≥3 14% vs 5%; overall grade ≥3 AEs 51% vs 43%. | Monitor CBC, renal function, xerostomia, nausea, and marrow reserve; bleeding, fever, reduced urine output, or worsening fatigue needs prompt assessment. |
+| ADT plus niraparib/abiraterone/prednisone | AMPLITUDE: anemia 51.6%, grade ≥3 29.1%; hypertension 43.8%, grade ≥3 26.5%; transfusion 25.1%. | Monitor CBC, blood pressure, potassium, and liver tests; dyspnea, chest symptoms, bleeding, or marked fatigue should prompt urgent contact. |
+| ADT plus capivasertib/abiraterone/prednisone | CAPItello-281: diarrhea 51.9%, grade ≥3 6.2%; hyperglycemia 38.0%, grade ≥3 10.3%; rash 35.4%, grade ≥3 12.3%. | Monitor glucose, diarrhea, rash, blood pressure, potassium, and liver tests; persistent diarrhea, symptomatic hyperglycemia, extensive rash, or dehydration needs prompt contact. |
 
 ## Guideline references
 
@@ -98,8 +101,10 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 - [Fizazi et al. (2022). PEACE-1. *Lancet*. PMID: 35405085](https://pubmed.ncbi.nlm.nih.gov/35405085/)
 - [Tagawa et al. (2026). PSMAddition. *Lancet*. PMID: 42561994](https://pubmed.ncbi.nlm.nih.gov/42561994/)
 - [Attard et al. (2025). AMPLITUDE. *Nature Medicine*. PMID: 41057655](https://pubmed.ncbi.nlm.nih.gov/41057655/)
+- [Saad et al. (2024). ARANOTE. *Journal of Clinical Oncology*. PMID: 39279580](https://pubmed.ncbi.nlm.nih.gov/39279580/); [Chi et al. (2019). TITAN. *New England Journal of Medicine*. PMID: 31150574](https://pubmed.ncbi.nlm.nih.gov/31150574/); [Fizazi et al. (2017). LATITUDE. *New England Journal of Medicine*. PMID: 28578607](https://pubmed.ncbi.nlm.nih.gov/28578607/)
 
 ## Changelog
+- 2026-09-21: Added pivotal named monitoring rates for each listed ARPI, taxane, radioligand, PARP, and AKT-pathway regimen.
 - 2026-09-21: Added mHSPC sequencing and regimen-level on-treatment monitoring, including ADT/ARPI, taxane, radioligand, PARP, and AKT-pathway monitoring.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: added FDA-approved capivasertib + abi for PTEN-deficient mAPMN/S (CAPItello-281; FDA 12 Jun 2026) — was listed under upcoming trial results / “FDA not retrieved” on prior pass; PTEN companion diagnostic and toxicity content updated.
