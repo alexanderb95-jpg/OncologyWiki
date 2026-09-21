@@ -8,15 +8,20 @@ This repo is the **personal oncology wiki** (GU first). Markdown is canonical; `
 pathways/{domain}/{disease}/{setting}/
   evidence.md
   dotphrase.md
+  figures/                 # optional source-recreated figure assets
 ```
 
+- One wiki page covers one disease + setting; keep disease trees split into setting pages.
 - Domains today: `gu`. Planned: `lung`, `heme`, …
 - `inbox/` — unreviewed captures (never auto-promoted)
 - `site/` — generated wiki. Do not hand-edit.
 
 ## Do
 
-- Prefer counseling → decision → labs/NGS → procedures → meds → referrals → follow-up
+- Use a clean OneNote-style hierarchy: disease → setting, short named sections, nested bullets, and tables only for structured comparisons.
+- Start evidence pages with **Guidelines** for the exact setting (NCCN, EAU, ESMO, AUA/ASCO/SUO as applicable); include a guideline category/strength only when verified.
+- Include comparison tables for standard options and trial tables for landmark evidence. Add a source-recreated KM-style or forest-style figure when survival evidence changes practice; never reuse copyrighted journal artwork or invent/digitize unreported values.
+- Do not use a **Bottom line** section.
 - Never invent trial statistics
 - Bump Last reviewed, Next review, Changelog on evidence edits
 - After edits: `python3 scripts/build_wiki.py`

@@ -1,17 +1,18 @@
-# mCRPC — clinic evidence brief
+# Prostate → mCRPC
 
 Last reviewed: 2026-09-21
 Next review: 2026-12-20
 Owner: GU clinic
-Purpose: 60-second pre-visit skim (not a full guideline)
+Purpose: Disease → setting page for metastatic castration-resistant prostate cancer
 Status: clinic-ready — numbers from retrieved primary abstracts; re-check current FDA PARP labels and NCCN (NCCN not retrieved)
 
-## Bottom line (clinic)
-- Progressive metastatic disease with castrate testosterone; continue ADT indefinitely.
-- Next line is driven by prior HSPC/CRPC therapy, PSMA PET, HRR/BRCA, symptoms, visceral disease, and fitness — there is no single best sequence.
-- After an ARPI, a second ARPI is generally not the preferred switch (CARD after docetaxel + ARPI; PSMAfore vs ARPI change). Discuss taxane (docetaxel if chemo-naive; cabazitaxel after prior docetaxel), Pluvicto if PSMA+, and PARP if BRCA / selected HRR per label.
-- Test early (germline + somatic NGS, MSI/TMB) and obtain PSMA PET when radioligand therapy is on the table.
-- Bone-protective agent (denosumab or zoledronic acid) for bone metastases; Ca/Vit D and dental clearance. PEACE-3 requires a bone-protecting agent with Ra-223 + enzalutamide.
+## Guidelines
+
+| Society | Setting-level direction | Published strength/category |
+|---|---|---|
+| NCCN Prostate Cancer | Continue ADT and sequence therapy by prior ARPI/taxane exposure, PSMA imaging, molecular testing, symptoms, sites, and fitness. | Current categories not independently rechecked in this page; verify before use. |
+| EAU Prostate Cancer | Use life-prolonging agents with a treatment sequence informed by prior therapy and molecular alterations. | Recheck the current guideline chapter. |
+| ASCO | Addresses systemic therapy, genomic testing, and radioligand/radiopharmaceutical options in mCRPC. | Exact current strength/category not verified in this page. |
 
 ## Who this applies to
 - mCRPC: radiographic and/or biochemical progression on ADT with castrate testosterone.
@@ -28,7 +29,7 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - CONTACT-02 (cabozantinib + atezolizumab vs ARPI switch) improved PFS not OS — not a default OS-proven SOC.
 - Clinical trial and best supportive care at every decision point.
 
-## Landmark evidence (landscape table)
+## Key trials / landmark evidence
 
 | Trial | Population | Intervention arm | Control arm | Key outcomes (both arms) | Key HR | Evidence status |
 |-------|------------|------------------|-------------|--------------------------|--------|-----------------|
@@ -55,7 +56,7 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - MSI / dMMR / TMB for pembrolizumab.
 - Testosterone to confirm castration.
 
-## Toxicity / counseling anchors
+## Toxicity anchors
 - Taxanes: neuropathy, cytopenias, infection, alopecia, fatigue; cabazitaxel — diarrhea, neutropenia; premeds / G-CSF per CARD.
 - Pluvicto: xerostomia, myelosuppression, fatigue, nausea, renal; radiation precautions; marrow reserve and prior RLT/Ra-223 matter.
 - PARP: cytopenias, nausea, fatigue, rare MDS/AML; talazoparib combination anemia is common.
@@ -75,6 +76,7 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - VISION, PSMAfore OS if published beyond this abstract, PROfound, CARD, PEACE-3
 
 ## Changelog
+- 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: Weekly skim — no practice-changing updates since last review.
 - 2026-09-14: added landscape table with both-arm outcomes and HRs from named-trial PubMed abstracts; PEACE-3 OS and PSMAfore rPFS included; PARP labels flagged as biomarker-restricted
 - 2026-09-14: expanded from stub to living clinic brief (qualitative SOC and trial names; numbers deferred to primary sources)

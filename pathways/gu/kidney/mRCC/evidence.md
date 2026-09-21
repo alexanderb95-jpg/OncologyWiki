@@ -1,17 +1,18 @@
-# Metastatic RCC — clinic evidence brief
+# RCC → Metastatic RCC
 
 Last reviewed: 2026-09-21
 Next review: 2026-12-20
 Owner: GU clinic
-Purpose: 60-second pre-visit skim (not a full guideline)
+Purpose: Disease → setting page for metastatic RCC systemic-therapy decisions
 Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doublets in this pack
 
-## Bottom line (clinic)
-- Clear-cell mRCC first-line is IO/IO (nivolumab + ipilimumab) or IO/TKI (pembro/axitinib, nivo/cabo, pembro/lenvatinib) by IMDC risk, comorbidity, and need for early cytoreduction. Cross-trial comparison is indirect.
-- CheckMate 214: OS benefit of nivo/ipi vs sunitinib is concentrated in IMDC intermediate/poor risk; favorable-risk 9-year OS HR 0.80 (95% CI 0.59–1.09) includes 1 in the interval.
-- IO/TKI doublets improved PFS and OS vs sunitinib in ITT populations (KEYNOTE-426, CheckMate 9ER, CLEAR). COSMIC-313 (cabo + nivo/ipi vs nivo/ipi) improved PFS but not OS (final OS HR 1.02).
-- Non-clear-cell is histology-specific; 1L doublet evidence above is clear-cell.
-- Relapse after adjuvant pembrolizumab (KEYNOTE-564 OS-positive) — optimal 1L choice is not in these sources.
+## Guidelines
+
+| Society | Setting-level direction | Published strength/category |
+|---|---|---|
+| NCCN Kidney Cancer | Choose systemic therapy by histology, IMDC risk, prior exposure, and label eligibility. | Current categories not independently rechecked in this page; verify before use. |
+| EAU RCC | ICI-based combinations are standard first-line therapy for eligible clear-cell mRCC; sequencing follows prior therapy and toxicity. | Recheck the current guideline chapter. |
+| ESMO RCC 2024 | PD-1/VEGFR combinations are recommended across IMDC risk; nivolumab/ipilimumab is a key option for intermediate/poor-risk disease. | Published as I, A for named PD-1/VEGFR combinations; see source review. |
 
 ## Who this applies to
 - Metastatic RCC; record histology (clear vs non-clear), sarcomatoid, IMDC risk (KPS, time from diagnosis to systemic therapy, hemoglobin, calcium, neutrophils, platelets), prior nephrectomy, prior adjuvant PD-1.
@@ -23,7 +24,7 @@ Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doubl
 - Later line after VEGFR and ICI: belzutifan vs everolimus (LITESPARK-005) improved PFS/ORR not OS. Nivo vs everolimus (CheckMate 025) is historical post-VEGFR. TiNivo-2: adding nivo to tivozanib after ICI did not improve PFS.
 - Local therapy (CN, MDT) is individualized — not covered by these systemic trials.
 
-## Landmark evidence (landscape table)
+## Key trials / landmark evidence
 
 | Trial | Population | Intervention arm | Control arm | Key outcomes (both arms) | Key HR | Evidence status |
 |-------|------------|------------------|-------------|--------------------------|--------|-----------------|
@@ -43,7 +44,7 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 - KEYNOTE-426 5-year: TcellinfGEP and angiogenesis signatures were associated with outcomes (exploratory).
 - Occasional germline (VHL, FH, etc.) for non-clear / hereditary syndromes — not required to start 1L IO doublets in sporadic ccRCC.
 
-## Toxicity / counseling anchors
+## Toxicity anchors
 - irAEs: colitis, hepatitis, pneumonitis, endocrinopathy; ipi/nivo discontinuation for TRAE 22% vs 12% sunitinib in CheckMate 214.
 - TKI: HTN, diarrhea, hand-foot, mucositis, hepatic, proteinuria, fatigue. CLEAR grade ≥3 AE 82.4% with lenvatinib + pembro.
 - Triplet cabo/nivo/ipi: more grade 3/4 TRAE without OS gain.
@@ -61,6 +62,7 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 - CheckMate 214 final, KEYNOTE-426 5-y, CheckMate 9ER extended OS if updated, CLEAR final OS, COSMIC-313 final
 
 ## Changelog
+- 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: Weekly skim — no practice-changing updates since last review.
 - 2026-09-14: expanded from stub; landscape table with both-arm outcomes for 1L doublets, COSMIC-313 no OS, LITESPARK-005, TiNivo-2, KEYNOTE-564 watch
 - 2026-09-14: initial stub

@@ -1,17 +1,18 @@
-# Metastatic urothelial carcinoma — clinic evidence brief
+# Bladder / urothelial → Metastatic urothelial carcinoma
 
 Last reviewed: 2026-09-21
 Next review: 2026-12-20
 Owner: GU clinic
-Purpose: 60-second pre-visit skim (not a full guideline)
+Purpose: Disease → setting page for locally advanced or metastatic urothelial carcinoma
 Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HER2 as labeled
 
-## Bottom line (clinic)
-- First-line for previously untreated la/mUC: enfortumab vedotin + pembrolizumab (EV-302). Updated median OS 33.8 vs 15.9 months vs platinum chemo.
-- Cisplatin-eligible alternative if EV+pembro is not used: nivolumab + gemcitabine-cisplatin (CheckMate 901) — smaller OS increment than EV-302; not a head-to-head.
-- After platinum without progression: maintenance avelumab (JAVELIN Bladder 100) remains relevant only for patients who still start platinum 1L.
-- Later line: EV monotherapy after platinum + PD-(L)1 (EV-301); erdafitinib if FGFR3-altered after prior PD-(L)1 (THOR / FDA — not recommended instead of first PD-(L)1). Sacituzumab govitecan did not meet OS in TROPiCS-04.
-- HER2: disitamab vedotin + toripalimab improved PFS/OS vs platinum in a China-based phase 3 (RC48-C016); US FDA indication not in sources. T-DXd bladder-specific ORR not in DESTINY-PanTumor02 abstract.
+## Guidelines
+
+| Society | Setting-level direction | Published strength/category |
+|---|---|---|
+| NCCN Bladder Cancer | Select first-line and subsequent therapy by platinum eligibility, prior perioperative therapy, molecular targets, symptoms, and organ function. | Current categories not independently rechecked in this page; verify before use. |
+| EAU Muscle-invasive and metastatic bladder cancer | Integrate systemic therapy with supportive care and multidisciplinary evaluation; avoid cross-trial efficacy comparisons. | Recheck the current guideline chapter. |
+| ESMO | Provides systemic-treatment recommendations for advanced urothelial cancer. | Exact current strength/category not verified in this page. |
 
 ## Who this applies to
 - Unresectable locally advanced or metastatic urothelial carcinoma.
@@ -27,7 +28,7 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - After platinum, pembrolizumab vs chemo (KEYNOTE-045) if no prior PD-1.
 - Supportive care / trial.
 
-## Landmark evidence (landscape table)
+## Key trials / landmark evidence
 
 | Trial | Population | Intervention arm | Control arm | Key outcomes (both arms) | Key HR | Evidence status |
 |-------|------------|------------------|-------------|--------------------------|--------|-----------------|
@@ -46,7 +47,7 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - PD-L1: not the selector for EV+pembro 1L in EV-302 as reported here.
 - NGS for FGFR and other trial targets.
 
-## Toxicity / counseling anchors
+## Toxicity anchors
 - EV: neuropathy, rash, hyperglycemia, ocular, pneumonitis; hold for grade 2 neuropathy.
 - IO irAEs.
 - Platinum: cytopenias, neuropathy, ototoxicity, renal.
@@ -65,6 +66,7 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - EV-302 updates, CheckMate 901, THOR, TROPiCS-04, RC48-C016
 
 ## Changelog
+- 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: Weekly skim — no practice-changing updates since last review.
 - 2026-09-14: expanded from stub; EV-302 both-arm OS/PFS, CheckMate 901, JAVELIN, THOR/FDA limitation, TROPiCS-04 negative OS, RC48-C016 labeled non-US pending
 - 2026-09-14: initial stub

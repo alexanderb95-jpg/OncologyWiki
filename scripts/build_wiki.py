@@ -13,6 +13,7 @@ import base64
 import html
 import json
 import re
+import shutil
 from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import date, datetime
@@ -40,25 +41,36 @@ DOMAIN_ORDER = ["gu", "lung", "heme", "melanoma", "breast"]
 PLANNED: dict[tuple[str, str], list[str]] = {
     ("gu", "prostate"): ["Localized / adjuvant / salvage", "nmCRPC"],
     ("gu", "bladder"): ["Neoadjuvant MIBC"],
-    ("gu", "kidney"): ["Adjuvant RCC"],
+    ("gu", "variant-bladder"): ["Not started — add setting pages as evidence matures"],
+    ("gu", "utuc"): ["Not started — add setting pages as evidence matures"],
+    ("gu", "kidney"): [],
     ("gu", "testis"): ["Stage I / adjuvant / metastatic GCT"],
-    ("lung", "nsclc"): ["Not started — add first brief when ready"],
-    ("heme", "aml"): ["Not started — add first brief when ready"],
+    ("lung", "nsclc"): ["Not started — add first setting page when ready"],
+    ("heme", "aml"): ["Not started — add first setting page when ready"],
 }
 
 DISEASE_LABEL = {
     "prostate": "Prostate",
     "bladder": "Bladder / urothelial",
-    "kidney": "Kidney",
+    "variant-bladder": "Variant bladder",
+    "utuc": "UTUC",
+    "kidney": "RCC",
     "testis": "Testis",
     "nsclc": "NSCLC",
     "aml": "AML",
 }
 
 DISEASE_ORDER = {
-    "gu": ["prostate", "bladder", "kidney", "testis"],
+    "gu": ["prostate", "bladder", "variant-bladder", "utuc", "kidney", "testis"],
     "lung": ["nsclc"],
     "heme": ["aml"],
+}
+
+SETTING_LABEL = {
+    ("gu", "bladder", "adjuvant-urothelial"): "Adjuvant urothelial",
+    ("gu", "bladder", "mUC"): "Metastatic urothelial carcinoma",
+    ("gu", "kidney", "adjuvant-ccrcc"): "Adjuvant clear-cell RCC",
+    ("gu", "kidney", "mRCC"): "Metastatic RCC",
 }
 
 # Related: (domain, disease, setting) → list of (domain, disease, setting, label)
@@ -67,6 +79,8 @@ RELATED = {
     ("gu", "prostate", "mCRPC"): [("gu", "prostate", "mHSPC", "mHSPC")],
     ("gu", "bladder", "mUC"): [("gu", "bladder", "adjuvant-urothelial", "Adjuvant urothelial")],
     ("gu", "bladder", "adjuvant-urothelial"): [("gu", "bladder", "mUC", "mUC")],
+    ("gu", "kidney", "adjuvant-ccrcc"): [("gu", "kidney", "mRCC", "Metastatic RCC")],
+    ("gu", "kidney", "mRCC"): [("gu", "kidney", "adjuvant-ccrcc", "Adjuvant clear-cell RCC")],
 }
 
 
@@ -81,7 +95,6 @@ class Article:
     status: str = ""
     purpose: str = ""
     evidence_body: str = ""
-    bottom_line_html: str = ""
     evidence_html: str = ""
     trigger: str = ""
     phrase_lines: list[str] = field(default_factory=list)
@@ -139,58 +152,122 @@ def parse_header_fields(text: str) -> dict[str, str]:
     return fields
 
 
-def extract_section(text: str, heading: str) -> str:
-    pattern = rf"^##\s+{re.escape(heading)}\s*$"
-    m = re.search(pattern, text, re.MULTILINE | re.IGNORECASE)
-    if not m:
-        return ""
-    start = m.end()
-    nxt = re.search(r"^##\s+", text[start:], re.MULTILINE)
-    end = start + nxt.start() if nxt else len(text)
-    return text[start:end].strip()
-
-
 def md_inline(text: str) -> str:
     text = html.escape(text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"`(.+?)`", r"<code>\1</code>", text)
+    text = re.sub(
+        r"\[([^\]]+)\]\((https?://[^)\s]+)\)",
+        r'<a href="\2" rel="noreferrer">\1</a>',
+        text,
+    )
     return text
 
 
+def table_cells(line: str) -> list[str]:
+    return [cell.strip() for cell in line.strip().strip("|").split("|")]
+
+
+def is_table_divider(line: str) -> bool:
+    cells = table_cells(line)
+    return bool(cells) and all(re.fullmatch(r":?-{3,}:?", cell) for cell in cells)
+
+
+def render_table(header: list[str], rows: list[list[str]]) -> str:
+    header_html = "".join(f"<th>{md_inline(cell)}</th>" for cell in header)
+    rows_html = "\n".join(
+        "<tr>" + "".join(f"<td>{md_inline(cell)}</td>" for cell in row) + "</tr>"
+        for row in rows
+    )
+    return (
+        '<div class="table-wrap"><table><thead><tr>'
+        f"{header_html}</tr></thead><tbody>{rows_html}</tbody></table></div>"
+    )
+
+
+def render_bullet_list(items: list[tuple[int, str]]) -> str:
+    """Render a contiguous Markdown bullet block, including nested bullets."""
+    index = 0
+
+    def render_level(indent: int) -> str:
+        nonlocal index
+        parts = ["<ul>"]
+        while index < len(items):
+            item_indent, text = items[index]
+            if item_indent < indent:
+                break
+            if item_indent > indent:
+                raise ValueError("Nested bullet does not have a parent")
+            index += 1
+            children = ""
+            if index < len(items) and items[index][0] > item_indent:
+                children = render_level(items[index][0])
+            parts.append(f"<li>{md_inline(text)}{children}</li>")
+        parts.append("</ul>")
+        return "".join(parts)
+
+    return render_level(items[0][0])
+
+
 def md_block_to_html(block: str) -> str:
-    """Minimal markdown → HTML for clinic briefs (lists, headings, paragraphs)."""
+    """Minimal markdown → HTML for tables, figures, and concise evidence pages."""
     lines = block.splitlines()
     out: list[str] = []
-    in_ul = False
 
-    def close_ul() -> None:
-        nonlocal in_ul
-        if in_ul:
-            out.append("</ul>")
-            in_ul = False
-
-    for raw in lines:
+    i = 0
+    while i < len(lines):
+        raw = lines[i]
         line = raw.rstrip()
         if not line.strip():
-            close_ul()
+            i += 1
+            continue
+        if (
+            i + 1 < len(lines)
+            and "|" in line
+            and is_table_divider(lines[i + 1].rstrip())
+        ):
+            header = table_cells(line)
+            i += 2
+            rows: list[list[str]] = []
+            while i < len(lines) and "|" in lines[i] and lines[i].strip():
+                rows.append(table_cells(lines[i]))
+                i += 1
+            out.append(render_table(header, rows))
             continue
         if line.startswith("### "):
-            close_ul()
             out.append(f"<h3>{md_inline(line[4:].strip())}</h3>")
+            i += 1
             continue
         if line.startswith("## "):
-            close_ul()
             out.append(f"<h2 id=\"{slugify(line[3:])}\">{md_inline(line[3:].strip())}</h2>")
+            i += 1
             continue
-        if re.match(r"^[-*]\s+", line):
-            if not in_ul:
-                out.append("<ul>")
-                in_ul = True
-            out.append(f"<li>{md_inline(re.sub(r'^[-*]\\s+', '', line))}</li>")
+        image = re.fullmatch(r"!\[([^\]]*)\]\(([^)\s]+)\)", line)
+        if image:
+            alt, src = image.groups()
+            if src.startswith("/") or ".." in Path(src).parts:
+                raise ValueError(f"Figure source must be a relative path: {src}")
+            out.append(
+                '<figure class="evidence-figure">'
+                f'<img src="{html.escape(src, quote=True)}" alt="{html.escape(alt, quote=True)}">'
+                "</figure>"
+            )
+            i += 1
             continue
-        close_ul()
+        bullet = re.match(r"^(\s*)[-*]\s+(.+)", line)
+        if bullet:
+            items: list[tuple[int, str]] = []
+            while i < len(lines):
+                nested = re.match(r"^(\s*)[-*]\s+(.+)", lines[i].rstrip())
+                if not nested:
+                    break
+                indent = len(nested.group(1).replace("\t", "  "))
+                items.append((indent, nested.group(2)))
+                i += 1
+            out.append(render_bullet_list(items))
+            continue
         out.append(f"<p>{md_inline(line)}</p>")
-    close_ul()
+        i += 1
     return "\n".join(out)
 
 
@@ -198,17 +275,6 @@ def slugify(text: str) -> str:
     s = text.strip().lower()
     s = re.sub(r"[^a-z0-9]+", "-", s)
     return s.strip("-")
-
-
-def strip_section(text: str, heading: str) -> str:
-    pattern = rf"^##\s+{re.escape(heading)}\s*$"
-    m = re.search(pattern, text, re.MULTILINE | re.IGNORECASE)
-    if not m:
-        return text
-    start = m.start()
-    nxt = re.search(r"^##\s+", text[m.end() :], re.MULTILINE)
-    end = m.end() + nxt.start() if nxt else len(text)
-    return (text[:start] + text[end:]).strip()
 
 
 def load_articles() -> list[Article]:
@@ -242,11 +308,6 @@ def load_articles() -> list[Article]:
                         body_start = text.find(line)
                         break
                 body = text[body_start:] if body_start else text
-                bottom = extract_section(text, "Bottom line (clinic)")
-                if not bottom:
-                    bottom = extract_section(text, "Bottom line")
-                rest = strip_section(body, "Bottom line (clinic)")
-                rest = strip_section(rest, "Bottom line")
 
                 trigger = ""
                 phrase_lines: list[str] = []
@@ -269,8 +330,7 @@ def load_articles() -> list[Article]:
                     status=fields.get("status", ""),
                     purpose=fields.get("purpose", ""),
                     evidence_body=body,
-                    bottom_line_html=md_block_to_html(bottom) if bottom else "",
-                    evidence_html=md_block_to_html(rest),
+                    evidence_html=md_block_to_html(body),
                     trigger=trigger,
                     phrase_lines=phrase_lines,
                     phrase_text=phrase_text,
@@ -288,6 +348,12 @@ def load_articles() -> list[Article]:
                 ).lower()
                 articles.append(art)
     return articles
+
+
+def article_setting_label(article: Article) -> str:
+    return SETTING_LABEL.get(
+        (article.domain, article.disease, article.setting), article.setting
+    )
 
 
 def list_inbox() -> list[dict[str, str]]:
@@ -391,7 +457,7 @@ def build_nav(articles: list[Article], active: str | None, depth: int) -> str:
                 stale = ' <span class="pill stale">stale</span>' if a.is_stale else ""
                 stub = ' <span class="pill stub">stub</span>' if a.is_stub else ""
                 parts.append(
-                    f'      <li class="{cls}"><a href="{prefix}{a.href}">{html.escape(a.setting)}</a>{stale}{stub}</li>'
+                    f'      <li class="{cls}"><a href="{prefix}{a.href}">{html.escape(article_setting_label(a))}</a>{stale}{stub}</li>'
                 )
             for label_p in planned:
                 parts.append(
@@ -471,7 +537,7 @@ def render_home(articles: list[Article], inbox: list[dict[str, str]]) -> str:
                     meta.append("stale")
                 meta_s = " · ".join(meta)
                 cards.append(
-                    f'<li><a href="{a.href}"><strong>{html.escape(a.setting)}</strong></a>'
+                    f'<li><a href="{a.href}"><strong>{html.escape(article_setting_label(a))}</strong></a>'
                     f'<span class="meta">{meta_s}</span>'
                     f'<div class="blurb">{html.escape(a.purpose)}</div></li>'
                 )
@@ -493,7 +559,7 @@ def render_home(articles: list[Article], inbox: list[dict[str, str]]) -> str:
     body = f"""
 <header class="page-head">
   <h1>{WIKI_NAME}</h1>
-  <p class="lede">Personal oncology notes for clinic — evidence briefs and Epic phrases.
+  <p class="lede">Personal oncology notes for clinic — evidence pages and Epic phrases.
   Domains under <code>pathways/</code> (GU first; lung/heme ready when you add them).
   Markdown is canonical; this site is generated.</p>
   {stubs_note}
@@ -553,7 +619,6 @@ def render_article(art: Article, articles: list[Article]) -> str:
 """
 
     evidence_rest = art.evidence_html
-    bottom = art.bottom_line_html or "<p><em>No bottom-line section yet.</em></p>"
     dlabel = DOMAIN_LABEL.get(art.domain, art.domain)
     dislabel = DISEASE_LABEL.get(art.disease, art.disease)
 
@@ -561,7 +626,7 @@ def render_article(art: Article, articles: list[Article]) -> str:
 <article>
 <header class="page-head">
   <p class="crumb"><a href="{prefix}index.html">Home</a> /
-  {html.escape(dlabel)} / {html.escape(dislabel)} / {html.escape(art.setting)}</p>
+  {html.escape(dlabel)} / {html.escape(dislabel)} / {html.escape(article_setting_label(art))}</p>
   <h1>{html.escape(art.title)} {badge_html}</h1>
   <p class="meta-line">
     Last reviewed: <strong>{html.escape(art.last_reviewed or "—")}</strong>
@@ -571,13 +636,8 @@ def render_article(art: Article, articles: list[Article]) -> str:
   {related_html}
 </header>
 
-<section class="bottom-line" id="bottom-line">
-  <h2>Bottom line</h2>
-  {bottom}
-</section>
-
 <section class="evidence" id="evidence">
-  <h2 class="sr-only">Evidence brief</h2>
+  <h2 class="sr-only">Evidence page</h2>
   {evidence_rest}
   <p class="src"><a href="{prefix}../{art.md_rel}/evidence.md">Edit evidence markdown</a></p>
 </section>
@@ -748,16 +808,16 @@ body {
 .article-list .meta { display: block; margin-top: 0.15rem; }
 .article-list .blurb { font-size: 0.92rem; color: var(--muted); }
 .article-list li.planned { opacity: 0.65; }
-.bottom-line {
-  border-left: 3px solid var(--ink);
-  padding: 0.25rem 0 0.25rem 1rem;
-  margin: 1.5rem 0;
-}
-.bottom-line h2 { margin-top: 0; font-size: 1.15rem; }
 .evidence h2 { font-size: 1.15rem; margin-top: 1.75rem; border-bottom: 1px solid var(--line); padding-bottom: 0.25rem; }
 .evidence h3 { font-size: 1rem; }
 .evidence ul, .phrase-body, .start-here ul { padding-left: 1.2rem; }
 .evidence li, .phrase-body li { margin: 0.25rem 0; }
+.table-wrap { overflow-x: auto; margin: 0.75rem 0 1.25rem; }
+.evidence table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.82rem; line-height: 1.45; }
+.evidence th, .evidence td { border: 1px solid var(--line); padding: 0.45rem 0.55rem; text-align: left; vertical-align: top; }
+.evidence th { background: #f5f1ea; font-weight: 650; }
+.evidence-figure { margin: 0.85rem 0 1.25rem; padding: 0.6rem; border: 1px solid var(--line); background: #faf8f4; }
+.evidence-figure img { display: block; width: 100%; height: auto; }
 .related { font-family: var(--sans); font-size: 0.85rem; margin: 0.75rem 0 0; }
 .related a { color: var(--accent); }
 .phrase {
@@ -897,9 +957,18 @@ def main() -> int:
     inbox = list_inbox()
 
     if SITE.exists():
-        # Clear generated html but keep structure
+        # Clear generated output but keep structure.
         for p in SITE.rglob("*"):
-            if p.is_file() and p.suffix in {".html", ".css", ".js"}:
+            if p.is_file() and p.suffix in {
+                ".html",
+                ".css",
+                ".js",
+                ".svg",
+                ".png",
+                ".jpg",
+                ".jpeg",
+                ".webp",
+            }:
                 p.unlink()
 
     ASSETS.mkdir(parents=True, exist_ok=True)
@@ -915,6 +984,9 @@ def main() -> int:
         (out_dir / f"{art.setting.lower()}.html").write_text(
             render_article(art, articles), encoding="utf-8"
         )
+        source_figures = PATHWAYS / art.domain / art.disease / art.setting / "figures"
+        if source_figures.is_dir():
+            shutil.copytree(source_figures, out_dir / "figures", dirs_exist_ok=True)
 
     print(f"Built {len(articles)} articles + home + inbox → {SITE}")
     return 0
