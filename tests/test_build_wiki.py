@@ -160,6 +160,49 @@ Status: current
         self.assertNotIn("<p>&lt;!-- .cross_trial --&gt;</p>", page)
         self.assertIn(".cross_trial", (wiki.SITE / "assets" / "wiki.css").read_text())
 
+    def test_build_renders_annotated_phrase_select_and_calculator_controls(self) -> None:
+        setting = wiki.PATHWAYS / "gu" / "kidney" / "adjuvant-ccrcc"
+        setting.mkdir(parents=True)
+        (setting / "evidence.md").write_text(
+            """# Adjuvant clear-cell RCC
+
+Last reviewed: 2026-09-21
+Next review: 2026-12-20
+Owner: GU clinic
+Purpose: Decision support
+Status: current
+
+## Guideline references
+
+- Guideline link
+""",
+            encoding="utf-8",
+        )
+        (setting / "dotphrase.md").write_text(
+            """#adjuvantccrcc
+
+- Counseling: Histology {{select:histology|Clear-cell component|Clear-cell component confirmed|Non-clear-cell or not confirmed}}. KEYNOTE-564 category: {{calc:keynote-564|KEYNOTE-564 eligibility}}.
+""",
+            encoding="utf-8",
+        )
+
+        self.assertEqual(wiki.main(), 0)
+
+        page = (
+            wiki.SITE / "gu" / "kidney" / "adjuvant-ccrcc.html"
+        ).read_text(encoding="utf-8")
+        self.assertIn('class="phrase-tools"', page)
+        self.assertIn('data-phrase-controls-b64=', page)
+        self.assertIn('data-phrase-control-id="histology"', page)
+        self.assertIn('data-calculator-id="keynote-564"', page)
+        self.assertIn('data-phrase-control="histology"', page)
+        self.assertIn('data-phrase-control="keynote-564"', page)
+        phrase_body = page.split('<ul class="phrase-body">', maxsplit=1)[1].split(
+            "</ul>", maxsplit=1
+        )[0]
+        self.assertNotIn("{{select:histology", phrase_body)
+        self.assertNotIn("{{calc:keynote-564", phrase_body)
+
     def test_planned_labels_do_not_call_pages_briefs(self) -> None:
         labels = [label for settings in wiki.PLANNED.values() for label in settings]
         self.assertFalse(any("brief" in label.lower() for label in labels))

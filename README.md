@@ -45,6 +45,21 @@ Sister product (biomarker / methylation): `/Users/Alex/Documents/EpiAI`.
 - `save to knowledge base` in clinical chats writes here (opt-in).
 - Inbox: `python3 scripts/inbox_refresh.py` → review → promote → rebuild.
 
+### Interactive Epic phrase controls
+
+For a fill-in constrained by published trial eligibility or a risk tool, use an
+annotated control in `dotphrase.md` rather than `***`:
+
+```md
+{{select:control-id|Visible label|Option one|Option two}}
+{{calc:keynote-564|KEYNOTE-564 eligibility}}
+```
+
+The rendered control updates both the displayed phrase and the Copy payload.
+`select` is for a bounded, source-defined choice. `calc` is for a calculator
+implemented in `scripts/build_wiki.py`; its definition belongs on the paired
+evidence page. See `.cursor/rules/dot-phrases.mdc` for the authoring rules.
+
 ## Not
 
 - OneNote / Notion / Canvas
