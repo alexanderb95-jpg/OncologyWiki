@@ -22,6 +22,14 @@ Status: current — evidence is subtype-specific and predominantly nonrandomized
 | Micropapillary, plasmacytoid, nested, sarcomatoid, squamous, or glandular differentiation | Subtype-aware multidisciplinary review of cystectomy-anchored therapy | General-MIBC treatments are not variant-specific proof. | Individualized. |
 | High-risk disease after cystectomy without neoadjuvant therapy | Adjuvant cisplatin combination chemotherapy if eligible; nivolumab when platinum is declined or unsuitable | Recommendations are primarily conventional-UC evidence. | Individualized. |
 
+## Therapy sequencing
+
+| Variant / treatment state | Preferred order | Evidence boundary |
+|---|---|---|
+| Resectable small-cell/neuroendocrine urothelial carcinoma | Neuroendocrine-directed platinum-based systemic therapy → cystectomy or other local consolidation. | The subtype-specific evidence is phase 2 or retrospective; it does not prove one platinum regimen against GC or ddMVAC. |
+| Other aggressive variants or extensive differentiation | Expert GU pathology review → subtype-aware, cystectomy-anchored multidisciplinary plan. | Do not substitute general-MIBC perioperative results for variant-specific proof without a reported subtype analysis. |
+| High-risk disease after cystectomy without neoadjuvant therapy | Consider adjuvant cisplatin combination if eligible, or nivolumab when platinum is unsuitable. | The evidence base is primarily conventional urothelial carcinoma; do not serially add adjuvant therapy after untested perioperative combinations. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -47,7 +55,15 @@ No named prospective variant-specific result was identified that is likely to ch
 | Regimen and comparator | Trial-level safety outcomes | Selected named toxicities | Counseling focus |
 |---|---|---|---|
 | Alternating IA/EP, small-cell phase 2 | All 30 patients; no comparator. | Grade 3 packed-red-cell transfusion 37%, neutropenic fever 23%, non-neutropenic infection 17%, nausea/vomiting 12%, platelet transfusion 7%. | Urgent contact for fever, infection symptoms, bleeding, severe nausea/vomiting, or dyspnea; monitor counts and organ function. |
-| Pembrolizumab versus observation, AMBASSADOR all MIUC | Grade ≥3 any-cause events 50.7% vs 31.6%. | Fatigue 47%, pruritus 22%, diarrhea 21%, hypothyroidism 20%; these are all-MIUC, not variant-specific estimates. | Discuss immune toxicity symptoms and lasting endocrine effects; hold treatment and use corticosteroids/hormone replacement when indicated. |
+| Nivolumab versus placebo, CheckMate 274 all MIUC | Grade ≥3 treatment-related events 17.9% vs 7.2%. | Pruritus 23.1%, fatigue 17.4%, diarrhea 16.8%; these are all-MIUC, not variant-specific estimates. | Discuss immune toxicity symptoms and lasting endocrine effects; hold treatment and use corticosteroids/hormone replacement when indicated. |
+
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
+|---|---|---|
+| Alternating IA/EP small-cell regimen | Small-cell phase 2: grade 3 packed-red-cell transfusion 37%, neutropenic fever 23%, and non-neutropenic infection 17%. | Check CBC, renal function, neuropathy/hearing, and doxorubicin-associated cardiac symptoms; fever, infection symptoms, bleeding, dyspnea, or severe vomiting needs urgent assessment. |
+| Adjuvant cisplatin combination, when used | A comparable variant-specific named toxicity rate was not retrieved. | Check CBC, renal function, electrolyte replacement needs, neuropathy/hearing, and nausea/vomiting; fever, reduced urine output, new hearing change, or uncontrolled vomiting needs prompt contact. |
+| Adjuvant nivolumab when platinum is unsuitable | CheckMate 274 all-MIUC: pruritus 23.1%, fatigue 17.4%, diarrhea 16.8%; these are not variant-specific estimates. | Review bowel, lung, liver, skin, and endocrine symptoms before each dose; persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, or marked fatigue needs prompt contact. |
 
 ## Guideline references
 
@@ -62,7 +78,9 @@ No named prospective variant-specific result was identified that is likely to ch
 - [Siefker-Radtke et al. (2009). Small-cell phase 2. *Journal of Clinical Oncology*. PMID: 19414678](https://pmc.ncbi.nlm.nih.gov/articles/PMC4879720/)
 - [Zhu et al. (2022). Variant histology meta-analysis. *Frontiers in Oncology*. PMID: 35912201](https://pmc.ncbi.nlm.nih.gov/articles/PMC9333064/)
 - [Diamantopoulos et al. (2020). Plasmacytoid urothelial carcinoma. *Bladder Cancer*. PMID: 34109262](https://pmc.ncbi.nlm.nih.gov/articles/PMC8186525/)
+- [Bajorin et al. (2021). CheckMate 274. *New England Journal of Medicine*. PMID: 34077643](https://pubmed.ncbi.nlm.nih.gov/34077643/)
 
 ## Changelog
 
+- 2026-09-21: Added variant-aware therapy sequencing and monitoring tables; aligned the all-MIUC adjuvant-ICI safety row with the nivolumab option.
 - 2026-09-21: Created first variant-histology perioperative setting page; retained only subtype-specific, source-qualified evidence.

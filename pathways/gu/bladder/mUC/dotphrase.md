@@ -1,9 +1,11 @@
 #Metastatic urothelial carcinoma
 - Counseling: Reviewed systemic-treatment selection by prior perioperative exposure, platinum eligibility, neuropathy/glycemic status, FGFR/HER2 testing, symptoms, and organ function.
+- Monitoring: EV plus pembrolizumab requires review of new or worsening numbness/weakness, rash, vision changes, and thirst/polyuria before each dose; EV-302 reported peripheral neuropathy in 64.3% and hyperglycemia in 10.9%. EV monotherapy requires the same surveillance, with EV-301 peripheral neuropathy 48.0%, hyperglycemia 6.8%, and skin reactions 47.3%. Erdafitinib requires phosphate and visual-symptom monitoring; sacituzumab requires CBC and diarrhea review.
 - Counseling: Promptly contact oncology for progressive numbness/weakness, rash, visual symptoms, thirst/polyuria, cough/dyspnea, diarrhea, fever/infection, or other concerning treatment effects. *** after-hours/urgent-assessment instructions reviewed.
 - Discussed workup and extent of disease: *** (sites). Histology: ***. Prior therapy: *** (including perioperative EV/IO if any).
 - Biomarkers: PD-L1 ***; FGFR3 ***; HER2 ***; NGS: ***.
 - Discussed prognosis and goals (control, QoL).
+- Discussed treatment order: untreated disease → EV plus pembrolizumab for most patients; if platinum induction is used without progression → avelumab maintenance; after platinum plus PD-(L)1 without EV → EV monotherapy; after EV plus pembrolizumab → reassess FGFR3/HER2 and trial eligibility because a preferred randomized post-EV sequence is not established. ***
 - Discussed options: first-line enfortumab vedotin + pembrolizumab (EV-302) for most untreated la/mUC; nivolumab + gemcitabine-cisplatin if cisplatin-eligible and not using EV+pembro; maintenance avelumab if platinum already given without progression; EV monotherapy after platinum + PD-(L)1; erdafitinib if FGFR3-altered after PD-(L)1 (not instead of first PD-1 if eligible); sacituzumab — TROPiCS-04 did not meet OS; HER2-directed therapy / trial; supportive care.
 - He / she opts to proceed with ***. Discussed key toxicities: *** (EV: neuropathy, rash, hyperglycemia; IO irAEs; platinum; erdafitinib: phosphate, ocular).
 - Labs / staging: ***

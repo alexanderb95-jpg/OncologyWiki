@@ -27,6 +27,17 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - After platinum, pembrolizumab vs chemo (KEYNOTE-045) if no prior PD-1.
 - Supportive care / trial.
 
+## Therapy sequencing
+
+| Starting point or prior exposure | Next treatment order | Branch point / evidence boundary |
+|---|---|---|
+| Untreated la/mUC | EV plus pembrolizumab is the default sequence in this page for many patients. | Record baseline neuropathy, glycemic status, and prior perioperative EV or immune-checkpoint inhibitor before starting. |
+| Untreated cisplatin-eligible disease when EV plus pembrolizumab is not used | Nivolumab plus GC induction → nivolumab maintenance. | CheckMate 901 is a cisplatin-eligible regimen; it is not the platinum-induction → avelumab sequence. |
+| Platinum induction without progression | Start avelumab maintenance rather than observation alone. | Applies after 4–6 cycles of gemcitabine plus cisplatin or carboplatin in JAVELIN Bladder 100. |
+| Progression after platinum plus PD-(L)1 without prior EV | EV monotherapy. | EV-301 directly studied this post-platinum, post-PD-(L)1 setting. |
+| Progression after EV plus pembrolizumab | Reassess FGFR3/HER2 and trial eligibility; use a biomarker-matched or non-cross-resistant option when its own label criteria are met. | A preferred post-EV plus pembrolizumab sequence is not established by a randomized phase 3 trial in this source set; do not assume EV monotherapy is evidence-based after EV-containing first line. |
+| FGFR3/2-altered disease after PD-(L)1 | Erdafitinib. | THOR cohort 1 supports this after prior PD-(L)1; it does not support substituting erdafitinib for an eligible first PD-1 pathway. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -57,9 +68,24 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 | Regimen and comparator | Trial-level safety outcomes | Counseling focus |
 |---|---|---|
 | EV plus pembrolizumab versus platinum chemotherapy, EV-302 | Grade ≥3 treatment-related AEs 55.9% vs 69.5%. | Report progressive neuropathy, rash, visual symptoms, hyperglycemia symptoms, cough/dyspnea, diarrhea, or endocrine symptoms promptly. |
-| Nivolumab plus GC versus GC, CheckMate 901 | Use trial and label-specific safety monitoring. | Review cytopenias, infection, renal function, neuropathy, and immune toxicity. |
-| Erdafitinib versus chemotherapy, THOR cohort 1 | Use label-specific monitoring. | Review hyperphosphatemia, nail/skin, and ocular symptoms; prompt ophthalmology assessment for visual change. |
+| Nivolumab plus GC versus GC, CheckMate 901 | Grade ≥3 treatment-related AEs 61.8% vs 51.7%; discontinuation 21.1% vs 17.4%. | Review cytopenias, infection, renal function, neuropathy, and immune toxicity. |
+| Avelumab maintenance plus BSC, JAVELIN Bladder 100 | Long-term treatment-related-AE discontinuation 10.2%; no new safety signal with ≥2 years of follow-up. | Report new diarrhea, abdominal pain, cough/dyspnea, rash, jaundice, or endocrine symptoms promptly. |
+| EV monotherapy versus chemotherapy, EV-301 | Grade ≥3 treatment-related AEs 52.4% vs 50.5%. | Report progressive neuropathy, rash, visual symptoms, or hyperglycemia symptoms promptly. |
+| Erdafitinib versus chemotherapy, THOR cohort 1 | Grade 3–4 treatment-related AEs 45.9% vs 46.4%. | Review hyperphosphatemia, nail/skin, and ocular symptoms; prompt ophthalmology assessment for visual change. |
 | Sacituzumab govitecan versus chemotherapy, TROPiCS-04 | Grade ≥3 treatment-related AEs 67% vs 35%; primary OS endpoint not met. | Urgent contact for fever/infection, severe diarrhea, dehydration, or marked fatigue. |
+| Pembrolizumab or a tumor-agnostic HER2-directed agent, when an individual indication applies | This page does not contain a comparable urothelial trial safety table for each later-line use. | Follow the selected agent's label and trial protocol; report immune-toxicity symptoms or new cough/dyspnea promptly. |
+
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
+|---|---|---|
+| EV plus pembrolizumab | EV-302 update: peripheral neuropathy 64.3%; grade ≥3 peripheral sensory neuropathy 4.1%. Primary analysis: hyperglycemia 10.9%, grade ≥3 5.0%. | Check sensory and motor symptoms, skin, glucose, and visual symptoms at each treatment review. New or worsening numbness/weakness, thirst/polyuria, rash, or vision change should prompt contact before the next dose. |
+| Nivolumab plus GC | CheckMate 901: grade ≥3 treatment-related AEs 61.8%; the retrieved primary report did not supply a single comparable named monitoring rate in this page. | Check CBC and renal function and review fever, neuropathy, hearing change, and immune-mediated diarrhea, dyspnea, hepatitis, or endocrinopathy; fever, dyspnea, or severe diarrhea needs urgent assessment. |
+| Avelumab maintenance | JAVELIN long-term follow-up: treatment-related-AE discontinuation 10.2%; a comparable named immune-event rate was not reported in the retrieved text. | Review thyroid, hepatic, renal, pulmonary, and bowel symptoms during and after treatment; new cough/dyspnea, persistent diarrhea/abdominal pain, jaundice, or marked fatigue should prompt urgent contact. |
+| EV monotherapy | EV-301: peripheral neuropathy 48.0%, grade ≥3 7.4%; hyperglycemia 6.8%, grade ≥3 4.4%; skin reactions 47.3%, grade ≥3 14.9%. | Monitor sensory symptoms, glucose, and skin from the first cycles; hold and assess for progressive neuropathy, severe rash/blistering, or symptomatic hyperglycemia. |
+| Erdafitinib | Same-disease BLC2001 safety report: hyperphosphatemia 78%, grade 3 2.0%; central serous retinopathy 27%, grade 3 4.0%. These are not THOR cohort 1 rates. | Monitor serum phosphate and nail/skin changes; arrange prompt ophthalmic assessment and hold treatment for visual change. |
+| Sacituzumab govitecan | TROPiCS-04 reported grade ≥3 treatment-related AEs 67%; this page's retrieved primary source did not provide a named rate for neutropenia or diarrhea. | Check CBC and review bowel symptoms; fever, infection symptoms, severe diarrhea, or dehydration needs urgent contact. |
+| Pembrolizumab or an indicated HER2-directed agent | No comparable later-line urothelial rate was retrieved for every tumor-agnostic use listed here. | Use the selected agent's label-specific monitoring; report diarrhea, abdominal pain, cough/dyspnea, jaundice, rash, or endocrine symptoms promptly. |
 
 ## Guideline references
 
@@ -71,10 +97,14 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 
 - [Powles et al. (2024). EV-302. *New England Journal of Medicine*. PMID: 38446675](https://pubmed.ncbi.nlm.nih.gov/38446675/)
 - [van der Heijden et al. (2023). CheckMate 901. *New England Journal of Medicine*. PMID: 37870949](https://pubmed.ncbi.nlm.nih.gov/37870949/)
+- [Powles et al. (2023). JAVELIN Bladder 100 long-term follow-up. *Journal of Clinical Oncology*. PMID: 37071838](https://pubmed.ncbi.nlm.nih.gov/37071838/)
+- [Powles et al. (2023). EV-301 long-term outcomes. *Annals of Oncology*. PMID: 37678672](https://pubmed.ncbi.nlm.nih.gov/37678672/)
 - [Loriot et al. (2023). THOR cohort 1. *New England Journal of Medicine*. PMID: 37870920](https://pubmed.ncbi.nlm.nih.gov/37870920/)
+- [Siefker-Radtke et al. (2023). Erdafitinib adverse-event management. *European Urology Oncology*. PMID: 37101768](https://pubmed.ncbi.nlm.nih.gov/37101768/)
 - [TROPiCS-04 (2025). *Annals of Oncology*. PMID: 39934055](https://pubmed.ncbi.nlm.nih.gov/39934055/)
 
 ## Changelog
+- 2026-09-21: Added therapy sequencing and regimen-level on-treatment monitoring, including trial-specific EV neuropathy, hyperglycemia, skin-reaction, and erdafitinib phosphate/ocular data.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: Weekly skim — no practice-changing updates since last review.

@@ -20,6 +20,14 @@ Status: current — modern trials support surveillance with early salvage radiot
 | Adverse pathology with undetectable PSA | PSA surveillance with early salvage radiotherapy if indicated | Modern ARTISTIC-type population. | Trigger and field individualized to PSA kinetics, pathology, and imaging. |
 | Selected exceptional postoperative risk | Adjuvant radiotherapy after multidisciplinary discussion | Do not treat the randomized evidence as a blanket rule for persistent PSA or pN+ disease. | Individualized. |
 
+## Therapy sequencing
+
+| Postoperative state | Treatment order | Evidence boundary |
+|---|---|---|
+| Adverse pathology with undetectable PSA | PSA surveillance → early salvage radiotherapy if recurrence criteria are met. | This is the modern randomized comparison and does not apply unchanged to persistent PSA or pN+ disease. |
+| Persistent PSA, nodal disease, or imaging-detected recurrence | Enter the early-salvage/intensification pathway rather than routine-adjuvant evidence. | These states were outside the modern ART-versus-early-salvage trial population. |
+| Exceptional postoperative risk after multidisciplinary review | Consider adjuvant radiotherapy. | ART is not a blanket sequence; balance recurrence risk against durable urinary and sexual toxicity. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -51,6 +59,13 @@ Status: current — modern trials support surveillance with early salvage radiot
 | Adjuvant versus early-salvage radiotherapy, [RAVES](https://pubmed.ncbi.nlm.nih.gov/33002437/) | Grade ≥2 GU toxicity: 70% vs 54%. | The retrieved abstract does not provide named-event percentages. | Counsel on urinary and sexual effects and avoid adding unverified event-level rates. |
 | Adjuvant versus early-salvage radiotherapy, [GETUG-AFU 17](https://pubmed.ncbi.nlm.nih.gov/33002438/) | Late grade ≥2 GU toxicity: 59% vs 22%. | Late grade ≥2 erectile dysfunction: 28% vs 8%. | Discuss durable urinary and erectile effects before choosing treatment timing. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
+|---|---|---|
+| Adjuvant or early-salvage prostate-bed radiotherapy | RADICALS-RT: grade 3–4 urethral stricture within two years 6% vs 4%; one-year urinary incontinence 5.3% vs 2.7%. | Monitor urinary leakage, obstruction, retention, hematuria, bowel change, and sexual function; retention or heavy bleeding requires prompt contact. |
+| Radiotherapy plus six months of triptorelin in GETUG-AFU 17 | Late grade ≥2 GU toxicity 59% vs 22%; late grade ≥2 erectile dysfunction 28% vs 8%. | Review urinary, bowel, erectile, hot-flash, fatigue, metabolic, and bone symptoms; retention, heavy bleeding, or severe bowel symptoms needs prompt contact. |
+
 ## Guideline references
 
 - [NCCN Prostate Cancer](https://www.nccn.org/guidelines/guidelines-detail?id=1459)
@@ -67,4 +82,5 @@ Status: current — modern trials support surveillance with early salvage radiot
 
 ## Changelog
 
+- 2026-09-21: Added postoperative therapy sequencing and radiotherapy/ADT on-treatment monitoring.
 - 2026-09-21: Created postoperative adjuvant-radiotherapy setting page with modern adjuvant-versus-early-salvage evidence.

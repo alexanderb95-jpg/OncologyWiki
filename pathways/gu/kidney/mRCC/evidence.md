@@ -23,6 +23,16 @@ Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doubl
 - Later line after VEGFR and ICI: belzutifan vs everolimus (LITESPARK-005) improved PFS/ORR not OS. Nivo vs everolimus (CheckMate 025) is historical post-VEGFR. TiNivo-2: adding nivo to tivozanib after ICI did not improve PFS.
 - Local therapy (CN, MDT) is individualized — not covered by these systemic trials.
 
+## Therapy sequencing
+
+| Starting point or prior exposure | Next treatment order | Branch point / evidence boundary |
+|---|---|---|
+| Untreated IMDC intermediate/poor-risk ccRCC, priority on durable response | Nivolumab plus ipilimumab induction → nivolumab maintenance. | This is an IO/IO pathway; it is not a direct comparison with each PD-1/VEGFR doublet. |
+| Untreated ccRCC, need for response or acceptable VEGFR partner | Start pembrolizumab/axitinib, nivolumab/cabozantinib, or pembrolizumab/lenvatinib. | Select for disease burden, hypertension/proteinuria, liver function, and immune risk; no head-to-head doublet trial in this page identifies a universal preferred regimen. |
+| Progression after both PD-1/PD-L1 and antiangiogenic therapy | Belzutifan. | LITESPARK-005 directly studied this exposure sequence; its OS endpoint was not statistically significant at the reported analysis. |
+| Progression after IO/IO without prior VEGFR therapy | Choose a VEGFR-containing option before positioning belzutifan. | Belzutifan's direct pivotal population had prior ICI and antiangiogenic treatment; this page does not establish a single preferred post-IO/IO sequence. |
+| Considering nivolumab/ipilimumab/cabozantinib | Do not add cabozantinib to IO/IO as default. | COSMIC-313 improved PFS but not OS and increased grade 3/4 treatment-related AEs. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -59,6 +69,16 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 | Lenvatinib plus pembrolizumab versus sunitinib, CLEAR | Grade ≥3 AEs 82.4% vs 71.8%. | Review hypertension, diarrhea, fatigue, hepatic symptoms, and immune toxicity; dose holds are common management tools. |
 | Belzutifan versus everolimus, LITESPARK-005 | Grade ≥3 any-cause AEs 61.8% vs 62.5%. | Review anemia/hypoxia symptoms and urgent dyspnea; use regimen-specific monitoring. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
+|---|---|---|
+| Nivolumab plus ipilimumab | CheckMate 214: grade 3–4 treatment-related AEs 46% vs 63%; discontinuation due to treatment-related AEs 22% vs 12%. | Review bowel, lung, liver, skin, and endocrine symptoms before each infusion. Persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, severe rash, or marked fatigue needs prompt contact; immune effects can persist and may require corticosteroids or hormone replacement. |
+| Pembrolizumab plus axitinib | KEYNOTE-426: grade ≥3 treatment-related AEs 62.9% vs 58.1%; discontinuation of either study drug for any AE 30.5%. Grade ≥3 hypertension and increased ALT each occurred in ≥10% of the combination arm. | Check blood pressure and liver tests and review diarrhea, hand-foot/skin effects, proteinuria, and immune symptoms; severe headache/chest symptoms, jaundice, persistent diarrhea, or dyspnea needs prompt contact. |
+| Nivolumab plus cabozantinib | CheckMate 9ER: grade ≥3 AEs 75.3% vs 70.6%. | Monitor blood pressure, renal protein loss, diarrhea, hand-foot/skin changes, liver tests, and immune symptoms; severe diarrhea, bleeding, chest symptoms, jaundice, or dyspnea needs prompt contact. |
+| Pembrolizumab plus lenvatinib | CLEAR: grade ≥3 AEs 82.4% vs 71.8%. | Monitor blood pressure, renal protein loss, diarrhea, hand-foot/skin changes, liver tests, and immune symptoms; severe diarrhea, bleeding, chest symptoms, jaundice, or dyspnea needs prompt contact. |
+| Belzutifan | LITESPARK-005: grade ≥3 any-cause AEs 61.8% vs 62.5%; discontinuation 5.9% vs 14.7%. The retrieved trial text did not provide specific anemia or hypoxia frequencies. | Check CBC and oxygen saturation; new fatigue, lightheadedness, or shortness of breath should prompt contact and marked breathing difficulty needs urgent assessment. |
+
 ## Guideline references
 
 - [NCCN Kidney Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1440)
@@ -74,6 +94,7 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 - [Motzer et al. (2021). CLEAR. *New England Journal of Medicine*. PMID: 33616314](https://pubmed.ncbi.nlm.nih.gov/33616314/)
 
 ## Changelog
+- 2026-09-21: Added therapy sequencing and regimen-level on-treatment monitoring for IO/IO, each listed IO/VEGFR doublet, and belzutifan.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: Weekly skim — no practice-changing updates since last review.

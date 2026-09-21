@@ -24,6 +24,16 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 | Bleomycin contraindication in intermediate-/poor-risk disease | VIP ×4 with primary G-CSF | Expert-center management. | Four cycles. |
 | Poor-risk NSGCT with unfavorable marker decline after cycle 1 | Germ-cell center referral and consideration of marker-directed intensification | GETUG-13 selected population. | Protocol-driven. |
 
+## Therapy sequencing
+
+| IGCCCG setting or response branch | Treatment order | Evidence boundary |
+|---|---|---|
+| Good-risk seminoma or NSGCT | BEP ×3 → response assessment and residual-mass management. | The cited randomized BEP cycle trial is a good-prognosis population. |
+| Good-risk disease with bleomycin contraindication | EP ×4 → response assessment and residual-mass management. | Do not substitute EP without explicitly documenting the bleomycin contraindication. |
+| Intermediate-risk seminoma or intermediate-/poor-risk NSGCT | BEP ×4 → response assessment and residual-mass management. | No poor-prognosis seminoma group exists. |
+| Bleomycin contraindication in intermediate-/poor-risk disease | VIP ×4 with primary G-CSF → response assessment. | Use an expert germ-cell center; this is not simply an extra drug added to BEP. |
+| Poor-risk NSGCT with unfavorable marker decline after cycle 1 | Refer to a germ-cell center for the GETUG-13-style marker-directed intensification discussion. | The randomized signal applies only to the selected unfavorable-decline population; it does not establish universal first-line intensification. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -55,6 +65,15 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 | Dose-dense intensification versus continued BEP, [GETUG-13](https://pubmed.ncbi.nlm.nih.gov/39167741/) | Toxic death 1% in each arm. | Grade 3–4 neurotoxicity 7% vs 1%; grade 1–2 febrile neutropenia 17% vs 18%. | Urgent contact for fever, infection, new/worsening neuropathy, dyspnea, dehydration, or severe vomiting. |
 | Standard BEP or VIP | No population-matched primary source with a complete named-event table was retrieved. | Do not assign unverified rates. | Counsel on cisplatin renal/hearing/neurologic effects, bleomycin pulmonary risk, myelosuppression, infertility, and survivorship risks. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
+|---|---|---|
+| BEP | A population-matched primary named-event table was not retrieved. | Check CBC, renal function, hearing, neuropathy, pulmonary symptoms, nausea/vomiting, and fertility plan; fever, dyspnea, new/worsening numbness, reduced urine output, or uncontrolled vomiting needs urgent contact. |
+| EP | A population-matched primary named-event table was not retrieved. | Check CBC, renal function, hearing, neuropathy, nausea/vomiting, and fertility plan; fever, bleeding, new/worsening numbness, reduced urine output, or uncontrolled vomiting needs urgent contact. |
+| VIP with primary G-CSF | A population-matched primary named-event table was not retrieved. | Check CBC, renal function, neurologic symptoms, hemorrhagic-cystitis symptoms, nausea/vomiting, and infection risk; fever, hematuria, confusion, reduced urine output, or uncontrolled vomiting needs urgent contact. |
+| GETUG-13 dose-dense intensification | Grade 3–4 neurotoxicity 7% vs 1%; grade 1–2 febrile neutropenia 17% vs 18%; toxic death 1% in each arm. | Intensify CBC, neurologic, renal, hearing, pulmonary, and infection monitoring; fever, dyspnea, new/worsening neuropathy, bleeding, or severe vomiting needs urgent assessment. |
+
 ## Guideline references
 
 - [EAU Testicular Cancer guideline](https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management)
@@ -70,4 +89,5 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 
 ## Changelog
 
+- 2026-09-21: Added IGCCCG-directed treatment sequencing and all-regimen on-treatment monitoring for BEP, EP, VIP, and marker-directed intensification.
 - 2026-09-21: Created metastatic GCT page with IGCCCG boundaries, first-line regimens, and source-qualified toxicity counseling.

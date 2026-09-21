@@ -38,6 +38,7 @@ class BuildWikiTest(unittest.TestCase):
             content = page.read_text(encoding="utf-8")
             self.assertNotIn("## Watch" + " list", content, page)
             self.assertIn("\n## Upcoming trial results\n", content, page)
+            self.assertIn("\n### On-treatment monitoring\n", content, page)
 
         expected_sections = (
             "## Who this applies to",
@@ -63,6 +64,20 @@ class BuildWikiTest(unittest.TestCase):
             offsets = [content.index(f"\n{section}\n") for section in expected_sections]
             self.assertEqual(offsets, sorted(offsets), setting)
             self.assertIn("<!-- .cross_trial -->", content, setting)
+
+        sequencing_required = (
+            "bladder/mUC",
+            "bladder/neoadjuvant-mibc",
+            "bladder/adjuvant-urothelial",
+            "prostate/mHSPC",
+            "prostate/mCRPC",
+            "kidney/mRCC",
+        )
+        for setting in sequencing_required:
+            content = (
+                ROOT / "pathways" / "gu" / setting / "evidence.md"
+            ).read_text(encoding="utf-8")
+            self.assertIn("\n## Therapy sequencing\n", content, setting)
 
     def test_build_renders_tables_and_canonical_figure_assets_without_bottom_line(
         self,

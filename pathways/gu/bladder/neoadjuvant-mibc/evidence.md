@@ -23,6 +23,15 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 | Cisplatin-ineligible or declining, resectable MIBC | Perioperative EV plus pembrolizumab | EV-303-type eligibility. | Neoadjuvant EV plus pembrolizumab ×3 → cystectomy → adjuvant EV plus pembrolizumab. |
 | Not eligible for the above | Multidisciplinary cystectomy or bladder-preservation pathway | Need a separate evidence-based pathway. | Individualized. |
 
+## Therapy sequencing
+
+| Starting point | Preferred order | Branch point / evidence boundary |
+|---|---|---|
+| Cisplatin-eligible, resectable MIBC | Neoadjuvant durvalumab plus GC ×4 → cystectomy → adjuvant durvalumab ×8, or perioperative EV plus pembrolizumab → cystectomy → postoperative EV plus pembrolizumab. | NIAGARA and EV-304 are distinct perioperative strategies; their results do not establish a sequence of one regimen after the other. |
+| Cisplatin-ineligible or declining cisplatin | EV plus pembrolizumab ×3 → cystectomy → postoperative EV plus pembrolizumab. | EV-303 directly studied this population and this full perioperative sequence. |
+| New obstruction or borderline renal function | Relieve obstruction when feasible → restage renal function and cisplatin eligibility → choose the perioperative pathway. | This is a pretreatment decision step, not evidence that a pre-drainage creatinine permanently determines eligibility. |
+| Not a cystectomy candidate or declining cystectomy | Refer to a bladder-preservation pathway rather than applying perioperative-trial efficacy estimates. | The listed phase 3 regimens are cystectomy-anchored and do not establish a bladder-preservation sequence. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -55,6 +64,13 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 | Perioperative EV plus pembrolizumab, EV-304 | Grade ≥3 AEs 75.7% vs 67.2%. | Named-event percentages were not extracted from the retrieved primary source set. | Use the same EV and immune-toxicity counseling; monitor cumulative neuropathy and glycemic symptoms. |
 | Perioperative durvalumab plus GC, NIAGARA | Grade 3–4 treatment-related AEs 40.6% vs 40.9%. | Named-event percentages were not extracted from the retrieved primary source set. | Review cytopenic infection, renal function, neuropathy, and immune toxicity; severe symptoms require urgent assessment. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
+|---|---|---|
+| Perioperative EV plus pembrolizumab, EV-303 or EV-304 | Grade ≥3 AEs 71.3% vs 45.9% in EV-303 and 75.7% vs 67.2% in EV-304. The retrieved primary reports did not provide comparable perioperative rates for EV neuropathy or hyperglycemia. | Check neuropathy, skin, glucose, visual symptoms, and immune-mediated bowel, lung, liver, and endocrine symptoms before each treatment; new numbness/weakness, thirst/polyuria, rash, vision change, dyspnea, or persistent diarrhea requires prompt contact and a pre-dose assessment. |
+| Perioperative durvalumab plus GC, NIAGARA | Grade 3–4 treatment-related AEs 40.6% vs 40.9%; a comparable named monitoring rate was not extracted from the retrieved primary source set. | Check CBC, renal function, electrolyte replacement needs, neuropathy/hearing symptoms, and immune-mediated bowel, lung, liver, and endocrine symptoms. Fever, infection symptoms, dyspnea, severe diarrhea, or reduced urine output needs urgent assessment. |
+
 ## Guideline references
 
 - [NCCN Bladder Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1417)
@@ -70,4 +86,5 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 
 ## Changelog
 
+- 2026-09-21: Added cystectomy-anchored therapy sequencing and all-regimen on-treatment monitoring; retained the absence of comparable perioperative EV named-event rates rather than importing metastatic rates.
 - 2026-09-21: Created resectable MIBC neoadjuvant/perioperative setting page with source-linked phase 3 evidence.

@@ -28,6 +28,18 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - CONTACT-02 (cabozantinib + atezolizumab vs ARPI switch) improved PFS not OS — not a default OS-proven SOC.
 - Clinical trial and best supportive care at every decision point.
 
+## Therapy sequencing
+
+| Prior therapy / disease branch | Next treatment order | Evidence boundary |
+|---|---|---|
+| All mCRPC | Continue ADT while selecting the next systemic treatment. | Confirm castrate testosterone and document every prior ARPI, taxane, PARP, and radioligand exposure. |
+| ARPI-naive mCRPC | ARPI, or biomarker-restricted PARP plus ARPI when its FDA criteria are met. | Do not use all-comer PARP-combination analyses as an indication. |
+| After one ARPI, PSMA-positive and taxane-naive | Discuss 177Lu-PSMA-617 or docetaxel according to disease burden, marrow reserve, and fitness. | PSMAfore compares radioligand therapy with an ARPI switch; it does not establish a sequence against docetaxel. |
+| After ARPI plus docetaxel | 177Lu-PSMA-617 if PSMA-positive, or cabazitaxel rather than another ARPI switch when CARD criteria resemble the patient. | CARD does not select cabazitaxel for every taxane-exposed patient; VISION required prior ARPI and taxane. |
+| BRCA or label-eligible HRR alteration after ARPI | PARP monotherapy. | Benefit was concentrated in BRCA in TRITON3; ATM is not interchangeable with BRCA. |
+| Symptomatic bone-predominant disease without visceral metastases | Radium-223; consider enzalutamide plus radium-223 only with the PEACE-3 bone-protecting strategy. | Do not combine radium-223 with abiraterone on the basis of this page's source set. |
+| MSI-H/dMMR disease or later progression after standard options | Pembrolizumab when tumor-agnostic criteria are met, clinical trial, or supportive care. | Prostate-specific randomized efficacy data for pembrolizumab are not in this source pack. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -71,6 +83,17 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 | PARP-based therapy | TALAPRO-2 final analysis grade ≥3 anemia 49% vs 4%. | Monitor blood counts; promptly report dyspnea, chest symptoms, bleeding, or marked fatigue. |
 | Radium-223 | PEACE-3 fractures 24.3% vs 13.4%. | Use bone-protecting treatment when indicated; review marrow, gastrointestinal, and fracture symptoms. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
+|---|---|---|
+| Continued ADT with abiraterone/prednisone or enzalutamide | A directly comparable named-event rate for every ARPI was not extracted in this page. | Monitor blood pressure, potassium and liver tests for abiraterone; assess fatigue, falls, cognition, cardiovascular symptoms, metabolic effects, and bone health for all ADT/ARPI pathways. |
+| Docetaxel or cabazitaxel | TROPIC febrile neutropenia 8% vs 1%; CARD used routine G-CSF. | Check CBC and sensory symptoms; fever/infection, severe diarrhea, dehydration, or progressive numbness/weakness needs urgent assessment. |
+| 177Lu-PSMA-617 | This page's retrieved pivotal reports did not provide a single named rate for marrow or renal monitoring. | Check CBC and renal function and review xerostomia, nausea, fatigue, and radiation precautions; bleeding, fever, reduced urine output, or marked fatigue should prompt contact. |
+| PARP monotherapy or PARP plus ARPI | TALAPRO-2 final analysis: grade ≥3 anemia 49% vs 4%. | Monitor CBC; dyspnea, chest symptoms, bleeding, or marked fatigue needs urgent assessment. |
+| Radium-223 with or without enzalutamide | PEACE-3 fractures 24.3% vs 13.4%. | Check CBC and bone protection; new focal bone pain, a fall, fracture symptoms, bleeding, or persistent gastrointestinal symptoms should prompt contact. |
+| Pembrolizumab for MSI-H/dMMR disease | Prostate-specific randomized safety rates were not retrieved in this page. | Review bowel, lung, liver, skin, and endocrine symptoms before each dose; persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, or marked fatigue needs prompt contact. |
+
 ## Guideline references
 
 - [NCCN Prostate Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459)
@@ -85,6 +108,7 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - [Gillessen et al. (2025). PEACE-3. *Annals of Oncology*. PMID: 40450503](https://pubmed.ncbi.nlm.nih.gov/40450503/)
 
 ## Changelog
+- 2026-09-21: Added a prior-exposure sequencing table and regimen-level on-treatment monitoring for ADT/ARPI, taxane, radioligand, PARP, radium-223, and pembrolizumab pathways.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: Weekly skim — no practice-changing updates since last review.

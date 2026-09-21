@@ -24,6 +24,16 @@ Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets
 - PTEN-deficient by FDA-authorized IHC (VENTANA PTEN SP218): ADT + capivasertib 400 mg BID 4 days on / 3 off + abiraterone 1000 mg + prednisone 5 mg daily (CAPItello-281 / FDA 12 Jun 2026). OS immature — shared decision.
 - Local therapy: prostate RT / metastasis-directed therapy in selected low-volume / oligometastatic cases — coordinate with rad onc / urology. PEACE-1 RT interaction was not significant in the abi analysis; RT-specific coprimary details are not in this brief’s sources.
 
+## Therapy sequencing
+
+| Starting point or branch | Preferred order | Evidence boundary |
+|---|---|---|
+| Newly diagnosed or recurrent mHSPC | Start ADT plus an ARPI doublet for most fit patients. | The pivotal doublet trials are not head-to-head comparisons that select one ARPI for every patient. |
+| De novo high-volume/high-risk and chemotherapy fit | Discuss ADT plus ARPI plus docetaxel rather than adding docetaxel after a doublet has failed. | ARASENS and PEACE-1 tested treatment intensification at mHSPC presentation, not delayed triplet escalation. |
+| PSMA-positive disease eligible for radioligand | ADT plus ARPI → add 177Lu-PSMA-617 as the PSMAddition regimen. | This is an mHSPC intensification pathway; prior radioligand exposure changes future marrow and sequencing assessment. |
+| BRCA2-mutated or PTEN-deficient disease | Use the specifically labeled biomarker-directed ADT combination at mHSPC presentation when appropriate. | Do not generalize Akeega to non-BRCA2 HRR alterations or capivasertib to PTEN-unselected disease. |
+| Progression with castrate testosterone | Continue ADT and enter the mCRPC pathway with a full record of ARPI, docetaxel, radioligand, and biomarker-directed exposure. | This page does not establish a preferred sequence after mHSPC intensification. |
+
 ## Landmark evidence
 
 Cross-trial comparisons are indirect. Abstract-level unless noted. HR with 95% CI only if published in the retrieved source.
@@ -65,6 +75,17 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 | 177Lu-PSMA-617 plus ADT/ARPI | PSMAddition grade ≥3 AEs 51% vs 43%; dry mouth 46% vs 4%. | Review xerostomia, cytopenic symptoms, nausea, and marrow/renal monitoring. |
 | Niraparib plus abiraterone/prednisone plus ADT | AMPLITUDE grade 3–4 AEs 75% vs 59%; grade 3–4 anemia 29%. | Monitor counts and blood pressure; urgently assess dyspnea, chest symptoms, bleeding, or marked fatigue. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
+|---|---|---|
+| ADT with darolutamide, enzalutamide, or apalutamide | A directly comparable named-event rate for every ARPI was not extracted in this page. | Monitor blood pressure, falls/cognition, cardiovascular symptoms, and ADT-associated metabolic and bone effects; report syncope, a fall, chest symptoms, or troublesome fatigue promptly. |
+| ADT plus abiraterone/prednisone | PEACE-1 docetaxel population grade ≥3 AEs 63% vs 52%; this retrieved source did not provide a single abiraterone-specific monitoring rate here. | Monitor blood pressure, potassium, liver tests, fluid retention, and corticosteroid effects; severe headache, chest symptoms, weakness, jaundice, or edema needs prompt contact. |
+| ADT plus ARPI plus docetaxel | ARASENS grade 3–4 AEs 66.1% vs 63.5%; PEACE-1 docetaxel population grade ≥3 AEs 63% vs 52%. | Check CBC and assess infection, sensory symptoms, diarrhea/dehydration, and fatigue; fever or infection symptoms needs urgent assessment. |
+| ADT plus 177Lu-PSMA-617 plus ARPI | PSMAddition grade ≥3 AEs 51% vs 43%; dry mouth 46% vs 4%. | Monitor CBC, renal function, xerostomia, nausea, and marrow reserve; bleeding, fever, reduced urine output, or worsening fatigue needs prompt assessment. |
+| ADT plus niraparib/abiraterone/prednisone | AMPLITUDE grade 3–4 AEs 75% vs 59%; grade 3–4 anemia 29%. | Monitor CBC, blood pressure, potassium, and liver tests; dyspnea, chest symptoms, bleeding, or marked fatigue should prompt urgent contact. |
+| ADT plus capivasertib/abiraterone/prednisone | CAPItello-281 grade-specific monitoring rates were not extracted in this source pack. | Monitor glucose, diarrhea, rash, blood pressure, potassium, and liver tests; persistent diarrhea, symptomatic hyperglycemia, extensive rash, or dehydration needs prompt contact. |
+
 ## Guideline references
 
 - [NCCN Prostate Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459)
@@ -79,6 +100,7 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 - [Attard et al. (2025). AMPLITUDE. *Nature Medicine*. PMID: 41057655](https://pubmed.ncbi.nlm.nih.gov/41057655/)
 
 ## Changelog
+- 2026-09-21: Added mHSPC sequencing and regimen-level on-treatment monitoring, including ADT/ARPI, taxane, radioligand, PARP, and AKT-pathway monitoring.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: added FDA-approved capivasertib + abi for PTEN-deficient mAPMN/S (CAPItello-281; FDA 12 Jun 2026) — was listed under upcoming trial results / “FDA not retrieved” on prior pass; PTEN companion diagnostic and toxicity content updated.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.

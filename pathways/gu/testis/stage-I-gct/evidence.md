@@ -23,6 +23,15 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 | Stage I NSGCT, especially LVI-positive or surveillance unsuitable | One BEP cycle | LVI is the best-validated relapse risk factor. | One cycle. |
 | Highly selected stage I NSGCT | Primary nerve-sparing RPLND | Specialist-center surgery; consider contraindication to chemotherapy or teratoma with somatic-type malignancy. | Procedure plus structured surveillance. |
 
+## Therapy sequencing
+
+| Post-orchiectomy setting | Treatment order | Evidence boundary |
+|---|---|---|
+| Stage I seminoma with reliable follow-up | Surveillance. | Adjuvant carboplatin reduces relapse but does not establish a survival advantage over surveillance. |
+| Stage I seminoma selecting relapse reduction | One carboplatin AUC 7 cycle → structured surveillance. | TE19 compares carboplatin with radiotherapy, not surveillance. |
+| Stage I NSGCT, especially LVI-positive or surveillance unsuitable | One BEP cycle → structured surveillance. | The cited randomized trial compares one BEP cycle with RPLND, not either approach with surveillance. |
+| Highly selected NSGCT | Primary nerve-sparing RPLND → structured surveillance or pathology-directed management. | Center expertise and pathology matter; do not apply an RPLND strategy to seminoma. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -54,6 +63,15 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 | One BEP versus RPLND, long-term AH 01/94 questionnaire | Selected follow-up questionnaire data, not a contemporary regimen-wide estimate. | Peripheral neuropathy 16% vs 12%; retrograde ejaculation 9% vs 24%. | Discuss neuropathy, hearing/renal and pulmonary risks from chemotherapy, and ejaculation/fertility effects from surgery; preserve fertility before treatment. |
 | Carboplatin or modern adjuvant radiotherapy for stage I seminoma | No eligible primary-paper named-event table >5% was retrieved. | Do not add unverified rates. | Counsel qualitatively on acute treatment effects; radiotherapy has later second-malignancy concern and long-term single-carboplatin safety data remain less mature. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
+|---|---|---|
+| One carboplatin AUC 7 cycle | A comparable named-event rate was not retrieved from the eligible primary paper. | Check CBC and renal function and review fever/infection symptoms, bruising/bleeding, nausea/vomiting, and new hearing/neuropathy symptoms; fever, bleeding, or uncontrolled vomiting needs prompt contact. |
+| One BEP cycle | AH 01/94 follow-up questionnaire: peripheral neuropathy 16% vs 12% after RPLND; this is long-term selected follow-up, not a contemporary regimen-wide rate. | Check CBC, renal function, hearing, neuropathy, pulmonary symptoms, and fertility plan; fever, dyspnea, new/worsening numbness, reduced urine output, or severe vomiting needs prompt contact. |
+| Primary nerve-sparing RPLND | AH 01/94: retrograde ejaculation 24% vs 9% after one BEP cycle. | Review urinary, sexual/ejaculatory, fertility, wound, and thrombotic symptoms; fever, wound concerns, urinary retention, or severe pain needs prompt contact. |
+| Adjuvant radiotherapy, when selected | A comparable named-event rate was not retrieved from the eligible primary paper. | Review acute bowel, fatigue, and skin symptoms and late survivorship concerns; persistent vomiting, dehydration, severe bowel symptoms, or bleeding needs prompt contact. |
+
 ## Guideline references
 
 - [EAU Testicular Cancer guideline](https://uroweb.org/guidelines/testicular-cancer/chapter/disease-management)
@@ -69,4 +87,5 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 
 ## Changelog
 
+- 2026-09-21: Added stage-I treatment sequencing and monitoring tables for surveillance alternatives, chemotherapy, radiotherapy, and RPLND.
 - 2026-09-21: Created stage I seminoma and NSGCT reference with explicit surveillance, adjuvant, and fertility boundaries.
