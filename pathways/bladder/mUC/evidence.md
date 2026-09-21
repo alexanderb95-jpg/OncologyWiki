@@ -1,6 +1,6 @@
 # Metastatic urothelial carcinoma — clinic evidence brief
 
-Last reviewed: 2026-09-14
+Last reviewed: 2026-09-21
 Owner: GU clinic
 Purpose: 60-second pre-visit skim (not a full guideline)
 Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HER2 as labeled
@@ -64,5 +64,6 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - EV-302 updates, CheckMate 901, THOR, TROPiCS-04, RC48-C016
 
 ## Changelog
+- 2026-09-21: Weekly skim — no practice-changing updates since last review.
 - 2026-09-14: expanded from stub; EV-302 both-arm OS/PFS, CheckMate 901, JAVELIN, THOR/FDA limitation, TROPiCS-04 negative OS, RC48-C016 labeled non-US pending
 - 2026-09-14: initial stub
