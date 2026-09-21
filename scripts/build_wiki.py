@@ -971,6 +971,8 @@ def main() -> int:
             }:
                 p.unlink()
 
+    SITE.mkdir(parents=True, exist_ok=True)
+    (SITE / ".nojekyll").write_text("", encoding="utf-8")
     ASSETS.mkdir(parents=True, exist_ok=True)
     (ASSETS / "wiki.css").write_text(CSS, encoding="utf-8")
     (ASSETS / "wiki.js").write_text(JS, encoding="utf-8")
