@@ -6,20 +6,19 @@ Owner: GU clinic
 Purpose: Disease → setting page for metastatic castration-resistant prostate cancer
 Status: clinic-ready — numbers from retrieved primary abstracts; re-check current FDA PARP labels and NCCN (NCCN not retrieved)
 
-## Guidelines
-
-| Society | Setting-level direction | Published strength/category |
-|---|---|---|
-| NCCN Prostate Cancer | Continue ADT and sequence therapy by prior ARPI/taxane exposure, PSMA imaging, molecular testing, symptoms, sites, and fitness. | Current categories not independently rechecked in this page; verify before use. |
-| EAU Prostate Cancer | Use life-prolonging agents with a treatment sequence informed by prior therapy and molecular alterations. | Recheck the current guideline chapter. |
-| ASCO | Addresses systemic therapy, genomic testing, and radioligand/radiopharmaceutical options in mCRPC. | Exact current strength/category not verified in this page. |
-
 ## Who this applies to
 - mCRPC: radiographic and/or biochemical progression on ADT with castrate testosterone.
 - Document de novo vs recurrent HSPC, volume, visceral disease, and the full prior-therapy list (ARPI, docetaxel in HSPC vs CRPC, RLT, PARP). Prior HSPC Pluvicto (PSMAddition) changes marrow/eligibility counseling.
 - Fitness for taxane, marrow reserve (for RLT or chemo), renal function, dental status, and whether visceral or bulky nodal disease excludes Ra-223.
 
-## Standard options (decision tree sketch)
+## Standard options
+
+| Clinical context | Option | Key inclusion | Typical course |
+|---|---|---|---|
+| All mCRPC | Continue ADT and sequence by prior therapy, disease burden, fitness, and biomarkers. | Castrate testosterone with progression. | Ongoing. |
+| ARPI-naive or biomarker-defined disease | ARPI or label-restricted PARP plus ARPI combination | Match prior exposure and exact companion-diagnostic label. | Regimen-specific. |
+| Prior ARPI with PSMA-positive disease or taxane eligibility | Radioligand or taxane-based pathway | Assess PSMA imaging, marrow reserve, prior taxane, and organ function. | Regimen-specific. |
+| Symptomatic bone-predominant disease without visceral metastases | Radium-223 pathway | Match disease distribution and bone-protecting strategy. | Six cycles in ALSYMPCA/PEACE-3 contexts. |
 - Continue ADT in all patients.
 - ARPI-naive: abiraterone/prednisone or enzalutamide. If BRCA (and selected HRR per current FDA label) and ARPI-naive: PARP + ARPI combination — US labels are biomarker-restricted; do not use all-comer PROpel/TALAPRO-2 analyses as the indication.
 - After prior ARPI: if PSMA+, Pluvicto (VISION post-taxane; PSMAfore taxane-naive vs ARPI switch). Fit chemo-naive: docetaxel (TAX327). After ARPI + docetaxel: Pluvicto (PSMA+) or cabazitaxel (CARD preferred over ARPI switch).
@@ -29,8 +28,9 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - CONTACT-02 (cabozantinib + atezolizumab vs ARPI switch) improved PFS not OS — not a default OS-proven SOC.
 - Clinical trial and best supportive care at every decision point.
 
-## Key trials / landmark evidence
+## Landmark evidence
 
+<!-- .cross_trial -->
 | Trial | Population | Intervention arm | Control arm | Key outcomes (both arms) | Key HR | Evidence status |
 |-------|------------|------------------|-------------|--------------------------|--------|-----------------|
 | TAX327 | mHRPC; N=1006 | Docetaxel 75 mg/m² q3wk + pred 5 mg BID | Mitoxantrone 12 mg/m² q3wk + pred | Median OS 18.9 vs 16.5 mo; PSA50 45% vs 32% | OS HR 0.76 (95% CI 0.62–0.94) | Tannock 2004 NEJM PMID 15470213 |
@@ -56,26 +56,36 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - MSI / dMMR / TMB for pembrolizumab.
 - Testosterone to confirm castration.
 
-## Toxicity anchors
-- Taxanes: neuropathy, cytopenias, infection, alopecia, fatigue; cabazitaxel — diarrhea, neutropenia; premeds / G-CSF per CARD.
-- Pluvicto: xerostomia, myelosuppression, fatigue, nausea, renal; radiation precautions; marrow reserve and prior RLT/Ra-223 matter.
-- PARP: cytopenias, nausea, fatigue, rare MDS/AML; talazoparib combination anemia is common.
-- ARPI: fatigue; abi — mineralocorticoid / hepatic / cardiac; enza — falls, CNS, seizure risk.
-- Ra-223: myelosuppression, GI; fractures without BPA (PEACE-3); do not combine with abi.
-- Bone agents: hypocalcemia, ONJ, atypical fracture — dental eval, Ca/Vit D.
-
-## Watch list
+## Upcoming trial results
 - Earlier Pluvicto (PSMAddition already moved RLT into PSMA+ HSPC).
 - CONTACT-02: PFS without OS — not a new default.
 - AR degraders / novel AR ligands; lineage plasticity / NEPC.
 - Optimal sequence among Pluvicto, taxane, and PARP after ARPI remains unsettled (no head-to-head in this pack).
 
-## Sources to re-check
-- NCCN Prostate Cancer (not retrieved this pass)
-- FDA labels: ARPIs, taxanes, Pluvicto, PARP inhibitors (olaparib, rucaparib, talazoparib, niraparib/Akeega), radium-223
-- VISION, PSMAfore OS if published beyond this abstract, PROfound, CARD, PEACE-3
+## Toxicity
+
+| Regimen group | Trial-first safety signal | Counseling focus |
+|---|---|---|
+| Taxanes | TROPIC febrile neutropenia 8% vs 1%; CARD used routine G-CSF. | Urgent contact for fever/infection, diarrhea, neuropathy, or dehydration. |
+| 177Lu-PSMA-617 | Use the labeled product and pivotal source; prior marrow-directed treatment matters. | Review xerostomia, cytopenias, fatigue, nausea, renal effects, and radiation precautions. |
+| PARP-based therapy | TALAPRO-2 final analysis grade ≥3 anemia 49% vs 4%. | Monitor blood counts; promptly report dyspnea, chest symptoms, bleeding, or marked fatigue. |
+| Radium-223 | PEACE-3 fractures 24.3% vs 13.4%. | Use bone-protecting treatment when indicated; review marrow, gastrointestinal, and fracture symptoms. |
+
+## Guideline references
+
+- [NCCN Prostate Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459)
+- [EAU Prostate Cancer guideline](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment)
+- [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
+
+## Sources
+
+- [Sartor et al. (2021). VISION. *New England Journal of Medicine*. PMID: 34161051](https://pubmed.ncbi.nlm.nih.gov/34161051/)
+- [de Wit et al. (2019). CARD. *New England Journal of Medicine*. PMID: 31566937](https://pubmed.ncbi.nlm.nih.gov/31566937/)
+- [de Bono et al. (2020). PROfound. *New England Journal of Medicine*. PMID: 32343890](https://pubmed.ncbi.nlm.nih.gov/32343890/)
+- [Gillessen et al. (2025). PEACE-3. *Annals of Oncology*. PMID: 40450503](https://pubmed.ncbi.nlm.nih.gov/40450503/)
 
 ## Changelog
+- 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: Weekly skim — no practice-changing updates since last review.
 - 2026-09-14: added landscape table with both-arm outcomes and HRs from named-trial PubMed abstracts; PEACE-3 OS and PSMAfore rPFS included; PARP labels flagged as biomarker-restricted

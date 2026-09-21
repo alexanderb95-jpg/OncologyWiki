@@ -6,26 +6,26 @@ Owner: GU clinic
 Purpose: Disease → setting page for metastatic RCC systemic-therapy decisions
 Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doublets in this pack
 
-## Guidelines
-
-| Society | Setting-level direction | Published strength/category |
-|---|---|---|
-| NCCN Kidney Cancer | Choose systemic therapy by histology, IMDC risk, prior exposure, and label eligibility. | Current categories not independently rechecked in this page; verify before use. |
-| EAU RCC | ICI-based combinations are standard first-line therapy for eligible clear-cell mRCC; sequencing follows prior therapy and toxicity. | Recheck the current guideline chapter. |
-| ESMO RCC 2024 | PD-1/VEGFR combinations are recommended across IMDC risk; nivolumab/ipilimumab is a key option for intermediate/poor-risk disease. | Published as I, A for named PD-1/VEGFR combinations; see source review. |
-
 ## Who this applies to
 - Metastatic RCC; record histology (clear vs non-clear), sarcomatoid, IMDC risk (KPS, time from diagnosis to systemic therapy, hemoglobin, calcium, neutrophils, platelets), prior nephrectomy, prior adjuvant PD-1.
 
-## Standard options (decision tree sketch)
+## Standard options
+
+| Clinical context | Option | Key inclusion | Typical course |
+|---|---|---|---|
+| IMDC intermediate/poor risk, durability/complete-response priority | Nivolumab plus ipilimumab | Clear-cell advanced RCC and immune-therapy candidacy. | Induction followed by nivolumab maintenance in CheckMate 214. |
+| Any IMDC risk with need for response and an acceptable TKI partner | PD-1/VEGFR combination | Balance disease burden, organ function, hypertension, and toxicity profile. | Regimen-specific continuous TKI plus PD-1 schedule. |
+| After ICI and antiangiogenic therapy | Belzutifan or other sequence matched to prior exposure | LITESPARK-005 population and local label. | Regimen-specific. |
+| Non-clear-cell or atypical clinical context | Trial or individualized systemic approach | Do not apply clear-cell trial effect estimates unchanged. | Individualized. |
 - IMDC intermediate/poor, goal durability / CR: nivo 3 mg/kg + ipi 1 mg/kg q3wk ×4 then nivo (CheckMate 214). Higher-grade irAE than TKI monotherapy; lower grade 3–4 TRAE than sunitinib in the primary paper.
 - Any IMDC, need response / TKI partner acceptable: pembro + axitinib (KEYNOTE-426), nivo + cabo 40 mg (CheckMate 9ER), or pembro + lenvatinib 20 mg (CLEAR). Hypertension, diarrhea, hand-foot, hepatic toxicity.
 - Do not add cabo to nivo/ipi as default (COSMIC-313: no OS gain, more grade 3/4 TRAE).
 - Later line after VEGFR and ICI: belzutifan vs everolimus (LITESPARK-005) improved PFS/ORR not OS. Nivo vs everolimus (CheckMate 025) is historical post-VEGFR. TiNivo-2: adding nivo to tivozanib after ICI did not improve PFS.
 - Local therapy (CN, MDT) is individualized — not covered by these systemic trials.
 
-## Key trials / landmark evidence
+## Landmark evidence
 
+<!-- .cross_trial -->
 | Trial | Population | Intervention arm | Control arm | Key outcomes (both arms) | Key HR | Evidence status |
 |-------|------------|------------------|-------------|--------------------------|--------|-----------------|
 | CheckMate 214 NCT02231749 | Untreated cc aRCC; N=1096; int/poor n=425 vs 422 | Nivo 3 mg/kg + ipi 1 mg/kg q3wk ×4 → nivo | Sunitinib 50 mg 4 wk on / 2 wk off | Int/poor: 18-mo OS 75% vs 60%; median OS NR vs 26.0 mo; ORR 42% vs 27%; CR 9% vs 1%; PFS 11.6 vs 8.4 mo. 9.3-y ITT OS 31.4% vs 19.5% at 108 mo | Int/poor OS HR 0.63 (primary); 9.3-y ITT OS HR 0.71 (0.62–0.82); favorable OS HR 0.80 (0.59–1.09) | Motzer 2018 NEJM PMID 29562145; final Ann Oncol PMID 41786248 |
@@ -44,24 +44,37 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 - KEYNOTE-426 5-year: TcellinfGEP and angiogenesis signatures were associated with outcomes (exploratory).
 - Occasional germline (VHL, FH, etc.) for non-clear / hereditary syndromes — not required to start 1L IO doublets in sporadic ccRCC.
 
-## Toxicity anchors
-- irAEs: colitis, hepatitis, pneumonitis, endocrinopathy; ipi/nivo discontinuation for TRAE 22% vs 12% sunitinib in CheckMate 214.
-- TKI: HTN, diarrhea, hand-foot, mucositis, hepatic, proteinuria, fatigue. CLEAR grade ≥3 AE 82.4% with lenvatinib + pembro.
-- Triplet cabo/nivo/ipi: more grade 3/4 TRAE without OS gain.
-- Belzutifan: anemia, hypoxia (class; rates not fully extracted from the LITESPARK abstract beyond grade ≥3 any-cause 61.8% vs 62.5%).
-
-## Watch list
+## Upcoming trial results
 - Adjuvant pembro exposure at relapse (KEYNOTE-564).
 - HIF-2 (belzutifan) moving earlier; combinations not in this 1L pack.
 - Non-clear-cell randomized 1L data — not retrieved as a dedicated landscape here.
 - No OS benefit from COSMIC-313 triplet.
 
-## Sources to re-check
-- NCCN Kidney (not retrieved)
-- FDA labels: Opdivo, Yervoy, Keytruda, Inlyta, Cabometyx, Lenvima, Welireg
-- CheckMate 214 final, KEYNOTE-426 5-y, CheckMate 9ER extended OS if updated, CLEAR final OS, COSMIC-313 final
+## Toxicity
+
+| Regimen and comparator | Trial-level safety outcomes | Counseling focus |
+|---|---|---|
+| Nivolumab plus ipilimumab versus sunitinib, CheckMate 214 | Discontinuation for treatment-related AEs 22% vs 12%. | Promptly report diarrhea, abdominal pain, cough/dyspnea, rash, jaundice, fatigue, or endocrine symptoms; immune effects can persist. |
+| Nivolumab plus cabozantinib versus sunitinib, CheckMate 9ER | Grade ≥3 AEs 75.3% vs 70.6%. | Review hypertension, diarrhea, hand-foot/skin changes, hepatic symptoms, proteinuria, and immune toxicity. |
+| Lenvatinib plus pembrolizumab versus sunitinib, CLEAR | Grade ≥3 AEs 82.4% vs 71.8%. | Review hypertension, diarrhea, fatigue, hepatic symptoms, and immune toxicity; dose holds are common management tools. |
+| Belzutifan versus everolimus, LITESPARK-005 | Grade ≥3 any-cause AEs 61.8% vs 62.5%. | Review anemia/hypoxia symptoms and urgent dyspnea; use regimen-specific monitoring. |
+
+## Guideline references
+
+- [NCCN Kidney Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1440)
+- [EAU Renal Cell Carcinoma guideline](https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management)
+- [ESMO RCC guideline](https://doi.org/10.1016/j.annonc.2024.05.537)
+- [AUA localized renal mass guideline](https://pubmed.ncbi.nlm.nih.gov/34115531/)
+
+## Sources
+
+- [Motzer et al. (2018). CheckMate 214. *New England Journal of Medicine*. PMID: 29562145](https://pubmed.ncbi.nlm.nih.gov/29562145/)
+- [Rini et al. (2019). KEYNOTE-426. *New England Journal of Medicine*. PMID: 30779529](https://pubmed.ncbi.nlm.nih.gov/30779529/)
+- [Choueiri et al. (2021). CheckMate 9ER. *New England Journal of Medicine*. PMID: 33657295](https://pubmed.ncbi.nlm.nih.gov/33657295/)
+- [Motzer et al. (2021). CLEAR. *New England Journal of Medicine*. PMID: 33616314](https://pubmed.ncbi.nlm.nih.gov/33616314/)
 
 ## Changelog
+- 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: Weekly skim — no practice-changing updates since last review.
 - 2026-09-14: expanded from stub; landscape table with both-arm outcomes for 1L doublets, COSMIC-313 no OS, LITESPARK-005, TiNivo-2, KEYNOTE-564 watch

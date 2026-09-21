@@ -1,4 +1,6 @@
 #Metastatic urothelial carcinoma
+- Counseling: Reviewed systemic-treatment selection by prior perioperative exposure, platinum eligibility, neuropathy/glycemic status, FGFR/HER2 testing, symptoms, and organ function.
+- Counseling: Promptly contact oncology for progressive numbness/weakness, rash, visual symptoms, thirst/polyuria, cough/dyspnea, diarrhea, fever/infection, or other concerning treatment effects. *** after-hours/urgent-assessment instructions reviewed.
 - Discussed workup and extent of disease: *** (sites). Histology: ***. Prior therapy: *** (including perioperative EV/IO if any).
 - Biomarkers: PD-L1 ***; FGFR3 ***; HER2 ***; NGS: ***.
 - Discussed prognosis and goals (control, QoL).

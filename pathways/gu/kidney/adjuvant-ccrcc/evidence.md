@@ -70,7 +70,7 @@ Trial results are not head-to-head efficacy comparisons: eligibility, recurrence
 | Tumor genomic or expression signature | Investigational | No validated molecular assay selects adjuvant pembrolizumab in this setting. |
 | Germline evaluation | Hereditary-risk assessment, not adjuvant selection | Consider when age, bilateral/multifocal disease, family history, or syndrome features raise concern. |
 
-## Watch list
+## Upcoming trial results
 
 | Trial or publication | Why it may change care | Evidence status |
 |---|---|---|
@@ -125,6 +125,7 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 - 2026-09-21: Tightened named-toxicity reporting and paired counseling to a >5% any-grade filter, prioritizing events with a grade ≥3 signal; retained trial-level grade ≥3, immune-mediated, and discontinuation outcomes. Added label-verified decreased hemoglobin, ALT, and hypoxia rates for pembrolizumab–belzutifan.
 - 2026-09-21: Removed calculated risk-reduction and treatment-number metrics from the cross-trial comparison, removed nonstructural emphasis, and condensed Toxicity to a single trial-first table with short counseling; dropped nonessential real-world cohorts and detailed named-toxicity tables.
 - 2026-09-21: Replaced the mixed landmark table with an OpenEvidence-style cross-trial comparison that makes population, regimen, comparator, endpoint, outcome, and generalizability differences explicit.
-- 2026-09-21: Rebuilt around explicit KEYNOTE-564 eligibility, trial-versus-guideline timing, linked primary sources, current FDA-labeled pembrolizumab–belzutifan positioning, a named-trial watch list, and a complete paired counseling phrase.
+- 2026-09-21: Rebuilt around explicit KEYNOTE-564 eligibility, trial-versus-guideline timing, linked primary sources, current FDA-labeled pembrolizumab–belzutifan positioning, named upcoming trial results, and a complete paired counseling phrase.
+- 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Replaced landmark-only survival display with full source-recreated DFS/OS KM traces, explicitly labeling visual digitization as approximate and keeping later five-year estimates separate.
 - 2026-09-21: Moved and expanded Toxicity to the page bottom; separated trial endpoint/timepoint labels, added regimen-specific anemia/hypoxia and immune-toxicity counseling, and added same-setting real-world pembrolizumab context. Repositioned KM landmark values into dedicated rows to prevent label overlap.

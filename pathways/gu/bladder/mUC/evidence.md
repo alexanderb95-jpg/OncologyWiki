@@ -6,19 +6,18 @@ Owner: GU clinic
 Purpose: Disease → setting page for locally advanced or metastatic urothelial carcinoma
 Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HER2 as labeled
 
-## Guidelines
-
-| Society | Setting-level direction | Published strength/category |
-|---|---|---|
-| NCCN Bladder Cancer | Select first-line and subsequent therapy by platinum eligibility, prior perioperative therapy, molecular targets, symptoms, and organ function. | Current categories not independently rechecked in this page; verify before use. |
-| EAU Muscle-invasive and metastatic bladder cancer | Integrate systemic therapy with supportive care and multidisciplinary evaluation; avoid cross-trial efficacy comparisons. | Recheck the current guideline chapter. |
-| ESMO | Provides systemic-treatment recommendations for advanced urothelial cancer. | Exact current strength/category not verified in this page. |
-
 ## Who this applies to
 - Unresectable locally advanced or metastatic urothelial carcinoma.
 - Record cisplatin eligibility, prior perioperative/adjuvant IO or EV, sites (liver), neuropathy, glycemic status, FGFR3, HER2 IHC, PD-L1 (less central for EV+pembro).
 
-## Standard options (decision tree sketch)
+## Standard options
+
+| Clinical context | Option | Key inclusion | Typical course |
+|---|---|---|---|
+| Untreated la/mUC | EV plus pembrolizumab | Assess neuropathy, glucose, organ function, and prior perioperative exposure. | EV days 1 and 8 plus pembrolizumab every 3 weeks in EV-302. |
+| Cisplatin-eligible untreated la/mUC not using EV plus pembrolizumab | Nivolumab plus GC | CheckMate 901-type cisplatin fitness. | GC induction then nivolumab maintenance per trial. |
+| No progression after platinum | Avelumab maintenance | JAVELIN Bladder 100 population. | Continue until progression or unacceptable toxicity. |
+| Subsequent therapy | EV, biomarker-directed therapy, trial, or supportive care | Match prior therapy and FGFR/HER2 status. | Regimen-specific. |
 - 1L most patients: EV 1.25 mg/kg d1,8 + pembrolizumab 200 mg d1 q3wk (EV-302).
 - 1L cisplatin-eligible if not using EV+pembro: nivo 360 mg + GC q3wk ×6 then nivo 480 mg q4wk (CheckMate 901).
 - 1L platinum then, if no PD: maintenance avelumab (JAVELIN). This pathway is largely displaced by EV+pembro but still applies if platinum was already given.
@@ -28,8 +27,9 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - After platinum, pembrolizumab vs chemo (KEYNOTE-045) if no prior PD-1.
 - Supportive care / trial.
 
-## Key trials / landmark evidence
+## Landmark evidence
 
+<!-- .cross_trial -->
 | Trial | Population | Intervention arm | Control arm | Key outcomes (both arms) | Key HR | Evidence status |
 |-------|------------|------------------|-------------|--------------------------|--------|-----------------|
 | EV-302 / KEYNOTE-A39 | Untreated la/mUC; N=886 | EV 1.25 mg/kg d1,8 + pembro 200 mg q3wk | Gemcitabine + cisplatin or carboplatin | PFS 12.5 vs 6.3 mo; OS 31.5 vs 16.1 mo (primary); update OS 33.8 vs 15.9 mo; grade ≥3 TRAE 55.9% vs 69.5% | PFS HR 0.45 (0.38–0.54); OS HR 0.47 (0.38–0.58); update OS HR 0.51 (0.43–0.61) | Powles 2024 NEJM PMID 38446675; update Ann Oncol PMID 40460988 |
@@ -47,25 +47,35 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - PD-L1: not the selector for EV+pembro 1L in EV-302 as reported here.
 - NGS for FGFR and other trial targets.
 
-## Toxicity anchors
-- EV: neuropathy, rash, hyperglycemia, ocular, pneumonitis; hold for grade 2 neuropathy.
-- IO irAEs.
-- Platinum: cytopenias, neuropathy, ototoxicity, renal.
-- Erdafitinib: hyperphosphatemia, ocular (central serous), nail/skin; FDA summary cites THOR.
-- SG: neutropenia / febrile neutropenia and early infectious deaths in TROPiCS-04 — do not default to SG after EV-302 failure without discussing that OS was not met.
-- HER2 ADCs: ILD with T-DXd (10.5% in DESTINY-PanTumor02, 3 deaths).
-
-## Watch list
+## Upcoming trial results
 - Sequencing after 1L EV+pembro (FGFR, HER2, taxane, SG) — phase 3 post-EV+pembro data not in this pack.
 - US regulatory status of disitamab vedotin + toripalimab.
 - T-DXd urothelial-specific efficacy (not in retrieved DESTINY abstract).
 
-## Sources to re-check
-- NCCN Bladder (not retrieved)
-- FDA labels: Padcev, Keytruda, Opdivo, Bavencio, Balversa
-- EV-302 updates, CheckMate 901, THOR, TROPiCS-04, RC48-C016
+## Toxicity
+
+| Regimen and comparator | Trial-level safety outcomes | Counseling focus |
+|---|---|---|
+| EV plus pembrolizumab versus platinum chemotherapy, EV-302 | Grade ≥3 treatment-related AEs 55.9% vs 69.5%. | Report progressive neuropathy, rash, visual symptoms, hyperglycemia symptoms, cough/dyspnea, diarrhea, or endocrine symptoms promptly. |
+| Nivolumab plus GC versus GC, CheckMate 901 | Use trial and label-specific safety monitoring. | Review cytopenias, infection, renal function, neuropathy, and immune toxicity. |
+| Erdafitinib versus chemotherapy, THOR cohort 1 | Use label-specific monitoring. | Review hyperphosphatemia, nail/skin, and ocular symptoms; prompt ophthalmology assessment for visual change. |
+| Sacituzumab govitecan versus chemotherapy, TROPiCS-04 | Grade ≥3 treatment-related AEs 67% vs 35%; primary OS endpoint not met. | Urgent contact for fever/infection, severe diarrhea, dehydration, or marked fatigue. |
+
+## Guideline references
+
+- [NCCN Bladder Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1417)
+- [EAU Muscle-invasive and metastatic bladder cancer guideline](https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer)
+- [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
+
+## Sources
+
+- [Powles et al. (2024). EV-302. *New England Journal of Medicine*. PMID: 38446675](https://pubmed.ncbi.nlm.nih.gov/38446675/)
+- [van der Heijden et al. (2023). CheckMate 901. *New England Journal of Medicine*. PMID: 37870949](https://pubmed.ncbi.nlm.nih.gov/37870949/)
+- [Loriot et al. (2023). THOR cohort 1. *New England Journal of Medicine*. PMID: 37870920](https://pubmed.ncbi.nlm.nih.gov/37870920/)
+- [TROPiCS-04 (2025). *Annals of Oncology*. PMID: 39934055](https://pubmed.ncbi.nlm.nih.gov/39934055/)
 
 ## Changelog
+- 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: Weekly skim — no practice-changing updates since last review.
 - 2026-09-14: expanded from stub; EV-302 both-arm OS/PFS, CheckMate 901, JAVELIN, THOR/FDA limitation, TROPiCS-04 negative OS, RC48-C016 labeled non-US pending
