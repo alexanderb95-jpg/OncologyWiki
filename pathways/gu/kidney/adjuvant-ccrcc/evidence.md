@@ -10,8 +10,8 @@ Status: current — pembrolizumab is the only adjuvant systemic therapy with ran
 
 | Society | Setting-level recommendation | Published strength/category |
 |---|---|---|
-| NCCN Kidney Cancer v1.2025 | Adjuvant pembrolizumab after nephrectomy for eligible stage II (grade 4 and/or sarcomatoid) and stage III clear-cell RCC; M1 NED after complete resection is addressed separately. | Category 1 for stage II/III clear-cell pathways in the cited update. Re-check the current NCCN version before use. |
-| EAU RCC 2025 | Offer adjuvant pembrolizumab to clear-cell RCC meeting KEYNOTE-564 recurrence-risk criteria after restaging, preferably within 12–16 weeks of nephrectomy; do not offer adjuvant sunitinib. | Strong recommendation reported in the current guideline; re-check the live chapter. |
+| NCCN Kidney Cancer (professional v1.2027; public patient v1.2026) | Public patient guidance supports postoperative pembrolizumab for grade-4 clear-cell stage II and clear-cell stage III RCC; verify M1 NED in the current professional pathway. | Category 1 for stage II/III was reported for v1.2025, but is not independently verified here for v1.2027. |
+| EAU RCC 2026 | Offer adjuvant pembrolizumab to clear-cell RCC meeting KEYNOTE-564 recurrence-risk criteria after restaging, preferably within 12–16 weeks of nephrectomy; do not offer adjuvant sunitinib. | Strong |
 | ESMO RCC 2024 | Consider pembrolizumab for intermediate-high or high-risk operable clear-cell RCC after individualized counseling; start within 12 weeks and treat for up to 1 year if used. | I, A; ESMO-MCBS v1.1 score A. |
 | AUA / ASCO | No separate contemporary adjuvant-systemic-therapy guideline recommendation was verified for this exact setting. | Use the current NCCN, EAU, and ESMO documents rather than inferring a position. |
 
@@ -41,7 +41,7 @@ Status: current — pembrolizumab is the only adjuvant systemic therapy with ran
 
 ![KEYNOTE-564 landmark disease-free and overall survival](figures/keynote-564-landmark-survival.svg)
 
-Published landmark estimates are connected only at reported time points; this is a recreated KM-style display, not a digitized journal figure or individual-patient curve. The final 5-year analysis reported DFS 60.9% versus 52.2% (HR 0.71, 95% CI 0.59–0.86) and OS 87.7% versus 82.3% (HR 0.66, 95% CI 0.48–0.90) for pembrolizumab versus placebo.
+Published landmark estimates are connected only at reported time points; this is a recreated KM-style display, not a digitized journal figure or individual-patient curve. The final 5-year conference-abstract analysis reported DFS 60.9% versus 52.2% (HR 0.71, 95% CI 0.59–0.86) and OS 87.7% versus 82.3% (HR 0.66, 95% CI 0.48–0.90) for pembrolizumab versus placebo.
 
 - **KEYNOTE-564 — the practice-changing trial**
   - At 5 years, DFS was 60.9% versus 52.2% (HR 0.71) and OS was 87.7% versus 82.3% (HR 0.66) for pembrolizumab versus placebo.
@@ -51,8 +51,8 @@ Published landmark estimates are connected only at reported time points; this is
 
 | Trial | N; population; randomization | Intervention / duration | Primary endpoint | DFS / RFS results | OS results | Source |
 |---|---|---|---|---|---|---|
-| KEYNOTE-564, NCT03142334 | 994; clear-cell RCC at intermediate-high risk, high risk, or M1 NED after nephrectomy ± metastasectomy; 1:1 double-blind | Pembrolizumab 200 mg IV q3wk versus placebo; ≤17 cycles (~1 year) | Investigator-assessed DFS | 5-y DFS 60.9% vs 52.2%; HR 0.71 (95% CI 0.59–0.86). At 48 mo, 64.9% vs 56.6%. | 5-y OS 87.7% vs 82.3%; HR 0.66 (95% CI 0.48–0.90). At 48 mo, 91.2% vs 86.0%. | [Five-year analysis, PMID 42648402](https://pubmed.ncbi.nlm.nih.gov/42648402/); [OS analysis, PMID 38631003](https://pubmed.ncbi.nlm.nih.gov/38631003/) |
-| S-TRAC, NCT00375674 | 615; high-risk locoregional clear-cell RCC after nephrectomy; 1:1 double-blind | Sunitinib 50 mg daily, 4 weeks on/2 weeks off, versus placebo | BICR DFS | Median DFS 6.8 vs 5.6 y; HR 0.76 (95% CI 0.59–0.98). 5-y DFS 59.3% vs 51.3%. | Not mature in the primary report; no proven OS benefit establishes it as a contemporary alternative. | [PMID 27718781](https://pubmed.ncbi.nlm.nih.gov/27718781/) |
+| KEYNOTE-564, NCT03142334 | 994; clear-cell RCC at intermediate-high risk, high risk, or M1 NED after nephrectomy ± metastasectomy; 1:1 double-blind | Pembrolizumab 200 mg IV q3wk versus placebo; ≤17 cycles (~1 year) | Investigator-assessed DFS | 5-y DFS 60.9% vs 52.2%; HR 0.71 (95% CI 0.59–0.86). At 48 mo, 64.9% vs 56.6%. | 5-y OS 87.7% vs 82.3%; HR 0.66 (95% CI 0.48–0.90). At 48 mo, 91.2% vs 86.0%. | [Five-year conference abstract, PMID 42648402](https://pubmed.ncbi.nlm.nih.gov/42648402/); [OS analysis, PMID 38631003](https://pubmed.ncbi.nlm.nih.gov/38631003/) |
+| S-TRAC, NCT00375674 | 615; high-risk locoregional clear-cell RCC after nephrectomy; 1:1 double-blind | Sunitinib 50 mg daily, 4 weeks on/2 weeks off, versus placebo | BICR DFS | Median DFS 6.8 vs 5.6 y; HR 0.76 (95% CI 0.59–0.98). 5-y DFS 59.3% vs 51.3%. | Updated OS HR 0.92 (95% CI 0.66–1.28; P=.60); no OS benefit. | [Primary, PMID 27718781](https://pubmed.ncbi.nlm.nih.gov/27718781/); [OS update, PMID 28967554](https://pubmed.ncbi.nlm.nih.gov/28967554/) |
 | PROTECT, NCT01235962 | 1,538 overall; resected pT2 high-grade or ≥pT3/N1 clear-cell RCC; placebo-controlled. Primary 600-mg analysis n=1,135. | Pazopanib 600 mg daily versus placebo for 1 year (800-mg starting cohort n=403) | DFS in the 600-mg ITT cohort | Primary analysis HR 0.86 (95% CI 0.70–1.06; P=.165); not significant. | Not used as an OS-proven adjuvant option. | [PMID 28902533](https://pubmed.ncbi.nlm.nih.gov/28902533/) |
 | ATLAS, NCT01599754 | 724; >50% clear-cell locoregional RCC, pT2 and/or N+, no residual/metastatic disease; 1:1 double-blind | Axitinib 5 mg twice daily versus placebo; planned 1–3 y | BICR DFS | HR 0.87 (95% CI 0.66–1.15; P=.321); stopped early for futility. | Immature at primary analysis. | [PMID 30346481](https://pubmed.ncbi.nlm.nih.gov/30346481/) |
 | IMmotion010, NCT03024996 | 778; RCC with clear-cell or sarcomatoid component at increased recurrence risk after resection; 1:1 double-blind | Atezolizumab 1,200 mg IV q3wk versus placebo; 16 cycles / 1 y | Investigator-assessed DFS | Median DFS 57.2 vs 49.5 mo; HR 0.93 (95% CI 0.75–1.15; P=.50). | Immature; HR 0.97 (95% CI 0.67–1.42) at the published analysis. | [PMID 36099926](https://pubmed.ncbi.nlm.nih.gov/36099926/) |
@@ -87,12 +87,13 @@ Published landmark estimates are connected only at reported time points; this is
 
 ## Sources to re-check
 
-- [NCCN Kidney Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1440) — current category and M1 NED pathway.
-- [EAU Renal Cell Carcinoma guideline](https://uroweb.org/guidelines/renal-cell-carcinoma) — current recommendation strength.
+- [NCCN Kidney Cancer professional listing](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1440) and [public patient guideline v1.2026](https://www.nccn.org/patients/guidelines/content/PDF/kidney-patient.pdf) — current category and M1 NED pathway require professional-source confirmation.
+- [EAU Renal Cell Carcinoma guideline](https://uroweb.org/guidelines/renal-cell-carcinoma) — 2026 recommendation strength.
 - [ESMO RCC Clinical Practice Guideline 2024](https://doi.org/10.1016/j.annonc.2024.05.537).
 - [FDA Keytruda label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/125514s168lbl.pdf) — indication, dosing, monitoring, and immune-toxicity warnings.
 - KEYNOTE-564 five-year follow-up, S-TRAC, PROTECT, ATLAS, IMmotion010, and CheckMate 914 primary reports above.
 
 ## Changelog
 
+- 2026-09-21: Rechecked current EAU and public NCCN materials; updated EAU to the 2026 chapter, bounded the NCCN category claim to its verified version, labeled the 5-year KEYNOTE-564 result as a conference abstract, and added mature S-TRAC OS.
 - 2026-09-21: Created disease → setting prototype. Added society-guideline table, risk/option tables, pivotal-trial table, and a source-recreated KEYNOTE-564 survival figure; no journal artwork was reused.
