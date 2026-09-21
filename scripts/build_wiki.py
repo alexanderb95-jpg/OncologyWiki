@@ -45,8 +45,8 @@ PLANNED: dict[tuple[str, str], list[str]] = {
     ("gu", "utuc"): ["Not started — add setting pages as evidence matures"],
     ("gu", "kidney"): [],
     ("gu", "testis"): ["Stage I / adjuvant / metastatic GCT"],
-    ("lung", "nsclc"): ["Not started — add first brief when ready"],
-    ("heme", "aml"): ["Not started — add first brief when ready"],
+    ("lung", "nsclc"): ["Not started — add first setting page when ready"],
+    ("heme", "aml"): ["Not started — add first setting page when ready"],
 }
 
 DISEASE_LABEL = {

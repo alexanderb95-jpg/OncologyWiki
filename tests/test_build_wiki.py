@@ -77,3 +77,7 @@ Status: current
         self.assertTrue(
             (wiki.SITE / "gu" / "kidney" / "figures" / "keynote-564.svg").exists()
         )
+
+    def test_planned_labels_do_not_call_pages_briefs(self) -> None:
+        labels = [label for settings in wiki.PLANNED.values() for label in settings]
+        self.assertFalse(any("brief" in label.lower() for label in labels))
