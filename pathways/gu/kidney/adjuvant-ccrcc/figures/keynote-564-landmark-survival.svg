@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="title desc">
-  <title id="title">KEYNOTE-564 landmark disease-free and overall survival</title>
-  <desc id="desc">Two Kaplan-Meier-style displays connect published landmark estimates for pembrolizumab and placebo. The left panel is disease-free survival and the right panel is overall survival.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">KEYNOTE-564 published 5-year disease-free and overall survival landmarks</title>
+  <desc id="desc">Two source-recreated landmark displays show baseline and published 5-year estimates for pembrolizumab and placebo. They are not Kaplan-Meier curves.</desc>
   <style>
     .title { fill: #1c1917; font: 600 18px Arial, sans-serif; }
     .subtitle { fill: #57534e; font: 13px Arial, sans-serif; }
@@ -8,75 +8,61 @@
     .grid { stroke: #e7e5e4; stroke-width: 1; }
     .label { fill: #44403c; font: 12px Arial, sans-serif; }
     .small { fill: #57534e; font: 11px Arial, sans-serif; }
-    .pembro { fill: none; stroke: #1d4ed8; stroke-width: 3; }
-    .placebo { fill: none; stroke: #b45309; stroke-width: 3; }
     .dot-pembro { fill: #1d4ed8; }
     .dot-placebo { fill: #b45309; }
   </style>
-  <rect width="960" height="390" fill="#fffcf7"/>
-  <text x="48" y="32" class="title">KEYNOTE-564 landmark survival estimates</text>
-  <text x="48" y="53" class="subtitle">Pembrolizumab for up to 17 cycles versus placebo; N=994</text>
+  <rect width="960" height="430" fill="#fffcf7"/>
+  <text x="48" y="32" class="title">KEYNOTE-564 published survival landmarks</text>
+  <text x="48" y="53" class="subtitle">Pembrolizumab for up to 17 cycles versus placebo; N=994; 5-year analysis</text>
 
-  <text x="80" y="86" class="title">Disease-free survival</text>
-  <text x="80" y="106" class="subtitle">5-y HR 0.71 (95% CI 0.590.86)</text>
+  <text x="80" y="88" class="title">Disease-free survival</text>
+  <text x="80" y="108" class="subtitle">5-year HR 0.71 (95% CI 0.59-0.86)</text>
   <line x1="80" y1="130" x2="430" y2="130" class="grid"/>
-  <line x1="80" y1="190" x2="430" y2="190" class="grid"/>
+  <line x1="80" y1="170" x2="430" y2="170" class="grid"/>
+  <line x1="80" y1="210" x2="430" y2="210" class="grid"/>
   <line x1="80" y1="250" x2="430" y2="250" class="grid"/>
   <line x1="80" y1="130" x2="80" y2="250" class="axis"/>
   <line x1="80" y1="250" x2="430" y2="250" class="axis"/>
   <text x="45" y="134" class="label">100%</text>
-  <text x="51" y="194" class="label">70%</text>
+  <text x="51" y="174" class="label">80%</text>
+  <text x="51" y="214" class="label">60%</text>
   <text x="51" y="254" class="label">40%</text>
-  <text x="76" y="274" class="label">0</text>
-  <text x="210" y="274" class="label">2 y</text>
-  <text x="274" y="274" class="label">3 y</text>
-  <text x="338" y="274" class="label">4 y</text>
-  <text x="406" y="274" class="label">5 y</text>
-  <path d="M80 130 L215 174 L280 185 L345 200 L420 208" class="pembro"/>
-  <path d="M80 130 L215 196 L280 204 L345 217 L420 226" class="placebo"/>
-  <circle cx="215" cy="174" r="4" class="dot-pembro"/>
-  <circle cx="280" cy="185" r="4" class="dot-pembro"/>
-  <circle cx="345" cy="200" r="4" class="dot-pembro"/>
-  <circle cx="420" cy="208" r="4" class="dot-pembro"/>
-  <circle cx="215" cy="196" r="4" class="dot-placebo"/>
-  <circle cx="280" cy="204" r="4" class="dot-placebo"/>
-  <circle cx="345" cy="217" r="4" class="dot-placebo"/>
-  <circle cx="420" cy="226" r="4" class="dot-placebo"/>
-  <text x="327" y="204" class="small" fill="#1d4ed8">60.9%</text>
-  <text x="327" y="240" class="small" fill="#b45309">52.2%</text>
+  <text x="70" y="274" class="label">0 y</text>
+  <text x="402" y="274" class="label">5 y</text>
+  <text x="192" y="298" class="small">Years since randomization</text>
+  <circle cx="80" cy="130" r="6" fill="#44403c"/>
+  <text x="91" y="124" class="small">100% both arms</text>
+  <circle cx="410" cy="208.2" r="6" class="dot-pembro"/>
+  <text x="328" y="203" class="label">Pembrolizumab 60.9%</text>
+  <circle cx="410" cy="225.6" r="6" class="dot-placebo"/>
+  <text x="348" y="244" class="label">Placebo 52.2%</text>
 
-  <text x="530" y="86" class="title">Overall survival</text>
-  <text x="530" y="106" class="subtitle">5-y HR 0.66 (95% CI 0.480.90)</text>
+  <text x="530" y="88" class="title">Overall survival</text>
+  <text x="530" y="108" class="subtitle">5-year HR 0.66 (95% CI 0.48-0.90)</text>
   <line x1="530" y1="130" x2="880" y2="130" class="grid"/>
-  <line x1="530" y1="190" x2="880" y2="190" class="grid"/>
+  <line x1="530" y1="170" x2="880" y2="170" class="grid"/>
+  <line x1="530" y1="210" x2="880" y2="210" class="grid"/>
   <line x1="530" y1="250" x2="880" y2="250" class="grid"/>
   <line x1="530" y1="130" x2="530" y2="250" class="axis"/>
   <line x1="530" y1="250" x2="880" y2="250" class="axis"/>
   <text x="495" y="134" class="label">100%</text>
-  <text x="501" y="194" class="label">85%</text>
+  <text x="501" y="174" class="label">90%</text>
+  <text x="501" y="214" class="label">80%</text>
   <text x="501" y="254" class="label">70%</text>
-  <text x="526" y="274" class="label">0</text>
-  <text x="660" y="274" class="label">2 y</text>
-  <text x="724" y="274" class="label">3 y</text>
-  <text x="788" y="274" class="label">4 y</text>
-  <text x="856" y="274" class="label">5 y</text>
-  <path d="M530 130 L665 145 L730 154 L795 165 L870 179" class="pembro"/>
-  <path d="M530 130 L665 154 L730 172 L795 186 L870 201" class="placebo"/>
-  <circle cx="665" cy="145" r="4" class="dot-pembro"/>
-  <circle cx="730" cy="154" r="4" class="dot-pembro"/>
-  <circle cx="795" cy="165" r="4" class="dot-pembro"/>
-  <circle cx="870" cy="179" r="4" class="dot-pembro"/>
-  <circle cx="665" cy="154" r="4" class="dot-placebo"/>
-  <circle cx="730" cy="172" r="4" class="dot-placebo"/>
-  <circle cx="795" cy="186" r="4" class="dot-placebo"/>
-  <circle cx="870" cy="201" r="4" class="dot-placebo"/>
-  <text x="777" y="174" class="small" fill="#1d4ed8">87.7%</text>
-  <text x="777" y="215" class="small" fill="#b45309">82.3%</text>
+  <text x="520" y="274" class="label">0 y</text>
+  <text x="852" y="274" class="label">5 y</text>
+  <text x="642" y="298" class="small">Years since randomization</text>
+  <circle cx="530" cy="130" r="6" fill="#44403c"/>
+  <text x="541" y="124" class="small">100% both arms</text>
+  <circle cx="860" cy="179.2" r="6" class="dot-pembro"/>
+  <text x="754" y="174" class="label">Pembrolizumab 87.7%</text>
+  <circle cx="860" cy="201.2" r="6" class="dot-placebo"/>
+  <text x="776" y="220" class="label">Placebo 82.3%</text>
 
-  <line x1="80" y1="315" x2="112" y2="315" class="pembro"/>
-  <text x="120" y="319" class="label">Pembrolizumab</text>
-  <line x1="260" y1="315" x2="292" y2="315" class="placebo"/>
-  <text x="300" y="319" class="label">Placebo</text>
-  <text x="80" y="350" class="small">Points at 2, 3, and 4 years: NEJM 2024. Five-year points: JCO 2025 / PMID 42648402.</text>
-  <text x="80" y="370" class="small">Recreated from published landmark estimates; not a digitized journal KaplanMeier figure and no values are interpolated.</text>
+  <circle cx="80" cy="340" r="5" class="dot-pembro"/>
+  <text x="92" y="344" class="label">Pembrolizumab</text>
+  <circle cx="250" cy="340" r="5" class="dot-placebo"/>
+  <text x="262" y="344" class="label">Placebo</text>
+  <text x="80" y="375" class="small">Haas et al., Annals of Oncology 2026, PMID 42648402. Median follow-up 70 months.</text>
+  <text x="80" y="397" class="small">Source-recreated 0- and 5-year landmark display only; not a Kaplan-Meier curve and no values are interpolated.</text>
 </svg>
