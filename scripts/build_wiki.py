@@ -83,6 +83,21 @@ RELATED = {
     ("gu", "kidney", "mRCC"): [("gu", "kidney", "adjuvant-ccrcc", "Adjuvant clear-cell RCC")],
 }
 
+PHRASE_CONTROL_TOKEN = re.compile(
+    r"\{\{(?P<kind>select|calc):(?P<body>[^{}]+)\}\}"
+)
+PHRASE_CONTROL_ID = re.compile(r"^[a-z][a-z0-9-]*$")
+SUPPORTED_CALCULATORS = {"keynote-564"}
+
+
+@dataclass(frozen=True)
+class PhraseControl:
+    id: str
+    kind: str
+    label: str
+    token: str
+    options: tuple[str, ...] = ()
+
 
 @dataclass
 class Article:
@@ -99,6 +114,7 @@ class Article:
     trigger: str = ""
     phrase_lines: list[str] = field(default_factory=list)
     phrase_text: str = ""
+    phrase_controls: list[PhraseControl] = field(default_factory=list)
     search_blob: str = ""
 
     @property
@@ -162,6 +178,129 @@ def md_inline(text: str) -> str:
         text,
     )
     return text
+
+
+def parse_phrase_controls(phrase_text: str) -> list[PhraseControl]:
+    """Parse optional interactive control annotations in a dot phrase."""
+    controls: dict[str, PhraseControl] = {}
+    for match in PHRASE_CONTROL_TOKEN.finditer(phrase_text):
+        kind = match.group("kind")
+        token = match.group(0)
+        parts = [part.strip() for part in match.group("body").split("|")]
+        control_id = parts[0] if parts else ""
+        if not PHRASE_CONTROL_ID.fullmatch(control_id):
+            raise ValueError(f"Invalid phrase-control id: {control_id!r}")
+
+        if kind == "select":
+            if len(parts) < 3 or not all(parts[1:]):
+                raise ValueError(
+                    "A select phrase control needs an id, label, and at least one option"
+                )
+            control = PhraseControl(
+                id=control_id,
+                kind=kind,
+                label=parts[1],
+                token=token,
+                options=tuple(parts[2:]),
+            )
+        else:
+            if len(parts) != 2 or not parts[1]:
+                raise ValueError(
+                    "A calculator phrase control needs an id and a display label"
+                )
+            if control_id not in SUPPORTED_CALCULATORS:
+                raise ValueError(f"Unsupported phrase calculator: {control_id}")
+            control = PhraseControl(
+                id=control_id,
+                kind=kind,
+                label=parts[1],
+                token=token,
+            )
+
+        existing = controls.get(control.id)
+        if existing and existing != control:
+            raise ValueError(
+                f"Phrase control {control.id!r} must use the same annotation each time"
+            )
+        controls[control.id] = control
+    return list(controls.values())
+
+
+def render_phrase_line(line: str, controls: list[PhraseControl]) -> str:
+    """Render phrase Markdown while replacing annotations with live value slots."""
+    controls_by_token = {control.token: control for control in controls}
+    parts: list[str] = []
+    cursor = 0
+    for match in PHRASE_CONTROL_TOKEN.finditer(line):
+        parts.append(md_inline(line[cursor : match.start()]))
+        control = controls_by_token[match.group(0)]
+        parts.append(
+            '<span class="phrase-fill-in" '
+            f'data-phrase-control="{html.escape(control.id, quote=True)}">'
+            "Not selected</span>"
+        )
+        cursor = match.end()
+    parts.append(md_inline(line[cursor:]))
+    return "".join(parts)
+
+
+def render_phrase_tools(art: Article) -> str:
+    """Render author-declared selects and calculator mounts for a phrase."""
+    if not art.phrase_controls:
+        return ""
+
+    metadata = [
+        {
+            "id": control.id,
+            "kind": control.kind,
+            "label": control.label,
+            "token": control.token,
+            "options": list(control.options),
+        }
+        for control in art.phrase_controls
+    ]
+    controls_b64 = base64.b64encode(
+        json.dumps(metadata, ensure_ascii=False).encode("utf-8")
+    ).decode("ascii")
+    template_b64 = base64.b64encode(art.phrase_text.encode("utf-8")).decode("ascii")
+    controls_html: list[str] = []
+    for control in art.phrase_controls:
+        escaped_id = html.escape(control.id, quote=True)
+        escaped_label = html.escape(control.label)
+        if control.kind == "select":
+            options = "".join(
+                f'<option value="{html.escape(option, quote=True)}">'
+                f"{html.escape(option)}</option>"
+                for option in control.options
+            )
+            controls_html.append(
+                f"""<div class="phrase-control">
+  <label for="phrase-control-{escaped_id}">{escaped_label}</label>
+  <select id="phrase-control-{escaped_id}" data-phrase-control-id="{escaped_id}">
+    <option value="">Select…</option>{options}
+  </select>
+</div>"""
+            )
+        else:
+            controls_html.append(
+                f"""<section class="phrase-control phrase-calculator"
+  data-calculator-id="{escaped_id}" data-phrase-control-id="{escaped_id}">
+  <h4>{escaped_label}</h4>
+  <p class="calculator-note">Uses the published trial definition; it does not determine treatment suitability or timing.</p>
+  <div class="calculator-fields"></div>
+  <p class="calculator-result" aria-live="polite">Complete calculator fields</p>
+</section>"""
+            )
+
+    return f"""<section class="phrase-tools" aria-label="Epic phrase helpers"
+  data-phrase-controls-b64="{controls_b64}"
+  data-phrase-template-b64="{template_b64}">
+  <h3>Phrase helpers</h3>
+  <p class="phrase-tools-note">Choose the documented category before copying the phrase.</p>
+  <div class="phrase-tools-grid">
+    {"".join(controls_html)}
+  </div>
+</section>"""
 
 
 def table_cells(line: str) -> list[str]:
@@ -312,6 +451,7 @@ def load_articles() -> list[Article]:
                 trigger = ""
                 phrase_lines: list[str] = []
                 phrase_text = ""
+                phrase_controls: list[PhraseControl] = []
                 if phrase.exists():
                     ptext = phrase.read_text(encoding="utf-8").strip()
                     plines = ptext.splitlines()
@@ -319,6 +459,7 @@ def load_articles() -> list[Article]:
                         trigger = plines[0].strip()
                         phrase_lines = [ln for ln in plines[1:] if ln.strip()]
                         phrase_text = "\n".join(plines)
+                        phrase_controls = parse_phrase_controls(phrase_text)
 
                 art = Article(
                     domain=domain,
@@ -334,6 +475,7 @@ def load_articles() -> list[Article]:
                     trigger=trigger,
                     phrase_lines=phrase_lines,
                     phrase_text=phrase_text,
+                    phrase_controls=phrase_controls,
                 )
                 art.search_blob = " ".join(
                     [
@@ -605,7 +747,11 @@ def render_article(art: Article, articles: list[Article]) -> str:
     phrase_block = ""
     if art.phrase_text:
         b64 = base64.b64encode(art.phrase_text.encode("utf-8")).decode("ascii")
-        lis = "".join(f"<li>{md_inline(ln.lstrip('- ').strip())}</li>" for ln in art.phrase_lines)
+        lis = "".join(
+            f"<li>{render_phrase_line(ln.lstrip('- ').strip(), art.phrase_controls)}</li>"
+            for ln in art.phrase_lines
+        )
+        phrase_tools = render_phrase_tools(art)
         phrase_block = f"""
 <section class="phrase" id="dotphrase">
   <div class="phrase-head">
@@ -613,6 +759,7 @@ def render_article(art: Article, articles: list[Article]) -> str:
     <button type="button" class="copy-btn" data-copy-b64="{b64}">Copy</button>
   </div>
   <p class="trigger"><code>{html.escape(art.trigger)}</code></p>
+  {phrase_tools}
   <ul class="phrase-body">{lis}</ul>
   <p class="src"><a href="{prefix}../{art.md_rel}/dotphrase.md">Edit markdown</a></p>
 </section>
@@ -835,6 +982,47 @@ body {
 .phrase-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .phrase-head h2 { margin: 0; font-size: 1.15rem; }
 .trigger { font-family: var(--sans); }
+.phrase-tools {
+  margin: 1rem 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: #faf8f4;
+  font-family: var(--sans);
+}
+.phrase-tools h3, .phrase-calculator h4 { margin: 0; font-size: 0.95rem; }
+.phrase-tools-note, .calculator-note, .calculator-result {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+.phrase-tools-grid { display: grid; gap: 0.8rem; margin-top: 0.8rem; }
+.phrase-control { display: grid; gap: 0.3rem; }
+.phrase-control label, .calculator-field label { font-size: 0.82rem; font-weight: 650; }
+.phrase-control select, .calculator-field select {
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--ink);
+  background: var(--paper);
+  font: inherit;
+}
+.phrase-calculator {
+  padding: 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--paper);
+}
+.calculator-fields { display: grid; gap: 0.65rem; margin-top: 0.75rem; }
+.calculator-field { display: grid; gap: 0.3rem; }
+.calculator-result { color: var(--ink); font-weight: 650; }
+.phrase-fill-in {
+  color: var(--accent);
+  font-family: var(--sans);
+  font-size: 0.92em;
+  font-weight: 650;
+}
 .copy-btn {
   font-family: var(--sans);
   font-size: 0.8rem;
@@ -870,47 +1058,11 @@ code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0
 
 JS = r"""
 (function () {
-  const input = document.getElementById("wiki-search");
-  const results = document.getElementById("search-results");
-  const indexEl = document.getElementById("wiki-index");
-  if (!input || !results || !indexEl) return;
-  let index = [];
-  try { index = JSON.parse(indexEl.textContent || "[]"); } catch (e) { index = []; }
-
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
       return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c];
     });
   }
-
-  function run() {
-    const q = (input.value || "").trim().toLowerCase();
-    if (q.length < 2) {
-      results.hidden = true;
-      results.innerHTML = "";
-      return;
-    }
-    const hits = index.filter(function (row) {
-      return (row.blob || "").indexOf(q) !== -1 || (row.title || "").toLowerCase().indexOf(q) !== -1;
-    }).slice(0, 12);
-    if (!hits.length) {
-      results.hidden = false;
-      results.innerHTML = "<div style='padding:0.4rem 0.5rem;color:#78716c'>No matches</div>";
-      return;
-    }
-    results.hidden = false;
-    results.innerHTML = hits.map(function (h) {
-      return '<a href="' + h.href + '">' + escapeHtml(h.title) + "</a>";
-    }).join("");
-  }
-
-  input.addEventListener("input", run);
-  input.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") {
-      input.value = "";
-      run();
-    }
-  });
 
   function decodeB64(b64) {
     try {
@@ -926,26 +1078,227 @@ JS = r"""
     }
   }
 
-  document.addEventListener("click", function (e) {
-    const btn = e.target.closest(".copy-btn");
-    if (!btn) return;
-    const text = decodeB64(btn.getAttribute("data-copy-b64") || "");
-    const done = function () {
-      btn.classList.add("copied");
-      btn.textContent = "Copied";
-      setTimeout(function () {
-        btn.classList.remove("copied");
-        btn.textContent = "Copy";
-      }, 1600);
-    };
-    if (navigator.clipboard && navigator.clipboard.writeText) {
-      navigator.clipboard.writeText(text).then(done).catch(function () {
-        fallbackCopy(text); done();
-      });
-    } else {
-      fallbackCopy(text); done();
+  function decodeB64Json(b64) {
+    try { return JSON.parse(decodeB64(b64)); } catch (e) { return []; }
+  }
+
+  function setupSearch() {
+    const input = document.getElementById("wiki-search");
+    const results = document.getElementById("search-results");
+    const indexEl = document.getElementById("wiki-index");
+    if (!input || !results || !indexEl) return;
+    let index = [];
+    try { index = JSON.parse(indexEl.textContent || "[]"); } catch (e) { index = []; }
+
+    function run() {
+      const q = (input.value || "").trim().toLowerCase();
+      if (q.length < 2) {
+        results.hidden = true;
+        results.innerHTML = "";
+        return;
+      }
+      const hits = index.filter(function (row) {
+        return (row.blob || "").indexOf(q) !== -1 || (row.title || "").toLowerCase().indexOf(q) !== -1;
+      }).slice(0, 12);
+      if (!hits.length) {
+        results.hidden = false;
+        results.innerHTML = "<div style='padding:0.4rem 0.5rem;color:#78716c'>No matches</div>";
+        return;
+      }
+      results.hidden = false;
+      results.innerHTML = hits.map(function (h) {
+        return '<a href="' + h.href + '">' + escapeHtml(h.title) + "</a>";
+      }).join("");
     }
-  });
+
+    input.addEventListener("input", run);
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        input.value = "";
+        run();
+      }
+    });
+  }
+
+  const KEYNOTE_564_FIELDS = [
+    {
+      id: "histology",
+      label: "Clear-cell component",
+      options: [
+        ["", "Select…"],
+        ["clear-cell", "Confirmed clear-cell component"],
+        ["non-clear-cell", "Non-clear-cell or not confirmed"]
+      ]
+    },
+    {
+      id: "pt-stage",
+      label: "Pathologic T stage",
+      options: [
+        ["", "Select…"],
+        ["pt1", "pT1"],
+        ["pt2", "pT2"],
+        ["pt3", "pT3"],
+        ["pt4", "pT4"],
+        ["unknown", "pTx / unknown / other"]
+      ]
+    },
+    {
+      id: "grade",
+      label: "Grade",
+      options: [
+        ["", "Select…"],
+        ["grade-1-3", "Grade 1–3"],
+        ["grade-4", "Grade 4"],
+        ["unknown", "Unknown / not reported"]
+      ]
+    },
+    {
+      id: "sarcomatoid",
+      label: "Sarcomatoid features",
+      options: [
+        ["", "Select…"],
+        ["absent", "Absent"],
+        ["present", "Present"],
+        ["unknown", "Unknown / not reported"]
+      ]
+    },
+    {
+      id: "n-stage",
+      label: "Pathologic N stage",
+      options: [
+        ["", "Select…"],
+        ["n0", "N0"],
+        ["n-plus", "N+"],
+        ["unknown", "Unknown / not reported"]
+      ]
+    },
+    {
+      id: "m1-ned",
+      label: "M1 NED status and timing",
+      options: [
+        ["", "Select…"],
+        ["m0", "M0 (no M1 NED)"],
+        ["qualifying", "Qualifying M1 NED: resected at nephrectomy or within 1 year"],
+        ["nonqualifying", "M1 disease: M1 NED criteria or timing not met"],
+        ["unknown", "Unknown / not documented"]
+      ]
+    }
+  ];
+
+  function incomplete(detail) {
+    return detail ? "Incomplete — " + detail : "Complete calculator fields";
+  }
+
+  function keynote564Category(values) {
+    if (!values.histology || !values["m1-ned"]) {
+      return incomplete("select histology and M1 NED status");
+    }
+    if (values.histology !== "clear-cell") return "Not eligible";
+    if (values["m1-ned"] === "qualifying") return "M1 NED";
+    if (values["m1-ned"] === "nonqualifying") return "Not eligible";
+    if (values["m1-ned"] === "unknown") return incomplete("document M1 NED status and timing");
+    if (!values["n-stage"]) return incomplete("select pathologic N stage");
+    if (values["n-stage"] === "n-plus") return "High risk";
+    if (values["n-stage"] === "unknown") return incomplete("document pathologic N stage");
+    if (!values["pt-stage"]) return incomplete("select pathologic T stage");
+    if (values["pt-stage"] === "pt4") return "High risk";
+    if (values["pt-stage"] === "pt3") return "Intermediate-high risk";
+    if (values["pt-stage"] === "pt1") return "Not eligible";
+    if (values["pt-stage"] === "unknown") return incomplete("document pathologic T stage");
+    if (values["grade"] === "grade-4" || values.sarcomatoid === "present") {
+      return "Intermediate-high risk";
+    }
+    if (!values.grade || !values.sarcomatoid) {
+      return incomplete("select grade and sarcomatoid features");
+    }
+    if (values.grade === "unknown" || values.sarcomatoid === "unknown") {
+      return incomplete("document grade and sarcomatoid features");
+    }
+    return "Not eligible";
+  }
+
+  function mountKeynote564Calculator(root, setPhraseValue) {
+    const fieldsEl = root.querySelector(".calculator-fields");
+    const resultEl = root.querySelector(".calculator-result");
+    if (!fieldsEl || !resultEl) return;
+    const values = {};
+    KEYNOTE_564_FIELDS.forEach(function (field) {
+      const wrapper = document.createElement("div");
+      wrapper.className = "calculator-field";
+      const label = document.createElement("label");
+      const select = document.createElement("select");
+      const selectId = "calculator-keynote-564-" + field.id;
+      label.htmlFor = selectId;
+      label.textContent = field.label;
+      select.id = selectId;
+      select.setAttribute("data-calculator-field", field.id);
+      field.options.forEach(function (optionSpec) {
+        const option = document.createElement("option");
+        option.value = optionSpec[0];
+        option.textContent = optionSpec[1];
+        select.appendChild(option);
+      });
+      select.addEventListener("input", function () {
+        values[field.id] = select.value;
+        update();
+      });
+      wrapper.appendChild(label);
+      wrapper.appendChild(select);
+      fieldsEl.appendChild(wrapper);
+    });
+
+    function update() {
+      const category = keynote564Category(values);
+      resultEl.textContent = category;
+      setPhraseValue(category);
+    }
+    update();
+  }
+
+  function setupPhraseTools() {
+    const toolsets = document.querySelectorAll(".phrase-tools");
+    toolsets.forEach(function (tools) {
+      const controls = decodeB64Json(tools.getAttribute("data-phrase-controls-b64") || "");
+      const template = decodeB64(tools.getAttribute("data-phrase-template-b64") || "");
+      const values = {};
+
+      function setPhraseValue(controlId, value) {
+        values[controlId] = value;
+        const phrase = tools.closest(".phrase");
+        if (!phrase) return;
+        phrase.querySelectorAll("[data-phrase-control]").forEach(function (slot) {
+          if (slot.getAttribute("data-phrase-control") === controlId) {
+            slot.textContent = value;
+          }
+        });
+      }
+
+      controls.forEach(function (control) {
+        setPhraseValue(control.id, "Not selected");
+        const controlEl = tools.querySelector(
+          '[data-phrase-control-id="' + control.id + '"]'
+        );
+        if (!controlEl) return;
+        if (control.kind === "select") {
+          controlEl.addEventListener("input", function () {
+            setPhraseValue(control.id, controlEl.value || "Not selected");
+          });
+          return;
+        }
+        if (control.kind === "calc" && control.id === "keynote-564") {
+          mountKeynote564Calculator(controlEl, function (value) {
+            setPhraseValue(control.id, value);
+          });
+        }
+      });
+
+      tools.getPhraseText = function () {
+        return controls.reduce(function (text, control) {
+          return text.split(control.token).join(values[control.id] || "Not selected");
+        }, template);
+      };
+    });
+  }
 
   function fallbackCopy(text) {
     const ta = document.createElement("textarea");
@@ -955,6 +1308,37 @@ JS = r"""
     try { document.execCommand("copy"); } catch (e) {}
     document.body.removeChild(ta);
   }
+
+  function setupCopy() {
+    document.addEventListener("click", function (e) {
+      const btn = e.target.closest(".copy-btn");
+      if (!btn) return;
+      const phrase = btn.closest(".phrase");
+      const tools = phrase && phrase.querySelector(".phrase-tools");
+      const text = tools && typeof tools.getPhraseText === "function"
+        ? tools.getPhraseText()
+        : decodeB64(btn.getAttribute("data-copy-b64") || "");
+      const done = function () {
+        btn.classList.add("copied");
+        btn.textContent = "Copied";
+        setTimeout(function () {
+          btn.classList.remove("copied");
+          btn.textContent = "Copy";
+        }, 1600);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done).catch(function () {
+          fallbackCopy(text); done();
+        });
+      } else {
+        fallbackCopy(text); done();
+      }
+    });
+  }
+
+  setupSearch();
+  setupPhraseTools();
+  setupCopy();
 })();
 """
 
