@@ -6,9 +6,15 @@ GU pathways live here; lung/heme/etc. can be added under `pathways/` later witho
 
 ## Open the wiki
 
+Published: <https://alexanderb95-jpg.github.io/OncologyWiki/>
+
+For a local static view (`file://`):
+
 ```bash
 open site/index.html
 ```
+
+No local port server is required.
 
 After edits: `python3 scripts/build_wiki.py`
 
