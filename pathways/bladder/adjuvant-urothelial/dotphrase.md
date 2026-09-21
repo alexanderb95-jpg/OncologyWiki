@@ -1,8 +1,8 @@
 #Adjuvant urothelial carcinoma
 - Discussed pathology and staging: *** (ypT / pT, N, margins, histology, variant features).
-- Discussed perioperative course: neoadjuvant / perioperative *** (EV+pembro vs durvalumab+GC vs GC vs none; cycles / response); surgery date ***. Discussed that perioperative EV+pembrolizumab (EV-303 cisplatin-ineligible; EV-304 cisplatin-eligible, now published) and NIAGARA (durvalumab + GC) are changing MIBC pathways and therefore adjuvant counseling — adjuvant nivolumab is for high-risk patients who did not already receive perioperative ICI.
-- Discussed adjuvant options: observation vs adjuvant immunotherapy (nivolumab per CheckMate 274 criteria; pembrolizumab per AMBASSADOR) vs other per *** guidelines / trial. Not adjuvant atezolizumab (IMvigor010 negative).
-- Eligibility / rationale: *** (risk features that drive adjuvant Rx; prior perioperative ICI / ADC: ***).
+- Discussed perioperative course: neoadjuvant / perioperative *** (EV+pembro vs durvalumab+GC vs GC vs none; cycles / response); surgery date ***. Discussed that perioperative EV+pembrolizumab is FDA-approved for MIBC cystectomy candidates regardless of cisplatin eligibility (EV-303 cisplatin-ineligible; EV-304 cisplatin-eligible, FDA 10 Jul 2026) and NIAGARA (durvalumab + GC) remains an alternative for cisplatin-eligible patients — these change adjuvant counseling. Adjuvant nivolumab (CheckMate 274) is for high-risk patients who did not already receive perioperative ICI. For post-cystectomy ctDNA MRD+ (Signatera CDx), adjuvant atezolizumab (IMvigor011) is FDA-approved — distinct from negative unselected IMvigor010.
+- Discussed adjuvant options: observation vs adjuvant immunotherapy (nivolumab per CheckMate 274 criteria; pembrolizumab per AMBASSADOR; atezolizumab if ctDNA MRD+) vs other per *** guidelines / trial.
+- Eligibility / rationale: *** (risk features that drive adjuvant Rx; prior perioperative ICI / ADC: ***; ctDNA MRD: ***).
 - Discussed prognosis and goals.
 - Discussed toxicities of planned adjuvant therapy: ***.
 - He / she opts to proceed with ***.
