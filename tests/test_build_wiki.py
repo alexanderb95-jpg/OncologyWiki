@@ -78,6 +78,11 @@ Status: current
             (wiki.SITE / "gu" / "kidney" / "figures" / "keynote-564.svg").exists()
         )
 
+    def test_build_creates_nojekyll_file(self) -> None:
+        self.assertEqual(wiki.main(), 0)
+
+        self.assertTrue((wiki.SITE / ".nojekyll").is_file())
+
     def test_planned_labels_do_not_call_pages_briefs(self) -> None:
         labels = [label for settings in wiki.PLANNED.values() for label in settings]
         self.assertFalse(any("brief" in label.lower() for label in labels))
