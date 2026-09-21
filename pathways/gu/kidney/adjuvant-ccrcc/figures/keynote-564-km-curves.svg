@@ -17,7 +17,7 @@
   </style>
   <rect width="980" height="940" fill="#fffcf7"/>
   <text x="52" y="34" class="title">KEYNOTE-564 disease-free and overall survival</text>
-  <text x="52" y="55" class="subtitle">Pembrolizumab 200 mg every 3 weeks for d17 cycles versus placebo; N=994</text>
+  <text x="52" y="55" class="subtitle">Pembrolizumab 200 mg every 3 weeks for up to 17 cycles versus placebo; N=994</text>
 
   <text x="100" y="91" class="panel-title">A. Disease-free survival</text>
   <text x="100" y="111" class="subtitle">HR 0.72 (95% CI 0.59-0.87) at the September 15, 2023 data cutoff</text>
