@@ -129,6 +129,37 @@ Status: current
         self.assertLess(page.index('id="dotphrase"'), page.index("Guideline references"))
         self.assertLess(page.index("Guideline references"), page.index("Primary source link"))
 
+    def test_build_marks_cross_trial_tables_for_scannable_comparisons(self) -> None:
+        setting = wiki.PATHWAYS / "gu" / "kidney" / "adjuvant-ccrcc"
+        setting.mkdir(parents=True)
+        (setting / "evidence.md").write_text(
+            """# Adjuvant clear-cell RCC
+
+Last reviewed: 2026-09-21
+Next review: 2026-12-20
+Owner: GU clinic
+Purpose: Decision support
+Status: current
+
+## Landmark evidence
+
+<!-- .cross_trial -->
+| Trial | Population | Outcome |
+| --- | --- | --- |
+| KEYNOTE-564 | High-risk clear-cell RCC | DFS benefit |
+""",
+            encoding="utf-8",
+        )
+
+        self.assertEqual(wiki.main(), 0)
+
+        page = (
+            wiki.SITE / "gu" / "kidney" / "adjuvant-ccrcc.html"
+        ).read_text(encoding="utf-8")
+        self.assertIn('<div class="table-wrap cross_trial">', page)
+        self.assertNotIn("<p>&lt;!-- .cross_trial --&gt;</p>", page)
+        self.assertIn(".cross_trial", (wiki.SITE / "assets" / "wiki.css").read_text())
+
     def test_build_renders_annotated_phrase_select_and_calculator_controls(self) -> None:
         setting = wiki.PATHWAYS / "gu" / "kidney" / "adjuvant-ccrcc"
         setting.mkdir(parents=True)
@@ -171,6 +202,39 @@ Status: current
         )[0]
         self.assertNotIn("{{select:histology", phrase_body)
         self.assertNotIn("{{calc:keynote-564", phrase_body)
+
+    def test_build_omits_whitespace_only_phrase_tools_line(self) -> None:
+        setting = wiki.PATHWAYS / "gu" / "kidney" / "adjuvant-ccrcc"
+        setting.mkdir(parents=True)
+        (setting / "evidence.md").write_text(
+            """# Adjuvant clear-cell RCC
+
+Last reviewed: 2026-09-21
+Next review: 2026-12-20
+Owner: GU clinic
+Purpose: Decision support
+Status: current
+
+## Guideline references
+
+- Guideline link
+""",
+            encoding="utf-8",
+        )
+        (setting / "dotphrase.md").write_text(
+            """#adjuvantccrcc
+
+- Counseling: Discussed surveillance.
+""",
+            encoding="utf-8",
+        )
+
+        self.assertEqual(wiki.main(), 0)
+
+        page = (
+            wiki.SITE / "gu" / "kidney" / "adjuvant-ccrcc.html"
+        ).read_text(encoding="utf-8")
+        self.assertNotIn("\n  \n  <ul class=\"phrase-body\">", page)
 
     def test_planned_labels_do_not_call_pages_briefs(self) -> None:
         labels = [label for settings in wiki.PLANNED.values() for label in settings]

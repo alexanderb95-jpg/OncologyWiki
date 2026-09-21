@@ -135,6 +135,23 @@ body {
 .evidence table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.82rem; line-height: 1.45; }
 .evidence th, .evidence td { border: 1px solid var(--line); padding: 0.45rem 0.55rem; text-align: left; vertical-align: top; }
 .evidence th { background: #f5f1ea; font-weight: 650; }
+.table-wrap.cross_trial {
+  padding: 0.3rem;
+  border: 1px solid #bfdbfe;
+  border-left: 4px solid var(--accent);
+  border-radius: 5px;
+  background: #eff6ff;
+}
+.table-wrap.cross_trial table { min-width: 64rem; background: var(--paper); }
+.table-wrap.cross_trial th { background: #dbeafe; color: #1e3a8a; }
+.table-wrap.cross_trial td:first-child {
+  min-width: 8rem;
+  font-weight: 650;
+  color: #1e3a8a;
+  background: #f8fbff;
+}
+.table-wrap.cross_trial tbody tr:nth-child(even) td { background: #fcfdff; }
+.table-wrap.cross_trial tbody tr:hover td { background: #f0f7ff; }
 .evidence-figure { margin: 0.85rem 0 1.25rem; padding: 0.6rem; border: 1px solid var(--line); background: #faf8f4; }
 .evidence-figure img { display: block; width: 100%; height: auto; }
 .related { font-family: var(--sans); font-size: 0.85rem; margin: 0.75rem 0 0; }

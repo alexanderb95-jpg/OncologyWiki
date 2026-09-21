@@ -312,14 +312,17 @@ def is_table_divider(line: str) -> bool:
     return bool(cells) and all(re.fullmatch(r":?-{3,}:?", cell) for cell in cells)
 
 
-def render_table(header: list[str], rows: list[list[str]]) -> str:
+def render_table(
+    header: list[str], rows: list[list[str]], *, css_class: str = ""
+) -> str:
     header_html = "".join(f"<th>{md_inline(cell)}</th>" for cell in header)
     rows_html = "\n".join(
         "<tr>" + "".join(f"<td>{md_inline(cell)}</td>" for cell in row) + "</tr>"
         for row in rows
     )
+    class_suffix = f" {css_class}" if css_class else ""
     return (
-        '<div class="table-wrap"><table><thead><tr>'
+        f'<div class="table-wrap{class_suffix}"><table><thead><tr>'
         f"{header_html}</tr></thead><tbody>{rows_html}</tbody></table></div>"
     )
 
@@ -360,6 +363,14 @@ def md_block_to_html(block: str) -> str:
         if not line.strip():
             i += 1
             continue
+        css_class = ""
+        if line.strip() == "<!-- .cross_trial -->":
+            css_class = "cross_trial"
+            i += 1
+            if i >= len(lines):
+                continue
+            raw = lines[i]
+            line = raw.rstrip()
         if (
             i + 1 < len(lines)
             and "|" in line
@@ -371,7 +382,7 @@ def md_block_to_html(block: str) -> str:
             while i < len(lines) and "|" in lines[i] and lines[i].strip():
                 rows.append(table_cells(lines[i]))
                 i += 1
-            out.append(render_table(header, rows))
+            out.append(render_table(header, rows, css_class=css_class))
             continue
         if line.startswith("### "):
             out.append(f"<h3>{md_inline(line[4:].strip())}</h3>")
@@ -752,6 +763,7 @@ def render_article(art: Article, articles: list[Article]) -> str:
             for ln in art.phrase_lines
         )
         phrase_tools = render_phrase_tools(art)
+        phrase_tools_block = f"  {phrase_tools}\n" if phrase_tools else ""
         phrase_block = f"""
 <section class="phrase" id="dotphrase">
   <div class="phrase-head">
@@ -759,8 +771,7 @@ def render_article(art: Article, articles: list[Article]) -> str:
     <button type="button" class="copy-btn" data-copy-b64="{b64}">Copy</button>
   </div>
   <p class="trigger"><code>{html.escape(art.trigger)}</code></p>
-  {phrase_tools}
-  <ul class="phrase-body">{lis}</ul>
+{phrase_tools_block}  <ul class="phrase-body">{lis}</ul>
   <p class="src"><a href="{prefix}../{art.md_rel}/dotphrase.md">Edit markdown</a></p>
 </section>
 """
@@ -970,6 +981,23 @@ body {
 .evidence table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.82rem; line-height: 1.45; }
 .evidence th, .evidence td { border: 1px solid var(--line); padding: 0.45rem 0.55rem; text-align: left; vertical-align: top; }
 .evidence th { background: #f5f1ea; font-weight: 650; }
+.table-wrap.cross_trial {
+  padding: 0.3rem;
+  border: 1px solid #bfdbfe;
+  border-left: 4px solid var(--accent);
+  border-radius: 5px;
+  background: #eff6ff;
+}
+.table-wrap.cross_trial table { min-width: 64rem; background: var(--paper); }
+.table-wrap.cross_trial th { background: #dbeafe; color: #1e3a8a; }
+.table-wrap.cross_trial td:first-child {
+  min-width: 8rem;
+  font-weight: 650;
+  color: #1e3a8a;
+  background: #f8fbff;
+}
+.table-wrap.cross_trial tbody tr:nth-child(even) td { background: #fcfdff; }
+.table-wrap.cross_trial tbody tr:hover td { background: #f0f7ff; }
 .evidence-figure { margin: 0.85rem 0 1.25rem; padding: 0.6rem; border: 1px solid var(--line); background: #faf8f4; }
 .evidence-figure img { display: block; width: 100%; height: auto; }
 .related { font-family: var(--sans); font-size: 0.85rem; margin: 0.75rem 0 0; }
