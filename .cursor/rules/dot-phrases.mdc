@@ -11,3 +11,24 @@ alwaysApply: true
 - Prefer counseling → decision → labs/NGS → procedures → meds → referrals → follow-up
 - Preserve the user's clinical wording; fix only clear typos unless asked to rewrite
 - When SOC changes, update the paired `evidence.md` in the same folder
+
+## Interactive risk and eligibility controls
+
+Use an interactive control only when a fill-in must be selected from published
+trial criteria or a defined risk tool. Keep the clinical definition and source
+in the paired evidence page; do not encode unverified cutoffs in a phrase.
+
+- Discrete choices: `{{select:control-id|Visible label|Option one|Option two}}`
+  - `control-id` uses lowercase letters, digits, and hyphens.
+  - The selected option replaces the annotation in the rendered phrase and Copy
+    output. Use this instead of `***` only for a bounded, source-defined choice.
+- Supported calculators: `{{calc:calculator-id|Visible label}}`
+  - Calculator IDs are implemented and validated by `scripts/build_wiki.py`.
+  - The calculator’s resulting category replaces the annotation in every
+    rendered occurrence and in Copy output.
+  - Current calculator: `keynote-564` for the published KEYNOTE-564
+    intermediate-high risk, high risk, M1 NED, and not-eligible categories.
+- Leave patient-specific narrative, preferences, and decisions as `***`.
+- Rebuild with `python3 scripts/build_wiki.py` after adding or changing an
+  annotation; an invalid annotation fails the build instead of silently
+  rendering as free text.
