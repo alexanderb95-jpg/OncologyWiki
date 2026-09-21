@@ -1,6 +1,7 @@
 # Metastatic RCC — clinic evidence brief
 
 Last reviewed: 2026-09-21
+Next review: 2026-12-20
 Owner: GU clinic
 Purpose: 60-second pre-visit skim (not a full guideline)
 Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doublets in this pack

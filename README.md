@@ -1,36 +1,46 @@
-# GU clinic
+# GU clinic (MedOnc wiki)
 
-Cursor workspace for **living GU oncology clinic notes**:
+Cursor project under **Projects → GU-clinic** for living oncology clinic notes.
 
-1. **Dot phrases** — Epic-style `#` triggers you revise over time
-2. **Evidence briefs** — UpToDate-style 60-second skims beside each phrase, also refreshed over time
+GU pathways live here; lung/heme/etc. can be added under `pathways/` later without a new project.
 
-Open this folder in Cursor: `/Users/Alex/Projects/GU-clinic`
+## Open the wiki
+
+```bash
+open site/index.html
+```
+
+After edits: `python3 scripts/build_wiki.py`
 
 ## Layout
 
-Each clinical setting is its own folder:
-
 ```
-pathways/{disease}/{setting}/
-  dotphrase.md   # note text for Epic
-  evidence.md    # clinic evidence overview
+pathways/gu/{disease}/{setting}/
+  evidence.md
+  dotphrase.md
+
+# Later examples (same project):
+# pathways/lung/nsclc/...
+# pathways/heme/aml/...
+
+inbox/
+site/          # generated HTML — do not hand-edit
+scripts/
 ```
 
-Current settings: prostate `mHSPC`, `mCRPC`; bladder `adjuvant-urothelial`, `mUC`; kidney `mRCC`.
+Open this folder: `/Users/Alex/Projects/GU-clinic`  
+(`~/Documents/GU-clinic` is a symlink to the same tree.)
 
-See `PATHWAYS.md` for coverage checklist. Sister product project (biomarker / methylation skills): `/Users/Alex/Documents/EpiAI`.
+Sister product (biomarker / methylation): `/Users/Alex/Documents/EpiAI`.
 
-## Updating over time
+## Updating
 
-- Edit `dotphrase.md` whenever counseling or orders change.
-- Edit `evidence.md` when practice changes; bump **Last reviewed** and **Changelog**.
-- A Monday 8am routine (**GU clinic evidence refresh**) re-checks briefs and pings you only when something material changed.
+- Edit markdown; bump **Last reviewed**, **Next review**, **Changelog**.
+- `save to knowledge base` in clinical chats writes here (opt-in).
+- Inbox: `python3 scripts/inbox_refresh.py` → review → promote → rebuild.
 
-## Clinic page (canvas)
+## Not
 
-Open the interactive clinic walkthrough beside chat:
-
-`~/.cursor/projects/Users-Alex-Projects-GU-clinic/canvases/clinic.canvas.tsx`
-
-It steps through each pathway with **Evidence** and **Dot phrase** side by side. Source markdown under `pathways/` remains canonical.
+- OneNote / Notion / Canvas
+- Separate MedOnc-wiki project (that folder is a pointer back here)
+- PHI / patient chart

@@ -1,11 +1,11 @@
 ---
-description: How to author and revise GU clinic dot phrases
+description: How to author and revise oncology clinic dot phrases
 alwaysApply: true
 ---
 
 # Dot phrases
 
-- Path: `pathways/{disease}/{setting}/dotphrase.md`
+- Path: `pathways/{domain}/{disease}/{setting}/dotphrase.md`
 - Line 1 = Epic trigger starting with `#`
 - Body = clinic-note bullets; fill-ins are `***`
 - Prefer counseling → decision → labs/NGS → procedures → meds → referrals → follow-up

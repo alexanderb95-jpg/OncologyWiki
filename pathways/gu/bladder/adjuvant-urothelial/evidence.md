@@ -1,6 +1,7 @@
 # Adjuvant urothelial — clinic evidence brief
 
 Last reviewed: 2026-09-21
+Next review: 2026-12-20
 Owner: GU clinic
 Purpose: 60-second pre-visit skim (not a full guideline)
 Status: clinic-ready — perioperative EV+pembro and NIAGARA now change who still needs classic adjuvant IO; ctDNA MRD selects adjuvant atezo

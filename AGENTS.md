@@ -1,23 +1,34 @@
 # GU clinic — agent guide
 
-This repo holds **Epic-style GU oncology dot phrases** plus **living evidence briefs** for quick clinic review.
+This repo is the **personal oncology wiki** (GU first). Markdown is canonical; `site/` is generated HTML.
 
 ## Structure
 
-- `pathways/{disease}/{setting}/dotphrase.md` — note template; first line is the `#Trigger`
-- `pathways/{disease}/{setting}/evidence.md` — UpToDate-like skim for that setting
-- Keep phrase and evidence aligned when SOC changes
+```
+pathways/{domain}/{disease}/{setting}/
+  evidence.md
+  dotphrase.md
+```
+
+- Domains today: `gu`. Planned: `lung`, `heme`, …
+- `inbox/` — unreviewed captures (never auto-promoted)
+- `site/` — generated wiki. Do not hand-edit.
 
 ## Do
 
-- Use `***` blanks in phrases for variable details
 - Prefer counseling → decision → labs/NGS → procedures → meds → referrals → follow-up
-- On evidence updates: never invent HRs/p-values; verify against NCCN / primary sources
-- Bump `Last reviewed` and append `Changelog` on every evidence edit
-- For methylation / EpiAI product skills, use sister project `/Users/Alex/Documents/EpiAI` — do not merge trees
+- Never invent trial statistics
+- Bump Last reviewed, Next review, Changelog on evidence edits
+- After edits: `python3 scripts/build_wiki.py`
+- EpiAI stays at `/Users/Alex/Documents/EpiAI`
+
+## Knowledge base save
+
+Only when user says `save to knowledge base` / `KB yes`. Write under this repo, then rebuild.
 
 ## Do not
 
-- Put PHI, MRNs, or secrets here
-- Fabricate trial statistics
-- Turn this into a second EpiAI HTML/product repo
+- PHI
+- Write OneNote or `~/.cursor/med-onc-kb` (archive)
+- Hand-edit `site/*.html`
+- Use `/Users/Alex/Projects/MedOnc-wiki` for new notes (pointer only)

@@ -1,6 +1,7 @@
 # mHSPC — clinic evidence brief
 
 Last reviewed: 2026-09-21
+Next review: 2026-12-20
 Owner: GU clinic
 Purpose: 60-second pre-visit skim (not a full guideline)
 Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets; re-check NCCN (not retrieved this pass)
