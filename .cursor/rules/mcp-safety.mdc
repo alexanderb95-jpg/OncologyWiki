@@ -1,0 +1,13 @@
+---
+description: Safety and reliability defaults for building MCP connectors and servers
+alwaysApply: true
+---
+
+# MCP Safety Defaults
+
+- Read and follow tool/server schema before implementation.
+- Never hardcode API credentials or tokens.
+- Use environment variables and `.env` for secrets.
+- Prefer least-privilege auth scopes.
+- Validate error handling for auth failure, timeout, and rate limit.
+- Document required environment variables and setup steps.

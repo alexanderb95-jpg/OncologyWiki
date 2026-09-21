@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Retrieves high-fidelity medical evidence from peer-reviewed publications with source verification. Prioritizes PubMed sources, high impact factor journals, and recent articles. Use when answering medical questions, verifying clinical information, providing evidence-based recommendations, or when the user asks about medical literature, clinical guidelines, or research findings.">
+
+<title>skill</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="SKILL_files/libs/clipboard/clipboard.min.js"></script>
+<script src="SKILL_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="SKILL_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="SKILL_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="SKILL_files/libs/quarto-html/popper.min.js"></script>
+<script src="SKILL_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="SKILL_files/libs/quarto-html/anchor.min.js"></script>
+<link href="SKILL_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="SKILL_files/libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="SKILL_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="SKILL_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="SKILL_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="medical-evidence-search" class="level1">
+<h1>Medical Evidence Search</h1>
+<section id="core-principles" class="level2">
+<h2 class="anchored" data-anchor-id="core-principles">Core Principles</h2>
+<p><strong>Fidelity is paramount.</strong> Always prioritize accuracy and verifiability over speed or convenience.</p>
+<p><strong>CRITICAL: NO HALLUCINATION RULE</strong> - <strong>Never invent, infer, or assume information not explicitly found in source text</strong> - <strong>Only state what is directly verifiable from retrieved sources</strong> - <strong>If information is not found in sources, explicitly state “Not found in available sources”</strong> - <strong>Do not extrapolate beyond what the source text explicitly states</strong> - <strong>When in doubt, acknowledge uncertainty rather than speculating</strong></p>
+<ol type="1">
+<li><strong>Source verification</strong>: Every medical claim must be backed by peer-reviewed sources with verifiable text</li>
+<li><strong>Text-based verification</strong>: Only disclose information that can be directly quoted or verified from source text</li>
+<li><strong>Impact prioritization</strong>: Prefer high impact factor journals and professional society guidelines see <a href="journal-tiers.md">journal-tiers.md</a>)</li>
+<li><strong>Recency prioritization</strong>: Prefer recent publications (last 5 years) unless older evidence is foundational</li>
+<li><strong>Multiple sources</strong>: When possible, cite multiple independent sources for key claims</li>
+<li><strong>Transparent sourcing</strong>: Always provide full citations with DOI/PMID when available</li>
+</ol>
+</section>
+<section id="text-verification-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="text-verification-requirements">Text Verification Requirements</h2>
+<p><strong>MANDATORY: All information must be verifiable in source text</strong></p>
+<ol type="1">
+<li><strong>Retrieve full text when possible</strong>:
+<ul>
+<li>Use <code>mcp_web_fetch</code> to retrieve full article content</li>
+<li>Read beyond abstracts when available</li>
+<li>Access PMC full-text articles when possible</li>
+</ul></li>
+<li><strong>Quote directly when making specific claims</strong>:
+<ul>
+<li>For key findings, include direct quotes from source text</li>
+<li>Use quotation marks for verbatim text</li>
+<li>Cite the exact location (section, page, paragraph) when available</li>
+</ul></li>
+<li><strong>Never infer beyond source text</strong>:
+<ul>
+<li>If a study doesn’t report a specific outcome, state “Not reported” not “No effect”</li>
+<li>If methodology is unclear, state “Methodology not clearly described” not infer details</li>
+<li>If numbers are missing, state “Data not provided” not estimate</li>
+</ul></li>
+<li><strong>Verification process</strong>:
+<ul>
+<li>Before stating any claim, verify it appears in the retrieved source text</li>
+<li>If you cannot find the information in source text, explicitly state: “This information was not found in the available sources”</li>
+<li>When multiple sources conflict, present all perspectives with citations</li>
+</ul></li>
+</ol>
+</section>
+<section id="search-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="search-strategy">Search Strategy</h2>
+<section id="primary-sources-in-order-of-preference" class="level3">
+<h3 class="anchored" data-anchor-id="primary-sources-in-order-of-preference">Primary Sources (in order of preference)</h3>
+<ol type="1">
+<li><strong>PubMed/PMC</strong> - Always start here for peer-reviewed literature</li>
+<li><strong>High impact journals</strong> - NEJM, JAMA, Lancet, Nature Medicine, BMJ, etc.</li>
+<li><strong>Specialty journals</strong> - Domain-specific high-impact journals</li>
+<li><strong>Clinical guidelines</strong> - NCCN, professional society guidelines</li>
+<li><strong>Regulatory sources</strong> - FDA, CDC, WHO when relevant</li>
+</ol>
+</section>
+<section id="search-approach" class="level3">
+<h3 class="anchored" data-anchor-id="search-approach">Search Approach</h3>
+<p>When searching for medical evidence:</p>
+<ol type="1">
+<li><strong>Use specific medical terminology</strong> - Use MeSH terms, official drug names, ICD codes when relevant</li>
+<li><strong>Combine search terms strategically</strong>:
+<ul>
+<li><code>[condition] AND [intervention] AND [outcome]</code></li>
+<li>Use PubMed filters: <code>[term] AND (systematic review[Title/Abstract] OR meta-analysis[Title/Abstract])</code></li>
+</ul></li>
+<li><strong>Apply filters in order of priority</strong>:
+<ul>
+<li>Publication date: Last 5 years (unless foundational evidence needed)</li>
+<li>Article type: Systematic reviews, meta-analyses, RCTs, then observational studies</li>
+<li>Journal impact: Filter by high-impact journals when possible</li>
+</ul></li>
+<li><strong>Verify findings</strong> - Cross-check key claims with multiple sources</li>
+</ol>
+</section>
+</section>
+<section id="citation-format" class="level2">
+<h2 class="anchored" data-anchor-id="citation-format">Citation Format</h2>
+<p>Always provide citations in this format:</p>
+<pre><code>**Author et al. (Year).** Title. *Journal Name*. DOI: [doi] | PMID: [pmid]</code></pre>
+<p><strong>Example:</strong></p>
+<pre><code>**Powles et al. (2024).** ctDNA response assessment in metastatic urothelial carcinoma. *Nature Medicine*. DOI: 10.1038/s41591-024-03091-7 | PMID: [if available]</code></pre>
+<p>For multiple citations, list them in order of: 1. Impact factor (highest first) 2. Recency (most recent first) 3. Relevance to the specific question</p>
+</section>
+<section id="when-to-use-this-skill" class="level2">
+<h2 class="anchored" data-anchor-id="when-to-use-this-skill">When to Use This Skill</h2>
+<p>Apply this skill when: - User asks medical/clinical questions - Verifying medical information - Providing evidence-based recommendations - Discussing treatment options or clinical guidelines - Interpreting research findings - Writing medical content that requires citations - User mentions “evidence”, “literature”, “studies”, “research”, “publications”</p>
+</section>
+<section id="workflow" class="level2">
+<h2 class="anchored" data-anchor-id="workflow">Workflow</h2>
+<ol type="1">
+<li><strong>Identify the medical question</strong> - Extract key terms (condition, intervention, outcome)</li>
+<li><strong>Search PubMed first</strong> - Use web_search with specific PubMed queries</li>
+<li><strong>Retrieve and read source text</strong> - Use mcp_web_fetch or read actual article content, not just abstracts</li>
+<li><strong>Extract only explicit information</strong> - Only state facts that are directly stated in the retrieved text</li>
+<li><strong>Prioritize results</strong>:
+<ul>
+<li>High impact journals first</li>
+<li>Recent publications (last 5 years) first</li>
+<li>Systematic reviews/meta-analyses over single studies</li>
+</ul></li>
+<li><strong>Verify key claims</strong> - Cross-reference with additional sources, ensuring each claim is in source text</li>
+<li><strong>Format response</strong>:
+<ul>
+<li>Lead with the answer/evidence (only if found in sources)</li>
+<li><strong>When able, include summary tables</strong> (see Summary Tables below)</li>
+<li>Support with citations and direct quotes when possible</li>
+<li>Note any limitations or conflicting evidence</li>
+<li>Indicate strength of evidence (RCT vs observational, etc.)</li>
+<li><strong>If information is not found, explicitly state this rather than inferring</strong></li>
+</ul></li>
+</ol>
+</section>
+<section id="summary-tables" class="level2">
+<h2 class="anchored" data-anchor-id="summary-tables">Summary Tables</h2>
+<p><strong>When the evidence allows</strong>, present main points in markdown tables so key findings are easy to scan. Use tables when you have: - Multiple studies or sources with comparable outcomes (e.g.&nbsp;study | design | main finding | citation) - Guideline recommendations or criteria (e.g.&nbsp;recommendation | level/source | citation) - Treatment/regimen options with evidence (e.g.&nbsp;intervention | outcome | source) - Any structured comparison where rows and columns add clarity</p>
+<p><strong>Rules for summary tables:</strong> - Include only information explicitly stated in retrieved source text - Every cell that states a finding must be traceable to a cited source (citation column or footnote) - Use clear column headers (e.g.&nbsp;Study, Design, Main finding, Citation) - If data are not comparable or only one source applies, use a narrative summary instead of forcing a table - Prefer one main summary table; add a second table only if it serves a distinct purpose (e.g.&nbsp;studies table + guidelines table)</p>
+</section>
+<section id="quality-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="quality-checklist">Quality Checklist</h2>
+<p>Before providing medical information, verify: - [ ] <strong>All claims are directly verifiable from source text (not inferred or assumed)</strong> - [ ] <strong>Source text has been read/retrieved, not just abstract or summary</strong> - [ ] All claims are backed by peer-reviewed sources with verifiable text - [ ] Citations include journal name, year, and DOI/PMID - [ ] <strong>When multiple sources or structured findings exist, a summary table is included</strong> - [ ] High-impact sources are prioritized - [ ] Recent evidence is prioritized (unless foundational) - [ ] Multiple sources cited for key claims when possible - [ ] Limitations or conflicting evidence are noted - [ ] Clinical context is appropriate (not overgeneralizing) - [ ] <strong>If information is missing, this is explicitly stated rather than inferred</strong></p>
+</section>
+<section id="limitations-and-disclaimers" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-and-disclaimers">Limitations and Disclaimers</h2>
+<ul>
+<li><strong>Never state information that cannot be verified in source text</strong></li>
+<li>Always note when evidence is limited or conflicting</li>
+<li>Distinguish between strong evidence (RCTs, meta-analyses) and weaker evidence (case reports, observational studies)</li>
+<li>Note when recommendations are based on guidelines vs.&nbsp;individual studies</li>
+<li>Acknowledge when information may be outdated or superseded</li>
+<li><strong>Explicitly state when information is not available rather than making assumptions</strong></li>
+<li><strong>If a source doesn’t contain the requested information, say so clearly</strong></li>
+</ul>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<ul>
+<li>For journal impact factor tiers, see <a href="journal-tiers.md">journal-tiers.md</a></li>
+<li>For PubMed search strategies, see <a href="pubmed-strategies.md">pubmed-strategies.md</a></li>
+</ul>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

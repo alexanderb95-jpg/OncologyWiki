@@ -1,0 +1,45 @@
+---
+description: Format PubMed-verified evidence tables for MD investor slides (medical/scientific)
+alwaysApply: true
+---
+
+# Medical investor evidence tables
+
+When building evidence tables for MD investors (e.g., epigenetics × ADC, drug platforms, translational biology):
+
+## Table shape (default)
+
+Four columns, **one row per strategic lever**:
+
+| Strategic lever | Opportunity | Evidence | Source |
+
+- **Strategic lever**: Numbered, bold theme (e.g., `1. Turn target ON`)
+- **Opportunity**: One short investor takeaway (≤12 words)
+- **Evidence**: 1–2 mechanism bullets in plain language; name **payload**, **cancer type**, and **setting** (in vitro, xenograft, Ph3, etc.)
+- **Source**: `Author Year (Journal)` — **1–2 anchors per row**; semicolon-separated; **no PMIDs** in the slide table
+
+## Evidence quality
+
+1. Run **medical-evidence-search** / PubMed before citing; state only what the abstract or full text supports.
+2. Label **ADC-specific** vs **adjacent precedent** (e.g., trastuzumab ± HDACi, platinum/NSCLC).
+3. Do not infer mechanisms (e.g., “restores HER2 vulnerability”) unless the paper states them.
+4. Distinguish **surface** vs **total** expression, **preclinical** vs **clinical**, and **modality** (ADC vs CAR vs ICI).
+
+## Wording
+
+- Avoid unexplained abbreviations (`Ph2 epi + ICI` → “Phase 2 demethylating drug + anti-PD-1”).
+- Name payloads plainly: `HDAC inhibitor` (epigenetic), `MMAE + MMAF` (two chemo toxins), not “warhead” alone.
+- If two papers support different bets in one row, separate clearly (epigenetic payload vs dual cytotoxic payload).
+
+## Citation trimming
+
+Keep the **strongest 1–2 sources** per row. Drop redundant reviews, duplicate mechanisms, or weaker adjacent papers unless the row would be empty.
+
+## Optional deliverables
+
+- Full table in `.Rmd` with `kableExtra` for HTML export when the user wants a knit artifact.
+- Abridged version = same four columns, already at slide density (no second “compact” table unless asked).
+
+## Example row (density target)
+
+**4. Synergy with payload** | Enable next-gen ADC architecture | Trastuzumab-ADC with HDAC inhibitor beat trastuzumab in ovarian/colon/pancreatic mouse models; trastuzumab-ADC with two chemo drugs (MMAE + MMAF) beat single-payload ADCs in mixed HER2 breast tumors in mice | Milazzo 2020 (Front Oncol); Yamazaki 2021 (Nat Commun)

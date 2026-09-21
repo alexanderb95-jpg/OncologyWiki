@@ -26,9 +26,16 @@ pathways/{domain}/{disease}/{setting}/
 
 Only when user says `save to knowledge base` / `KB yes`. Write under this repo, then rebuild.
 
-## Do not
+## Cloud Agents
 
-- PHI
-- Write OneNote or `~/.cursor/med-onc-kb` (archive)
-- Hand-edit `site/*.html`
-- Use `/Users/Alex/Projects/MedOnc-wiki` for new notes (pointer only)
+This repo is self-contained for cloud:
+
+- Skills: `.cursor/skills/` (med-onc + evidence stack)
+- Rules: `.cursor/rules/*.mdc`
+- Hooks: `.cursor/hooks.json` (command hooks: `beforeSubmitPrompt`, `stop`)
+- Guide: this `AGENTS.md`
+
+For **personal** skills still only in `~/.cursor/skills/` (e.g. AWS packs): turn on
+**Settings → Agents → Sync Skills for Cloud Agents**. Synced skills stay private to you.
+
+Do not rely on laptop `~/.cursor/hooks.json` or `~/.cursor/med-onc-kb` in the cloud VM.

@@ -1,0 +1,25 @@
+{
+  "topic": "EV+P duration and dosing in la/mUC",
+  "smartphrase": ".evpdose",
+  "last_refresh": "2026-09-01",
+  "next_due": "2027-03-01",
+  "calendar_event_id": "fqla3tcr22rk0mm25cm24ehb20",
+  "calendar_event_summary": "Refresh EV+P mUC duration/dosing evidence (.evpdose)",
+  "calendar_html": "https://www.google.com/calendar/event?eid=ZnFsYTN0Y3IyMnJrMG1tMjVjbTI0ZWhiMjBfMjAyNzAzMDEgYWxleGFuZGVyYjk1QG0",
+  "secondary_pointer": "https://www.guoncologynow.com/post/ev-p-demonstrates-sustained-efficacy-through-3-5-years-in-treatment-naive-la-muc",
+  "tracked_pmids": [
+    "38446675",
+    "42618453",
+    "42155320",
+    "42466532",
+    "42612175",
+    "42521985"
+  ],
+  "congress_ids": [
+    "JCO.2026.44.16_suppl.4507",
+    "JCO.2026.44.7_suppl.689",
+    "JCO.2026.44.16_suppl.4565",
+    "JCO.2026.44.7_suppl.696"
+  ],
+  "notes": "No randomized 3-vs-6-cycle EV+P trial in mUC as of 2026-09-01."
+}

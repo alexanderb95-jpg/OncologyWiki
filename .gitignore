@@ -1,4 +1,5 @@
+*.pyc
 .DS_Store
 .current_project
+.cursor/med_onc_session_context.md
 __pycache__/
-*.pyc

@@ -1,0 +1,14 @@
+.evpdose
+EV+P duration/dosing, mUC. Evidence snapshot 2026-09-01. Refresh due 2027-03-01.
+
+Protocol (EV-302, NEJM 2024 PMID 38446675): EV 1.25 mg/kg IV D1 and D8 + pembrolizumab 200 mg IV D1, q21d, until PD or toxicity. Pembro capped at ~35 cycles (~2 y). No EV cycle cap. Median 12 combination cycles (range 1-46) vs chemo capped at 6. Grade >=3 TRAE 55.9% vs 69.5%. No RCT of 3 vs 6 EV+P cycles.
+
+Responders (EV-302 3.5-y, ASCO 2026 abs 4507, congress; GU Oncology Now 2026-05-31 is a secondary pointer only): median OS 33.6 vs 15.9 mo (HR 0.53). First PR ~2.1 mo (~3 cycles). Median time to CR 4.3 mo (~6 cycles). 66% of CRs converted from PR after median +5 EV cycles (IQR 3-8). Median EV cycles before CR 6 (IQR 3-9); median total EV among CRs 13. 42-mo OS in CRs ~84%. Authors: duration is relevant if the goal is CR.
+
+Stopping EV after CR/PR or toxicity (Li, Clin Genitourin Cancer 2026, PMID 42618453): selected pts who held EV >=8 weeks. 1-y alive and treatment-free 68.9% after EV+P vs 41.9% after EV alone. Duration of EV did NOT predict treatment-free interval; CR did vs PR. EV rechallenge n=23: PR 21.7%, SD 30.4%, PD 47.8%.
+
+Dose intensity: RDI through cycle 3 or 6 not associated with PFS/OS (single-center EV+P n=104, ASCO GU 2026 #689, congress). UNITE on-treatment reductions: efficacy maintained (ASCO 2026 #4565, congress). UNITE UPFRONT start <1.25: ORR 28% vs 60% (ASCO GU 2026 #696, congress). Age >=80: most started 1.0 or lower; ORR 57.7% (Mar, JCO OP 2026, PMID 42612175). Two-weekly EV+P is n=20 retrospective only (PMID 42521985).
+
+Clinic take: start 1.25 unless frail/ultra-elderly. Do not stop at first PR if aiming for CR. After cycle 3, reduce or hold EV for AE rather than abandon. Holding EV for CR or neuropathy and continuing pembro is reasonable selected-patient practice, not a trial-proven de-escalation.
+
+Plan this visit: ***continue full-dose EV+P*** / ***reduce EV to 1.0 mg/kg*** / ***hold EV, continue pembro*** / ***stop both***

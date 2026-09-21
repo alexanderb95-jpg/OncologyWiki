@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "hooks": {
+    "beforeSubmitPrompt": [
+      {
+        "command": ".cursor/hooks/med_onc_before_prompt.sh",
+        "matcher": "med-onc|clinical reference|research synthesis|evidence council|onc visit|board study|patient counseling|knowledge base|\\.evpdose|evpdose|evp duration|evp dosing|ev\\+p duration|OncologyWiki|GU clinic wiki"
+      }
+    ],
+    "stop": [
+      {
+        "command": ".cursor/hooks/med_onc_session_stop.sh"
+      }
+    ]
+  }
+}

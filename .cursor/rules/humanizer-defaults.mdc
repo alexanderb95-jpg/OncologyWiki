@@ -1,0 +1,13 @@
+---
+description: Default prose editing behavior for publication-ready humanization in markdown/text files
+globs: "*.{md,mdx,txt,rmd}"
+alwaysApply: false
+---
+
+# Humanizer Defaults
+
+- Default to publication-pass edits for prose polishing requests.
+- Keep intent and factual meaning unchanged.
+- Prefer concise, precise, professional wording.
+- Remove common AI-writing artifacts (repetitive cadence, filler transitions, vague attribution).
+- If user requests a light touch, switch to minimal-edit mode.
