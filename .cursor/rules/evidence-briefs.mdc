@@ -1,5 +1,5 @@
 ---
-description: Guideline-forward, OneNote-style evidence pages beside each pathway
+description: Decision-first, OneNote-style evidence pages beside each pathway
 alwaysApply: true
 ---
 
@@ -8,10 +8,12 @@ alwaysApply: true
 - Path: `pathways/{domain}/{disease}/{setting}/evidence.md` (e.g. `pathways/gu/prostate/mHSPC/`)
 - One disease + setting per page. Use short named sections, nested bullets, and tables only for genuinely tabular comparisons; do not merge a disease's settings into a long page.
 - Purpose: scannable decision support, not a guideline dump.
-- Required sections: Guidelines, Who this applies to, Standard options, Key trials / Landmark evidence, Biomarkers, Toxicity anchors, Watch list, Sources to re-check, Changelog.
-- Guidelines: summarize the current NCCN, EAU, ESMO, and AUA/ASCO/SUO guidance as applicable to that disease + setting; include a published category/strength only when verified and never paste copyrighted guideline text.
+- Required sections, in order: Who this applies to, Standard options, Landmark evidence, Biomarkers, Toxicity anchors, Watch list, Guidelines, Sources to re-check, Changelog.
+- Guidelines: keep a brief bottom reference to current NCCN, EAU, ESMO, and AUA/ASCO/SUO guidance as applicable to that disease + setting; include a published category/strength only when verified and never paste copyrighted guideline text.
 - Standard options: use a risk group × option table with key inclusion and typical duration when relevant.
-- Key trials / Landmark evidence: use a trial table with N, population, randomization, primary endpoint, DFS/RFS/OS HRs, and published landmark rates with years. Add a source-recreated KM-style or forest-style figure when a survival result changes practice; never reuse journal artwork or invent/digitize unreported values.
+- Landmark evidence: use a trial table with N, population, randomization, primary endpoint, DFS/RFS/OS HRs, and published landmark rates with years. Add a source-recreated KM-style or forest-style figure when a survival result changes practice; never reuse journal artwork or invent/digitize unreported values.
+- Watch list: include only ongoing trials or high-impact recent papers that could change care; state whether evidence is peer-reviewed, congress-only, or pending. Keep generic research gaps and routine re-check reminders out of this section.
+- Add a paired `dotphrase.md` in the same folder for decision counseling. Its first line is an Epic trigger beginning with `#`; update it when the evidence page's standard-of-care discussion changes.
 - Do not use a `Bottom line` section.
 - Header fields: Last reviewed, Next review (~90 days), Owner, Purpose, Status
 - Never invent trial statistics; verify or leave qualitative

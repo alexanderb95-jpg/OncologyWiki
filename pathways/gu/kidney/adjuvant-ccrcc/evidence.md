@@ -3,97 +3,97 @@
 Last reviewed: 2026-09-21
 Next review: 2026-12-20
 Owner: GU clinic
-Purpose: Disease → setting page for post-nephrectomy adjuvant decision support
-Status: current — pembrolizumab is the only adjuvant systemic therapy with randomized DFS and OS benefit in this setting
-
-## Guidelines
-
-| Society | Setting-level recommendation | Published strength/category |
-|---|---|---|
-| NCCN Kidney Cancer (professional v1.2027; public patient v1.2026) | Public patient guidance supports postoperative pembrolizumab for grade-4 clear-cell stage II and clear-cell stage III RCC; verify M1 NED in the current professional pathway. | Category 1 for stage II/III was reported for v1.2025, but is not independently verified here for v1.2027. |
-| EAU RCC 2026 | Offer adjuvant pembrolizumab to clear-cell RCC meeting KEYNOTE-564 recurrence-risk criteria after restaging, preferably within 12–16 weeks of nephrectomy; do not offer adjuvant sunitinib. | Strong |
-| ESMO RCC 2024 | Consider pembrolizumab for intermediate-high or high-risk operable clear-cell RCC after individualized counseling; start within 12 weeks and treat for up to 1 year if used. | I, A; ESMO-MCBS v1.1 score A. |
-| AUA / ASCO | No separate contemporary adjuvant-systemic-therapy guideline recommendation was verified for this exact setting. | Use the current NCCN, EAU, and ESMO documents rather than inferring a position. |
+Purpose: Post-nephrectomy shared decision support for adjuvant clear-cell RCC
+Status: current — pembrolizumab has randomized DFS and OS benefit in eligible clear-cell RCC
 
 ## Who this applies to
 
-| KEYNOTE-564 risk group | Postoperative pathologic definition | This page applies? |
+| KEYNOTE-564 risk group | Postoperative definition | Decision boundary |
 |---|---|---|
-| Intermediate-high | pT2, grade 4 or sarcomatoid, N0 M0; or pT3, any grade, N0 M0 | Yes — discuss pembrolizumab versus surveillance. |
-| High | pT4, any grade, N0 M0; or any pT, any grade, N+ M0 | Yes — discuss pembrolizumab versus surveillance. |
-| M1 NED | Completely resected solid, isolated soft-tissue metastasis synchronous with nephrectomy or within 1 year | Yes — multidisciplinary review; evidence subset is small. |
-| Lower risk or non-clear-cell RCC | Does not meet the trial’s clear-cell risk definitions | No routine adjuvant systemic therapy on this page; surveillance or a trial is the default discussion. |
+| Intermediate-high risk | pT2 grade 4 or sarcomatoid, N0 M0; or pT3 any grade, N0 M0 | Discuss pembrolizumab versus risk-adapted surveillance. |
+| High risk | pT4 any grade, N0 M0; or any pT, any grade, N+ M0 | Discuss pembrolizumab versus risk-adapted surveillance. |
+| M1 NED | Completely resected metastasis at nephrectomy or within 1 year | Included in KEYNOTE-564, but the subgroup was small; use multidisciplinary review rather than treating it as equivalent to the M0 groups. |
+| Lower-risk clear-cell RCC | Does not meet the trial risk definitions | Use risk-adapted surveillance; do not extend the trial result to lower-risk disease. |
+| Papillary, chromophobe, or other non-clear-cell RCC | Outside the KEYNOTE-564 population | Do not extrapolate pembrolizumab benefit; discuss risk-adapted surveillance and a trial. |
 
-- Confirm clear-cell histology, pT/pN stage, grade, sarcomatoid features, margin status, nephrectomy/metastasectomy date, recovery, renal function, autoimmune history, and baseline endocrinopathy.
+- Confirm histology, pT/pN stage, grade, sarcomatoid features, margin status, nephrectomy or metastasectomy date, recovery, renal function, autoimmune history, and baseline endocrinopathy.
 
 ## Standard options
 
-| Risk group / circumstance | Option | Key inclusion or decision point | Typical duration |
+| Circumstance | Option | Decision discussion | Typical duration |
 |---|---|---|---|
-| KEYNOTE-564 eligible clear-cell RCC; willing to accept immune risk | Pembrolizumab 200 mg IV every 3 weeks | Start within 12 weeks of surgery in the trial; DFS and OS benefit versus placebo. | Up to 17 cycles (about 1 year) |
-| KEYNOTE-564 eligible but competing risk, frailty, major autoimmune risk, or preference to avoid immune toxicity | Active surveillance | No evidence that observation is inferior to another adjuvant systemic drug; preserve therapy for recurrence if appropriate. | Risk-adapted imaging follow-up |
-| Lower-risk or non-clear-cell RCC | Active surveillance | Do not extrapolate KEYNOTE-564 benefit beyond its population. | Risk-adapted imaging follow-up |
-| Any group with an appropriate study | Clinical trial | Especially useful for unresolved perioperative sequence, biomarkers, and recurrence-after-adjuvant-PD-1 questions. | Protocol |
+| Eligible clear-cell RCC and accepts immune-related risk | Pembrolizumab 200 mg IV every 3 weeks | KEYNOTE-564 showed DFS and OS benefit versus placebo; treatment in the trial began within 12 weeks after surgery. | Up to 17 cycles, about 1 year |
+| Eligible clear-cell RCC and prefers no adjuvant therapy, has competing risk, frailty, or major immune-risk concern | Risk-adapted surveillance | An active management option, not a treatment failure. Use postoperative imaging and functional follow-up by recurrence risk. | Ongoing, risk-adapted |
+| M1 NED | Multidisciplinary pembrolizumab-versus-surveillance discussion | The 30-month analysis reported 7/29 versus 19/29 DFS events, but this small subgroup does not provide a definitive standalone estimate. | If selected, up to 17 cycles |
+| Non-clear-cell RCC | Risk-adapted surveillance or clinical trial | KEYNOTE-564 was clear-cell only; the non-clear-cell EVEREST analysis did not establish benefit for everolimus. | Risk-adapted or protocol |
+| Any setting with a suitable study | Clinical trial | Particularly useful for non-clear-cell histology, novel perioperative regimens, and unresolved sequencing after recurrence. | Protocol |
 
-## Key trials / landmark evidence
+## Landmark evidence
 
-### KEYNOTE-564: decision-changing DFS and OS
+### KEYNOTE-564: practice-changing DFS and OS
 
-![KEYNOTE-564 landmark disease-free and overall survival](figures/keynote-564-landmark-survival.svg)
+![KEYNOTE-564 published landmark disease-free and overall survival estimates](figures/keynote-564-landmark-survival.svg)
 
-Published landmark estimates are connected only at reported time points; this is a recreated KM-style display, not a digitized journal figure or individual-patient curve. The final 5-year conference-abstract analysis reported DFS 60.9% versus 52.2% (HR 0.71, 95% CI 0.59–0.86) and OS 87.7% versus 82.3% (HR 0.66, 95% CI 0.48–0.90) for pembrolizumab versus placebo.
+Source-recreated landmark display: only the published baseline and 5-year estimates are shown. It is not a digitized journal figure or an individual-patient Kaplan-Meier curve.
 
-- **KEYNOTE-564 — the practice-changing trial**
-  - At 5 years, DFS was 60.9% versus 52.2% (HR 0.71) and OS was 87.7% versus 82.3% (HR 0.66) for pembrolizumab versus placebo.
-  - It is the only randomized adjuvant systemic-therapy trial in this table with both DFS and OS benefit.
-- **S-TRAC, PROTECT, ATLAS, IMmotion010, and CheckMate 914**
-  - Do not substitute their VEGFR-TKI or ICI regimens for pembrolizumab: the respective primary DFS analyses were either negative, nonconfirmatory, or without an established OS benefit.
-
-| Trial | N; population; randomization | Intervention / duration | Primary endpoint | DFS / RFS results | OS results | Source |
-|---|---|---|---|---|---|---|
-| KEYNOTE-564, NCT03142334 | 994; clear-cell RCC at intermediate-high risk, high risk, or M1 NED after nephrectomy ± metastasectomy; 1:1 double-blind | Pembrolizumab 200 mg IV q3wk versus placebo; ≤17 cycles (~1 year) | Investigator-assessed DFS | 5-y DFS 60.9% vs 52.2%; HR 0.71 (95% CI 0.59–0.86). At 48 mo, 64.9% vs 56.6%. | 5-y OS 87.7% vs 82.3%; HR 0.66 (95% CI 0.48–0.90). At 48 mo, 91.2% vs 86.0%. | [Five-year conference abstract, PMID 42648402](https://pubmed.ncbi.nlm.nih.gov/42648402/); [OS analysis, PMID 38631003](https://pubmed.ncbi.nlm.nih.gov/38631003/) |
-| S-TRAC, NCT00375674 | 615; high-risk locoregional clear-cell RCC after nephrectomy; 1:1 double-blind | Sunitinib 50 mg daily, 4 weeks on/2 weeks off, versus placebo | BICR DFS | Median DFS 6.8 vs 5.6 y; HR 0.76 (95% CI 0.59–0.98). 5-y DFS 59.3% vs 51.3%. | Updated OS HR 0.92 (95% CI 0.66–1.28; P=.60); no OS benefit. | [Primary, PMID 27718781](https://pubmed.ncbi.nlm.nih.gov/27718781/); [OS update, PMID 28967554](https://pubmed.ncbi.nlm.nih.gov/28967554/) |
-| PROTECT, NCT01235962 | 1,538 overall; resected pT2 high-grade or ≥pT3/N1 clear-cell RCC; placebo-controlled. Primary 600-mg analysis n=1,135. | Pazopanib 600 mg daily versus placebo for 1 year (800-mg starting cohort n=403) | DFS in the 600-mg ITT cohort | Primary analysis HR 0.86 (95% CI 0.70–1.06; P=.165); not significant. | Not used as an OS-proven adjuvant option. | [PMID 28902533](https://pubmed.ncbi.nlm.nih.gov/28902533/) |
-| ATLAS, NCT01599754 | 724; >50% clear-cell locoregional RCC, pT2 and/or N+, no residual/metastatic disease; 1:1 double-blind | Axitinib 5 mg twice daily versus placebo; planned 1–3 y | BICR DFS | HR 0.87 (95% CI 0.66–1.15; P=.321); stopped early for futility. | Immature at primary analysis. | [PMID 30346481](https://pubmed.ncbi.nlm.nih.gov/30346481/) |
-| IMmotion010, NCT03024996 | 778; RCC with clear-cell or sarcomatoid component at increased recurrence risk after resection; 1:1 double-blind | Atezolizumab 1,200 mg IV q3wk versus placebo; 16 cycles / 1 y | Investigator-assessed DFS | Median DFS 57.2 vs 49.5 mo; HR 0.93 (95% CI 0.75–1.15; P=.50). | Immature; HR 0.97 (95% CI 0.67–1.42) at the published analysis. | [PMID 36099926](https://pubmed.ncbi.nlm.nih.gov/36099926/) |
-| CheckMate 914 Part A, NCT03138512 | 816; localized high-risk clear-cell RCC after nephrectomy; 1:1 double-blind | Nivolumab 240 mg q2wk + ipilimumab 1 mg/kg q6wk versus placebo; 24 wk | BICR DFS | Median DFS not reached vs 50.7 mo; HR 0.92 (95% CI 0.71–1.19; P=.53). 24-mo DFS 76% vs 74%. | 61 deaths at cutoff; OS not mature. | [PMID 36774933](https://pubmed.ncbi.nlm.nih.gov/36774933/) |
+| Trial | Population and comparison | Published result | Interpretation |
+|---|---|---|---|
+| KEYNOTE-564, NCT03142334 | 994 eligible clear-cell RCC; pembrolizumab 200 mg IV every 3 weeks for up to 17 cycles versus placebo; 1:1 double-blind | At 5 years, DFS was 60.9% versus 52.2%; HR 0.71, 95% CI 0.59-0.86. OS was 87.7% versus 82.3%; HR 0.66, 95% CI 0.48-0.90. | Randomized DFS and OS benefit in the trial population. |
+| KEYNOTE-564 M1 NED subgroup | Resected metastases at nephrectomy or within 1 year; 29 participants per arm at the 30-month analysis | DFS events: 7/29 with pembrolizumab versus 19/29 with placebo. | Prespecified but small subgroup; do not treat this as definitive subgroup-specific efficacy. |
+| ASSURE, ECOG-ACRIN E2805 | Resected nonmetastatic RCC; 1 year of sunitinib, 1 year of sorafenib, or placebo | Neither sunitinib nor sorafenib improved DFS versus placebo in the primary report. | Do not use adjuvant VEGFR-TKI therapy as a substitute for pembrolizumab. |
+| SORCE | 1,711 intermediate- or high-risk M0 RCC; 3 years of placebo, 1 year of sorafenib then placebo, or 3 years of sorafenib | The primary 3-year sorafenib-versus-placebo DFS HR was 1.01, 95% CI 0.82-1.23; no statistically significant OS improvement. | Sorafenib is not an adjuvant option. |
+| EVEREST, SWOG S0931 | 1,499 eligible intermediate-high or very-high-risk RCC; everolimus 10 mg daily versus placebo for 54 weeks | 5-year RFS was 67% versus 63%; HR 0.85, 95% CI 0.72-1.00; P=.051, missing the prespecified .044 threshold. OS HR was 0.90, 95% CI 0.71-1.13; P=.36. | Negative primary RFS result; exploratory very-high-risk clear-cell RFS signal did not establish OS benefit. |
+| Other ICI trials | IMmotion010, CheckMate 914 Part A and Part B, and PROSPER tested other adjuvant or perioperative ICI approaches | Their published primary DFS or RFS analyses did not establish benefit. | Do not assume a class effect from pembrolizumab. |
 
 ## Biomarkers
 
-| Marker / feature | Role now | Practical note |
+| Marker or feature | Role now | Practical note |
 |---|---|---|
-| Clear-cell histology | Required for direct applicability | Confirm on nephrectomy pathology; do not extrapolate to variant histology. |
-| pT/pN stage, grade, sarcomatoid features, M1 NED | Treatment-selection risk features | Apply the KEYNOTE-564 definitions rather than an unvalidated score alone. |
-| PD-L1 | Not a routine selector | Not required for pembrolizumab selection in this setting. |
-| Tumor genomic or expression signature | Investigational | No validated assay selects adjuvant pembrolizumab benefit. |
-| Germline evaluation | Hereditary-risk assessment, not adjuvant selection | Consider for young age, bilateral/multifocal disease, family history, or syndromic features. |
+| Clear-cell histology | Direct-evidence boundary | Confirm on nephrectomy pathology; KEYNOTE-564 did not establish benefit in non-clear-cell RCC. |
+| pT/pN stage, grade, sarcomatoid features, and M1 NED | Clinical risk selection | Apply the KEYNOTE-564 definitions rather than an unvalidated score alone. |
+| PD-L1 | Not a routine adjuvant selector | No validated PD-L1 threshold selects pembrolizumab benefit in this setting. |
+| Tumor genomic or expression signature | Investigational | No validated molecular assay selects adjuvant pembrolizumab benefit. |
+| Germline evaluation | Hereditary-risk assessment, not treatment selection | Consider for young age, bilateral or multifocal disease, family history, or syndromic features. |
 
 ## Toxicity anchors
 
 | Counseling anchor | Published or practical detail |
 |---|---|
-| Pembrolizumab exposure | In the 57.2-month analysis, treatment-related grade 3–4 AE: 18.6% vs 1.2%; discontinuation for any-cause AE: 21.1% vs 2.2% (pembrolizumab vs placebo). |
-| Immune-mediated toxicity | Immune-mediated AEs/infusion reactions: 36.5% vs 7.3%; discuss endocrinopathy, hepatitis, colitis, pneumonitis, nephritis, and potential persistence. |
-| Baseline / on-treatment checks | Medication and autoimmune review; CBC, CMP/creatinine, liver tests, and thyroid monitoring per current label/local protocol. Escalate new pulmonary, GI, hepatic, endocrine, or renal symptoms promptly. |
-| Why VEGFR-TKIs are not substitutes | S-TRAC showed a DFS signal but substantial toxicity; grade 3 and grade 4 AEs were 48.4% and 12.1%, with 28.1% discontinuation on sunitinib. |
-| Why nivo/ipi is not substituted | CheckMate 914 did not improve DFS; grade 3–5 AEs were 38% vs 10%, and discontinuation 32% vs 2%. |
+| Pembrolizumab benefit-risk discussion | In the 57.2-month analysis, grade 3-4 treatment-related AEs were 18.6% versus 1.2%, and serious all-cause AEs were 20.7% versus 11.5%, for pembrolizumab versus placebo. |
+| Treatment discontinuation and steroids | At 30 months, AEs led to discontinuation in 21% versus 2%; immune-mediated AEs occurred in 36% versus 7%; high-dose systemic corticosteroids were used in 8% versus 1%. |
+| Immune-mediated toxicity | Discuss thyroid dysfunction, adrenal or pituitary dysfunction, hepatitis, colitis, pneumonitis, nephritis, diabetes, and the possibility that endocrinopathy or organ injury can persist after treatment ends. New pulmonary, gastrointestinal, hepatic, endocrine, or renal symptoms need prompt assessment. |
+| Baseline and on-treatment checks | Review autoimmune disease, immunosuppression, and baseline endocrinopathy. Use CBC, CMP with creatinine and liver tests, and thyroid testing per current label and local protocol. In a post-nephrectomy patient, investigate a creatinine rise promptly rather than assuming it is treatment-related. |
+| Belzutifan combination signal | LITESPARK-022 reported more grade 3 or higher AEs with pembrolizumab plus belzutifan than pembrolizumab plus placebo, 52.1% versus 30.2%. It is not the default regimen on this page while OS is immature and guideline positioning is unsettled. |
+| Why older targeted therapies are not substitutes | In SORCE, grade 3 or higher AEs occurred in 59%-64% on sorafenib without DFS or OS benefit. In EVEREST, grade 3 or higher AEs were 46% versus 11%, and 47% versus 17% discontinued before 54 weeks for reasons other than recurrence or death. |
 
 ## Watch list
 
-- Treatment choice and outcomes at metastatic recurrence after prior adjuvant pembrolizumab.
-- Longer follow-up for OS durability and the small M1 NED subset in KEYNOTE-564.
-- Biomarker-directed selection that can identify patients who can safely avoid adjuvant therapy.
-- Perioperative trials and recurrence-risk tools; do not equate negative atezolizumab or nivolumab/ipilimumab trials with pembrolizumab efficacy.
+| Item | What may change care | Evidence status and action |
+|---|---|---|
+| LITESPARK-022, NCT05239728 | Pembrolizumab 400 mg IV every 6 weeks plus belzutifan 120 mg daily improved estimated 24-month DFS versus pembrolizumab plus placebo, 80.7% versus 73.7%; HR 0.72, 95% CI 0.59-0.87. | Peer-reviewed phase 3 report. OS was immature and not statistically different: HR 0.78, 95% CI 0.51-1.19, with 29% of planned final OS events. Recheck guideline and regulatory positioning before using it routinely. |
+| RAMPART, NCT03288532 | Adjuvant durvalumab alone or with tremelimumab versus active monitoring in resected clear-cell and non-clear-cell RCC | The combination DFS result was reported only in a 2025 congress abstract: HR 0.65, 95% CI 0.45-0.93. OS was immature without a significant difference at the available follow-up, and the durvalumab-alone result was unavailable. Recheck for peer-reviewed and regulatory updates. |
+
+## Guidelines
+
+| Source | Brief setting-level reference |
+|---|---|
+| EAU RCC guideline | Offers adjuvant pembrolizumab for clear-cell RCC meeting KEYNOTE-564 recurrence-risk criteria, including M1 NED after resection within 1 year; use risk-based follow-up. Recheck the live chapter for current wording and strength. |
+| NCCN Kidney Cancer | Use the current professional pathway for the current recommendation, category, and M1 NED positioning. Public patient materials alone do not verify the full professional pathway. |
+| ESMO RCC guideline | Recheck the current ESMO recommendation and grade for selected resected clear-cell RCC before using this page in clinic. |
+| AUA follow-up guideline | Supports risk-stratified post-treatment surveillance; no separate contemporary adjuvant-systemic-therapy recommendation was verified here. |
 
 ## Sources to re-check
 
-- [NCCN Kidney Cancer professional listing](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1440) and [public patient guideline v1.2026](https://www.nccn.org/patients/guidelines/content/PDF/kidney-patient.pdf) — current category and M1 NED pathway require professional-source confirmation.
-- [EAU Renal Cell Carcinoma guideline](https://uroweb.org/guidelines/renal-cell-carcinoma) — 2026 recommendation strength.
-- [ESMO RCC Clinical Practice Guideline 2024](https://doi.org/10.1016/j.annonc.2024.05.537).
-- [FDA Keytruda label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/125514s168lbl.pdf) — indication, dosing, monitoring, and immune-toxicity warnings.
-- KEYNOTE-564 five-year follow-up, S-TRAC, PROTECT, ATLAS, IMmotion010, and CheckMate 914 primary reports above.
+- [Haas et al. (2026). Five-year KEYNOTE-564 results. *Annals of Oncology*. DOI: 10.1016/j.annonc.2026.08.006 | PMID: 42648402](https://pubmed.ncbi.nlm.nih.gov/42648402/)
+- [Choueiri et al. (2024). Overall survival with adjuvant pembrolizumab in renal-cell carcinoma. *New England Journal of Medicine*. DOI: 10.1056/NEJMoa2312695 | PMID: 38631003](https://pubmed.ncbi.nlm.nih.gov/38631003/)
+- [Powles et al. (2022). KEYNOTE-564 30-month follow-up. *Lancet Oncology*. DOI: 10.1016/S1470-2045(22)00487-9 | PMID: 36055304](https://pubmed.ncbi.nlm.nih.gov/36055304/)
+- [Choueiri et al. (2026). Adjuvant pembrolizumab plus belzutifan for renal-cell carcinoma. *New England Journal of Medicine*. DOI: 10.1056/NEJMoa2518245 | PMID: 42384869](https://pubmed.ncbi.nlm.nih.gov/42384869/)
+- [Haas et al. (2016). ASSURE / ECOG-ACRIN E2805. *Lancet*. DOI: 10.1016/S0140-6736(16)00559-6 | PMID: 26969090](https://pubmed.ncbi.nlm.nih.gov/26969090/); [Eisen et al. (2020). SORCE. *Journal of Clinical Oncology*. DOI: 10.1200/JCO.20.01800 | PMID: 33052759](https://pubmed.ncbi.nlm.nih.gov/33052759/)
+- [Ryan et al. (2023). EVEREST. *Lancet*. DOI: 10.1016/S0140-6736(23)00913-3 | PMID: 37524096](https://pubmed.ncbi.nlm.nih.gov/37524096/)
+- [Oza et al. (2021). RAMPART protocol. *Contemporary Clinical Trials*. DOI: 10.1016/j.cct.2021.106482 | PMID: 34538402](https://pubmed.ncbi.nlm.nih.gov/34538402/); Larkin et al. (2025). RAMPART first results. *Annals of Oncology* congress abstract LBA93.
+- [EAU Renal Cell Carcinoma guideline](https://uroweb.org/guidelines/renal-cell-carcinoma); [NCCN Kidney Cancer guideline listing](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1440); [ESMO RCC guideline](https://doi.org/10.1016/j.annonc.2024.05.537); [AUA renal mass and localized renal cancer follow-up guideline](https://pubmed.ncbi.nlm.nih.gov/34115531/); [FDA Keytruda label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/125514s168lbl.pdf).
 
 ## Changelog
 
-- 2026-09-21: Rechecked current EAU and public NCCN materials; updated EAU to the 2026 chapter, bounded the NCCN category claim to its verified version, labeled the 5-year KEYNOTE-564 result as a conference abstract, and added mature S-TRAC OS.
-- 2026-09-21: Created disease → setting prototype. Added society-guideline table, risk/option tables, pivotal-trial table, and a source-recreated KEYNOTE-564 survival figure; no journal artwork was reused.
+- 2026-09-21: Reorganized to decision-first sections with Guidelines as a brief bottom reference; added paired-counseling requirement, qualified M1 NED, and made risk-adapted surveillance explicit for eligible patients and non-clear-cell disease.
+- 2026-09-21: Added LITESPARK-022, ASSURE, SORCE, EVEREST, and RAMPART evidence with reported maturity limits; expanded immune-toxicity and targeted-therapy counseling; replaced the inferred KEYNOTE-564 intermediate figure points with a source-recreated landmark display.
