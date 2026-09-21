@@ -619,6 +619,13 @@ def render_article(art: Article, articles: list[Article]) -> str:
 """
 
     evidence_rest = art.evidence_html
+    references_marker = '<h2 id="guideline-references">'
+    if phrase_block and references_marker in evidence_rest:
+        clinical_content, bottom_references = evidence_rest.split(
+            references_marker, maxsplit=1
+        )
+        evidence_rest = f"{clinical_content}{phrase_block}{references_marker}{bottom_references}"
+        phrase_block = ""
     dlabel = DOMAIN_LABEL.get(art.domain, art.domain)
     dislabel = DISEASE_LABEL.get(art.disease, art.disease)
 

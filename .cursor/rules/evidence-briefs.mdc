@@ -8,15 +8,16 @@ alwaysApply: true
 - Path: `pathways/{domain}/{disease}/{setting}/evidence.md` (e.g. `pathways/gu/prostate/mHSPC/`)
 - One disease + setting per page. Use short named sections, nested bullets, and tables only for genuinely tabular comparisons; do not merge a disease's settings into a long page.
 - Purpose: scannable decision support, not a guideline dump.
-- Required sections, in order: Who this applies to, Standard options, Landmark evidence, Biomarkers, Toxicity anchors, Watch list, Guidelines, Sources to re-check, Changelog.
+- Required sections, in order: Who this applies to, Standard options, Landmark evidence, Biomarkers, Toxicity anchors, Watch list, Guideline references, Sources, Changelog. Render the paired Epic phrase after clinical content and before Guideline references, so guidelines and sources remain at the page bottom.
 - Guidelines: keep a brief bottom reference to current NCCN, EAU, ESMO, and AUA/ASCO/SUO guidance as applicable to that disease + setting; include a published category/strength only when verified and never paste copyrighted guideline text.
 - Standard options: use a risk group × option table with key inclusion and typical duration when relevant.
-- Landmark evidence: use a trial table with N, population, randomization, primary endpoint, DFS/RFS/OS HRs, and published landmark rates with years. Add a source-recreated KM-style or forest-style figure when a survival result changes practice; never reuse journal artwork or invent/digitize unreported values.
-- Watch list: include only ongoing trials or high-impact recent papers that could change care; state whether evidence is peer-reviewed, congress-only, or pending. Keep generic research gaps and routine re-check reminders out of this section.
+- Eligibility: state the pivotal trial's histology, risk groups, key timing window, and noneligible boundary in a dedicated table or crisp bullets. Do not blend guideline timing with trial eligibility.
+- Landmark evidence: use a trial table with N, population, randomization, primary endpoint, DFS/RFS/OS HRs, and published landmark rates with years. For a practice-changing survival endpoint, add full source-recreated KM curves. Use reported KM data where available; when a published figure must be digitized, label the reconstruction as approximate and cite the source and data cutoff. Never reuse journal artwork or present interpolated values as reported data.
+- Watch list: include only named ongoing trials or high-impact recent papers that could change care; state whether evidence is peer-reviewed, congress-only, or pending. Keep generic research gaps and routine re-check reminders out of this section.
 - Add a paired `dotphrase.md` in the same folder for decision counseling. Its first line is an Epic trigger beginning with `#`; update it when the evidence page's standard-of-care discussion changes.
 - Do not use a `Bottom line` section.
 - Header fields: Last reviewed, Next review (~90 days), Owner, Purpose, Status
-- Never invent trial statistics; verify or leave qualitative
+- Never invent trial statistics; verify or leave qualitative. Replace checked-source hedging with a working source link; retain explicit uncertainty only when the source itself is immature, pending, or unreported.
 - On every edit: set Last reviewed and Next review (YYYY-MM-DD) and append Changelog
 - After evidence edits: `python3 scripts/build_wiki.py` so `site/` stays in sync
 - Sister EpiAI project stays at `/Users/Alex/Documents/EpiAI`

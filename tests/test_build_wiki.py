@@ -83,6 +83,52 @@ Status: current
 
         self.assertTrue((wiki.SITE / ".nojekyll").is_file())
 
+    def test_build_places_epic_phrase_before_bottom_references(self) -> None:
+        setting = wiki.PATHWAYS / "gu" / "kidney" / "adjuvant-ccrcc"
+        setting.mkdir(parents=True)
+        (setting / "evidence.md").write_text(
+            """# Adjuvant clear-cell RCC
+
+Last reviewed: 2026-09-21
+Next review: 2026-12-20
+Owner: GU clinic
+Purpose: Decision support
+Status: current
+
+## Watch list
+
+- Named trial
+
+## Guideline references
+
+- Guideline link
+
+## Sources
+
+- Primary source link
+
+## Changelog
+
+- 2026-09-21: Updated.
+""",
+            encoding="utf-8",
+        )
+        (setting / "dotphrase.md").write_text(
+            """#adjuvantccrcc
+
+- Counseling: Discussed options.
+""",
+            encoding="utf-8",
+        )
+
+        self.assertEqual(wiki.main(), 0)
+
+        page = (
+            wiki.SITE / "gu" / "kidney" / "adjuvant-ccrcc.html"
+        ).read_text(encoding="utf-8")
+        self.assertLess(page.index('id="dotphrase"'), page.index("Guideline references"))
+        self.assertLess(page.index("Guideline references"), page.index("Primary source link"))
+
     def test_planned_labels_do_not_call_pages_briefs(self) -> None:
         labels = [label for settings in wiki.PLANNED.values() for label in settings]
         self.assertFalse(any("brief" in label.lower() for label in labels))

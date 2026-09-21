@@ -19,8 +19,8 @@ pathways/{domain}/{disease}/{setting}/
 ## Do
 
 - Use a clean OneNote-style hierarchy: disease → setting, short named sections, nested bullets, and tables only for structured comparisons.
-- Start evidence pages with **Guidelines** for the exact setting (NCCN, EAU, ESMO, AUA/ASCO/SUO as applicable); include a guideline category/strength only when verified.
-- Include comparison tables for standard options and trial tables for landmark evidence. Add a source-recreated KM-style or forest-style figure when survival evidence changes practice; never reuse copyrighted journal artwork or invent/digitize unreported values.
+- Keep clinical content first. Place brief **Guideline references** for the exact setting (NCCN, EAU, ESMO, AUA/ASCO/SUO as applicable) and **Sources** at the bottom, after the paired Epic phrase; include a guideline category/strength only when verified.
+- Include comparison tables for standard options and trial tables for landmark evidence. For practice-changing survival endpoints, add full source-recreated KM curves using reported data; digitize a published curve only when necessary and label it as an approximate reconstruction. Never reuse copyrighted journal artwork or present interpolated values as reported data.
 - Do not use a **Bottom line** section.
 - Never invent trial statistics
 - Bump Last reviewed, Next review, Changelog on evidence edits
