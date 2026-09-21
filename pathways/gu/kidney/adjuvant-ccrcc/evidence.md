@@ -92,6 +92,7 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 
 - For pembrolizumab, ask patients to contact the oncology team for new thyroid symptoms, including unexplained fatigue, weight or temperature intolerance, or palpitations. Immune toxicity can begin during or after treatment and may require a hold, corticosteroids, or hormone replacement; endocrine effects can be lasting.
 - For pembrolizumab plus belzutifan, monitor CBC, ALT, and oxygen saturation. Ask patients to contact the oncology team for new fatigue, lightheadedness, or shortness of breath; marked breathing difficulty needs urgent assessment.
+- For belzutifan, review the label-specific embryo-fetal warning and pregnancy-prevention counseling. This clinically critical warning is retained despite not being a numeric trial-toxicity row.
 
 ## Guideline references
 
