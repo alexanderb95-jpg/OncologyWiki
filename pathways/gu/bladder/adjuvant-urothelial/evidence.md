@@ -6,20 +6,19 @@ Owner: GU clinic
 Purpose: Disease → setting page for adjuvant urothelial-carcinoma decisions after radical surgery
 Status: clinic-ready — perioperative EV+pembro and NIAGARA now change who still needs classic adjuvant IO; ctDNA MRD selects adjuvant atezo
 
-## Guidelines
-
-| Society | Setting-level direction | Published strength/category |
-|---|---|---|
-| NCCN Bladder Cancer | Integrate perioperative exposure, pathologic risk, cisplatin fitness, and molecular testing where a labeled companion diagnostic applies. | Current categories not independently rechecked in this page; verify before use. |
-| EAU Muscle-invasive and metastatic bladder cancer | Multidisciplinary perioperative planning and risk-adapted postoperative systemic therapy are central. | Recheck the current guideline chapter. |
-| ESMO | Addresses perioperative and adjuvant systemic treatment for muscle-invasive urothelial cancer. | Exact current strength/category not verified in this page. |
-
 ## Who this applies to
 - Post-cystectomy (or appropriately selected post-nephroureterectomy) with high-risk pathologic features (CheckMate 274: ypT2–T4a and/or ypN+ after neoadjuvant cisplatin, or pT3–T4a and/or pN+ without neoadjuvant chemo — exact eligibility in the protocol/label; restage from source if needed).
 - Note neoadjuvant / perioperative exposure: prior EV+pembro or durvalumab changes adjuvant counseling (overlap, cumulative neuropathy, irAE).
 - Cisplatin eligibility, residual disease, margins, histology/variant, surgical recovery, and ctDNA MRD status if considering IMvigor011-path atezolizumab.
 
-## Standard options (decision tree sketch)
+## Standard options
+
+| Clinical context | Option | Key inclusion | Typical duration |
+|---|---|---|---|
+| High-risk disease after radical surgery without perioperative ICI | Nivolumab or observation | CheckMate 274-type risk and recovery. | One year in trial. |
+| High-risk disease after radical surgery | Pembrolizumab or observation | AMBASSADOR DFS evidence; OS was not reported in the retrieved abstract. | One year in trial. |
+| Post-cystectomy ctDNA MRD-positive disease | Atezolizumab pathway | IMvigor011/FDA companion-diagnostic setting. | Up to one year in trial. |
+| Prior perioperative ICI/ADC or outside evidence | Individualize surveillance or trial | Avoid untested second adjuvant ICI sequencing. | Individualized. |
 - If perioperative EV+pembro or NIAGARA already given or planned as the MIBC pathway: adjuvant counseling is part of that perioperative package, not a separate CheckMate 274 default.
 - If high-risk after RC and no prior perioperative ICI: adjuvant nivolumab 240 mg q2wk ×1 year (CheckMate 274) vs observation vs trial. AMBASSADOR pembrolizumab 200 mg q3wk ×1 year is DFS-positive; OS not in the retrieved abstract.
 - If post-cystectomy ctDNA MRD+ by Signatera CDx (serial testing window per label): adjuvant atezolizumab (IMvigor011 / FDA 15 May 2026) — distinct from the negative unselected IMvigor010 trial.
@@ -27,10 +26,11 @@ Status: clinic-ready — perioperative EV+pembro and NIAGARA now change who stil
 - Observation remains reasonable when risk is lower, recovery is poor, ctDNA remains negative, or irAE risk is prohibitive.
 - Upper-tract: CheckMate 274 enrolled MIUC including UTUC; do not invent UTUC-specific HRs — not separately reported in the retrieved abstracts.
 
-## Key trials / landmark evidence
+## Landmark evidence
 
 These rows mix perioperative (changes adjuvant need) and true adjuvant trials. Indirect comparison only.
 
+<!-- .cross_trial -->
 | Trial | Population | Intervention arm | Control arm | Key outcomes (both arms) | Key HR | Evidence status |
 |-------|------------|------------------|-------------|--------------------------|--------|-----------------|
 | EV-303 / KEYNOTE-905 NCT03924895 | Cisplatin-ineligible or declined MIBC; RC+PLND candidates; N=344 | Neoadjuvant EV 1.25 mg/kg d1,8 + pembro 200 mg q3wk ×3 → RC+PLND → adjuvant EV ×6 + pembro (17 total pembro cycles) | RC+PLND alone | 2-y EFS 74.7% vs 39.4%; 2-y OS 79.7% vs 63.1%; pCR 57.1% vs 8.6%; grade ≥3 AE 71.3% vs 45.9% | EFS HR 0.40 (0.28–0.57); OS HR 0.50 (0.33–0.74) | Vulsteke 2026 NEJM PMID 41707170; FDA 21 Nov 2025 cisplatin-ineligible |
@@ -46,23 +46,34 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 - ctDNA MRD (Signatera CDx): selects adjuvant atezolizumab after cystectomy (IMvigor011 / FDA). Serial testing until positive or end of recommended 12-month window per label. CheckMate 274 5-year exploratory ctDNA remains exploratory — not the registration companion for nivo.
 - Nectin-4 / HER2 / FGFR do not currently select adjuvant IO in these trials.
 
-## Toxicity anchors
-- IO irAEs (CheckMate 274 grade ≥3 TRAE 17.9% vs 7.2%).
-- EV: rash, neuropathy, hyperglycemia, ocular; perioperative grade ≥3 AE 71.3% (EV-303) and 75.7% (EV-304).
-- Durvalumab + GC: TRAE grade 3–4 similar to GC alone in NIAGARA (~41%).
-- Surgical recovery, wound healing, and residual neuropathy constrain start of adjuvant therapy.
-
-## Watch list
+## Upcoming trial results
 - How to treat high-risk yp residual disease after perioperative EV+pembro or NIAGARA — not in these sources.
 - Sequencing when both perioperative EV+pembro and later ctDNA MRD positivity arise — not defined in retrieved sources.
 - AMBASSADOR OS when posted.
 
-## Sources to re-check
-- NCCN Bladder (not retrieved this pass)
-- FDA labels: Padcev, Keytruda, Imfinzi, Opdivo, Tecentriq (IMvigor011)
-- EV-303, EV-304, NIAGARA, CheckMate 274 5-year, AMBASSADOR, IMvigor011
+## Toxicity
+
+| Regimen and comparator | Trial-level safety outcomes | Counseling focus |
+|---|---|---|
+| Nivolumab versus placebo, CheckMate 274 | Grade ≥3 treatment-related AEs 17.9% vs 7.2%. | Promptly report cough/dyspnea, diarrhea, abdominal pain, rash, jaundice, fatigue, or endocrine symptoms; immune toxicity may require a hold, corticosteroids, or hormone replacement. |
+| Pembrolizumab versus observation, AMBASSADOR | Grade ≥3 AEs 50.6% vs 31.6%. | Use the same immune-toxicity counseling; coordinate with recovery after radical surgery. |
+| Perioperative EV plus pembrolizumab | Grade ≥3 AEs 71.3% vs 45.9% in EV-303 and 75.7% vs 67.2% in EV-304. | Report rash, neuropathy, visual symptoms, thirst/polyuria, or immune symptoms promptly. |
+| Perioperative durvalumab plus GC | Grade 3–4 treatment-related AEs 40.6% vs 40.9% in NIAGARA. | Review fever/infection, cytopenias, renal and neuropathy symptoms, and immune toxicity. |
+
+## Guideline references
+
+- [NCCN Bladder Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1417)
+- [EAU Muscle-invasive and metastatic bladder cancer guideline](https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer)
+- [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
+
+## Sources
+
+- [Bajorin et al. (2021). CheckMate 274. *New England Journal of Medicine*. PMID: 34077643](https://pubmed.ncbi.nlm.nih.gov/34077643/)
+- [Apolo et al. (2025). AMBASSADOR. *New England Journal of Medicine*. PMID: 39282902](https://pubmed.ncbi.nlm.nih.gov/39282902/)
+- [Powles et al. (2024). NIAGARA. *New England Journal of Medicine*. PMID: 39282910](https://pubmed.ncbi.nlm.nih.gov/39282910/)
 
 ## Changelog
+- 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: filled EV-304 FDA approval (10 Jul 2026 — all MIBC cystectomy candidates); added IMvigor011 / Signatera ctDNA MRD adjuvant atezolizumab (FDA 15 May 2026) and clarified IMvigor010 remains negative for unselected adjuvant atezo
 - 2026-09-14: expanded from stub; landscape table includes EV-303, EV-304 (now published), NIAGARA, CheckMate 274 5-year, AMBASSADOR, IMvigor010; perioperative SOC explicitly changes adjuvant counseling

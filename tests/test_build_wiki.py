@@ -30,6 +30,40 @@ class BuildWikiTest(unittest.TestCase):
             setattr(wiki, name, value)
         self.tmp.cleanup()
 
+    def test_gu_evidence_pages_use_current_upcoming_results_heading(self) -> None:
+        evidence_pages = list((ROOT / "pathways" / "gu").glob("**/evidence.md"))
+        self.assertTrue(evidence_pages)
+
+        for page in evidence_pages:
+            content = page.read_text(encoding="utf-8")
+            self.assertNotIn("## Watch" + " list", content, page)
+            self.assertIn("\n## Upcoming trial results\n", content, page)
+
+        expected_sections = (
+            "## Who this applies to",
+            "## Standard options",
+            "## Landmark evidence",
+            "## Biomarkers",
+            "## Upcoming trial results",
+            "## Toxicity",
+            "## Guideline references",
+            "## Sources",
+            "## Changelog",
+        )
+        for setting in (
+            "bladder/adjuvant-urothelial",
+            "bladder/mUC",
+            "prostate/mHSPC",
+            "prostate/mCRPC",
+            "prostate/nmCRPC",
+        ):
+            content = (
+                ROOT / "pathways" / "gu" / setting / "evidence.md"
+            ).read_text(encoding="utf-8")
+            offsets = [content.index(f"\n{section}\n") for section in expected_sections]
+            self.assertEqual(offsets, sorted(offsets), setting)
+            self.assertIn("<!-- .cross_trial -->", content, setting)
+
     def test_build_renders_tables_and_canonical_figure_assets_without_bottom_line(
         self,
     ) -> None:
@@ -95,7 +129,7 @@ Owner: GU clinic
 Purpose: Decision support
 Status: current
 
-## Watch list
+## Upcoming trial results
 
 - Named trial
 

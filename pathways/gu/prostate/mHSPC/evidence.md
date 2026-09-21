@@ -6,19 +6,17 @@ Owner: GU clinic
 Purpose: Disease → setting page for metastatic hormone-sensitive prostate cancer
 Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets; re-check NCCN (not retrieved this pass)
 
-## Guidelines
-
-| Society | Setting-level direction | Published strength/category |
-|---|---|---|
-| NCCN Prostate Cancer | Use ADT with treatment intensification for eligible metastatic hormone-sensitive disease; select by disease volume, prior treatment, fitness, and labeled biomarker status. | Current categories not independently rechecked in this page; verify before use. |
-| EAU Prostate Cancer | Combine ADT with an androgen-receptor-pathway inhibitor for appropriate patients; consider docetaxel-containing therapy in selected de novo/high-volume disease. | Recheck the current guideline chapter. |
-| ASCO | Addresses systemic therapy intensification in noncastrate metastatic prostate cancer. | Exact current strength/category not verified in this page. |
-
 ## Who this applies to
 - Synchronous or metachronous metastatic hormone-sensitive prostate cancer (mHSPC / mCSPC / mAPMN/S).
 - Subclassify: high vs low volume (CHAARTED-style), de novo vs recurrent, visceral disease, fitness for docetaxel, PSMA PET status, BRCA2/HRR, PTEN IHC, comorbidities (hepatic, cardiac, falls).
 
-## Standard options (decision tree sketch)
+## Standard options
+
+| Clinical group | Option | Key inclusion | Typical course |
+|---|---|---|---|
+| Most fit patients with mHSPC | ADT plus ARPI doublet | Confirm metastatic hormone-sensitive state and comorbidity profile. | Continue per regimen until progression or unacceptable toxicity. |
+| Chemo-fit, de novo high-volume/high-risk disease | ADT plus ARPI plus docetaxel discussion | ARASENS/PEACE-1 populations; triplets were not compared with every modern doublet. | Protocol- and regimen-specific. |
+| PSMA-positive or biomarker-defined population | Labeled radioligand or biomarker-directed combination | Match exact imaging or companion-diagnostic criteria. | Label-specific. |
 - Fit, most patients: ADT + ARPI doublet (ARANOTE, ARCHES, ENZAMET, TITAN, LATITUDE, STAMPEDE abi).
 - Fit, high-volume / high-risk, chemo-fit: discuss ADT + ARPI ± docetaxel. ARASENS and PEACE-1 are triplets vs ADT+docetaxel ± placebo/no abi, not vs modern doublet.
 - PSMA+ and candidate for radioligand: ADT + ARPI + 177Lu-PSMA-617 7.4 GBq q6wk × up to 6 (PSMAddition / FDA).
@@ -26,10 +24,11 @@ Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets
 - PTEN-deficient by FDA-authorized IHC (VENTANA PTEN SP218): ADT + capivasertib 400 mg BID 4 days on / 3 off + abiraterone 1000 mg + prednisone 5 mg daily (CAPItello-281 / FDA 12 Jun 2026). OS immature — shared decision.
 - Local therapy: prostate RT / metastasis-directed therapy in selected low-volume / oligometastatic cases — coordinate with rad onc / urology. PEACE-1 RT interaction was not significant in the abi analysis; RT-specific coprimary details are not in this brief’s sources.
 
-## Key trials / landmark evidence
+## Landmark evidence
 
 Cross-trial comparisons are indirect. Abstract-level unless noted. HR with 95% CI only if published in the retrieved source.
 
+<!-- .cross_trial -->
 | Trial | Population | Intervention arm | Control arm | Key outcomes (both arms) | Key HR | Evidence status |
 |-------|------------|------------------|-------------|--------------------------|--------|-----------------|
 | ARASENS NCT02799602 | mHSPC; 86.1% de novo; N=1306 | Darolutamide 600 mg BID + ADT + docetaxel | Placebo + ADT + docetaxel | OS: both-arm medians not in sources; grade 3–4 AE 66.1% vs 63.5% | OS HR 0.68 (95% CI 0.57–0.80) | Smith 2022 NEJM PMID 35179323 |
@@ -52,26 +51,36 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 - PSMA PET (approved tracer) for staging and 177Lu-PSMA-617 eligibility.
 - Testosterone to confirm castration once on ADT; PSA kinetics for response.
 
-## Toxicity anchors
-- ADT: fatigue, hot flashes, weight gain, sarcopenia, ED/libido, mood, CV risk, bone loss.
-- ARPI class: fatigue; darolutamide — cytopenias, hepatotoxicity, cardiac (clinic wording); enzalutamide — fatigue, falls, seizure (ENZAMET 1%); abi — mineralocorticoid, hepatic, hypertension (LATITUDE, PEACE-1).
-- Docetaxel: neuropathy, cytopenias, infection, alopecia, fatigue; febrile neutropenia 6.2% in CHAARTED combination arm.
-- 177Lu-PSMA-617: dry mouth, cytopenias, GI; grade ≥3 AE 51% vs 43% in PSMAddition.
-- Niraparib/Akeega: anemia (29% grade 3–4 in AMPLITUDE; 25% transfusion), hypertension, MDS/AML warning on class labels.
-- Capivasertib: hyperglycemia, diarrhea, cutaneous adverse reactions, embryo-fetal toxicity (FDA label warnings).
-
-## Watch list
+## Upcoming trial results
 - Mature OS from CAPItello-281, PSMAddition, and AMPLITUDE.
 - TALAPRO-3: no phase 3 primary in this pack.
 - Prostate RT / MDT in oligometastatic HSPC — PEACE-1 RT coprimary not fully extracted here.
 
-## Sources to re-check
-- NCCN Prostate Cancer (full text not retrieved this pass)
-- FDA labels: ARPIs, docetaxel, Pluvicto (mAPMN/S), Akeega, Truqap (capivasertib)
-- ARASENS, ARANOTE, PEACE-1, ARCHES/ENZAMET updates, PSMAddition, AMPLITUDE, CAPItello-281
+## Toxicity
+
+| Regimen group | Trial-first safety signal | Counseling focus |
+|---|---|---|
+| ADT plus ARPI | Use the regimen-specific label and pivotal source; cross-trial safety comparisons are not valid. | Review fatigue, falls, hypertension, hepatic/cardiac effects, and sexual/bone/metabolic effects; promptly report severe symptoms. |
+| ADT plus ARPI plus docetaxel | ARASENS grade 3–4 AEs 66.1% vs 63.5%; PEACE-1 docetaxel population grade ≥3 AEs 63% vs 52%. | Urgent contact for fever/infection, progressive neuropathy, dehydration, or severe fatigue. |
+| 177Lu-PSMA-617 plus ADT/ARPI | PSMAddition grade ≥3 AEs 51% vs 43%; dry mouth 46% vs 4%. | Review xerostomia, cytopenic symptoms, nausea, and marrow/renal monitoring. |
+| Niraparib plus abiraterone/prednisone plus ADT | AMPLITUDE grade 3–4 AEs 75% vs 59%; grade 3–4 anemia 29%. | Monitor counts and blood pressure; urgently assess dyspnea, chest symptoms, bleeding, or marked fatigue. |
+
+## Guideline references
+
+- [NCCN Prostate Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459)
+- [EAU Prostate Cancer guideline](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment)
+- [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
+
+## Sources
+
+- [Smith et al. (2022). ARASENS. *New England Journal of Medicine*. PMID: 35179323](https://pubmed.ncbi.nlm.nih.gov/35179323/)
+- [Fizazi et al. (2022). PEACE-1. *Lancet*. PMID: 35405085](https://pubmed.ncbi.nlm.nih.gov/35405085/)
+- [Tagawa et al. (2026). PSMAddition. *Lancet*. PMID: 42561994](https://pubmed.ncbi.nlm.nih.gov/42561994/)
+- [Attard et al. (2025). AMPLITUDE. *Nature Medicine*. PMID: 41057655](https://pubmed.ncbi.nlm.nih.gov/41057655/)
 
 ## Changelog
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
-- 2026-09-21: added FDA-approved capivasertib + abi for PTEN-deficient mAPMN/S (CAPItello-281; FDA 12 Jun 2026) — was watch-list / “FDA not retrieved” on prior pass; PTEN companion diagnostic and toxicity anchors updated
+- 2026-09-21: added FDA-approved capivasertib + abi for PTEN-deficient mAPMN/S (CAPItello-281; FDA 12 Jun 2026) — was listed under upcoming trial results / “FDA not retrieved” on prior pass; PTEN companion diagnostic and toxicity content updated.
+- 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-14: expanded from qualitative stub to landscape table with both-arm outcomes from named-trial PubMed abstracts and FDA snippets; Pluvicto HSPC and Akeega BRCA2 mCSPC added
 - 2026-09-14: initial living brief (qualitative SOC; numbers deferred to primary sources)
