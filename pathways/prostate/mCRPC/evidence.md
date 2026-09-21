@@ -1,6 +1,6 @@
 # mCRPC — clinic evidence brief
 
-Last reviewed: 2026-09-14
+Last reviewed: 2026-09-21
 Owner: GU clinic
 Purpose: 60-second pre-visit skim (not a full guideline)
 Status: clinic-ready — numbers from retrieved primary abstracts; re-check current FDA PARP labels and NCCN (NCCN not retrieved)
@@ -74,5 +74,6 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - VISION, PSMAfore OS if published beyond this abstract, PROfound, CARD, PEACE-3
 
 ## Changelog
+- 2026-09-21: Weekly skim — no practice-changing updates since last review.
 - 2026-09-14: added landscape table with both-arm outcomes and HRs from named-trial PubMed abstracts; PEACE-3 OS and PSMAfore rPFS included; PARP labels flagged as biomarker-restricted
 - 2026-09-14: expanded from stub to living clinic brief (qualitative SOC and trial names; numbers deferred to primary sources)

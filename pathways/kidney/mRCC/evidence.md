@@ -1,6 +1,6 @@
 # Metastatic RCC — clinic evidence brief
 
-Last reviewed: 2026-09-14
+Last reviewed: 2026-09-21
 Owner: GU clinic
 Purpose: 60-second pre-visit skim (not a full guideline)
 Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doublets in this pack
@@ -60,5 +60,6 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 - CheckMate 214 final, KEYNOTE-426 5-y, CheckMate 9ER extended OS if updated, CLEAR final OS, COSMIC-313 final
 
 ## Changelog
+- 2026-09-21: Weekly skim — no practice-changing updates since last review.
 - 2026-09-14: expanded from stub; landscape table with both-arm outcomes for 1L doublets, COSMIC-313 no OS, LITESPARK-005, TiNivo-2, KEYNOTE-564 watch
 - 2026-09-14: initial stub
