@@ -146,6 +146,8 @@
   .muted { color: var(--muted); }
   .sources li { font-size: 0.8rem; color: var(--muted); }
   .sources a { color: var(--accent); }
+  .fig-wrap { margin: 0.55rem 0 0.85rem; }
+  .fig-caption { font-size: 0.78rem; color: var(--muted); margin: 0.25rem 0 0.5rem; }
   footer.note {
     font-size: 0.78rem;
     color: var(--muted);
@@ -177,6 +179,7 @@
   <a href="#framing">Framing</a>
   <a href="#surveillance">Surveillance</a>
   <a href="#curves">Recurrence over time</a>
+  <a href="#km">POUT KM curves</a>
   <a href="#pathway">Pathway</a>
   <a href="#decision">Decision table</a>
   <a href="#counseling">Counseling</a>
@@ -305,6 +308,122 @@ Bladder risk: ongoing early years; guideline notes decline after ~4 y</div>
     <li>Observational high-risk series (Martini 2022 <em>Eur Urol Oncol</em>, PMID 35504834): under EAU-style follow-up, <strong>non-bladder recurrence risk at 2 years</strong> still substantial (~<strong>42%</strong> without prior bladder cancer in that report)—supports keeping imaging dense through year 2.</li>
     <li><strong>Bladder vs systemic:</strong> In POUT, NMIBC bladder events were <strong>not</strong> DFS events (MIBC bladder was censoring/sensitivity). Counsel bladder surveillance separately from metastatic DFS numbers.</li>
   </ul>
+</section>
+
+<section id="km">
+  <h2>4b. POUT extended DFS / MFS curves</h2>
+  <div class="callout warn">
+    Approximate landmark-anchored reconstruction for teaching — <strong>not</strong> journal artwork.
+    DFS uses published 3- and 5-year rates (+ surveillance median). MFS uses published 3-year rates;
+    dashed segments after the last published landmark are extrapolations (5-year MFS % was not reported in the final-text pack retrieved).
+  </div>
+  <div class="fig-wrap">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 900" style="width:100%;max-width:52rem;height:auto;display:block;margin:0.5rem 0 0.75rem;border:1px solid #d5dae2;background:#fffcf7" role="img" aria-labelledby="title desc">
+<title id="title">POUT approximate reconstructed DFS and MFS curves</title>
+<desc id="desc">Landmark-anchored approximate Kaplan-Meier style reconstructions for POUT chemotherapy versus surveillance. DFS uses published 3- and 5-year estimates and surveillance median. MFS uses published 3-year estimates; times after 36 months are exponential extrapolations (5-year MFS % not published).</desc>
+<style>
+  .title { fill:#1a1d23; font:600 18px Arial,sans-serif; }
+  .subtitle { fill:#5c6570; font:12px Arial,sans-serif; }
+  .panel { fill:#1a1d23; font:600 15px Arial,sans-serif; }
+  .label { fill:#444; font:11px Arial,sans-serif; }
+  .small { fill:#5c6570; font:11px Arial,sans-serif; }
+  .axis { stroke:#78716c; stroke-width:1.2; }
+  .grid { stroke:#e7e5e4; stroke-width:1; }
+  .lm { stroke:#a8a29e; stroke-width:1; stroke-dasharray:4 3; }
+  .chemo { fill:none; stroke:#0f3d68; stroke-width:2.8; stroke-linejoin:round; }
+  .surv { fill:none; stroke:#b45309; stroke-width:2.8; stroke-linejoin:round; }
+  .extrap { stroke-dasharray:6 4; }
+</style>
+<rect width="920" height="900" fill="#fffcf7"/>
+<text x="48" y="32" class="title">POUT: disease-free and metastasis-free survival</text>
+<text x="48" y="52" class="subtitle">Gemcitabine–platinum ×4 vs surveillance after RNU; N=261 (131 chemo / 129 surveillance). Approximate landmark-anchored reconstruction — not journal artwork.</text>
+<text x="80" y="78" class="panel">A. Disease-free survival (extended / final analysis landmarks)</text>
+<text x="80" y="94" class="subtitle">Published: 3-y 71% vs 46% (primary); 5-y 62% vs 45%, HR 0.55 (0.38–0.80); surv. median DFS 29.8 mo</text>
+<line x1="80" y1="90.0" x2="860" y2="90.0" class="grid"/>
+<text x="42" y="94.0" class="label">100%</text>
+<line x1="80" y1="159.2" x2="860" y2="159.2" class="grid"/>
+<text x="42" y="163.2" class="label">85%</text>
+<line x1="80" y1="228.5" x2="860" y2="228.5" class="grid"/>
+<text x="42" y="232.5" class="label">70%</text>
+<line x1="80" y1="297.7" x2="860" y2="297.7" class="grid"/>
+<text x="42" y="301.7" class="label">55%</text>
+<line x1="80" y1="366.9" x2="860" y2="366.9" class="grid"/>
+<text x="42" y="370.9" class="label">40%</text>
+<line x1="80.0" y1="90" x2="80.0" y2="390" class="lm"/>
+<text x="72.0" y="406" class="label">0</text>
+<line x1="210.0" y1="90" x2="210.0" y2="390" class="lm"/>
+<text x="202.0" y="406" class="label">12</text>
+<line x1="340.0" y1="90" x2="340.0" y2="390" class="lm"/>
+<text x="332.0" y="406" class="label">24</text>
+<line x1="470.0" y1="90" x2="470.0" y2="390" class="lm"/>
+<text x="462.0" y="406" class="label">36</text>
+<line x1="600.0" y1="90" x2="600.0" y2="390" class="lm"/>
+<text x="592.0" y="406" class="label">48</text>
+<line x1="730.0" y1="90" x2="730.0" y2="390" class="lm"/>
+<text x="722.0" y="406" class="label">60</text>
+<line x1="860.0" y1="90" x2="860.0" y2="390" class="lm"/>
+<text x="852.0" y="406" class="label">72</text>
+<line x1="80" y1="90" x2="80" y2="390" class="axis"/>
+<line x1="80" y1="390" x2="860" y2="390" class="axis"/>
+<text x="430.0" y="422" class="small">Months from randomisation</text>
+<path class="chemo" d="M80.0 90.0 H145.0 V115.6 H210.0 V139.8 H275.0 V162.6 H340.0 V184.2 H405.0 V204.6 H535.0 V234.8 H600.0 V245.3 H665.0 V255.5 H730.0 V265.2"/>
+<path class="chemo extrap" d="M730.0 265.2 H795.0 V274.9 H860.0 V284.1"/>
+<path class="surv" d="M80.0 90.0 H145.0 V150.1 H210.0 V202.4 H275.0 V247.9 H340.0 V287.4 H405.0 V321.4 H535.0 V340.4 H600.0 V341.6 H665.0 V342.7 H730.0 V343.8"/>
+<path class="surv extrap" d="M730.0 343.8 H795.0 V345.0 H860.0 V346.1"/>
+<circle cx="470.0" cy="223.8" r="4.5" fill="#0f3d68"/>
+<circle cx="470.0" cy="339.2" r="4.5" fill="#b45309"/>
+<circle cx="730.0" cy="265.4" r="4.5" fill="#0f3d68"/>
+<circle cx="730.0" cy="343.8" r="4.5" fill="#b45309"/>
+<circle cx="402.8" cy="320.8" r="4.5" fill="#b45309"/>
+<line x1="600" y1="110" x2="640" y2="110" class="chemo"/>
+<text x="648" y="114" class="small">Chemotherapy</text>
+<line x1="600" y1="130" x2="640" y2="130" class="surv"/>
+<text x="648" y="134" class="small">Surveillance</text>
+<text x="80" y="440" class="small">Dots = published landmarks (and surveillance median). Solid line ≤60 mo anchored to published rates; dashed &gt;60 mo = extrapolation.</text>
+<text x="80" y="508" class="panel">B. Metastasis-free survival</text>
+<text x="80" y="524" class="subtitle">Published 3-y MFS 71% vs 53%, HR 0.48 (0.31–0.74) (primary). Final analysis: MFS RMST +18 mo (6–29); 5-y MFS % not reported in text.</text>
+<line x1="80" y1="520.0" x2="860" y2="520.0" class="grid"/>
+<text x="42" y="524.0" class="label">100%</text>
+<line x1="80" y1="584.6" x2="860" y2="584.6" class="grid"/>
+<text x="42" y="588.6" class="label">85%</text>
+<line x1="80" y1="649.2" x2="860" y2="649.2" class="grid"/>
+<text x="42" y="653.2" class="label">70%</text>
+<line x1="80" y1="713.8" x2="860" y2="713.8" class="grid"/>
+<text x="42" y="717.8" class="label">55%</text>
+<line x1="80" y1="778.5" x2="860" y2="778.5" class="grid"/>
+<text x="42" y="782.5" class="label">40%</text>
+<line x1="80.0" y1="520" x2="80.0" y2="800" class="lm"/>
+<text x="72.0" y="816" class="label">0</text>
+<line x1="210.0" y1="520" x2="210.0" y2="800" class="lm"/>
+<text x="202.0" y="816" class="label">12</text>
+<line x1="340.0" y1="520" x2="340.0" y2="800" class="lm"/>
+<text x="332.0" y="816" class="label">24</text>
+<line x1="470.0" y1="520" x2="470.0" y2="800" class="lm"/>
+<text x="462.0" y="816" class="label">36</text>
+<line x1="600.0" y1="520" x2="600.0" y2="800" class="lm"/>
+<text x="592.0" y="816" class="label">48</text>
+<line x1="730.0" y1="520" x2="730.0" y2="800" class="lm"/>
+<text x="722.0" y="816" class="label">60</text>
+<line x1="860.0" y1="520" x2="860.0" y2="800" class="lm"/>
+<text x="852.0" y="816" class="label">72</text>
+<line x1="80" y1="520" x2="80" y2="800" class="axis"/>
+<line x1="80" y1="800" x2="860" y2="800" class="axis"/>
+<text x="430.0" y="832" class="small">Months from randomisation</text>
+<path class="chemo" d="M80.0 520.0 H145.0 V543.9 H210.0 V566.5 H275.0 V587.8 H340.0 V607.9 H405.0 V627.0 H470.0 V644.4"/>
+<path class="chemo extrap" d="M470.0 644.4 H535.0 V661.9 H600.0 V677.9 H665.0 V693.1 H730.0 V707.4 H795.0 V720.9 H860.0 V733.6"/>
+<path class="surv" d="M80.0 520.0 H145.0 V563.3 H210.0 V602.2 H275.0 V637.2 H340.0 V668.7 H405.0 V697.0 H470.0 V721.2"/>
+<path class="surv extrap" d="M470.0 721.2 H535.0 V745.4 H600.0 V766.0 H665.0 V784.6 H730.0 V801.2 H795.0 V816.3 H860.0 V829.8"/>
+<circle cx="470.0" cy="644.9" r="4.5" fill="#0f3d68"/>
+<circle cx="470.0" cy="722.5" r="4.5" fill="#b45309"/>
+<line x1="600" y1="540" x2="640" y2="540" class="chemo"/>
+<text x="648" y="544" class="small">Chemotherapy</text>
+<line x1="600" y1="560" x2="640" y2="560" class="surv"/>
+<text x="648" y="564" class="small">Surveillance</text>
+<text x="80" y="848" class="small">Solid ≤36 mo anchored to published 3-y MFS; dashed after 36 mo = constant-hazard extrapolation only (not a published 5-y MFS landmark).</text>
+<text x="48" y="882" class="small">Sources: Birtle 2020 Lancet PMID 32145825; Birtle 2024 JCO PMID 38350047. Do not reuse as published figure; approximate reconstruction for clinic teaching.</text>
+</svg>
+  <p class="fig-caption">Figure. POUT chemotherapy (navy) vs surveillance (amber). Solid = anchored to published landmarks; dashed = extrapolation. Sources: Birtle 2020 <em>Lancet</em> PMID 32145825; Birtle 2024 <em>JCO</em> PMID 38350047.</p>
+  </div>
 </section>
 
 <section id="pathway">
