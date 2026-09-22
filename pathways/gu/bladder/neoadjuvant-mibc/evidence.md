@@ -34,12 +34,23 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 
 ## Surveillance and treatment de-escalation
 
+### Post-cystectomy imaging schedule (EAU practice framework)
+
+| Time after cystectomy | Chest/abdomen/pelvis CT (incl. upper tract when indicated)[^6] | Notes[^6] |
+|---|---|---|
+| Every 6 months through 36 months[^6] | CT[^6] | Panel framework; intensify upper-tract monitoring if multifocal disease, CIS, or positive ureteral margins[^6] |
+| Annually thereafter through ~60 months[^6] | CT[^6] | Consider stopping routine CT after 5 years in majority of patients without ongoing high-risk features[^6] |
+
 | Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
 |---|---|---|---|
 | Perioperative EV/pembro or durvalumab/GC | Restage renal function after obstruction relief; labs each cycle; neuropathy and glucose monitoring on EV; immune-symptom review[^4][^5]. | Complete neoadjuvant cycles before cystectomy when feasible; complete protocol-defined adjuvant doses (durvalumab ×8 post-op; EV/pembro per EV-303/304)[^1][^2][^3]. Hold for toxicity per label[^4]. | Residual ypT2–4 or ypN+ after perioperative therapy → adjuvant urothelial page if no prior ICI completion; recurrence → mUC page[^5][^6]. |
-| Post-cystectomy surveillance | CT urogram/chest/abdomen/pelvis every 3–6 months × 2–3 years per EAU/NCCN MIBC frameworks; cytology when ureteral remnant or multifocal history[^5][^6]. | Stop systemic therapy at planned perioperative completion; surveillance thereafter[^5][^6]. | Localized recurrence → salvage cystectomy or radiation when feasible; metastatic → mUC page[^5][^6]. |
 
 - Cystectomy remains the anchor; perioperative trials are not evidence for bladder preservation without a separate pathway[^5][^7].
+- Stop systemic therapy at planned perioperative completion; surveillance thereafter follows the EAU CT schedule above[^5][^6].
+
+![Perioperative MIBC 2-year EFS published landmarks](figures/perioperative-efs-2y-landmarks.svg)
+
+Published 2-year EFS landmarks only across EV-303, EV-304, and NIAGARA; not head-to-head; not reconstructed KM curves[^1][^2][^3].
 
 ## Landmark evidence
 
@@ -52,11 +63,13 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 
 ## Biomarkers
 
-| Marker or feature | Role now | Practical boundary |
-|---|---|---|
-| Cisplatin eligibility | Regimen-selection factor[^5][^6] | Reassess renal function after obstruction relief; do not infer eligibility from one pre-drainage value alone[^5][^6]. |
-| Histology and variant features | Pathology review and multidisciplinary planning[^5][^7] | Variant-specific efficacy for these newer perioperative regimens was not established in the retrieved trials[^1][^2][^3]. |
-| ctDNA | Investigational for selecting neoadjuvant treatment[^5] | Do not use it to omit curative-intent local therapy outside a protocol[^5][^6]. |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| Cisplatin eligibility | Regimen-selection factor between NIAGARA / EV-304 and EV-303 pathways[^1][^2][^3][^5][^6] | Reassessment after obstruction relief[^5][^6] | Determines whether GC-containing or cisplatin-ineligible perioperative packages apply[^1][^2][^3]. | Do not infer eligibility from one pre-drainage creatinine alone[^5][^6]. |
+| Histology / variant | Pathology review and multidisciplinary planning[^5][^7] | Variant-specific perioperative analyses[^5][^7] | Flags need for expert review; does not auto-select EV/ICI or GC[^5][^7]. | Variant-specific efficacy for these newer perioperative regimens was not established in the retrieved trials[^1][^2][^3]. |
+| PD-L1 | Not a selector for perioperative EV plus pembrolizumab or NIAGARA in the retrieved reports[^1][^2][^3] | Exploratory correlatives in ICI trials[^5] | Does not choose among EV-303, EV-304, and NIAGARA on this page[^1][^2][^3]. | No validated perioperative threshold in these sources[^1][^2][^3]. |
+| ctDNA | Not standard for selecting neoadjuvant treatment[^5] | Investigational MRD / perioperative correlatives[^5] | Do not use it to omit curative-intent local therapy outside a protocol[^5][^6]. | Assay decision thresholds are not practice-ready for neoadjuvant selection here[^5]. |
+| Nectin-4 / HER2 / FGFR | Not selectors for perioperative EV/ICI in EV-303, EV-304, or NIAGARA[^1][^2][^3] | Metastatic biomarker-directed options after recurrence[^5] | No change to perioperative regimen choice in these trials[^1][^2][^3]. | Do not require Nectin-4/HER2/FGFR positivity to offer labeled perioperative EV plus pembrolizumab[^1][^2][^4]. |
 
 ## Upcoming research
 
@@ -102,6 +115,7 @@ Field direction: perioperative EV plus pembrolizumab and durvalumab plus GC are 
 8. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
 ## Changelog
+- 2026-09-22: Replaced post-cystectomy surveillance with EAU CT every 6 months ×3 years then annual through ~60 months; added perioperative 2-year EFS landmark figure; expanded Biomarkers to five-column table; mirrored EAU cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Labeled FDA monitoring rates as single-arm label rates and restated trial-level grade ≥3 AEs with named comparators; mirrored comparator-named counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

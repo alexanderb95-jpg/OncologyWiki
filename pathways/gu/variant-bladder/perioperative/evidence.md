@@ -32,12 +32,19 @@ Status: current — evidence is subtype-specific and predominantly nonrandomized
 
 ## Surveillance and treatment de-escalation
 
+### Post-cystectomy imaging schedule (EAU practice framework)
+
+| Time after cystectomy | Chest/abdomen/pelvis CT (incl. upper tract when indicated)[^7] | Notes[^7] |
+|---|---|---|
+| Every 6 months through 36 months[^7] | CT[^7] | Same MIBC post-cystectomy panel framework as conventional UC[^7]. |
+| Annually thereafter through ~60 months[^7] | CT[^7] | Consider stopping routine CT after 5 years in majority of patients without ongoing high-risk features[^7]. |
+
 | Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
 |---|---|---|---|
 | Perioperative systemic therapy (subtype-specific) | Subtype-dependent labs (CBC, renal, cardiac for doxorubicin-containing regimens); imaging before local consolidation[^2][^9]. | Complete planned neoadjuvant cycles when feasible; stop for prohibitive toxicity[^2]. Small-cell regimens are not indefinite maintenance[^1][^2]. | Residual or recurrent disease → multidisciplinary salvage (cystectomy completion, radiation, or metastatic systemic therapy)[^6][^9]. |
-| Post-cystectomy surveillance | CT and cytology per EAU/NCCN MIBC surveillance; expert pathology review for subtype on recurrence[^6][^7]. | Adjuvant cisplatin or nivolumab only when perioperative therapy was not given and patient meets conventional-MIUC criteria—explicit evidence boundary[^5][^6]. | Recurrence → histology-directed systemic options; small-cell recurrence may re-use platinum/etoposide-based approaches in specialist centers[^1][^9]. |
 
-- Variant histology does not change the general post-cystectomy imaging framework; it changes systemic regimen selection[^6][^9].
+- Variant histology does not invent a separate numeric imaging grid beyond the EAU MIBC framework; subtype may warrant longer clinical counseling and expert pathology review on recurrence without a source-defined alternate CT table[^6][^7][^9].
+- Adjuvant cisplatin or nivolumab only when perioperative therapy was not given and the patient meets conventional-MIUC criteria—explicit evidence boundary[^5][^6].
 
 ## Landmark evidence
 
@@ -50,10 +57,12 @@ Status: current — evidence is subtype-specific and predominantly nonrandomized
 
 ## Biomarkers
 
-| Feature | Role now | Practical boundary |
-|---|---|---|
-| Expert GU-pathology review | Confirms variant and proportion[^9] | Changes diagnostic confidence; does not automatically determine a single regimen[^9][^4]. |
-| Genomic testing | Trial and hereditary-risk assessment[^6][^9] | No validated molecular selector for perioperative therapy across variants in this source set[^9]. |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| Expert pathology / subtype | Confirms variant and proportion before pathway choice[^9][^6] | Broader panel immunohistochemistry / molecular classifiers[^9] | Changes diagnostic confidence and multidisciplinary planning[^9][^4]. | Does not automatically determine a single perioperative regimen[^9][^3]. |
+| Genomic / hereditary testing | Trial eligibility and hereditary-risk assessment when indicated[^6][^9] | Broader NGS panels[^6][^9] | Informs counseling and trial referral; not a uniform regimen selector[^6][^9]. | No validated molecular selector for perioperative therapy across variants in this source set[^9]. |
+| PD-L1 | Not a variant-specific perioperative selector[^5][^9] | All-MIUC adjuvant ICI correlatives (CheckMate 274)[^5] | Does not choose small-cell vs other-variant pathways on this page[^1][^2][^9]. | All-MIUC PD-L1 data are not subtype-specific estimates[^5]. |
+| SMARCB1 / INI1 | Not addressed as a perioperative selector in the retained sources for this page[^9] | — | No decision change stated from page sources[^9]. | Rhabdoid/SMARCB1 testing is outside the verified source pack for this setting; do not invent a cutoff[^9]. |
 
 ## Upcoming research
 
@@ -96,6 +105,7 @@ No named prospective variant-specific result was identified that is likely to ch
 9. [EAU–ESMO variant bladder cancer consensus](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360152/)
 
 ## Changelog
+- 2026-09-22: Replaced post-cystectomy surveillance with EAU CT every 6 months ×3 years then annual; noted subtype may warrant longer counseling without a separate source-defined grid; expanded Biomarkers to five-column table (SMARCB1/INI1 marked as not in retained sources); mirrored EAU cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

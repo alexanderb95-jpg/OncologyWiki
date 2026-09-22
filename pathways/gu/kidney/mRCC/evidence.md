@@ -35,10 +35,12 @@ Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doubl
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+### Response-assessment imaging schedule
+
+| Phase | Imaging cadence | Stop, hold, or de-escalate | Re-escalation / next line |
 |---|---|---|---|
-| First-line IO ± TKI | Imaging every 8–12 weeks; CBC, CMP, TSH, blood pressure, urine protein; immune and TKI toxicity review each cycle[^6][^7]. | Continue until progression or toxicity; nivo/ipi induction completes 4 cycles then nivo maintenance; TKI partners continue with PD-1 until progression unless toxicity mandates switch[^1][^2][^3][^4]. Hold TKI for hypertension, hand-foot, or hepatic toxicity; hold IO for immune events[^2][^3][^4]. | Progression after ICI and VEGFR → belzutifan (LITESPARK-005 population) or trial; avoid default nivo/ipi/cabo (COSMIC-313 no OS gain)[^5][^6]. |
-| Complete response or long stable disease | Extend imaging intervals per EAU/NCCN when clinically appropriate after prolonged response[^6][^7]. | Treatment breaks are not trial-established for IO/TKI doublets; individualize only with shared decision[^6][^7]. | Confirmed progression → next-line sequencing[^5][^6]. |
+| Active first-line IO ± TKI (response assessment)[^6][^7] | Cross-sectional imaging every 8–12 weeks while assessing response; CBC, CMP, TSH, blood pressure, urine protein; immune and TKI toxicity review each cycle[^6][^7]. | Continue until progression or toxicity; nivo/ipi induction completes 4 cycles then nivo maintenance; TKI partners continue with PD-1 until progression unless toxicity mandates switch[^1][^2][^3][^4]. Hold TKI for hypertension, hand-foot, or hepatic toxicity; hold IO for immune events[^2][^3][^4]. | Progression after ICI and VEGFR → belzutifan (LITESPARK-005 population) or trial; avoid default nivo/ipi/cabo (COSMIC-313 no OS gain)[^5][^6]. |
+| Prolonged response / durable disease control[^6][^7] | After prolonged response, extend imaging intervals beyond 8–12 weeks when clinically appropriate per EAU/NCCN follow-up frameworks[^6][^7]. | Treatment breaks are not trial-established for IO/TKI doublets; individualize only with shared decision[^6][^7]. | Confirmed progression → next-line sequencing[^5][^6]. |
 
 - Cytoreductive nephrectomy and metastasis-directed therapy are individualized and not governed by these trial surveillance schedules[^6][^7].
 
@@ -59,9 +61,14 @@ Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doubl
 KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 87.7% vs 82.3%; OS HR 0.66 (0.48–0.90)[^6][^7]. Prior adjuvant PD-1 exposure informs metastatic sequencing[^6].
 
 ## Biomarkers
-- Histology and IMDC risk are the practical selectors[^6][^7]. PD-L1 is not the primary selector for these doublets[^1][^2].
-- KEYNOTE-426 5-year: TcellinfGEP and angiogenesis signatures were associated with outcomes (exploratory)[^2].
-- Occasional germline (VHL, FH, etc.) for non-clear / hereditary syndromes — not required to start 1L IO doublets in sporadic ccRCC[^6][^9].
+
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| Histology (clear-cell vs non-clear) | Primary frame for applying 1L doublet evidence[^6][^7] | Non-clear-cell randomized first-line landscape still thinner than clear-cell[^6][^7] | Clear-cell: use IO/IO or IO/VEGFR doublets as on this page; non-clear: trial or individualized approach without transplanting clear-cell effect sizes[^6][^7]. | Sarcomatoid features may favor IO-containing regimens but do not replace IMDC/histology counseling[^6][^7]. |
+| IMDC risk | Practical 1L selector (especially for nivo/ipi intermediate/poor)[^1][^6][^7] | — | Intermediate/poor: durability/CR discussion often favors nivo/ipi; any-risk response need may favor PD-1/VEGFR[^1][^2][^3][^4]. | Does not rank IO/VEGFR doublets head-to-head[^6][^7]. |
+| PD-L1 | Not the primary selector for these doublets[^1][^2] | Exploratory correlatives in 1L ICI trials[^1][^2] | Does not choose among approved doublets in routine clinic[^1][^2]. | No validated threshold for regimen selection on this page[^1][^2]. |
+| Angiogenesis / T-cell expression signatures | Not used for routine regimen choice[^2] | KEYNOTE-426 exploratory: TcellinfGEP and angiogenesis signatures associated with outcomes[^2] | Does not change first-line doublet selection today[^2]. | Exploratory analyses only; no practice-ready cutoffs on this page[^2]. |
+| Germline (VHL, FH, etc.) | Consider for non-clear histology or hereditary-syndrome features[^6][^9] | Broader hereditary panels when indicated[^6][^9] | Informs genetic counseling and selected targeted pathways; not required to start 1L IO doublets in sporadic ccRCC[^6][^9]. | Does not replace IMDC or histology for 1L IO selection[^6][^7]. |
 
 ## Upcoming research
 
@@ -114,6 +121,7 @@ Field direction: first-line IO doublets remain the core; HIF-2 (belzutifan) is m
 9. [AUA localized renal mass guideline](https://pubmed.ncbi.nlm.nih.gov/34115531/)
 
 ## Changelog
+- 2026-09-22: Clarified response-assessment vs prolonged-response imaging schedule; expanded Biomarkers to five-column table (histology, IMDC, PD-L1, expression signatures, germline); mirrored extended-interval language in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named everolimus as the LITESPARK-005 comparator in belzutifan monitoring rates; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

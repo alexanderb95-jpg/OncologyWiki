@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">POUT disease-free survival — published landmarks</title>
+  <desc id="desc">Published landmark rates only (3-year primary; 5-year final). Not a full KM reconstruction.</desc>
+  <style>
+    .t { fill:#1c1917; font:600 17px Arial,sans-serif; }
+    .s { fill:#57534e; font:12px Arial,sans-serif; }
+    .l { fill:#44403c; font:11px Arial,sans-serif; }
+    .v { fill:#1c1917; font:600 11px Arial,sans-serif; }
+    .axis { stroke:#78716c; stroke-width:1.25; }
+    .grid { stroke:#e7e5e4; stroke-width:1; }
+  </style>
+  <rect width="880" height="420" fill="#fffcf7"/>
+  <text x="40" y="32" class="t">POUT disease-free survival — published landmarks</text>
+  <text x="40" y="54" class="s">Adjuvant gemcitabine–platinum versus surveillance after RNU for high-risk UTUC</text>
+  <line x1="90" y1="350.0" x2="840" y2="350.0" class="grid"/>
+  <text x="78" y="354.0" text-anchor="end" class="l">0%</text>
+  <line x1="90" y1="285.0" x2="840" y2="285.0" class="grid"/>
+  <line x1="90" y1="220.0" x2="840" y2="220.0" class="grid"/>
+  <text x="78" y="224.0" text-anchor="end" class="l">50%</text>
+  <line x1="90" y1="155.0" x2="840" y2="155.0" class="grid"/>
+  <line x1="90" y1="90.0" x2="840" y2="90.0" class="grid"/>
+  <text x="78" y="94.0" text-anchor="end" class="l">100%</text>
+  <line x1="90" y1="90" x2="90" y2="350" class="axis"/>
+  <line x1="90" y1="350" x2="840" y2="350" class="axis"/>
+  <rect x="160.3" y="165.4" width="99.6" height="184.6" fill="#1d4ed8"/>
+  <text x="209.5" y="161.4" text-anchor="middle" class="v">71%</text>
+  <rect x="277.5" y="230.4" width="99.6" height="119.6" fill="#b45309"/>
+  <text x="326.7" y="226.4" text-anchor="middle" class="v">46%</text>
+  <text x="277.5" y="372" text-anchor="middle" class="l">3 y</text>
+  <rect x="535.3" y="188.8" width="99.6" height="161.2" fill="#1d4ed8"/>
+  <text x="584.5" y="184.8" text-anchor="middle" class="v">62%</text>
+  <rect x="652.5" y="233.0" width="99.6" height="117.0" fill="#b45309"/>
+  <text x="701.7" y="229.0" text-anchor="middle" class="v">45%</text>
+  <text x="652.5" y="372" text-anchor="middle" class="l">5 y</text>
+  <rect x="90" y="382" width="14" height="14" fill="#1d4ed8"/>
+  <text x="110" y="394" class="l">Chemotherapy</text>
+  <rect x="246" y="382" width="14" height="14" fill="#b45309"/>
+  <text x="266" y="394" class="l">Surveillance</text>
+  <text x="40" y="412" class="s">Published landmark rates only (3-year primary; 5-year final). Not a full KM reconstruction.</text>
+</svg>

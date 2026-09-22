@@ -39,8 +39,18 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 | Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
 |---|---|---|---|
 | During BEP/EP/VIP[^5] | Markers before each cycle; imaging after cycle 2–3 and at completion; audiometry and pulmonary function when bleomycin used[^5][^6]. | Complete planned cycles (BEP ×3/×4, EP ×4, VIP ×4); hold bleomycin for pulmonary symptoms; dose-reduce cisplatin for renal toxicity per center policy. GETUG-13 intensification only for selected poor-risk unfavorable marker decline[^3][^4][^5]. | Incomplete marker normalization or growing masses → salvage chemotherapy or post-chemo RPLND per germ-cell center[^5]. |
-| Post-chemotherapy remission[^5] | Markers every 1–3 months initially, then extend; imaging of residual masses per guideline (PET for seminoma residual >3 cm; RPLND for NSGCT residual)[^5][^6]. | Stop chemotherapy at protocol completion; no maintenance in standard first-line[^5]. | Relapse → salvage BEP/VIP/high-dose or experimental protocols at expert center[^5]. |
+| Post-chemotherapy remission (good/intermediate prognosis CR)[^5] | See EAU-style schedule below[^5]. Residual-mass PET for seminoma >3 cm; RPLND for NSGCT residual[^5][^6]. | Stop chemotherapy at protocol completion; no maintenance in standard first-line[^5]. | Relapse → salvage BEP/VIP/high-dose or experimental protocols at expert center[^5]. |
 
+#### Post-remission follow-up after good/intermediate prognosis complete remission[^5]
+
+| Modality | Year 1 | Year 2 | Year 3 | Years 4–5 |
+|---|---|---|---|---|
+| Markers ± visit[^5] | 4× | 4× | 2× | 2× |
+| Chest X-ray[^5] | 1–2× | 1× | 1× | 1× |
+| Abdominopelvic MRI/CT[^5] | 1–2× | At 24 mo | At 36 mo | At 60 mo |
+| Thorax CT[^5] | 1–2× if lung mets at diagnosis | At 24 mo if indicated | — | At 60 mo if indicated |
+
+- Poor-prognosis disease or incomplete remission needs individualized specialist follow-up rather than this minimal CR schedule[^5].
 - Residual mass management differs for seminoma (PET-directed observation or radiation) vs NSGCT (RPLND for teratoma/viable GCT)[^5].
 
 ## Landmark evidence
@@ -54,11 +64,12 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 
 ## Biomarkers
 
-| Marker or feature | Role now | Practical boundary |
-|---|---|---|
-| AFP, hCG, and LDH | IGCCCG classification and response assessment[^1][^2] | Obtain prechemotherapy values; pure seminoma should not produce AFP[^1][^2]. |
-| Early marker decline | Risk refinement in poor-risk disease[^4] | Marker-directed intensification was studied in a selected GETUG-13 population[^4]. |
-| FDG-PET | Selected seminoma residual-mass assessment[^5] | Do not use for NSGCT residual disease; a single positive seminoma PET does not establish viable cancer[^5]. |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| AFP, hCG, LDH | IGCCCG classification and on-treatment response assessment[^1][^2] | — | Prechemotherapy values assign risk group and cycle count; serial markers guide response and post-remission surveillance[^1][^2][^5]. | Do not use pre-orchiectomy markers alone; pure seminoma should not produce AFP[^1][^2][^5]. |
+| Early marker decline | Risk refinement in poor-risk NSGCT[^4] | Broader real-time decline algorithms under study[^4] | Unfavorable decline after cycle 1 in selected poor-risk patients triggers GETUG-13-style intensification discussion at a germ-cell center[^4]. | Applies only to the selected unfavorable-decline population; not universal first-line intensification[^4]. |
+| FDG-PET | Selected seminoma residual-mass assessment after chemotherapy[^5] | — | Helps triage observation vs further local therapy for seminoma residual >3 cm[^5]. | Do not use for NSGCT residual disease; a single positive seminoma PET does not establish viable cancer[^5]. |
+| Histology (teratoma / viable GCT) | Directs post-chemotherapy residual-mass surgery for NSGCT[^5] | — | Growing or residual NSGCT masses → RPLND for teratoma or viable GCT rather than PET-directed observation[^5]. | Residual-mass histology is post-treatment pathology, not a pretreatment IGCCCG classifier[^5]. |
 
 ## Upcoming research
 
@@ -104,6 +115,7 @@ Field direction: intensification of first-line BEP and randomized first-salvage 
 9. [TIGER](https://clinicaltrials.gov/study/NCT02375204)
 
 ## Changelog
+- 2026-09-22: Added EAU-style post-remission CR follow-up schedule for good/intermediate prognosis; expanded Biomarkers to five-column table including teratoma histology; mirrored post-chemo cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

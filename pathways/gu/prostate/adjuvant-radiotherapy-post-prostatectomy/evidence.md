@@ -30,12 +30,16 @@ Status: current — modern trials support surveillance with early salvage radiot
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
-|---|---|---|---|
-| Post-prostatectomy surveillance (preferred)[^4][^6] | PSA every 3–6 months within the first 2 years, then every 6 months through 5 years; testosterone if ADT ever used[^5][^6][^7]. | Do not deliver routine adjuvant radiotherapy when PSA is undetectable in the ARTISTIC population; observation with protocol-defined early salvage is the modern comparison[^4]. | PSA rise above institutional early-salvage trigger → salvage radiotherapy pathway while PSA remains low[^4][^6]. |
-| Selected adjuvant radiotherapy[^1][^5] | PSA every 3–6 months; urinary and sexual toxicity assessment[^1][^5]. | Complete planned radiotherapy course; hold only for acute toxicity[^1]. | Biochemical or imaging progression → salvage intensification or systemic therapy[^5][^6]. |
+| Setting | PSA | Imaging | Stop/de-escalate | Re-escalate |
+|---|---|---|---|---|
+| Post-prostatectomy surveillance (preferred)[^4][^6] | Every 3–6 months within the first 2 years, then every 6 months through 5 years; testosterone if ADT ever used[^5][^6][^7]. | As clinically indicated for symptoms or rising PSA; staging before salvage when triggered[^4][^6]. | Do not deliver routine adjuvant radiotherapy when PSA is undetectable in the ARTISTIC population; observation with protocol-defined early salvage is the modern comparison[^4]. | PSA rise above institutional early-salvage trigger → salvage radiotherapy pathway while PSA remains low[^4][^6]. |
+| Selected adjuvant radiotherapy[^1][^5] | Every 3–6 months[^1][^5]. | As clinically indicated; urinary and sexual toxicity assessment alongside PSA[^1][^5]. | Complete planned radiotherapy course; hold only for acute toxicity[^1]. | Biochemical or imaging progression → salvage intensification or systemic therapy[^5][^6]. |
 
 - AUA/ASTRO/SUO support early salvage when PSA rises rather than automatic adjuvant radiotherapy for the studied adverse-pathology, undetectable-PSA population[^6].
+
+![ARTISTIC 5-year EFS landmarks](figures/artistic-efs-landmarks.svg)
+
+Published 5-year EFS 89% vs 88% (adjuvant vs early-salvage policy); not a full KM reconstruction[^4].
 
 ## Landmark evidence
 
@@ -49,10 +53,12 @@ Status: current — modern trials support surveillance with early salvage radiot
 
 ## Biomarkers
 
-| Feature | Role now | Practical boundary |
-|---|---|---|
-| Postoperative PSA | Defines the undetectable-PSA trial boundary[^1][^2][^4] | Persistent PSA requires a salvage rather than routine-adjuvant discussion[^4][^6]. |
-| Pathology | Recurrence-risk assessment[^1][^2][^3] | Margin, grade, extracapsular extension, and seminal-vesicle invasion characterize risk but do not mandate routine ART in the modern-trial population[^4]. |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| Postoperative PSA | Defines the undetectable-PSA trial boundary[^1][^2][^4] | — | Undetectable PSA supports observation with early salvage; persistent PSA needs a salvage rather than routine-adjuvant discussion[^4][^6]. | Persistent PSA, pN+, or known metastases were outside the modern ART-versus-early-salvage population[^4]. |
+| Pathology (Grade Group, SVI, margins, pN) | Recurrence-risk assessment[^1][^2][^3] | — | Margin, grade, extracapsular extension, and seminal-vesicle invasion characterize risk and inform salvage timing discussion[^1][^2][^3][^4]. | These features do not mandate routine ART in the modern-trial population[^4]. |
+| PSMA PET | Staging information when PSA rises or salvage is planned[^5][^6] | Expanding use at low PSA for target definition[^5][^6] | May refine salvage planning when recurrence is suspected; does not by itself mandate adjuvant RT while PSA is undetectable[^4][^6]. | Not a validated selector for routine adjuvant radiotherapy in the ARTISTIC population[^4]. |
+| Germline testing | Hereditary-risk counseling when indicated[^5] | Broader panels for later-line planning[^5] | Informs genetic counseling; does not select adjuvant vs early-salvage policy on this page[^4][^5]. | Not an ART-versus-salvage treatment selector in the source pack[^4][^5]. |
 
 ## Upcoming research
 
@@ -97,6 +103,7 @@ Field direction: PET-M0 node-positive disease with detectable PSA is the main in
 9. [NRG-GU008 / INNOVATE](https://clinicaltrials.gov/study/NCT04134260)
 
 ## Changelog
+- 2026-09-22: Explicit Setting×PSA×Imaging surveillance table; inserted ARTISTIC 5-year EFS landmark figure; expanded Biomarkers to five-column clinic/emerging format.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

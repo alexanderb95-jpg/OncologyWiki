@@ -34,12 +34,23 @@ Status: current — POUT supports adjuvant gemcitabine–platinum for its eligib
 
 ## Surveillance and treatment de-escalation
 
+### Post-RNU imaging and cystoscopy schedule
+
+| Modality | Through 24 months | Years 3–5 | Notes |
+|---|---|---|---|
+| CT chest/abdomen/pelvis[^4] | Every 6 months × 2 years[^4] | Annually[^4] | EAU UTUC surveillance framework[^4]. |
+| Cystoscopy (bladder-recurrence surveillance)[^1][^4] | Every 6 months × 2 years[^1] | Annually through 60 months[^1] | POUT methods schedule for lower-tract recurrence; EAU likewise emphasizes bladder surveillance after RNU[^1][^4]. |
+
 | Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
 |---|---|---|---|
-| After RNU (surveillance arm or post-chemo) | CT chest/abdomen/pelvis every 6 months × 2 years, then annually per EAU UTUC frameworks; cystoscopy/urinary tract evaluation for bladder recurrence; single postoperative intravesical chemotherapy when indicated[^4][^3]. | Complete four cycles of adjuvant gemcitabine–platinum within 90 days if selected; then surveillance only[^1][^4]. | Local recurrence → re-resection when feasible; metastatic recurrence → systemic therapy (metastatic UTUC/mUC page)[^4][^6]. |
+| After RNU (surveillance arm or post-chemo) | CT and cystoscopy per schedule above; single postoperative intravesical chemotherapy when indicated[^1][^3][^4]. | Complete four cycles of adjuvant gemcitabine–platinum within 90 days if selected; then surveillance only[^1][^4]. | Local recurrence → re-resection when feasible; metastatic recurrence → systemic therapy (metastatic UTUC/mUC page)[^4][^6]. |
 | On adjuvant gemcitabine–platinum | CBC, renal function, electrolytes each cycle; audiometry if cisplatin[^1][^4]. | Stop after four cycles per POUT; hold for febrile neutropenia or renal decline[^1]. | Progression on therapy → systemic second-line options; platinum-ineligible may discuss nivolumab with explicit all-MIUC evidence boundary[^4][^6]. |
 
 - Bladder recurrence surveillance is distinct from systemic UTUC recurrence monitoring[^3][^4].
+
+![POUT published DFS landmarks](figures/pout-dfs-landmarks.svg)
+
+Published DFS landmarks only: 3-year 71% vs 46% (primary); 5-year 62% vs 45% (final); not a full KM reconstruction[^1][^2].
 
 ## Landmark evidence
 
@@ -52,11 +63,13 @@ Status: current — POUT supports adjuvant gemcitabine–platinum for its eligib
 
 ## Biomarkers
 
-| Marker or feature | Role now | Practical boundary |
-|---|---|---|
-| Pathologic stage and nodal status | POUT treatment selection[^1] | Confirm pT/pN and postoperative imaging when required[^1]. |
-| Renal function | Protocol platinum choice[^1] | POUT GFR thresholds are trial-specific, not a universal cisplatin rule[^1]. |
-| PD-L1 | Not a substitute for UTUC-specific evidence[^4][^6] | Do not assign an unreported UTUC subgroup effect for nivolumab or pembrolizumab[^4][^6]. |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| pT / pN | POUT treatment selection for adjuvant gemcitabine–platinum[^1] | — | Confirms who is inside the pivotal postoperative population[^1]. | Confirm postoperative imaging when required for nodal disease[^1]. |
+| Renal function / GFR | Protocol platinum choice (cisplatin if GFR ≥50; carboplatin if 30–49)[^1] | — | Selects gemcitabine–cisplatin vs gemcitabine–carboplatin within POUT rules[^1]. | POUT GFR thresholds are trial-specific, not a universal cisplatin eligibility definition[^1]. |
+| PD-L1 | Not a substitute for UTUC-specific adjuvant IO evidence[^4][^6] | Exploratory in all-MIUC adjuvant ICI trials[^4][^6] | Does not establish a UTUC-only nivolumab/pembrolizumab standard[^4][^6]. | Do not assign an unreported UTUC subgroup effect[^4][^6]. |
+| FGFR / HER2 | Not adjuvant selectors after RNU[^4][^6] | Metastatic biomarker-directed therapy if recurrence[^4][^6] | No change to adjuvant platinum vs surveillance choice on this page[^1][^4]. | Metastatic-context assays only; not used to select adjuvant chemotherapy[^1][^4]. |
+| ctDNA | Not standard for adjuvant selection after RNU[^4] | Investigational MRD correlatives in urothelial disease[^4] | Do not withhold or add adjuvant therapy based on ctDNA outside a protocol[^4]. | No practice-ready adjuvant assay on this page[^4]. |
 
 ## Upcoming research
 
@@ -97,6 +110,7 @@ No care-changing prospective UTUC-specific result was identified in the retrieve
 7. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
 ## Changelog
+- 2026-09-22: Added explicit POUT/EAU cystoscopy every 6 months ×2 years then annually alongside CT; inserted POUT DFS landmark figure; expanded Biomarkers to five-column table; mirrored cystoscopy + CT cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named surveillance comparator in POUT toxicity/monitoring counseling rates; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

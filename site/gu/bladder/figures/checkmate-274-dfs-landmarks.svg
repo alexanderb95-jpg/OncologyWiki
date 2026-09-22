@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 420" role="img" aria-labelledby="title desc">
+  <title id="title">CheckMate 274 disease-free survival — published landmarks</title>
+  <desc id="desc">Published landmark rates only (36/48/60 months); not a full KM reconstruction. Source: CheckMate 274 5-year analysis.</desc>
+  <style>
+    .t { fill:#1c1917; font:600 17px Arial,sans-serif; }
+    .s { fill:#57534e; font:12px Arial,sans-serif; }
+    .l { fill:#44403c; font:11px Arial,sans-serif; }
+    .v { fill:#1c1917; font:600 11px Arial,sans-serif; }
+    .axis { stroke:#78716c; stroke-width:1.25; }
+    .grid { stroke:#e7e5e4; stroke-width:1; }
+  </style>
+  <rect width="880" height="420" fill="#fffcf7"/>
+  <text x="40" y="32" class="t">CheckMate 274 disease-free survival — published landmarks</text>
+  <text x="40" y="54" class="s">Adjuvant nivolumab versus placebo in high-risk MIUC (all randomized); 5-year minimum follow-up</text>
+  <line x1="90" y1="350.0" x2="840" y2="350.0" class="grid"/>
+  <text x="78" y="354.0" text-anchor="end" class="l">0%</text>
+  <line x1="90" y1="285.0" x2="840" y2="285.0" class="grid"/>
+  <line x1="90" y1="220.0" x2="840" y2="220.0" class="grid"/>
+  <text x="78" y="224.0" text-anchor="end" class="l">50%</text>
+  <line x1="90" y1="155.0" x2="840" y2="155.0" class="grid"/>
+  <line x1="90" y1="90.0" x2="840" y2="90.0" class="grid"/>
+  <text x="78" y="94.0" text-anchor="end" class="l">100%</text>
+  <line x1="90" y1="90" x2="90" y2="350" class="axis"/>
+  <line x1="90" y1="350" x2="840" y2="350" class="axis"/>
+  <rect x="136.9" y="232.7" width="66.4" height="117.3" fill="#1d4ed8"/>
+  <text x="169.7" y="228.7" text-anchor="middle" class="v">45.1%</text>
+  <rect x="215.0" y="258.2" width="66.4" height="91.8" fill="#b45309"/>
+  <text x="247.8" y="254.2" text-anchor="middle" class="v">35.3%</text>
+  <text x="215.0" y="372" text-anchor="middle" class="l">3 y</text>
+  <rect x="386.9" y="242.9" width="66.4" height="107.1" fill="#1d4ed8"/>
+  <text x="419.7" y="238.9" text-anchor="middle" class="v">41.2%</text>
+  <rect x="465.0" y="264.2" width="66.4" height="85.8" fill="#b45309"/>
+  <text x="497.8" y="260.2" text-anchor="middle" class="v">33%</text>
+  <text x="465.0" y="372" text-anchor="middle" class="l">4 y</text>
+  <rect x="636.9" y="255.4" width="66.4" height="94.6" fill="#1d4ed8"/>
+  <text x="669.7" y="251.4" text-anchor="middle" class="v">36.4%</text>
+  <rect x="715.0" y="269.7" width="66.4" height="80.3" fill="#b45309"/>
+  <text x="747.8" y="265.7" text-anchor="middle" class="v">30.9%</text>
+  <text x="715.0" y="372" text-anchor="middle" class="l">5 y</text>
+  <rect x="90" y="382" width="14" height="14" fill="#1d4ed8"/>
+  <text x="110" y="394" class="l">Nivolumab</text>
+  <rect x="222" y="382" width="14" height="14" fill="#b45309"/>
+  <text x="242" y="394" class="l">Placebo</text>
+  <text x="40" y="412" class="s">Published landmark rates only (36/48/60 months); not a full KM reconstruction. Source: CheckMate 274 5-year analysis.</text>
+</svg>

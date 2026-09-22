@@ -36,10 +36,10 @@ Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
-|---|---|---|---|
-| On ADT plus ARPI or triplet[^13] | PSA and testosterone every 3 months; CBC/CMP and regimen-specific labs per label; cross-sectional imaging every 6–12 months or for symptoms[^13][^14]. | Continue systemic therapy until radiographic or clinical progression or unacceptable toxicity; hold individual agents for toxicity rather than stopping ADT. Fixed-cycle components (docetaxel ×6, 177Lu-PSMA-617 up to 6 doses) complete per protocol then continue the remaining backbone[^1][^3][^13]. | Castration-resistant progression on conventional or PSMA imaging → mCRPC pathway with full prior-exposure documentation[^13]. |
-| After completing fixed-cycle intensification[^13] | Same PSA/testosterone cadence; marrow and renal monitoring after radioligand or taxane exposure[^3][^13]. | Do not stop ADT at progression to CRPC[^13]. | See Therapy sequencing for biomarker-directed and next-line options[^4][^12][^13]. |
+| Setting | PSA | Imaging | Stop/de-escalate | Re-escalate |
+|---|---|---|---|---|
+| On ADT plus ARPI or triplet[^13] | PSA and testosterone every 3 months; CBC/CMP and regimen-specific labs per label[^13][^14]. | Cross-sectional imaging every 6–12 months or for symptoms[^13][^14]. | Continue systemic therapy until radiographic or clinical progression or unacceptable toxicity; hold individual agents for toxicity rather than stopping ADT. Fixed-cycle components (docetaxel ×6, 177Lu-PSMA-617 up to 6 doses) complete per protocol then continue the remaining backbone[^1][^3][^13]. | Castration-resistant progression on conventional or PSMA imaging → mCRPC pathway with full prior-exposure documentation[^13]. |
+| After completing fixed-cycle intensification[^13] | Same PSA/testosterone every-3-month cadence; marrow and renal monitoring after radioligand or taxane exposure[^3][^13]. | Same risk-adapted 6–12 month or symptom-triggered imaging[^13][^14]. | Do not stop ADT at progression to CRPC[^13]. | See Therapy sequencing for biomarker-directed and next-line options[^4][^12][^13]. |
 
 - Risk-adapted imaging follows EAU/NCCN frameworks: low burden may extend imaging intervals when clinically appropriate; symptomatic or PSA-rise triggers restaging[^13][^14].
 - PSMA PET may refine oligometastatic/local therapy decisions but does not replace castration assessment or conventional progression evaluation when clinically indicated[^3][^14].
@@ -66,10 +66,15 @@ Cross-trial comparisons are indirect. Abstract-level unless noted. HR with 95% C
 STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.63 (0.52–0.76); metastatic subgroup HR 0.61. Not a pure mHSPC-only table row[^11].
 
 ## Biomarkers
-- Germline + somatic NGS for BRCA2 (Akeega mCSPC) and other HRR genes (later PARP in CRPC). Non-BRCA2 HRR is not the FDA mCSPC indication[^4].
-- PTEN IHC with FDA-authorized companion (VENTANA PTEN SP218): ≥90% viable malignant cells with no specific cytoplasmic staining defines deficiency for capivasertib + abi (FDA 12 Jun 2026)[^12].
-- PSMA PET (approved tracer) for staging and 177Lu-PSMA-617 eligibility[^3].
-- Testosterone to confirm castration once on ADT; PSA kinetics for response[^13][^14].
+
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| Volume / risk (CHAARTED-style high vs low volume; LATITUDE-style high-risk) | Subclassifies disease burden and frames intensification discussion[^10][^7][^1][^2] | — | High-volume/high-risk chemo-fit patients prompt ADT + ARPI ± docetaxel discussion (ARASENS/PEACE-1)[^1][^2][^10]. | Triplet trials were not compared with every modern doublet; volume alone does not mandate a specific ARPI[^1][^2][^13]. |
+| BRCA2 / HRR | BRCA2 selects labeled Akeega (niraparib + abiraterone) + ADT in mCSPC[^4] | Broader HRR panels for later CRPC PARP use[^4] | Use germline + somatic NGS; treat BRCA2 per FDA label when appropriate[^4]. | Do not treat every non-BRCA2 HRR alteration as equivalent (FDA exploratory non-BRCA2m rPFS HR 0.88, CI crosses 1)[^4]. |
+| PSMA PET | Staging and 177Lu-PSMA-617 eligibility with an approved tracer[^3] | Expanding radioligand use in mHSPC (PSMAddition)[^3] | PSMA-positive candidates may add 177Lu-PSMA-617 to ADT + ARPI per label[^3]. | Does not replace castration assessment or conventional progression evaluation when clinically indicated[^3][^14]. |
+| MSI / TMB | Later-line consideration after progression to CRPC[^13] | Expanding tumor-agnostic immunotherapy use[^13] | Does not select first-line mHSPC intensification on this page[^13]. | Not an mHSPC treatment selector in the source pack[^13]. |
+| Testosterone / PSA kinetics | Confirm castration on ADT; track response[^13][^14] | — | Document castrate testosterone; use PSA kinetics with imaging for response and progression assessment[^13][^14]. | PSA alone does not replace radiographic progression criteria[^13][^14]. |
+| PTEN IHC (VENTANA PTEN SP218) | Companion diagnostic for capivasertib + abiraterone in newly diagnosed PTEN-deficient disease[^12] | — | ≥90% viable malignant cells with no specific cytoplasmic staining defines deficiency for the labeled combination (FDA 12 Jun 2026); OS immature — shared decision[^12]. | Do not extend to PTEN-unselected disease[^12]. |
 
 ## Upcoming research
 
@@ -130,6 +135,7 @@ Field direction: intensification beyond ADT/ARPI now includes radioligand (PSMAd
 15. [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
 
 ## Changelog
+- 2026-09-22: Explicit Setting×PSA×Imaging surveillance table; expanded Biomarkers to five-column clinic/emerging format (volume/risk, BRCA/HRR, PSMA, MSI/TMB, testosterone/PSA kinetics).
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
