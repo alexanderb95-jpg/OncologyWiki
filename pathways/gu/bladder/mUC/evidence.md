@@ -40,10 +40,10 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+| Phase | Imaging / labs | Stop, hold, or de-escalate | Re-escalation / next line |
 |---|---|---|---|
-| On first-line EV plus pembrolizumab or platinum-ICI | Imaging every 9–12 weeks during active treatment; CBC, CMP, glucose, and neuropathy assessment on EV; immune-symptom review each cycle[^7][^10][^11]. | Continue until RECIST progression or unacceptable toxicity; hold EV for neuropathy grade ≥2 or hyperglycemia; hold pembrolizumab for immune events[^7]. Maintenance avelumab (JAVELIN) continues until progression up to 2 years[^3]. | Progression → EV monotherapy if post-platinum/post-PD-(L)1 without prior EV; FGFR/HER2-directed therapy; trial; supportive care[^4][^5][^10]. |
-| After platinum without progression | Imaging every 12 weeks on avelumab maintenance[^3][^10]. | Stop avelumab at progression or 2-year cap per trial[^3]. | Progression → second-line options per sequencing table[^4][^5][^10]. |
+| On first-line EV plus pembrolizumab or platinum–ICI[^7][^10][^11] | Cross-sectional imaging every 9–12 weeks during active treatment; CBC, CMP, glucose, and neuropathy assessment on EV; immune-symptom review each cycle[^7][^10][^11]. | Continue until RECIST progression or unacceptable toxicity; hold EV for neuropathy grade ≥2 or hyperglycemia; hold pembrolizumab for immune events[^7]. | Progression → EV monotherapy if post-platinum/post-PD-(L)1 without prior EV; FGFR/HER2-directed therapy; trial; supportive care[^4][^5][^10]. |
+| Avelumab maintenance after platinum without progression (JAVELIN)[^3][^10] | Imaging every 12 weeks while on avelumab maintenance[^3][^10]. | Continue until progression or unacceptable toxicity; trial allowed up to 2 years of avelumab[^3]. | Progression → second-line options per sequencing table[^4][^5][^10]. |
 
 - EAU/NCCN recommend cross-sectional imaging for metastatic urothelial carcinoma on treatment and at progression; cystoscopy is not central for metastatic disease but remains relevant for bladder-primary local symptoms[^10][^11].
 
@@ -62,10 +62,14 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 | RC48-C016 | Untreated HER2 IHC 1+/2+/3+ la/mUC; N=484[^10][^11] | Disitamab vedotin + toripalimab q2wk[^10] | Gemcitabine + cisplatin or carboplatin[^10] | PFS 13.1 vs 6.5 mo; OS 31.5 vs 16.9 mo; ORR 76.1% vs 50.2%[^10] | PFS HR 0.36 (0.28–0.46); OS HR 0.54 (0.41–0.73)[^10] | US FDA not in sources[^10][^11] |
 
 ## Biomarkers
-- FGFR3 (companion diagnostic) for erdafitinib after PD-(L)1[^5][^8].
-- HER2 IHC: RC48-C016 used 1+/2+/3+; T-DXd greatest benefit in IHC 3+ across tumors (DESTINY-PanTumor02) — bladder-only numbers not in sources[^10][^11].
-- PD-L1: not the selector for EV+pembro 1L in EV-302 as reported here[^1].
-- NGS for FGFR and other trial targets[^5][^10].
+
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| FGFR3 (companion diagnostic) | Selects erdafitinib after prior PD-(L)1 in FGFR3/2-altered disease (THOR cohort 1)[^5][^8] | Broader FGFR panels / earlier-line trials[^5][^10] | Offers a labeled oral targeted option after PD-(L)1[^5][^8]. | Do not substitute erdafitinib for an eligible first PD-1 pathway (FDA limitation; THOR cohort 2)[^8]. |
+| HER2 IHC | Informs discussion of HER2-directed ADC / trial options; RC48-C016 used IHC 1+/2+/3+[^10][^11] | Disitamab vedotin plus PD-1 programs (SGNDV-001; RC48-C016)[^10][^13][^18] | Positive IHC prompts biomarker-matched or trial counseling after or instead of unlabeled sequencing[^10][^11]. | RC48-C016 is not a verified US first-line SOC in this pack; bladder-only T-DXd rates not in sources[^10][^11]. |
+| PD-L1 | Not the selector for EV plus pembrolizumab 1L in EV-302 as reported here[^1] | Historical platinum–avelumab and other ICI enrichment contexts[^3][^10] | Does not gate first-line EV plus pembrolizumab on this page[^1]. | Less central once EV plus pembrolizumab is chosen[^1][^10]. |
+| Nectin-4 context | Target of enfortumab vedotin; not used as a clinic assay to start EV plus pembrolizumab in EV-302[^1][^7] | Next-generation Nectin-4 ADCs after enfortumab exposure (e.g., NEXUS-01)[^16][^17] | No pretreatment Nectin-4 assay required for labeled EV use on this page[^1][^7]. | Expression assays are not decision tools for SOC EV plus pembrolizumab here[^1][^7]. |
+| NGS / TMB / MSI | NGS for FGFR and other trial targets when tissue/liquid testing is obtained[^5][^10] | TMB/MSI-high tumor-agnostic ICI pathways when criteria are met[^10][^11] | Can open trial or labeled biomarker-matched options beyond FGFR[^5][^10]. | TMB/MSI cutoffs and urothelial-specific rates are not detailed as practice selectors on this page[^10][^11]. |
 
 ## Upcoming research
 
@@ -132,6 +136,7 @@ Field direction after EV plus pembrolizumab as first-line Nectin-4 ADC plus PD-1
 18. [Sheng et al. (2025). RC48-C016. *New England Journal of Medicine*. PMID: 41124210](https://pubmed.ncbi.nlm.nih.gov/41124210/)
 
 ## Changelog
+- 2026-09-22: Clarified on-treatment imaging every 9–12 weeks and avelumab maintenance imaging every 12 weeks; noted cystoscopy is not central for metastatic disease; expanded Biomarkers to five-column table.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction (SGNDV-001/DV-001, RC48-C016, NEXUS-01).
 - 2026-09-22: Labeled EV-302 monitoring rates as single-arm label rates and restated grade ≥3 TRAEs vs platinum; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
