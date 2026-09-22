@@ -101,6 +101,7 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 9. [Belge et al. (2023). miR-371 surveillance cohort. PMID: 37967143](https://pubmed.ncbi.nlm.nih.gov/37967143/)
 
 ## Changelog
+- 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 

@@ -98,6 +98,7 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 8. [EA8191 / INDICATE](https://clinicaltrials.gov/study/NCT04423211)
 
 ## Changelog
+- 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 

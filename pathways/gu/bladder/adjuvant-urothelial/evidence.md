@@ -84,9 +84,9 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 
 | SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
 |---|---|---|
-| Nivolumab, pembrolizumab, or atezolizumab adjuvant pathway | CheckMate 274 nivolumab: grade ≥3 treatment-related AEs 17.9% vs 7.2%[^1]. AMBASSADOR pembrolizumab: grade ≥3 AEs 50.6% vs 31.6%[^2]. A comparable IMvigor011 named immune-event rate was not retrieved[^5]. | Before each dose, review bowel, lung, liver, thyroid/adrenal, and skin symptoms. Persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, marked fatigue, or palpitations needs prompt contact; immune events may require holding treatment, corticosteroids, or lasting hormone replacement[^1][^2]. |
-| Perioperative EV plus pembrolizumab | EV-303 FDA-label rates: rash 54%, grade 3–4 7%; neuropathy 39%, grade 3–4 3%; increased glucose 72%, grade 3–4 12%[^4]. EV-304: rash 63%, grade 3–4 12%; neuropathy 43%, grade 3–4 3%; hyperglycemia 20%, grade 3–4 7%[^4]. | Monitor cumulative neuropathy, glucose symptoms, skin, vision, renal function, and immune toxicity before postoperative doses; new numbness/weakness, thirst/polyuria, rash, vision change, dyspnea, or persistent diarrhea requires prompt assessment[^4]. |
-| Perioperative durvalumab plus GC | NIAGARA grade 3–4 treatment-related AEs 40.6% vs 40.9%; a comparable named monitoring rate was not extracted[^3]. | Monitor CBC, renal function, electrolytes, neuropathy/hearing, and immune symptoms; fever, infection symptoms, reduced urine output, dyspnea, or severe diarrhea needs urgent assessment[^3]. |
+| Nivolumab, pembrolizumab, or atezolizumab adjuvant pathway | CheckMate 274 nivolumab: grade ≥3 treatment-related AEs 17.9% vs 7.2% with placebo[^1]. AMBASSADOR pembrolizumab: grade ≥3 AEs 50.6% vs 31.6% with observation[^2]. A comparable IMvigor011 named immune-event rate was not retrieved[^5]. | Before each dose, review bowel, lung, liver, thyroid/adrenal, and skin symptoms. Persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, marked fatigue, or palpitations needs prompt contact; immune events may require holding treatment, corticosteroids, or lasting hormone replacement[^1][^2]. |
+| Perioperative EV plus pembrolizumab | EV-303 FDA-label treatment-arm rates (single-arm label rates; no paired comparator % in the retained label table): rash 54%, grade 3–4 7%; neuropathy 39%, grade 3–4 3%; increased glucose 72%, grade 3–4 12%[^4]. EV-304: rash 63%, grade 3–4 12%; neuropathy 43%, grade 3–4 3%; hyperglycemia 20%, grade 3–4 7%[^4]. Trial-level grade ≥3 AEs 71.3% vs 45.9% with RC+PLND alone (EV-303) and 75.7% vs 67.2% with neoadjuvant GC (EV-304)[^4]. | Monitor cumulative neuropathy, glucose symptoms, skin, vision, renal function, and immune toxicity before postoperative doses; new numbness/weakness, thirst/polyuria, rash, vision change, dyspnea, or persistent diarrhea requires prompt assessment[^4]. |
+| Perioperative durvalumab plus GC | NIAGARA grade 3–4 treatment-related AEs 40.6% vs 40.9% with neoadjuvant GC alone; a comparable named monitoring rate was not extracted[^3]. | Monitor CBC, renal function, electrolytes, neuropathy/hearing, and immune symptoms; fever, infection symptoms, reduced urine output, dyspnea, or severe diarrhea needs urgent assessment[^3]. |
 
 ## Guideline references
 
@@ -105,6 +105,7 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 7. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
 ## Changelog
+- 2026-09-22: Named placebo/observation/GC/surgery comparators in monitoring rates and labeled EV FDA rates as single-arm; mirrored comparator-named counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 - 2026-09-21: Added EV-303 and EV-304 FDA-label neuropathy, glucose, and rash monitoring rates to the perioperative row.

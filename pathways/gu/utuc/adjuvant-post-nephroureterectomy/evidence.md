@@ -66,14 +66,14 @@ No care-changing prospective UTUC-specific result was identified in the retrieve
 
 | Regimen and comparator | Trial-level safety outcomes | Selected named toxicities | Counseling focus |
 |---|---|---|---|
-| Gemcitabine–platinum versus surveillance, [POUT](https://pmc.ncbi.nlm.nih.gov/articles/PMC7181180/) | Acute grade ≥3 treatment-emergent events: 44% vs 4%; no treatment-related deaths[^1]. | Grade ≥3 neutrophil decrease 36%, platelet decrease 10%, nausea 6%, febrile neutropenia 6%, vomiting 6%[^1]. | Contact oncology urgently for fever, infection symptoms, bleeding, uncontrolled vomiting, or dehydration; monitor blood counts and renal function[^1]. |
+| Gemcitabine–platinum versus surveillance, [POUT](https://pmc.ncbi.nlm.nih.gov/articles/PMC7181180/) | Acute grade ≥3 treatment-emergent events: 44% vs 4% with surveillance; no treatment-related deaths[^1]. | Chemotherapy-arm named events (treatment-arm rates; surveillance-arm named-event % not retained here): grade ≥3 neutrophil decrease 36%, platelet decrease 10%, nausea 6%, febrile neutropenia 6%, vomiting 6%[^1]. | Contact oncology urgently for fever, infection symptoms, bleeding, uncontrolled vomiting, or dehydration; monitor blood counts and renal function[^1]. |
 | Nivolumab versus placebo, CheckMate 274 all MIUC | Grade ≥3 treatment-related events 17.9% vs 7.2%[^4][^6]. | Pruritus 23.1%, fatigue 17.4%, diarrhea 16.8%; grade ≥3 lipase elevation 5.1%; all are all-MIUC, not UTUC-specific[^4][^6]. | Promptly report diarrhea, abdominal pain, cough/dyspnea, rash, fatigue, jaundice, or endocrine symptoms; immune effects can require hold, steroids, or hormone replacement[^4][^6]. |
 
 ### On-treatment monitoring
 
 | SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
 |---|---|---|
-| Gemcitabine–cisplatin or gemcitabine–carboplatin | POUT: grade ≥3 neutrophil decrease 36%, platelet decrease 10%, nausea 6%, febrile neutropenia 6%, and vomiting 6%[^1]. | Check CBC, renal function, electrolytes, neuropathy/hearing, and nausea/vomiting; fever, infection symptoms, bleeding, reduced urine output, new hearing change, or uncontrolled vomiting needs urgent assessment[^1]. |
+| Gemcitabine–cisplatin or gemcitabine–carboplatin | POUT chemotherapy-arm named events (treatment-arm rates): grade ≥3 neutrophil decrease 36%, platelet decrease 10%, nausea 6%, febrile neutropenia 6%, and vomiting 6%; trial-level grade ≥3 events 44% vs 4% with surveillance[^1]. | Check CBC, renal function, electrolytes, neuropathy/hearing, and nausea/vomiting; fever, infection symptoms, bleeding, reduced urine output, new hearing change, or uncontrolled vomiting needs urgent assessment[^1]. |
 | Single postoperative intravesical chemotherapy | A comparable named adverse-event rate was not retrieved in this systemic-adjuvant source set[^3][^4]. | Review dysuria, hematuria, fever, and urinary symptoms after instillation; fever or escalating urinary symptoms requires prompt contact[^3][^4]. |
 | Nivolumab when platinum is unsuitable | CheckMate 274 all-MIUC: grade ≥3 treatment-related events 17.9% vs 7.2%; pruritus 23.1%, fatigue 17.4%, diarrhea 16.8%[^4][^6]. | Review bowel, lung, liver, skin, and endocrine symptoms before each dose; persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, or marked fatigue needs prompt contact[^4][^6]. |
 
@@ -95,6 +95,7 @@ No care-changing prospective UTUC-specific result was identified in the retrieve
 7. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
 ## Changelog
+- 2026-09-22: Named surveillance comparator in POUT toxicity/monitoring counseling rates; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 

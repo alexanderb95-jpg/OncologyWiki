@@ -11,6 +11,7 @@ alwaysApply: true
 - Prefer counseling → decision → labs/NGS → procedures → meds → referrals → follow-up
 - Preserve the user's clinical wording; fix only clear typos unless asked to rewrite
 - When SOC changes, update the paired `evidence.md` in the same folder
+- Quantified benefit / toxicity counseling: when a Counseling bullet quotes efficacy rates, HRs, or toxicity percentages, **always name the comparator arm** (e.g. “60.9% vs 52.2% with placebo at 5 years”, “HR 0.71 vs placebo”, “grade 3–4 TRAEs 18.6% vs 1.2% with placebo”). Do not drop “versus placebo / SOC / control.” No ARR/NNT. Never invent statistics. If a rate is single-arm only (label arm, single-arm cohort), say so explicitly (“single-arm; no randomized comparator”).
 
 ## Interactive risk and eligibility controls
 
