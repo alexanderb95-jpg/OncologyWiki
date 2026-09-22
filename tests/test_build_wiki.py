@@ -314,3 +314,58 @@ Status: current
     def test_planned_labels_do_not_call_pages_briefs(self) -> None:
         labels = [label for settings in wiki.PLANNED.values() for label in settings]
         self.assertFalse(any("brief" in label.lower() for label in labels))
+
+    def test_md_inline_renders_footnote_cite_as_superscript_link(self) -> None:
+        html = wiki.md_inline("Imaging every 3–6 months[^1] then annually[^2].")
+        self.assertIn(
+            '<sup class="cite"><a class="cite-ref" href="#ref-1">1</a></sup>',
+            html,
+        )
+        self.assertIn(
+            '<sup class="cite"><a class="cite-ref" href="#ref-2">2</a></sup>',
+            html,
+        )
+        self.assertNotIn("[^1]", html)
+
+    def test_sources_ordered_list_gets_ref_anchors(self) -> None:
+        html = wiki.md_block_to_html(
+            """## Sources
+
+1. First primary paper
+2. Second guideline
+"""
+        )
+        self.assertIn('<ol class="sources">', html)
+        self.assertIn('<li id="ref-1">First primary paper</li>', html)
+        self.assertIn('<li id="ref-2">Second guideline</li>', html)
+
+    def test_build_renders_citation_superscripts_to_sources(self) -> None:
+        setting = wiki.PATHWAYS / "gu" / "kidney" / "adjuvant-ccrcc"
+        setting.mkdir(parents=True)
+        (setting / "evidence.md").write_text(
+            """# Adjuvant clear-cell RCC
+
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
+Owner: GU clinic
+Purpose: Decision support
+Status: current
+
+## Surveillance and treatment de-escalation
+
+- Imaging every 3–6 months[^1].
+
+## Sources
+
+1. [EAU RCC guideline](https://uroweb.org/guidelines/renal-cell-carcinoma)
+""",
+            encoding="utf-8",
+        )
+
+        self.assertEqual(wiki.main(), 0)
+        page = (
+            wiki.SITE / "gu" / "kidney" / "adjuvant-ccrcc.html"
+        ).read_text(encoding="utf-8")
+        self.assertIn('href="#ref-1"', page)
+        self.assertIn('id="ref-1"', page)
+        self.assertIn('<sup class="cite">', page)

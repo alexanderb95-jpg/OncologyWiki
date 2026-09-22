@@ -216,7 +216,21 @@ def parse_header_fields(text: str) -> dict[str, str]:
     return fields
 
 
+FOOTNOTE_MARKER = re.compile(r"\[\^(\d+)\]")
+
+
 def md_inline(text: str) -> str:
+    """Inline markdown with optional [^n] cite markers → superscript links."""
+    cites: list[str] = []
+
+    def _stash_cite(match: re.Match[str]) -> str:
+        n = match.group(1)
+        cites.append(
+            f'<sup class="cite"><a class="cite-ref" href="#ref-{n}">{n}</a></sup>'
+        )
+        return f"\x00CITE{len(cites) - 1}\x00"
+
+    text = FOOTNOTE_MARKER.sub(_stash_cite, text)
     text = html.escape(text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"`(.+?)`", r"<code>\1</code>", text)
@@ -225,6 +239,8 @@ def md_inline(text: str) -> str:
         r'<a href="\2" rel="noreferrer">\1</a>',
         text,
     )
+    for i, cite_html in enumerate(cites):
+        text = text.replace(f"\x00CITE{i}\x00", cite_html)
     return text
 
 
@@ -399,10 +415,40 @@ def render_bullet_list(items: list[tuple[int, str]]) -> str:
     return render_level(items[0][0])
 
 
+def render_ordered_list(
+    items: list[tuple[int, str, int | None]], *, sources: bool = False
+) -> str:
+    """Render a contiguous Markdown ordered list (1. …). Sources get id=ref-n."""
+    index = 0
+
+    def render_level(indent: int) -> str:
+        nonlocal index
+        parts = ['<ol class="sources">' if sources and indent == items[0][0] else "<ol>"]
+        while index < len(items):
+            item_indent, text, number = items[index]
+            if item_indent < indent:
+                break
+            if item_indent > indent:
+                raise ValueError("Nested ordered list does not have a parent")
+            index += 1
+            children = ""
+            if index < len(items) and items[index][0] > item_indent:
+                children = render_level(items[index][0])
+            id_attr = ""
+            if sources and number is not None:
+                id_attr = f' id="ref-{number}"'
+            parts.append(f"<li{id_attr}>{md_inline(text)}{children}</li>")
+        parts.append("</ol>")
+        return "".join(parts)
+
+    return render_level(items[0][0])
+
+
 def md_block_to_html(block: str) -> str:
     """Minimal markdown → HTML for tables, figures, and concise evidence pages."""
     lines = block.splitlines()
     out: list[str] = []
+    current_h2 = ""
 
     i = 0
     while i < len(lines):
@@ -437,7 +483,10 @@ def md_block_to_html(block: str) -> str:
             i += 1
             continue
         if line.startswith("## "):
-            out.append(f"<h2 id=\"{slugify(line[3:])}\">{md_inline(line[3:].strip())}</h2>")
+            current_h2 = line[3:].strip()
+            out.append(
+                f'<h2 id="{slugify(current_h2)}">{md_inline(current_h2)}</h2>'
+            )
             i += 1
             continue
         image = re.fullmatch(r"!\[([^\]]*)\]\(([^)\s]+)\)", line)
@@ -452,17 +501,31 @@ def md_block_to_html(block: str) -> str:
             )
             i += 1
             continue
+        ordered = re.match(r"^(\s*)(\d+)\.\s+(.+)", line)
+        if ordered:
+            in_sources = current_h2.strip().lower() == "sources"
+            items: list[tuple[int, str, int | None]] = []
+            while i < len(lines):
+                nested = re.match(r"^(\s*)(\d+)\.\s+(.+)", lines[i].rstrip())
+                if not nested:
+                    break
+                indent = len(nested.group(1).replace("\t", "  "))
+                number = int(nested.group(2)) if in_sources else None
+                items.append((indent, nested.group(3), number))
+                i += 1
+            out.append(render_ordered_list(items, sources=in_sources))
+            continue
         bullet = re.match(r"^(\s*)[-*]\s+(.+)", line)
         if bullet:
-            items: list[tuple[int, str]] = []
+            items_b: list[tuple[int, str]] = []
             while i < len(lines):
                 nested = re.match(r"^(\s*)[-*]\s+(.+)", lines[i].rstrip())
                 if not nested:
                     break
                 indent = len(nested.group(1).replace("\t", "  "))
-                items.append((indent, nested.group(2)))
+                items_b.append((indent, nested.group(2)))
                 i += 1
-            out.append(render_bullet_list(items))
+            out.append(render_bullet_list(items_b))
             continue
         out.append(f"<p>{md_inline(line)}</p>")
         i += 1
@@ -1097,8 +1160,13 @@ body {
 .article-list li.planned { opacity: 0.65; }
 .evidence h2 { font-size: 1.05rem; margin-top: 1.35rem; border-bottom: 1px solid var(--line); padding-bottom: 0.2rem; }
 .evidence h3 { font-size: 0.95rem; margin-top: 1rem; }
-.evidence ul, .phrase-body, .start-here ul { padding-left: 1.1rem; }
+.evidence ul, .evidence ol, .phrase-body, .start-here ul { padding-left: 1.1rem; }
 .evidence li, .phrase-body li { margin: 0.18rem 0; }
+.evidence ol.sources { list-style: decimal; padding-left: 1.4rem; }
+.evidence ol.sources li { scroll-margin-top: 4.5rem; }
+.evidence sup.cite { font-size: 0.72em; line-height: 0; vertical-align: super; }
+.evidence a.cite-ref { color: var(--accent); text-decoration: none; font-weight: 650; }
+.evidence a.cite-ref:hover { text-decoration: underline; }
 .table-wrap { overflow-x: auto; margin: 0.55rem 0 0.95rem; }
 .evidence table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.74rem; line-height: 1.32; }
 .evidence th, .evidence td { border: 1px solid var(--line); padding: 0.28rem 0.4rem; text-align: left; vertical-align: top; }
