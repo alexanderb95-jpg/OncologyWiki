@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>pT2N0 UTUC after RNU — Surveillance &amp; recurrence</title>
+<style>
+  :root {
+    --bg: #eef1f4;
+    --paper: #ffffff;
+    --ink: #1a1d23;
+    --muted: #5c6570;
+    --line: #d5dae2;
+    --accent: #0f3d68;
+    --accent-soft: #e7eef5;
+    --warn-bg: #f7f1e8;
+    --warn-ink: #7a4a12;
+    --ok-bg: #e8f2ec;
+    --ok-ink: #1f5a38;
+    --font: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --serif: "IBM Plex Serif", "Source Serif 4", Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 15.5px; scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(ellipse 80% 50% at 0% 0%, #d9e4ef 0%, transparent 55%),
+      radial-gradient(ellipse 60% 40% at 100% 10%, #e4ebe4 0%, transparent 45%),
+      var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    line-height: 1.45;
+  }
+  .wrap { max-width: 52rem; margin: 0 auto; padding: 1.5rem 1.1rem 3rem; }
+  header.hero {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 1.35rem 1.4rem 1.15rem;
+    margin-bottom: 1rem;
+  }
+  .kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 0.35rem;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 1.45rem;
+    line-height: 1.2;
+    margin: 0 0 0.45rem;
+    color: var(--accent);
+  }
+  .lede { margin: 0 0 0.85rem; max-width: 44rem; }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.85rem;
+    font-size: 0.82rem;
+    color: var(--muted);
+    border-top: 1px solid var(--line);
+    padding-top: 0.75rem;
+  }
+  .pill {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.15rem 0.45rem;
+    border-radius: 2px;
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .pill.warn { background: var(--warn-bg); color: var(--warn-ink); }
+  .pill.ok { background: var(--ok-bg); color: var(--ok-ink); }
+  nav.toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.75rem;
+    margin: 0 0 1.25rem;
+    font-size: 0.84rem;
+  }
+  nav.toc a { color: var(--accent); text-decoration: none; border-bottom: 1px solid transparent; }
+  nav.toc a:hover { border-bottom-color: var(--accent); }
+  section {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 1.1rem 1.25rem 1.2rem;
+    margin-bottom: 0.85rem;
+  }
+  h2 {
+    font-family: var(--serif);
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin: 0 0 0.65rem;
+    color: var(--accent);
+  }
+  h3 {
+    font-size: 0.88rem;
+    font-weight: 650;
+    margin: 0.95rem 0 0.4rem;
+  }
+  p, li { font-size: 0.92rem; }
+  p { margin: 0 0 0.55rem; }
+  ul, ol { margin: 0.2rem 0 0.55rem; padding-left: 1.15rem; }
+  li { margin-bottom: 0.28rem; }
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 0.55rem 0.75rem;
+    margin: 0.65rem 0;
+    font-size: 0.88rem;
+  }
+  .callout.warn {
+    border-left-color: var(--warn-ink);
+    background: var(--warn-bg);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin: 0.45rem 0 0.7rem;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 0.4rem 0.5rem;
+    vertical-align: top;
+    text-align: left;
+  }
+  th { background: #f5f7fa; font-weight: 650; }
+  .timeline {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 0.78rem;
+    background: #f7f8fa;
+    border: 1px solid var(--line);
+    padding: 0.7rem 0.85rem;
+    overflow-x: auto;
+    white-space: pre;
+    line-height: 1.55;
+    margin: 0.5rem 0 0.75rem;
+  }
+  .muted { color: var(--muted); }
+  .sources li { font-size: 0.8rem; color: var(--muted); }
+  .sources a { color: var(--accent); }
+  .fig-wrap { margin: 0.55rem 0 0.85rem; }
+  .fig-caption { font-size: 0.78rem; color: var(--muted); margin: 0.25rem 0 0.5rem; }
+  footer.note {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.5rem;
+    padding: 0 0.2rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <p class="kicker">GU oncology · Clinical reference · Visit-ready</p>
+  <h1>pT2N0 UTUC after RNU — surveillance &amp; recurrence over time</h1>
+  <p class="lede">
+    Muscle-invasive, node-negative upper tract urothelial carcinoma after radical nephroureterectomy:
+    high-risk follow-up schedule, POUT recurrence landmarks, and adjuvant counseling context.
+  </p>
+  <div class="meta">
+    <span class="pill ok">High-risk (EAU)</span>
+    <span class="pill">POUT-eligible</span>
+    <span class="pill warn">No pT2N0-only KM curve published</span>
+    <span>Fidelity-checked: 2026-09-22</span>
+  </div>
+</header>
+
+<nav class="toc" aria-label="On this page">
+  <a href="#verdict">Verdict</a>
+  <a href="#framing">Framing</a>
+  <a href="#surveillance">Surveillance</a>
+  <a href="#curves">Recurrence over time</a>
+  <a href="#km">POUT KM curves</a>
+  <a href="#pathway">Pathway</a>
+  <a href="#decision">Decision table</a>
+  <a href="#counseling">Counseling</a>
+  <a href="#sources">Sources</a>
+</nav>
+
+<section id="verdict">
+  <h2>1. One-line answer</h2>
+  <div class="callout">
+    After RNU for <strong>pT2N0</strong> UTUC, treat as <strong>high-risk</strong>: discuss
+    <strong>adjuvant gemcitabine–platinum (POUT)</strong> within 90 days if fit, then follow
+    <strong>EAU high-risk</strong> cystoscopy/cytology + <strong>CTU/chest CT every 6 months × 2 years → yearly</strong>.
+    Published KM curves are from POUT’s mixed high-risk cohort (not a standalone pT2N0 curve);
+    on surveillance, <strong>3-year DFS ~46%</strong>, <strong>5-year DFS ~45%</strong>, median DFS <strong>~30 months</strong>.
+  </div>
+</section>
+
+<section id="framing">
+  <h2>2. Clinical framing</h2>
+  <ul>
+    <li><strong>pT2N0</strong> after radical nephroureterectomy = muscle-invasive, node-negative UTUC → <strong>EAU high-risk</strong> follow-up, not low-risk.</li>
+    <li><strong>POUT-eligible</strong> (pT2–T4 Nany or N+ M0). Adjuvant chemo is the evidence-based default discussion if platinum-fit; surveillance alone is the POUT control arm.</li>
+    <li>Separate track: <strong>single postoperative intravesical chemotherapy</strong> (if no prior bladder cancer) to reduce <strong>bladder</strong> recurrence—not systemic DFS.</li>
+  </ul>
+</section>
+
+<section id="surveillance">
+  <h2>3. Surveillance recommendations (high-risk after RNU)</h2>
+  <table>
+    <thead>
+      <tr><th>Component</th><th>Cadence (EAU high-risk after RNU)</th><th>Strength</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Cystoscopy + voided cytology</strong></td>
+        <td>
+          At <strong>3 months</strong>. If negative and <strong>no prior NMIBC</strong>: every
+          <strong>6 months × 2 years</strong>, then <strong>yearly to year 5</strong>.
+          If <strong>prior NMIBC</strong>: every <strong>3 months × 2 years</strong>, then every
+          <strong>6 months to year 5</strong>, then yearly.
+        </td>
+        <td>Weak</td>
+      </tr>
+      <tr>
+        <td><strong>CT urography + chest CT</strong></td>
+        <td>Every <strong>6 months for 2 years</strong>, then <strong>yearly</strong>.</td>
+        <td>Weak</td>
+      </tr>
+      <tr>
+        <td><strong>Why front-loaded imaging</strong></td>
+        <td>
+          Most <strong>lung metastases</strong> after RNU occur within <strong>~2 years</strong>;
+          bladder and other-site risk falls substantially after <strong>~4 years</strong>, supporting later de-intensification.
+        </td>
+        <td>Guideline narrative</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>POUT follow-up (trial practice, not guideline)</h3>
+  <p>
+    Imaging at 3, 6, 9 (chest), 12, 18, 24, 30 (chest), and 36 months, then annually to 60 months;
+    cystoscopy every 6 months to 24 months, then annually to 60 months.
+    Use <strong>EAU</strong> for routine clinic schedules; POUT shows how intensively the landmark DFS data were collected.
+  </p>
+  <p class="muted" style="font-size:0.85rem;">
+    AUA/SUO 2023 addresses surveillance/survivorship in non-metastatic UTUC (Coleman <em>J Urol</em>; PMID 37096584);
+    detailed interval tables were not retrieved beyond the abstract—prefer EAU intervals above for day-to-day scheduling.
+  </p>
+</section>
+
+<section id="curves">
+  <h2>4. Recurrence / DFS over time</h2>
+  <div class="callout warn">
+    <strong>No published pT2N0-only Kaplan–Meier curve</strong> was found.
+    Best RCT anchor = <strong>POUT</strong> (high-risk post-RNU; ~28% pT2; ~91% of pT2–3 were N0).
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>Landmark</th><th>Chemotherapy (gem–platinum ×4)</th><th>Surveillance</th><th>Source</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>3-year DFS</strong></td>
+        <td><strong>71%</strong> (61–78)</td>
+        <td><strong>46%</strong> (36–56)</td>
+        <td>Birtle 2020 <em>Lancet</em> PMID 32145825</td>
+      </tr>
+      <tr>
+        <td><strong>Median DFS</strong></td>
+        <td>Not reached</td>
+        <td><strong>29.8 months</strong></td>
+        <td>Same</td>
+      </tr>
+      <tr>
+        <td><strong>5-year DFS</strong></td>
+        <td><strong>62%</strong></td>
+        <td><strong>45%</strong> (HR 0.55, 0.38–0.80)</td>
+        <td>Birtle 2024 <em>JCO</em> PMID 38350047</td>
+      </tr>
+      <tr>
+        <td><strong>5-year OS</strong></td>
+        <td><strong>66%</strong></td>
+        <td><strong>57%</strong> (univ. HR 0.68; adjusted HR 0.76, CI crosses 1)</td>
+        <td>Same</td>
+      </tr>
+      <tr>
+        <td><strong>3-year MFS</strong></td>
+        <td><strong>71%</strong></td>
+        <td><strong>53%</strong></td>
+        <td>Primary POUT</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>How to read the “curve” clinically</h3>
+  <div class="timeline">Time after RNU (surveillance arm, mixed high-risk POUT)
+0 ── early drop (median DFS ~30 mo) ── 3y ~46% DFS ── 5y ~45% DFS (plateau-ish)
+Most systemic risk: years 0–2 (esp. lung)
+Bladder risk: ongoing early years; guideline notes decline after ~4 y</div>
+
+  <ul>
+    <li>Treatment effect <strong>consistent across pathologic stage</strong> (including pT2) in forest plots—do <strong>not</strong> invent a separate pT2N0 % DFS.</li>
+    <li>Multivariable: higher stage worse (pT3 vs pT2 HR ~1.6; pT4 vs pT2 HR ~2.8 for DFS in primary appendix)—so <strong>pT2N0 is the better end of the POUT population</strong>, but still high-risk enough for adjuvant consideration.</li>
+    <li>Observational high-risk series (Martini 2022 <em>Eur Urol Oncol</em>, PMID 35504834): under EAU-style follow-up, <strong>non-bladder recurrence risk at 2 years</strong> still substantial (~<strong>42%</strong> without prior bladder cancer in that report)—supports keeping imaging dense through year 2.</li>
+    <li><strong>Bladder vs systemic:</strong> In POUT, NMIBC bladder events were <strong>not</strong> DFS events (MIBC bladder was censoring/sensitivity). Counsel bladder surveillance separately from metastatic DFS numbers.</li>
+  </ul>
+</section>
+
+<section id="km">
+  <h2>4b. POUT extended DFS / MFS curves</h2>
+  <div class="callout warn">
+    Approximate landmark-anchored reconstruction for teaching — <strong>not</strong> journal artwork.
+    DFS uses published 3- and 5-year rates (+ surveillance median). MFS uses published 3-year rates;
+    dashed segments after the last published landmark are extrapolations (5-year MFS % was not reported in the final-text pack retrieved).
+  </div>
+  <div class="fig-wrap">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 900" style="width:100%;max-width:52rem;height:auto;display:block;margin:0.5rem 0 0.75rem;border:1px solid #d5dae2;background:#fffcf7" role="img" aria-labelledby="title desc">
+<title id="title">POUT approximate reconstructed DFS and MFS curves</title>
+<desc id="desc">Landmark-anchored approximate Kaplan-Meier style reconstructions for POUT chemotherapy versus surveillance. DFS uses published 3- and 5-year estimates and surveillance median. MFS uses published 3-year estimates; times after 36 months are exponential extrapolations (5-year MFS % not published).</desc>
+<style>
+  .title { fill:#1a1d23; font:600 18px Arial,sans-serif; }
+  .subtitle { fill:#5c6570; font:12px Arial,sans-serif; }
+  .panel { fill:#1a1d23; font:600 15px Arial,sans-serif; }
+  .label { fill:#444; font:11px Arial,sans-serif; }
+  .small { fill:#5c6570; font:11px Arial,sans-serif; }
+  .axis { stroke:#78716c; stroke-width:1.2; }
+  .grid { stroke:#e7e5e4; stroke-width:1; }
+  .lm { stroke:#a8a29e; stroke-width:1; stroke-dasharray:4 3; }
+  .chemo { fill:none; stroke:#0f3d68; stroke-width:2.8; stroke-linejoin:round; }
+  .surv { fill:none; stroke:#b45309; stroke-width:2.8; stroke-linejoin:round; }
+  .extrap { stroke-dasharray:6 4; }
+</style>
+<rect width="920" height="900" fill="#fffcf7"/>
+<text x="48" y="32" class="title">POUT: disease-free and metastasis-free survival</text>
+<text x="48" y="52" class="subtitle">Gemcitabine–platinum ×4 vs surveillance after RNU; N=261 (131 chemo / 129 surveillance). Approximate landmark-anchored reconstruction — not journal artwork.</text>
+<text x="80" y="78" class="panel">A. Disease-free survival (extended / final analysis landmarks)</text>
+<text x="80" y="94" class="subtitle">Published: 3-y 71% vs 46% (primary); 5-y 62% vs 45%, HR 0.55 (0.38–0.80); surv. median DFS 29.8 mo</text>
+<line x1="80" y1="90.0" x2="860" y2="90.0" class="grid"/>
+<text x="42" y="94.0" class="label">100%</text>
+<line x1="80" y1="159.2" x2="860" y2="159.2" class="grid"/>
+<text x="42" y="163.2" class="label">85%</text>
+<line x1="80" y1="228.5" x2="860" y2="228.5" class="grid"/>
+<text x="42" y="232.5" class="label">70%</text>
+<line x1="80" y1="297.7" x2="860" y2="297.7" class="grid"/>
+<text x="42" y="301.7" class="label">55%</text>
+<line x1="80" y1="366.9" x2="860" y2="366.9" class="grid"/>
+<text x="42" y="370.9" class="label">40%</text>
+<line x1="80.0" y1="90" x2="80.0" y2="390" class="lm"/>
+<text x="72.0" y="406" class="label">0</text>
+<line x1="210.0" y1="90" x2="210.0" y2="390" class="lm"/>
+<text x="202.0" y="406" class="label">12</text>
+<line x1="340.0" y1="90" x2="340.0" y2="390" class="lm"/>
+<text x="332.0" y="406" class="label">24</text>
+<line x1="470.0" y1="90" x2="470.0" y2="390" class="lm"/>
+<text x="462.0" y="406" class="label">36</text>
+<line x1="600.0" y1="90" x2="600.0" y2="390" class="lm"/>
+<text x="592.0" y="406" class="label">48</text>
+<line x1="730.0" y1="90" x2="730.0" y2="390" class="lm"/>
+<text x="722.0" y="406" class="label">60</text>
+<line x1="860.0" y1="90" x2="860.0" y2="390" class="lm"/>
+<text x="852.0" y="406" class="label">72</text>
+<line x1="80" y1="90" x2="80" y2="390" class="axis"/>
+<line x1="80" y1="390" x2="860" y2="390" class="axis"/>
+<text x="430.0" y="422" class="small">Months from randomisation</text>
+<path class="chemo" d="M80.0 90.0 H145.0 V115.6 H210.0 V139.8 H275.0 V162.6 H340.0 V184.2 H405.0 V204.6 H535.0 V234.8 H600.0 V245.3 H665.0 V255.5 H730.0 V265.2"/>
+<path class="chemo extrap" d="M730.0 265.2 H795.0 V274.9 H860.0 V284.1"/>
+<path class="surv" d="M80.0 90.0 H145.0 V150.1 H210.0 V202.4 H275.0 V247.9 H340.0 V287.4 H405.0 V321.4 H535.0 V340.4 H600.0 V341.6 H665.0 V342.7 H730.0 V343.8"/>
+<path class="surv extrap" d="M730.0 343.8 H795.0 V345.0 H860.0 V346.1"/>
+<circle cx="470.0" cy="223.8" r="4.5" fill="#0f3d68"/>
+<circle cx="470.0" cy="339.2" r="4.5" fill="#b45309"/>
+<circle cx="730.0" cy="265.4" r="4.5" fill="#0f3d68"/>
+<circle cx="730.0" cy="343.8" r="4.5" fill="#b45309"/>
+<circle cx="402.8" cy="320.8" r="4.5" fill="#b45309"/>
+<line x1="600" y1="110" x2="640" y2="110" class="chemo"/>
+<text x="648" y="114" class="small">Chemotherapy</text>
+<line x1="600" y1="130" x2="640" y2="130" class="surv"/>
+<text x="648" y="134" class="small">Surveillance</text>
+<text x="80" y="440" class="small">Dots = published landmarks (and surveillance median). Solid line ≤60 mo anchored to published rates; dashed &gt;60 mo = extrapolation.</text>
+<text x="80" y="508" class="panel">B. Metastasis-free survival</text>
+<text x="80" y="524" class="subtitle">Published 3-y MFS 71% vs 53%, HR 0.48 (0.31–0.74) (primary). Final analysis: MFS RMST +18 mo (6–29); 5-y MFS % not reported in text.</text>
+<line x1="80" y1="520.0" x2="860" y2="520.0" class="grid"/>
+<text x="42" y="524.0" class="label">100%</text>
+<line x1="80" y1="584.6" x2="860" y2="584.6" class="grid"/>
+<text x="42" y="588.6" class="label">85%</text>
+<line x1="80" y1="649.2" x2="860" y2="649.2" class="grid"/>
+<text x="42" y="653.2" class="label">70%</text>
+<line x1="80" y1="713.8" x2="860" y2="713.8" class="grid"/>
+<text x="42" y="717.8" class="label">55%</text>
+<line x1="80" y1="778.5" x2="860" y2="778.5" class="grid"/>
+<text x="42" y="782.5" class="label">40%</text>
+<line x1="80.0" y1="520" x2="80.0" y2="800" class="lm"/>
+<text x="72.0" y="816" class="label">0</text>
+<line x1="210.0" y1="520" x2="210.0" y2="800" class="lm"/>
+<text x="202.0" y="816" class="label">12</text>
+<line x1="340.0" y1="520" x2="340.0" y2="800" class="lm"/>
+<text x="332.0" y="816" class="label">24</text>
+<line x1="470.0" y1="520" x2="470.0" y2="800" class="lm"/>
+<text x="462.0" y="816" class="label">36</text>
+<line x1="600.0" y1="520" x2="600.0" y2="800" class="lm"/>
+<text x="592.0" y="816" class="label">48</text>
+<line x1="730.0" y1="520" x2="730.0" y2="800" class="lm"/>
+<text x="722.0" y="816" class="label">60</text>
+<line x1="860.0" y1="520" x2="860.0" y2="800" class="lm"/>
+<text x="852.0" y="816" class="label">72</text>
+<line x1="80" y1="520" x2="80" y2="800" class="axis"/>
+<line x1="80" y1="800" x2="860" y2="800" class="axis"/>
+<text x="430.0" y="832" class="small">Months from randomisation</text>
+<path class="chemo" d="M80.0 520.0 H145.0 V543.9 H210.0 V566.5 H275.0 V587.8 H340.0 V607.9 H405.0 V627.0 H470.0 V644.4"/>
+<path class="chemo extrap" d="M470.0 644.4 H535.0 V661.9 H600.0 V677.9 H665.0 V693.1 H730.0 V707.4 H795.0 V720.9 H860.0 V733.6"/>
+<path class="surv" d="M80.0 520.0 H145.0 V563.3 H210.0 V602.2 H275.0 V637.2 H340.0 V668.7 H405.0 V697.0 H470.0 V721.2"/>
+<path class="surv extrap" d="M470.0 721.2 H535.0 V745.4 H600.0 V766.0 H665.0 V784.6 H730.0 V801.2 H795.0 V816.3 H860.0 V829.8"/>
+<circle cx="470.0" cy="644.9" r="4.5" fill="#0f3d68"/>
+<circle cx="470.0" cy="722.5" r="4.5" fill="#b45309"/>
+<line x1="600" y1="540" x2="640" y2="540" class="chemo"/>
+<text x="648" y="544" class="small">Chemotherapy</text>
+<line x1="600" y1="560" x2="640" y2="560" class="surv"/>
+<text x="648" y="564" class="small">Surveillance</text>
+<text x="80" y="848" class="small">Solid ≤36 mo anchored to published 3-y MFS; dashed after 36 mo = constant-hazard extrapolation only (not a published 5-y MFS landmark).</text>
+<text x="48" y="882" class="small">Sources: Birtle 2020 Lancet PMID 32145825; Birtle 2024 JCO PMID 38350047. Do not reuse as published figure; approximate reconstruction for clinic teaching.</text>
+</svg>
+  <p class="fig-caption">Figure. POUT chemotherapy (navy) vs surveillance (amber). Solid = anchored to published landmarks; dashed = extrapolation. Sources: Birtle 2020 <em>Lancet</em> PMID 32145825; Birtle 2024 <em>JCO</em> PMID 38350047.</p>
+  </div>
+</section>
+
+<section id="pathway">
+  <h2>5. Management pathway</h2>
+  <ol>
+    <li><strong>Confirm</strong> complete RNU, pT2N0, M0, margins, GFR, recovery.</li>
+    <li><strong>≤90 days, platinum-fit</strong> → offer <strong>4 cycles gemcitabine–cisplatin (GFR ≥50)</strong> or <strong>gemcitabine–carboplatin (GFR 30–49)</strong> per POUT.</li>
+    <li><strong>Declines / unfit platinum</strong> → surveillance ± discuss adjuvant nivolumab only with <strong>all-MIUC (CheckMate 274)</strong> boundary—no verified UTUC-only benefit to quote.</li>
+    <li><strong>Intravesical single-shot chemo</strong> if indicated (no prior bladder cancer)—bladder-recurrence prevention.</li>
+    <li><strong>Then</strong> EAU high-risk surveillance as above.</li>
+    <li><strong>Recurrence</strong> → local/bladder: urologic management; metastatic → mUC systemic pathway.</li>
+  </ol>
+</section>
+
+<section id="decision">
+  <h2>6. Summary decision table</h2>
+  <table>
+    <thead>
+      <tr><th>Profile</th><th>Preferred approach</th><th>Rationale</th><th>Evidence</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>pT2N0, platinum-fit, ≤90 d post-RNU</td>
+        <td>Adjuvant gem–platinum ×4 → high-risk surveillance</td>
+        <td>Absolute DFS gain ~25% at 3 years vs surveillance</td>
+        <td>POUT</td>
+      </tr>
+      <tr>
+        <td>Same, declines chemo</td>
+        <td>High-risk EAU surveillance</td>
+        <td>Control-arm outcomes; early imaging critical</td>
+        <td>POUT + EAU</td>
+      </tr>
+      <tr>
+        <td>Any post-RNU pT2N0</td>
+        <td>Cysto/cytology + CTU/chest denser ×2 years</td>
+        <td>Timing of bladder vs lung risk</td>
+        <td>EAU follow-up</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="counseling">
+  <h2>7. Patient counseling: regimens discussed</h2>
+
+  <h3>Adjuvant gemcitabine–platinum (POUT)</h3>
+  <ul>
+    <li><strong>What it is:</strong> Four 21-day cycles after RNU for muscle-invasive/node-positive UTUC.</li>
+    <li><strong>Schedule / dosing:</strong> Gemcitabine 1000 mg/m² d1,8 + cisplatin 70 mg/m² d1 (GFR ≥50) or carboplatin AUC 4.5–5 if GFR 30–49; start within 90 days.</li>
+    <li><strong>How given:</strong> IV outpatient; CBC/renal labs each cycle.</li>
+    <li><strong>Expected benefits:</strong> About <strong>71 in 100 vs 46 in 100</strong> disease-free at 3 years; <strong>62% vs 45%</strong> at 5 years. OS trend (66% vs 57% at 5 y) is supportive but adjusted OS not definitive.</li>
+    <li><strong>Common / serious risks:</strong> Grade ≥3 events ~44% (neutropenia 36%, platelets 10%, febrile neutropenia 6%, nausea/vomiting 6%); no treatment-related deaths in POUT.</li>
+    <li><strong>Surveillance after:</strong> Stop chemo after 4 cycles; then cystoscopy/cytology and CTU/chest as above.</li>
+    <li><strong>Evidence:</strong> Birtle 2020 <em>Lancet</em> PMID 32145825; Birtle 2024 <em>JCO</em> PMID 38350047.</li>
+  </ul>
+
+  <h3>Surveillance alone (POUT control)</h3>
+  <ul>
+    <li><strong>What it is:</strong> Structured imaging + cystoscopy without adjuvant chemo.</li>
+    <li><strong>Expected outcomes:</strong> Roughly <strong>half</strong> have a DFS event by ~3 years in the mixed high-risk trial population (median DFS ~30 months).</li>
+    <li><strong>Evidence:</strong> Same POUT papers.</li>
+  </ul>
+
+  <h3>Single postoperative intravesical chemotherapy</h3>
+  <ul>
+    <li><strong>What it is:</strong> One bladder instillation after RNU (selected patients) to lower bladder recurrence—not a substitute for systemic adjuvant therapy.</li>
+    <li><strong>Evidence:</strong> AUA/SUO / EAU frameworks (Coleman PMID 37096584; EAU follow-up chapter).</li>
+  </ul>
+</section>
+
+<section id="sources">
+  <h2>8. Sources</h2>
+  <ul class="sources">
+    <li>EAU Guidelines on Upper Urinary Tract Urothelial Carcinoma — <a href="https://uroweb.org/guidelines/upper-urinary-tract-urothelial-cell-carcinoma/chapter/followup">Follow-up chapter</a>.</li>
+    <li>Birtle et al. (2020). POUT primary analysis. <em>Lancet</em>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/32145825">32145825</a> | PMC: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7181180/">PMC7181180</a>.</li>
+    <li>Birtle et al. (2024). POUT final results. <em>J Clin Oncol</em>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/38350047">38350047</a> | PMC: <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11095877/">PMC11095877</a>.</li>
+    <li>Martini et al. (2022). Oncologic surveillance after RNU for high-risk UTUC. <em>Eur Urol Oncol</em>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/35504834">35504834</a>.</li>
+    <li>Coleman et al. (2023). AUA/SUO non-metastatic UTUC guideline. <em>J Urol</em>. PMID: <a href="https://pubmed.ncbi.nlm.nih.gov/37096584">37096584</a>.</li>
+    <li>OncologyWiki: <code>pathways/gu/utuc/adjuvant-post-nephroureterectomy/</code>.</li>
+  </ul>
+  <p class="muted" style="font-size:0.8rem;margin-top:0.75rem;">
+    Docs brief for clinic use. Not auto-promoted to pathways. Claims limited to retrieved public sources.
+  </p>
+</section>
+
+<footer class="note">
+  OncologyWiki docs · pT2N0 UTUC surveillance brief · fidelity-checked 2026-09-22
+</footer>
+
+</div>
+</body>
+</html>
