@@ -22,6 +22,16 @@ Status: current — POUT supports adjuvant gemcitabine–platinum for its eligib
 | No prior bladder cancer after RNU | Single postoperative intravesical chemotherapy | Bladder-recurrence prevention, not systemic recurrence treatment. | Separate perioperative intervention per guideline. |
 | Platinum-ineligible or declining platinum, high-risk UC | Discuss adjuvant nivolumab only with explicit evidence boundary | Regulatory all-MIUC option; UTUC subgroup benefit was not established in the retrieved guideline. | Individualized. |
 
+## Therapy sequencing
+
+| Postoperative state | Next treatment order | Branch point / evidence boundary |
+|---|---|---|
+| pT2–T4 and/or pN+ UTUC after RNU, no prior neoadjuvant platinum | Start four cycles of adjuvant gemcitabine–platinum within the POUT postoperative window. | This is the direct POUT sequence; it does not compare adjuvant chemotherapy with neoadjuvant chemotherapy. |
+| Post-RNU GFR ≥50 mL/min | Gemcitabine–cisplatin. | This is POUT protocol selection, not a universal cisplatin eligibility definition. |
+| Post-RNU GFR 30–49 mL/min | Gemcitabine–carboplatin. | POUT was not designed to compare cisplatin with carboplatin. |
+| Platinum-ineligible or declining, high-risk disease | Discuss nivolumab or trial/surveillance with explicit UTUC evidence limits. | CheckMate 274 is all-MIUC; do not claim an unreported UTUC subgroup efficacy result. |
+| No prior bladder cancer after RNU | Deliver the separate single intravesical postoperative chemotherapy intervention. | This reduces bladder recurrence; it is not systemic recurrence treatment. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -50,6 +60,14 @@ No care-changing prospective UTUC-specific result was identified in the retrieve
 | Gemcitabine–platinum versus surveillance, [POUT](https://pmc.ncbi.nlm.nih.gov/articles/PMC7181180/) | Acute grade ≥3 treatment-emergent events: 44% vs 4%; no treatment-related deaths. | Grade ≥3 neutrophil decrease 36%, platelet decrease 10%, nausea 6%, febrile neutropenia 6%, vomiting 6%. | Contact oncology urgently for fever, infection symptoms, bleeding, uncontrolled vomiting, or dehydration; monitor blood counts and renal function. |
 | Nivolumab versus placebo, CheckMate 274 all MIUC | Grade ≥3 treatment-related events 17.9% vs 7.2%. | Pruritus 23.1%, fatigue 17.4%, diarrhea 16.8%; grade ≥3 lipase elevation 5.1%; all are all-MIUC, not UTUC-specific. | Promptly report diarrhea, abdominal pain, cough/dyspnea, rash, fatigue, jaundice, or endocrine symptoms; immune effects can require hold, steroids, or hormone replacement. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
+|---|---|---|
+| Gemcitabine–cisplatin or gemcitabine–carboplatin | POUT: grade ≥3 neutrophil decrease 36%, platelet decrease 10%, nausea 6%, febrile neutropenia 6%, and vomiting 6%. | Check CBC, renal function, electrolytes, neuropathy/hearing, and nausea/vomiting; fever, infection symptoms, bleeding, reduced urine output, new hearing change, or uncontrolled vomiting needs urgent assessment. |
+| Single postoperative intravesical chemotherapy | A comparable named adverse-event rate was not retrieved in this systemic-adjuvant source set. | Review dysuria, hematuria, fever, and urinary symptoms after instillation; fever or escalating urinary symptoms requires prompt contact. |
+| Nivolumab when platinum is unsuitable | CheckMate 274 all-MIUC: grade ≥3 treatment-related events 17.9% vs 7.2%; pruritus 23.1%, fatigue 17.4%, diarrhea 16.8%. | Review bowel, lung, liver, skin, and endocrine symptoms before each dose; persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, or marked fatigue needs prompt contact. |
+
 ## Guideline references
 
 - [EAU UTUC guideline](https://uroweb.org/guidelines/upper-urinary-tract-urothelial-cell-carcinoma/chapter/disease-management)
@@ -65,4 +83,5 @@ No care-changing prospective UTUC-specific result was identified in the retrieve
 
 ## Changelog
 
+- 2026-09-21: Added post-RNU therapy sequencing and all-option on-treatment monitoring, retaining the all-MIUC boundary for nivolumab.
 - 2026-09-21: Created post-nephroureterectomy UTUC page with POUT eligibility, outcomes, and trial-first toxicity counseling.

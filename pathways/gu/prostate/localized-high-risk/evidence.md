@@ -21,6 +21,15 @@ Status: current — local therapy is the foundation; systemic intensification ev
 | Locally advanced or high-risk disease selecting radiation | Definitive radiotherapy plus long-course ADT | Localized/locally advanced disease; integrate urinary, bowel, bone, metabolic, and cardiovascular risks. | EORTC 22961 compared 6 months with 3 years of androgen suppression. |
 | STAMPEDE-like very-high-risk or cN1 M0 disease receiving ADT plus radiotherapy | Add abiraterone plus prednisolone | Exact STAMPEDE high-risk M0 eligibility required. | ADT 3 years plus abiraterone/prednisolone 2 years in the trial. |
 
+## Therapy sequencing
+
+| Starting point | Treatment order | Evidence boundary |
+|---|---|---|
+| Localized high-risk disease selecting surgery | Radical prostatectomy → pathology- and PSA-directed postoperative surveillance or salvage pathway. | Do not use the radiotherapy/ADT trials to prescribe postoperative treatment without the surgical pathology and PSA context. |
+| Locally advanced or high-risk disease selecting radiation | Definitive radiotherapy plus long-course ADT. | EORTC 22961 compares androgen-suppression duration after radiotherapy; it does not select a surgical versus radiation approach. |
+| STAMPEDE-like very-high-risk/cN1 M0 disease | ADT plus radiotherapy → add two years of abiraterone/prednisolone while ADT continues for the trial duration. | This sequence requires the exact STAMPEDE-like risk boundary; it is not evidence for every high-risk localized patient. |
+| Biochemical persistence or recurrence after surgery | Move to the early-salvage radiotherapy pathway. | The next decision depends on PSA kinetics, imaging, and pathology rather than routine adjuvant therapy for all. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -50,6 +59,13 @@ Status: current — local therapy is the foundation; systemic intensification ev
 | ADT plus abiraterone/prednisolone versus ADT, [STAMPEDE](https://pmc.ncbi.nlm.nih.gov/articles/PMC8811484/) | Grade ≥3 AEs: 37% vs 29%. | Grade ≥3 hypertension 5% vs 1%; grade ≥3/4 ALT elevation 6% vs <1%. | Monitor blood pressure and hepatic tests; promptly report severe headache, chest symptoms, jaundice, or marked fatigue. |
 | Radiotherapy plus androgen suppression, [EORTC 22961](https://pubmed.ncbi.nlm.nih.gov/19516032/) | The retrieved abstract does not supply a comparable numerical toxicity table. | Do not add unverified named-event percentages. | Counsel on urinary/bowel change, sexual function, hot flashes, fatigue, bone loss, metabolic and cardiovascular effects. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
+|---|---|---|
+| Long-course ADT with definitive radiotherapy | The retrieved EORTC 22961 abstract did not supply a comparable named-event table. | Monitor urinary/bowel symptoms during radiotherapy, sexual function, hot flashes, fatigue, bone density, metabolic parameters, and cardiovascular risk; urinary retention, heavy bleeding, or severe bowel symptoms needs prompt contact. |
+| ADT plus abiraterone/prednisolone with radiotherapy | STAMPEDE: grade ≥3 hypertension 5% vs 1% and grade ≥3/4 ALT elevation 6% vs <1%. | Check blood pressure, potassium, liver tests, edema, and corticosteroid effects; severe headache, chest symptoms, weakness, jaundice, or edema needs prompt contact. |
+
 ## Guideline references
 
 - [NCCN Prostate Cancer](https://www.nccn.org/guidelines/guidelines-detail?id=1459)
@@ -64,4 +80,5 @@ Status: current — local therapy is the foundation; systemic intensification ev
 
 ## Changelog
 
+- 2026-09-21: Added local-therapy sequencing and all-regimen on-treatment monitoring for ADT, radiotherapy, and abiraterone/prednisolone.
 - 2026-09-21: Created localized high-risk prostate setting page with source-verified ADT-duration and STAMPEDE evidence.

@@ -22,6 +22,15 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 | High-risk features with salvage radiotherapy | Add ADT | Higher-risk features include PSA ≥0.7 ng/mL, Grade Group 4–5, PSADT ≤6 months, persistent PSA, or seminal-vesicle involvement in guideline framing. | At least 4–6 months when used; longer duration may be considered for high risk. |
 | Selected nodal-risk disease | Pelvic-node plus prostate-bed radiotherapy with short-course ADT | Match the SPPORT population and discuss incremental toxicity. | SPPORT used 4–6 months ADT. |
 
+## Therapy sequencing
+
+| Recurrence state | Treatment order | Evidence boundary |
+|---|---|---|
+| Rising or persistent PSA after prostatectomy | Evaluate PSA kinetics, pathology, testosterone, and imaging → early salvage prostate-bed radiotherapy at low PSA. | Early salvage is not a substitute for metastatic treatment when staging establishes distant disease. |
+| High-risk features with salvage radiotherapy | Add ADT to prostate-bed radiotherapy. | Duration should match the risk and pivotal trial boundary; GETUG-AFU 16 does not establish long-course ADT for every patient. |
+| Selected nodal-risk disease | Prostate-bed plus pelvic-node radiotherapy with 4–6 months ADT. | SPPORT is a three-arm trial; it does not isolate a radiation-field effect without ADT. |
+| PET-detected distant disease or progression after salvage | Move to a metastatic systemic-therapy pathway. | This page does not establish a preferred systemic sequence after salvage radiotherapy. |
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -53,6 +62,14 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 | Salvage radiotherapy plus bicalutamide versus radiotherapy, [RTOG 9601](https://pmc.ncbi.nlm.nih.gov/articles/PMC5444881/) | The retrieved source set does not provide a table-wide grade ≥3 rate. | Gynecomastia 69.7% vs 10.9%. | Discuss breast symptoms, sexual effects, urinary/bowel toxicity, and prompt review of troublesome effects. |
 | SPPORT intensification, [SPPORT](https://pubmed.ncbi.nlm.nih.gov/35569466/) | Acute grade ≥2 AEs 18%, 36%, and 44% across the three arms. | Grade ≥3 event values were not supplied in the retrieved abstract. | Discuss added acute urinary/bowel effects with pelvic-node treatment and ADT. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
+|---|---|---|
+| Salvage radiotherapy plus goserelin | GETUG-AFU 16: late grade ≥3 GU events 7% vs 8%; grade ≥2 hot flushes 8% vs none. | Monitor urinary/bowel symptoms, hot flashes, sexual function, fatigue, metabolic and bone effects; urinary retention, heavy bleeding, or severe bowel symptoms needs prompt contact. |
+| Salvage radiotherapy plus bicalutamide | RTOG 9601: gynecomastia 69.7% vs 10.9%. | Review breast symptoms, sexual effects, urinary/bowel symptoms, and fatigue; troublesome breast pain or swelling, retention, heavy bleeding, or severe bowel symptoms needs prompt contact. |
+| Prostate-bed plus pelvic-node radiotherapy with short-course ADT | SPPORT: acute grade ≥2 AEs 18%, 36%, and 44% across the three arms; the retrieved abstract did not report a comparable grade ≥3 named rate. | Monitor added acute urinary/bowel symptoms and ADT effects; severe diarrhea, retention, heavy bleeding, or dehydration needs prompt contact. |
+
 ## Guideline references
 
 - [AUA/ASTRO/SUO Salvage Therapy guideline](https://www.auanet.org/guidelines-and-quality/guidelines/salvage-therapy-for-prostate-cancer)
@@ -68,4 +85,5 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 
 ## Changelog
 
+- 2026-09-21: Added early-salvage sequencing and radiotherapy/ADT monitoring tables.
 - 2026-09-21: Created early-salvage radiotherapy page with source-verified intensification evidence and toxicity counseling.

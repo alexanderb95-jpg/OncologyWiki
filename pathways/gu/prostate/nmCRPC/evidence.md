@@ -30,6 +30,14 @@ Status: current — three placebo-controlled phase 3 trials support androgen-rec
 
 The pivotal trials do not provide a head-to-head comparison or ranking of apalutamide, darolutamide, and enzalutamide.
 
+## Therapy sequencing
+
+| Disease state | Treatment order | Evidence boundary |
+|---|---|---|
+| High-risk nmCRPC on conventional imaging | Continue ADT → add one of enzalutamide, apalutamide, or darolutamide. | The pivotal trials do not compare the agents head-to-head and require PSADT ≤10 months with conventional-imaging M0 disease. |
+| PSMA-PET-only disease or PSADT >10 months | Individualize surveillance, staging, or trial evaluation. | Direct phase 3 treatment-selection evidence is absent for these states. |
+| Conventional-imaging metastasis or progression while castrate | Continue ADT and transition to the mCRPC pathway with prior ARPI exposure documented. | Do not presume sequential ARPI benefit from these trials. |
+
 ## Landmark evidence
 
 The phase 3 studies were placebo-controlled, conventional-imaging nmCRPC trials. The final OS time points differ—median OS in PROSPER and SPARTAN versus 3-year OS in ARAMIS—and must not be compared across trials.
@@ -72,6 +80,14 @@ No new practice-changing randomized result was identified in the source pack.
 - Contact oncology promptly for a new extensive rash, marked fatigue, a fall or suspected fracture, marked dizziness, new confusion or memory change, palpitations, chest symptoms, or another concerning treatment effect. *** after-hours/urgent-assessment instructions reviewed.
 - Maintain fall and fracture-risk assessment, blood-pressure monitoring, and thyroid assessment where clinically indicated; treatment holds or discontinuation may be required.
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
+|---|---|---|
+| Enzalutamide plus ADT | PROSPER: fatigue 33% vs 14%, hypertension 12% vs 5%, falls 11% vs 4%; falls/nonpathologic fractures combined 17% vs 8%. | Monitor blood pressure, falls, dizziness, cognition, and ADT-associated bone/metabolic effects; a fall, suspected fracture, marked dizziness, or chest symptoms needs prompt contact. |
+| Apalutamide plus ADT | SPARTAN: rash 23.8% vs 5.5%, falls 15.6% vs 9.0%, fracture 11.7% vs 6.5%, hypothyroidism 8.1% vs 2.0%. | Monitor skin, thyroid symptoms, blood pressure, falls/fracture risk, and ADT-associated metabolic/bone effects; extensive rash, a fall, suspected fracture, or palpitations needs prompt contact. |
+| Darolutamide plus ADT | ARAMIS: fatigue 12.1% vs 8.7% and hypertension 6.6% vs 5.2%. | Monitor fatigue, blood pressure, cardiovascular symptoms, and ADT-associated bone/metabolic effects; chest symptoms, palpitations, or worsening fatigue needs prompt contact. |
+
 ## Guideline references
 
 | Source | Setting-level reference |
@@ -94,4 +110,5 @@ No new practice-changing randomized result was identified in the source pack.
 
 ## Changelog
 
+- 2026-09-21: Added nmCRPC sequencing and an explicit all-ARPI on-treatment monitoring table.
 - 2026-09-21: Created a setting-specific high-risk nmCRPC reference with source-verified PROSPER, SPARTAN, and ARAMIS evidence, trial boundaries, toxicity counseling, and an Epic phrase companion.

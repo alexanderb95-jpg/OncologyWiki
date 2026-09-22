@@ -88,6 +88,13 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 | Pembrolizumab versus placebo, [KEYNOTE-564](https://pubmed.ncbi.nlm.nih.gov/36055304/) | At 30.1 months, grade ≥3 AEs of any cause: 32% versus 18%; immune-mediated AEs: 36% versus 7%; discontinuation due to AEs: 21% versus 2%. | Hypothyroidism: 21% versus 4%; hyperthyroidism: 13% versus 0%. Grade-specific rates for these thyroid events were not reported in the available trial text. | Check thyroid function and review new fatigue, weight or temperature intolerance, and palpitations. Immune toxicity can require a treatment hold, systemic corticosteroids, or hormone replacement; endocrine effects can persist. |
 | Pembrolizumab plus belzutifan versus pembrolizumab plus placebo, [LITESPARK-022](https://pubmed.ncbi.nlm.nih.gov/42384869/) | Grade ≥3 treatment-emergent AEs: 52.1% versus 30.2%; discontinuation of all study treatment: 11.9% versus 9.0%; immune-mediated AEs or infusion reactions: 35.4% versus 38.7%. | [US label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215383s015lbl.pdf): decreased hemoglobin, 95% with grade 3–4 11% (versus 26% and 0.7%); increased ALT, 57% with grade 3–4 13% (versus 33% and 3.2%); hypoxia, 7% with grade ≥3 5%. | Monitor CBC, ALT, and oxygen saturation. Promptly report new fatigue, lightheadedness, or dyspnea; marked breathing difficulty needs urgent assessment. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
+|---|---|---|
+| Pembrolizumab | KEYNOTE-564: immune-mediated AEs 36% vs 7%; hypothyroidism 21% vs 4% and hyperthyroidism 13% vs 0%. | Check thyroid function and review fatigue, weight or temperature intolerance, palpitations, and other bowel, lung, liver, skin, or endocrine symptoms; persistent diarrhea, dyspnea, jaundice, or marked fatigue requires prompt contact. |
+| Pembrolizumab plus belzutifan | LITESPARK-022 label: decreased hemoglobin 95%, grade 3–4 11%; increased ALT 57%, grade 3–4 13%; hypoxia 7%, grade ≥3 5%. | Monitor CBC, ALT, and oxygen saturation; new fatigue, lightheadedness, or dyspnea needs prompt contact and marked breathing difficulty needs urgent assessment. |
+
 ### Patient counseling and action plan
 
 - For pembrolizumab, ask patients to contact the oncology team for new thyroid symptoms, including unexplained fatigue, weight or temperature intolerance, or palpitations. Immune toxicity can begin during or after treatment and may require a hold, corticosteroids, or hormone replacement; endocrine effects can be lasting.
@@ -122,6 +129,7 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 
 ## Changelog
 
+- 2026-09-21: Added a dedicated all-regimen on-treatment monitoring table for pembrolizumab and pembrolizumab–belzutifan.
 - 2026-09-21: Tightened named-toxicity reporting and paired counseling to a >5% any-grade filter, prioritizing events with a grade ≥3 signal; retained trial-level grade ≥3, immune-mediated, and discontinuation outcomes. Added label-verified decreased hemoglobin, ALT, and hypoxia rates for pembrolizumab–belzutifan.
 - 2026-09-21: Removed calculated risk-reduction and treatment-number metrics from the cross-trial comparison, removed nonstructural emphasis, and condensed Toxicity to a single trial-first table with short counseling; dropped nonessential real-world cohorts and detailed named-toxicity tables.
 - 2026-09-21: Replaced the mixed landmark table with an OpenEvidence-style cross-trial comparison that makes population, regimen, comparator, endpoint, outcome, and generalizability differences explicit.

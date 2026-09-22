@@ -26,6 +26,16 @@ Status: clinic-ready — perioperative EV+pembro and NIAGARA now change who stil
 - Observation remains reasonable when risk is lower, recovery is poor, ctDNA remains negative, or irAE risk is prohibitive.
 - Upper-tract: CheckMate 274 enrolled MIUC including UTUC; do not invent UTUC-specific HRs — not separately reported in the retrieved abstracts.
 
+## Therapy sequencing
+
+| Prior treatment or postoperative state | Next treatment order | Branch point / evidence boundary |
+|---|---|---|
+| Resectable MIBC selected for EV-303/EV-304 | Neoadjuvant EV plus pembrolizumab → cystectomy → protocol-defined adjuvant EV plus pembrolizumab. | This is one perioperative package; do not add separate adjuvant nivolumab by default after prior perioperative ICI/EV. |
+| Cisplatin-eligible MIBC selected for NIAGARA | Neoadjuvant durvalumab plus GC → cystectomy → adjuvant durvalumab. | NIAGARA likewise tests one perioperative package, not subsequent adjuvant-ICI switching. |
+| High-risk disease after radical surgery without perioperative ICI | Adjuvant nivolumab or observation; pembrolizumab is a DFS-positive alternative in AMBASSADOR. | Choose after recovery and immune-risk assessment; the trials do not establish serial PD-1/PD-L1 therapy. |
+| ctDNA MRD-positive after cystectomy | Atezolizumab up to one year in the IMvigor011/FDA companion-diagnostic pathway. | This is distinct from unselected IMvigor010, which was negative. |
+| High-risk residual disease after perioperative EV plus pembrolizumab or NIAGARA | Surveillance or clinical trial discussion. | A preferred salvage-adjuvant sequence is not established in the retrieved sources. |
+
 ## Landmark evidence
 
 These rows mix perioperative (changes adjuvant need) and true adjuvant trials. Indirect comparison only.
@@ -60,6 +70,14 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 | Perioperative EV plus pembrolizumab | Grade ≥3 AEs 71.3% vs 45.9% in EV-303 and 75.7% vs 67.2% in EV-304. | Report rash, neuropathy, visual symptoms, thirst/polyuria, or immune symptoms promptly. |
 | Perioperative durvalumab plus GC | Grade 3–4 treatment-related AEs 40.6% vs 40.9% in NIAGARA. | Review fever/infection, cytopenias, renal and neuropathy symptoms, and immune toxicity. |
 
+### On-treatment monitoring
+
+| SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
+|---|---|---|
+| Nivolumab, pembrolizumab, or atezolizumab adjuvant pathway | CheckMate 274 nivolumab: grade ≥3 treatment-related AEs 17.9% vs 7.2%. AMBASSADOR pembrolizumab: grade ≥3 AEs 50.6% vs 31.6%. A comparable IMvigor011 named immune-event rate was not retrieved. | Before each dose, review bowel, lung, liver, thyroid/adrenal, and skin symptoms. Persistent diarrhea/abdominal pain, cough/dyspnea, jaundice, marked fatigue, or palpitations needs prompt contact; immune events may require holding treatment, corticosteroids, or lasting hormone replacement. |
+| Perioperative EV plus pembrolizumab | EV-303 FDA-label rates: rash 54%, grade 3–4 7%; neuropathy 39%, grade 3–4 3%; increased glucose 72%, grade 3–4 12%. EV-304: rash 63%, grade 3–4 12%; neuropathy 43%, grade 3–4 3%; hyperglycemia 20%, grade 3–4 7%. | Monitor cumulative neuropathy, glucose symptoms, skin, vision, renal function, and immune toxicity before postoperative doses; new numbness/weakness, thirst/polyuria, rash, vision change, dyspnea, or persistent diarrhea requires prompt assessment. |
+| Perioperative durvalumab plus GC | NIAGARA grade 3–4 treatment-related AEs 40.6% vs 40.9%; a comparable named monitoring rate was not extracted. | Monitor CBC, renal function, electrolytes, neuropathy/hearing, and immune symptoms; fever, infection symptoms, reduced urine output, dyspnea, or severe diarrhea needs urgent assessment. |
+
 ## Guideline references
 
 - [NCCN Bladder Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1417)
@@ -71,8 +89,11 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 - [Bajorin et al. (2021). CheckMate 274. *New England Journal of Medicine*. PMID: 34077643](https://pubmed.ncbi.nlm.nih.gov/34077643/)
 - [Apolo et al. (2025). AMBASSADOR. *New England Journal of Medicine*. PMID: 39282902](https://pubmed.ncbi.nlm.nih.gov/39282902/)
 - [Powles et al. (2024). NIAGARA. *New England Journal of Medicine*. PMID: 39282910](https://pubmed.ncbi.nlm.nih.gov/39282910/)
+- [FDA Padcev label, revised 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761137s037lbl.pdf)
 
 ## Changelog
+- 2026-09-21: Added EV-303 and EV-304 FDA-label neuropathy, glucose, and rash monitoring rates to the perioperative row.
+- 2026-09-21: Added treatment sequencing and regimen-level on-treatment monitoring, including the IMvigor011 safety-reporting boundary.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.
 - 2026-09-21: filled EV-304 FDA approval (10 Jul 2026 — all MIBC cystectomy candidates); added IMvigor011 / Signatera ctDNA MRD adjuvant atezolizumab (FDA 15 May 2026) and clarified IMvigor010 remains negative for unselected adjuvant atezo
