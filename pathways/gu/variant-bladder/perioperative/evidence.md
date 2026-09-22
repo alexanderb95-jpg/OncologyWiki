@@ -1,7 +1,7 @@
-# Bladder / urothelial → Variant-histology perioperative disease
+# Variant bladder → Perioperative disease
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Decision support for muscle-invasive bladder cancer with variant histology or extensive differentiation
 Status: current — evidence is subtype-specific and predominantly nonrandomized; expert GU-pathology review is essential
@@ -29,6 +29,15 @@ Status: current — evidence is subtype-specific and predominantly nonrandomized
 | Resectable small-cell/neuroendocrine urothelial carcinoma | Neuroendocrine-directed platinum-based systemic therapy → cystectomy or other local consolidation. | The subtype-specific evidence is phase 2 or retrospective; it does not prove one platinum regimen against GC or ddMVAC. |
 | Other aggressive variants or extensive differentiation | Expert GU pathology review → subtype-aware, cystectomy-anchored multidisciplinary plan. | Do not substitute general-MIBC perioperative results for variant-specific proof without a reported subtype analysis. |
 | High-risk disease after cystectomy without neoadjuvant therapy | Consider adjuvant cisplatin combination if eligible, or nivolumab when platinum is unsuitable. | The evidence base is primarily conventional urothelial carcinoma; do not serially add adjuvant therapy after untested perioperative combinations. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| Perioperative systemic therapy (subtype-specific) | Subtype-dependent labs (CBC, renal, cardiac for doxorubicin-containing regimens); imaging before local consolidation. | Complete planned neoadjuvant cycles when feasible; stop for prohibitive toxicity. Small-cell regimens are not indefinite maintenance. | Residual or recurrent disease → multidisciplinary salvage (cystectomy completion, radiation, or metastatic systemic therapy). |
+| Post-cystectomy surveillance | CT and cytology per EAU/NCCN MIBC surveillance; expert pathology review for subtype on recurrence. | Adjuvant cisplatin or nivolumab only when perioperative therapy was not given and patient meets conventional-MIUC criteria—explicit evidence boundary. | Recurrence → histology-directed systemic options; small-cell recurrence may re-use platinum/etoposide-based approaches in specialist centers. |
+
+- Variant histology does not change the general post-cystectomy imaging framework; it changes systemic regimen selection.
 
 ## Landmark evidence
 
@@ -81,6 +90,7 @@ No named prospective variant-specific result was identified that is likely to ch
 - [Bajorin et al. (2021). CheckMate 274. *New England Journal of Medicine*. PMID: 34077643](https://pubmed.ncbi.nlm.nih.gov/34077643/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added variant-aware therapy sequencing and monitoring tables; aligned the all-MIUC adjuvant-ICI safety row with the nivolumab option.
 - 2026-09-21: Created first variant-histology perioperative setting page; retained only subtype-specific, source-qualified evidence.

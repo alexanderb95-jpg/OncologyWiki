@@ -1,7 +1,7 @@
 # Prostate → mCRPC
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Disease → setting page for metastatic castration-resistant prostate cancer
 Status: clinic-ready — numbers from retrieved primary abstracts; re-check current FDA PARP labels and NCCN (NCCN not retrieved)
@@ -39,6 +39,16 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 | BRCA or label-eligible HRR alteration after ARPI | PARP monotherapy. | Benefit was concentrated in BRCA in TRITON3; ATM is not interchangeable with BRCA. |
 | Symptomatic bone-predominant disease without visceral metastases | Radium-223; consider enzalutamide plus radium-223 only with the PEACE-3 bone-protecting strategy. | Do not combine radium-223 with abiraterone on the basis of this page's source set. |
 | MSI-H/dMMR disease or later progression after standard options | Pembrolizumab when tumor-agnostic criteria are met, clinical trial, or supportive care. | Prostate-specific randomized efficacy data for pembrolizumab are not in this source pack. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| On any mCRPC regimen | PSA every 4–8 weeks early, then every 3 months; testosterone to confirm castration; imaging every 8–12 weeks during active treatment or at progression; PSMA PET when considering radioligand. | Continue ADT indefinitely. Complete fixed-duration regimens per label (radium-223 ×6, 177Lu-PSMA-617 ×4–6). Hold or discontinue individual agents for toxicity; PARP or ARPI hold for cytopenia, rash, or immune events per label. | Progression after current line → next option per prior-exposure table (taxane, radioligand, cabazitaxel, PARP, trial). |
+| After radioligand or radium-223 | CBC, renal function, and symptom review; dental assessment before future marrow-toxic therapy. | Marrow reserve and prior RLT dose limit re-treatment intensity. | PSMA-negative or mixed disease may exclude further radioligand; reassess taxane, PARP, or trial. |
+
+- Bone-protecting agent with radium-223 or extensive bone disease per PEACE-3/ALSYMPCA counseling.
+- Re-staging at progression documents visceral disease (excludes further radium-223) and PSMA avidity (selects radioligand).
 
 ## Landmark evidence
 
@@ -113,6 +123,7 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - [Gillessen et al. (2025). PEACE-3. *Annals of Oncology*. PMID: 40450503](https://pubmed.ncbi.nlm.nih.gov/40450503/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 - 2026-09-21: Replaced grouped monitoring with pivotal rates for each listed ARPI, taxane, radioligand, PARP, and radium-223 regimen.
 - 2026-09-21: Added a prior-exposure sequencing table and regimen-level on-treatment monitoring for ADT/ARPI, taxane, radioligand, PARP, radium-223, and pembrolizumab pathways.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.

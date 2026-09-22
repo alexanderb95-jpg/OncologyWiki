@@ -37,14 +37,15 @@ DOMAIN_LABEL = {
 
 DOMAIN_ORDER = ["gu", "lung", "heme", "melanoma", "breast"]
 
-# Planned settings keyed by (domain, disease)
+# Planned settings keyed by (domain, disease). Empty when all settings have pages.
+# Non-GU domains may keep placeholder labels until first evidence pages land.
 PLANNED: dict[tuple[str, str], list[str]] = {
-    ("gu", "prostate"): ["Localized / adjuvant / salvage", "nmCRPC"],
-    ("gu", "bladder"): ["Neoadjuvant MIBC"],
-    ("gu", "variant-bladder"): ["Not started — add setting pages as evidence matures"],
-    ("gu", "utuc"): ["Not started — add setting pages as evidence matures"],
+    ("gu", "prostate"): [],
+    ("gu", "bladder"): [],
+    ("gu", "variant-bladder"): [],
+    ("gu", "utuc"): [],
     ("gu", "kidney"): [],
-    ("gu", "testis"): ["Stage I / adjuvant / metastatic GCT"],
+    ("gu", "testis"): [],
     ("lung", "nsclc"): ["Not started — add first setting page when ready"],
     ("heme", "aml"): ["Not started — add first setting page when ready"],
 }
@@ -67,20 +68,67 @@ DISEASE_ORDER = {
 }
 
 SETTING_LABEL = {
+    ("gu", "prostate", "mHSPC"): "mHSPC",
+    ("gu", "prostate", "mCRPC"): "mCRPC",
+    ("gu", "prostate", "nmCRPC"): "nmCRPC",
+    ("gu", "prostate", "localized-high-risk"): "Localized high-risk",
+    ("gu", "prostate", "adjuvant-radiotherapy-post-prostatectomy"): "Adjuvant RT post-prostatectomy",
+    ("gu", "prostate", "salvage-radiotherapy-post-prostatectomy"): "Early salvage RT post-prostatectomy",
     ("gu", "bladder", "adjuvant-urothelial"): "Adjuvant urothelial",
     ("gu", "bladder", "mUC"): "Metastatic urothelial carcinoma",
+    ("gu", "bladder", "neoadjuvant-mibc"): "Neoadjuvant MIBC",
+    ("gu", "variant-bladder", "perioperative"): "Variant-histology perioperative",
+    ("gu", "utuc", "adjuvant-post-nephroureterectomy"): "Adjuvant after nephroureterectomy",
     ("gu", "kidney", "adjuvant-ccrcc"): "Adjuvant clear-cell RCC",
     ("gu", "kidney", "mRCC"): "Metastatic RCC",
+    ("gu", "testis", "stage-I-gct"): "Stage I GCT",
+    ("gu", "testis", "metastatic-gct"): "Metastatic GCT",
 }
 
 # Related: (domain, disease, setting) → list of (domain, disease, setting, label)
 RELATED = {
-    ("gu", "prostate", "mHSPC"): [("gu", "prostate", "mCRPC", "mCRPC")],
+    ("gu", "prostate", "mHSPC"): [
+        ("gu", "prostate", "mCRPC", "mCRPC"),
+        ("gu", "prostate", "nmCRPC", "nmCRPC"),
+    ],
     ("gu", "prostate", "mCRPC"): [("gu", "prostate", "mHSPC", "mHSPC")],
-    ("gu", "bladder", "mUC"): [("gu", "bladder", "adjuvant-urothelial", "Adjuvant urothelial")],
-    ("gu", "bladder", "adjuvant-urothelial"): [("gu", "bladder", "mUC", "mUC")],
+    ("gu", "prostate", "nmCRPC"): [("gu", "prostate", "mCRPC", "mCRPC")],
+    ("gu", "prostate", "localized-high-risk"): [
+        ("gu", "prostate", "adjuvant-radiotherapy-post-prostatectomy", "Adjuvant RT"),
+        ("gu", "prostate", "salvage-radiotherapy-post-prostatectomy", "Early salvage RT"),
+    ],
+    ("gu", "prostate", "adjuvant-radiotherapy-post-prostatectomy"): [
+        ("gu", "prostate", "salvage-radiotherapy-post-prostatectomy", "Early salvage RT"),
+        ("gu", "prostate", "localized-high-risk", "Localized high-risk"),
+    ],
+    ("gu", "prostate", "salvage-radiotherapy-post-prostatectomy"): [
+        ("gu", "prostate", "adjuvant-radiotherapy-post-prostatectomy", "Adjuvant RT"),
+        ("gu", "prostate", "mHSPC", "mHSPC"),
+    ],
+    ("gu", "bladder", "mUC"): [
+        ("gu", "bladder", "adjuvant-urothelial", "Adjuvant urothelial"),
+        ("gu", "bladder", "neoadjuvant-mibc", "Neoadjuvant MIBC"),
+    ],
+    ("gu", "bladder", "adjuvant-urothelial"): [
+        ("gu", "bladder", "mUC", "mUC"),
+        ("gu", "bladder", "neoadjuvant-mibc", "Neoadjuvant MIBC"),
+    ],
+    ("gu", "bladder", "neoadjuvant-mibc"): [
+        ("gu", "bladder", "adjuvant-urothelial", "Adjuvant urothelial"),
+        ("gu", "variant-bladder", "perioperative", "Variant histology"),
+    ],
+    ("gu", "variant-bladder", "perioperative"): [
+        ("gu", "bladder", "neoadjuvant-mibc", "Neoadjuvant MIBC"),
+        ("gu", "bladder", "adjuvant-urothelial", "Adjuvant urothelial"),
+    ],
+    ("gu", "utuc", "adjuvant-post-nephroureterectomy"): [
+        ("gu", "bladder", "adjuvant-urothelial", "Adjuvant urothelial"),
+        ("gu", "bladder", "mUC", "mUC"),
+    ],
     ("gu", "kidney", "adjuvant-ccrcc"): [("gu", "kidney", "mRCC", "Metastatic RCC")],
     ("gu", "kidney", "mRCC"): [("gu", "kidney", "adjuvant-ccrcc", "Adjuvant clear-cell RCC")],
+    ("gu", "testis", "stage-I-gct"): [("gu", "testis", "metastatic-gct", "Metastatic GCT")],
+    ("gu", "testis", "metastatic-gct"): [("gu", "testis", "stage-I-gct", "Stage I GCT")],
 }
 
 PHRASE_CONTROL_TOKEN = re.compile(

@@ -1,7 +1,7 @@
 # Bladder / urothelial → Neoadjuvant muscle-invasive bladder cancer
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Preoperative decision support for resectable muscle-invasive bladder cancer
 Status: current — treatment is cystectomy-anchored; perioperative strategies must be distinguished from adjuvant-only evidence
@@ -31,6 +31,15 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 | Cisplatin-ineligible or declining cisplatin | EV plus pembrolizumab ×3 → cystectomy → postoperative EV plus pembrolizumab. | EV-303 directly studied this population and this full perioperative sequence. |
 | New obstruction or borderline renal function | Relieve obstruction when feasible → restage renal function and cisplatin eligibility → choose the perioperative pathway. | This is a pretreatment decision step, not evidence that a pre-drainage creatinine permanently determines eligibility. |
 | Not a cystectomy candidate or declining cystectomy | Refer to a bladder-preservation pathway rather than applying perioperative-trial efficacy estimates. | The listed phase 3 regimens are cystectomy-anchored and do not establish a bladder-preservation sequence. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| Perioperative EV/pembro or durvalumab/GC | Restage renal function after obstruction relief; labs each cycle; neuropathy and glucose monitoring on EV; immune-symptom review. | Complete neoadjuvant cycles before cystectomy when feasible; complete protocol-defined adjuvant doses (durvalumab ×8 post-op; EV/pembro per EV-303/304). Hold for toxicity per label. | Residual ypT2–4 or ypN+ after perioperative therapy → adjuvant urothelial page if no prior ICI completion; recurrence → mUC page. |
+| Post-cystectomy surveillance | CT urogram/chest/abdomen/pelvis every 3–6 months × 2–3 years per EAU/NCCN MIBC frameworks; cytology when ureteral remnant or multifocal history. | Stop systemic therapy at planned perioperative completion; surveillance thereafter. | Localized recurrence → salvage cystectomy or radiation when feasible; metastatic → mUC page. |
+
+- Cystectomy remains the anchor; perioperative trials are not evidence for bladder preservation without a separate pathway.
 
 ## Landmark evidence
 
@@ -87,6 +96,7 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 - [FDA Padcev label, revised 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761137s037lbl.pdf)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added FDA-label EV-303 and EV-304 named monitoring rates without transferring metastatic rates into the perioperative setting.
 - 2026-09-21: Added cystectomy-anchored therapy sequencing and all-regimen on-treatment monitoring.

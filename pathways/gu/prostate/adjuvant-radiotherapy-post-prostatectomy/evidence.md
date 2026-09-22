@@ -1,7 +1,7 @@
 # Prostate → Adjuvant radiotherapy after prostatectomy
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Decision support for adverse-pathology prostate cancer with an undetectable postoperative PSA
 Status: current — modern trials support surveillance with early salvage radiotherapy for the studied population rather than routine adjuvant radiotherapy
@@ -27,6 +27,15 @@ Status: current — modern trials support surveillance with early salvage radiot
 | Adverse pathology with undetectable PSA | PSA surveillance → early salvage radiotherapy if recurrence criteria are met. | This is the modern randomized comparison and does not apply unchanged to persistent PSA or pN+ disease. |
 | Persistent PSA, nodal disease, or imaging-detected recurrence | Enter the early-salvage/intensification pathway rather than routine-adjuvant evidence. | These states were outside the modern ART-versus-early-salvage trial population. |
 | Exceptional postoperative risk after multidisciplinary review | Consider adjuvant radiotherapy. | ART is not a blanket sequence; balance recurrence risk against durable urinary and sexual toxicity. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| Post-prostatectomy surveillance (preferred) | PSA every 3–6 months within the first 2 years, then every 6 months through 5 years; testosterone if ADT ever used. | Do not deliver routine adjuvant radiotherapy when PSA is undetectable in the ARTISTIC population; observation with protocol-defined early salvage is the modern comparison. | PSA rise above institutional early-salvage trigger → salvage radiotherapy pathway while PSA remains low. |
+| Selected adjuvant radiotherapy | PSA every 3–6 months; urinary and sexual toxicity assessment. | Complete planned radiotherapy course; hold only for acute toxicity. | Biochemical or imaging progression → salvage intensification or systemic therapy. |
+
+- AUA/ASTRO/SUO support early salvage when PSA rises rather than automatic adjuvant radiotherapy for the studied adverse-pathology, undetectable-PSA population.
 
 ## Landmark evidence
 
@@ -81,6 +90,7 @@ Status: current — modern trials support surveillance with early salvage radiot
 - [Vale et al. (2020). ARTISTIC meta-analysis. *Lancet*. PMID: 33002431](https://pmc.ncbi.nlm.nih.gov/articles/PMC7611137/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added postoperative therapy sequencing and radiotherapy/ADT on-treatment monitoring.
 - 2026-09-21: Created postoperative adjuvant-radiotherapy setting page with modern adjuvant-versus-early-salvage evidence.

@@ -51,6 +51,23 @@ class BuildWikiTest(unittest.TestCase):
             "## Sources",
             "## Changelog",
         )
+        for page in evidence_pages:
+            content = page.read_text(encoding="utf-8")
+            self.assertIn(
+                "\n## Surveillance and treatment de-escalation\n",
+                content,
+                page,
+            )
+            surv_idx = content.index("\n## Surveillance and treatment de-escalation\n")
+            landmark_idx = content.index("\n## Landmark evidence\n")
+            self.assertLess(surv_idx, landmark_idx, page)
+            if "\n## Therapy sequencing\n" in content:
+                seq_idx = content.index("\n## Therapy sequencing\n")
+                self.assertLess(seq_idx, surv_idx, page)
+            else:
+                std_idx = content.index("\n## Standard options\n")
+                self.assertLess(std_idx, surv_idx, page)
+
         for setting in (
             "bladder/adjuvant-urothelial",
             "bladder/mUC",
@@ -64,6 +81,15 @@ class BuildWikiTest(unittest.TestCase):
             offsets = [content.index(f"\n{section}\n") for section in expected_sections]
             self.assertEqual(offsets, sorted(offsets), setting)
             self.assertIn("<!-- .cross_trial -->", content, setting)
+
+        # GU planned labels must be empty so nav shows no GU "not started" pills.
+        for (domain, disease), labels in wiki.PLANNED.items():
+            if domain == "gu":
+                self.assertEqual(
+                    labels,
+                    [],
+                    f"GU planned leftover for {domain}/{disease}: {labels}",
+                )
 
         sequencing_required = (
             "bladder/mUC",
@@ -175,8 +201,8 @@ Status: current
         page = (
             wiki.SITE / "gu" / "kidney" / "adjuvant-ccrcc.html"
         ).read_text(encoding="utf-8")
-        self.assertLess(page.index('id="dotphrase"'), page.index("Guideline references"))
-        self.assertLess(page.index("Guideline references"), page.index("Primary source link"))
+        self.assertLess(page.index('id="dotphrase"'), page.index('id="guideline-references"'))
+        self.assertLess(page.index('id="guideline-references"'), page.index("Primary source link"))
 
     def test_build_marks_cross_trial_tables_for_scannable_comparisons(self) -> None:
         setting = wiki.PATHWAYS / "gu" / "kidney" / "adjuvant-ccrcc"

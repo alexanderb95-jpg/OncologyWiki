@@ -1,7 +1,7 @@
 # RCC → Adjuvant clear-cell RCC
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Post-nephrectomy shared decision support for adjuvant clear-cell RCC
 Status: current — pembrolizumab has randomized DFS and OS benefit; in the US, pembrolizumab plus belzutifan is FDA-labeled with immature OS
@@ -33,6 +33,15 @@ Status: current — pembrolizumab has randomized DFS and OS benefit; in the US, 
 ### EAU timing after restaging—not trial eligibility
 
 The [EAU RCC guideline](https://uroweb.org/guidelines/renal-cell-carcinoma/chapter/disease-management) strongly recommends offering adjuvant pembrolizumab after restaging, preferably 12–16 weeks after nephrectomy, to patients with KEYNOTE-564-defined risk. It also directs shared discussion of the discordant adjuvant-ICI trials, overtreatment, and immune-related adverse effects.
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| Risk-adapted surveillance (no adjuvant) | Cross-sectional imaging every 3–6 months × 3 years, then annually per EAU/NCCN RCC surveillance by stage; renal function and blood pressure. | No systemic therapy when outside KEYNOTE-564 eligibility or patient declines. | Recurrence → metastatic RCC page or metastasectomy discussion for oligometastatic disease. |
+| Adjuvant pembrolizumab (± belzutifan US label) | CBC, CMP, TSH every 3 weeks (or q6wk if q6wk pembro); immune-symptom review each visit. | Complete up to 17 cycles (pembro) or 1 year per label unless progression or toxicity; hold for grade ≥3 immune events. Belzutifan continues with pembro for labeled duration; OS immature for combination—shared decision to stop at 1 year. | Recurrence on or after adjuvant → mRCC page; prior adjuvant PD-1 exposure informs first-line metastatic choice. |
+
+- EAU recommends offering adjuvant pembrolizumab after restaging, preferably 12–16 weeks post-nephrectomy, for KEYNOTE-564-defined risk.
 
 ## Landmark evidence
 
@@ -128,6 +137,7 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 - [FDA WELIREG label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215383s015lbl.pdf).
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added a dedicated all-regimen on-treatment monitoring table for pembrolizumab and pembrolizumab–belzutifan.
 - 2026-09-21: Tightened named-toxicity reporting and paired counseling to a >5% any-grade filter, prioritizing events with a grade ≥3 signal; retained trial-level grade ≥3, immune-mediated, and discontinuation outcomes. Added label-verified decreased hemoglobin, ALT, and hypoxia rates for pembrolizumab–belzutifan.

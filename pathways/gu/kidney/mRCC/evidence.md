@@ -1,7 +1,7 @@
 # RCC → Metastatic RCC
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Disease → setting page for metastatic RCC systemic-therapy decisions
 Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doublets in this pack
@@ -32,6 +32,15 @@ Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doubl
 | Progression after both PD-1/PD-L1 and antiangiogenic therapy | Belzutifan. | LITESPARK-005 directly studied this exposure sequence; its OS endpoint was not statistically significant at the reported analysis. |
 | Progression after IO/IO without prior VEGFR therapy | Choose a VEGFR-containing option before positioning belzutifan. | Belzutifan's direct pivotal population had prior ICI and antiangiogenic treatment; this page does not establish a single preferred post-IO/IO sequence. |
 | Considering nivolumab/ipilimumab/cabozantinib | Do not add cabozantinib to IO/IO as default. | COSMIC-313 improved PFS but not OS and increased grade 3/4 treatment-related AEs. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| First-line IO ± TKI | Imaging every 8–12 weeks; CBC, CMP, TSH, blood pressure, urine protein; immune and TKI toxicity review each cycle. | Continue until progression or toxicity; nivo/ipi induction completes 4 cycles then nivo maintenance; TKI partners continue with PD-1 until progression unless toxicity mandates switch. Hold TKI for hypertension, hand-foot, or hepatic toxicity; hold IO for immune events. | Progression after ICI and VEGFR → belzutifan (LITESPARK-005 population) or trial; avoid default nivo/ipi/cabo (COSMIC-313 no OS gain). |
+| Complete response or long stable disease | Extend imaging intervals per EAU/NCCN when clinically appropriate after prolonged response. | Treatment breaks are not trial-established for IO/TKI doublets; individualize only with shared decision. | Confirmed progression → next-line sequencing. |
+
+- Cytoreductive nephrectomy and metastasis-directed therapy are individualized and not governed by these trial surveillance schedules.
 
 ## Landmark evidence
 
@@ -95,6 +104,7 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 - [FDA Welireg label, revised 2025](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215383s012lbl.pdf)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 - 2026-09-21: Added trial- and label-verified named monitoring rates for every listed IO/IO, IO/VEGFR, and belzutifan regimen.
 - 2026-09-21: Added therapy sequencing and regimen-level on-treatment monitoring for IO/IO, each listed IO/VEGFR doublet, and belzutifan.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.

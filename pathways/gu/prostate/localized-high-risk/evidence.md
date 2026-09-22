@@ -1,7 +1,7 @@
 # Prostate → Localized high-risk
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Shared decision support for localized high-risk or locally advanced prostate cancer
 Status: current — local therapy is the foundation; systemic intensification evidence applies to a defined very-high-risk/cN1 population
@@ -29,6 +29,16 @@ Status: current — local therapy is the foundation; systemic intensification ev
 | Locally advanced or high-risk disease selecting radiation | Definitive radiotherapy plus long-course ADT. | EORTC 22961 compares androgen-suppression duration after radiotherapy; it does not select a surgical versus radiation approach. |
 | STAMPEDE-like very-high-risk/cN1 M0 disease | ADT plus radiotherapy → add two years of abiraterone/prednisolone while ADT continues for the trial duration. | This sequence requires the exact STAMPEDE-like risk boundary; it is not evidence for every high-risk localized patient. |
 | Biochemical persistence or recurrence after surgery | Move to the early-salvage radiotherapy pathway. | The next decision depends on PSA kinetics, imaging, and pathology rather than routine adjuvant therapy for all. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| After radical prostatectomy | PSA every 3–6 months for 5 years, then annually; pathology-directed imaging only for symptoms or rising PSA. | No routine adjuvant radiotherapy for undetectable PSA in the modern-trial population. | Biochemical persistence/recurrence → early salvage radiotherapy pathway. |
+| After definitive radiotherapy plus ADT | PSA every 6 months; long-course ADT per EORTC 22961 (3 years total androgen suppression after initial 6 months) or protocol STAMPEDE duration (abiraterone 2 years with 3 years ADT). | Complete planned ADT/abiraterone duration unless toxicity mandates hold; taper or stop ADT only after shared decision at planned end. | PSA rise after local therapy → salvage options, systemic intensification, or mHSPC pathway if metastatic. |
+| STAMPEDE-like intensification | PSA, blood pressure, potassium, LFTs on abiraterone/prednisolone. | Stop abiraterone at 2 years per trial; continue ADT to 3 years. | Metastatic progression → mHSPC page. |
+
+- EAU/NCCN recommend risk-adapted PSA surveillance after local therapy; imaging for symptomatic or high-rate PSA rise.
 
 ## Landmark evidence
 
@@ -79,6 +89,7 @@ Status: current — local therapy is the foundation; systemic intensification ev
 - [Attard et al. (2022). Abiraterone acetate and prednisolone with or without enzalutamide for high-risk non-metastatic prostate cancer. *Lancet*. PMID: 34953525](https://pmc.ncbi.nlm.nih.gov/articles/PMC8811484/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added local-therapy sequencing and all-regimen on-treatment monitoring for ADT, radiotherapy, and abiraterone/prednisolone.
 - 2026-09-21: Created localized high-risk prostate setting page with source-verified ADT-duration and STAMPEDE evidence.
