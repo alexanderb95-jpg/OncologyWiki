@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" role="img" aria-labelledby="title desc">
+  <title id="title">STAMPEDE high-risk M0 — metastasis-free survival landmark</title>
+  <desc id="desc">Published 6-year MFS landmark only; not a full KM reconstruction.</desc>
+  <style>
+    .t { fill:#1c1917; font:600 17px Arial,sans-serif; }
+    .s { fill:#57534e; font:12px Arial,sans-serif; }
+    .l { fill:#44403c; font:11px Arial,sans-serif; }
+    .v { fill:#1c1917; font:600 11px Arial,sans-serif; }
+    .axis { stroke:#78716c; stroke-width:1.25; }
+    .grid { stroke:#e7e5e4; stroke-width:1; }
+  </style>
+  <rect width="880" height="360" fill="#fffcf7"/>
+  <text x="40" y="32" class="t">STAMPEDE high-risk M0 — metastasis-free survival landmark</text>
+  <text x="40" y="54" class="s">ADT plus abiraterone/prednisolone versus ADT alone</text>
+  <line x1="90" y1="290.0" x2="840" y2="290.0" class="grid"/>
+  <text x="78" y="294.0" text-anchor="end" class="l">0%</text>
+  <line x1="90" y1="240.0" x2="840" y2="240.0" class="grid"/>
+  <line x1="90" y1="190.0" x2="840" y2="190.0" class="grid"/>
+  <text x="78" y="194.0" text-anchor="end" class="l">50%</text>
+  <line x1="90" y1="140.0" x2="840" y2="140.0" class="grid"/>
+  <line x1="90" y1="90.0" x2="840" y2="90.0" class="grid"/>
+  <text x="78" y="94.0" text-anchor="end" class="l">100%</text>
+  <line x1="90" y1="90" x2="90" y2="290" class="axis"/>
+  <line x1="90" y1="290" x2="840" y2="290" class="axis"/>
+  <rect x="230.6" y="126.0" width="199.2" height="164.0" fill="#1d4ed8"/>
+  <text x="329.1" y="122.0" text-anchor="middle" class="v">82%</text>
+  <rect x="465.0" y="152.0" width="199.2" height="138.0" fill="#b45309"/>
+  <text x="563.4" y="148.0" text-anchor="middle" class="v">69%</text>
+  <text x="465.0" y="312" text-anchor="middle" class="l">6 y</text>
+  <rect x="90" y="322" width="14" height="14" fill="#1d4ed8"/>
+  <text x="110" y="334" class="l">ADT + abiraterone</text>
+  <rect x="286" y="322" width="14" height="14" fill="#b45309"/>
+  <text x="306" y="334" class="l">ADT alone</text>
+  <text x="40" y="352" class="s">Published 6-year MFS landmark only; not a full KM reconstruction.</text>
+</svg>

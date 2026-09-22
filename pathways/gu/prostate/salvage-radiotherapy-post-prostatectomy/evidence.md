@@ -40,6 +40,10 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 
 - Pelvic-node radiotherapy plus short ADT (SPPORT) is for selected nodal-risk disease; do not extend nodal fields without trial-consistent indications[^3].
 
+![GETUG-AFU 16 PFS landmark](figures/getug16-pfs-landmarks.svg)
+
+Published 120-month PFS 64% vs 49% (SRT+short ADT vs SRT); not a full KM reconstruction[^1].
+
 ## Landmark evidence
 
 <!-- .cross_trial -->
@@ -51,11 +55,12 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 
 ## Biomarkers
 
-| Feature | Role now | Practical boundary |
-|---|---|---|
-| PSA and PSA doubling time | Defines recurrence kinetics and intensification risk[^4] | Use serial measurements; do not substitute PSA kinetics for staging or a trial criterion[^1][^2][^4]. |
-| PSMA PET | Staging and target-definition information[^4][^5] | Negative imaging does not exclude microscopic disease; match treatment to clinical risk and evidence boundary[^4]. |
-| Pathology | Risk assessment[^4] | Grade Group, seminal-vesicle involvement, margin, and nodal status inform counseling[^4]. |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| PSA and PSA doubling time | Defines recurrence kinetics and intensification risk[^4] | — | Serial PSA guides early salvage timing (treat by ≤0.5 ng/mL when feasible); PSADT ≤6 months is among high-risk features favoring ADT with salvage RT in guideline framing[^4]. | Do not substitute PSA kinetics for staging or a trial entry window[^1][^2][^4]. |
+| PSMA PET | Staging and target-definition information[^4][^5] | Expanding use at low PSA before salvage[^4][^5] | Helps exclude distant disease and may refine fields when clinically appropriate[^4][^5]. | Negative imaging does not exclude microscopic disease; match treatment to clinical risk and evidence boundary[^4]. |
+| Pathology | Risk assessment for ADT and field discussion[^4] | — | Grade Group, seminal-vesicle involvement, margin, and nodal status inform counseling and intensification[^4]. | Pathology alone does not replace PSA timing or imaging assessment[^4]. |
+| Testosterone | Confirms castration status when ADT is used or considered[^4] | — | Document before and during salvage ± ADT; stop short-course ADT at planned end[^1][^2][^3][^4]. | Not a selector among salvage-field strategies[^4]. |
 
 ## Upcoming research
 
@@ -100,6 +105,7 @@ Field direction: PET-directed intensification of salvage radiotherapy and system
 8. [EA8191 / INDICATE](https://clinicaltrials.gov/study/NCT04423211)
 
 ## Changelog
+- 2026-09-22: Inserted GETUG-AFU 16 120-month PFS landmark figure; expanded Biomarkers to five-column clinic/emerging format (PSA/PSADT, PSMA PET, pathology, testosterone).
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

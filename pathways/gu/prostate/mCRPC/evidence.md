@@ -42,10 +42,10 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
-|---|---|---|---|
-| On any mCRPC regimen[^19] | PSA every 4–8 weeks early, then every 3 months; testosterone to confirm castration; imaging every 8–12 weeks during active treatment or at progression; PSMA PET when considering radioligand[^19][^20]. | Continue ADT indefinitely. Complete fixed-duration regimens per label (radium-223 ×6, 177Lu-PSMA-617 ×4–6). Hold or discontinue individual agents for toxicity; PARP or ARPI hold for cytopenia, rash, or immune events per label[^9][^1][^11][^19]. | Progression after current line → next option per prior-exposure table (taxane, radioligand, cabazitaxel, PARP, trial)[^2][^1][^3][^19]. |
-| After radioligand or radium-223[^1][^9] | CBC, renal function, and symptom review; dental assessment before future marrow-toxic therapy[^1][^9][^11]. | Marrow reserve and prior RLT dose limit re-treatment intensity[^1][^11]. | PSMA-negative or mixed disease may exclude further radioligand; reassess taxane, PARP, or trial[^1][^11][^19]. |
+| Setting | PSA | Imaging | Stop/de-escalate | Re-escalate |
+|---|---|---|---|---|
+| On any mCRPC regimen[^19] | Every 4–8 weeks early, then every 3 months; testosterone to confirm castration[^19][^20]. | Every 8–12 weeks during active treatment or at progression; PSMA PET when considering radioligand[^19][^20]. | Continue ADT indefinitely. Complete fixed-duration regimens per label (radium-223 ×6, 177Lu-PSMA-617 ×4–6). Hold or discontinue individual agents for toxicity; PARP or ARPI hold for cytopenia, rash, or immune events per label[^9][^1][^11][^19]. | Progression after current line → next option per prior-exposure table (taxane, radioligand, cabazitaxel, PARP, trial)[^2][^1][^3][^19]. |
+| After radioligand or radium-223[^1][^9] | Continue PSA cadence with CBC, renal function, and symptom review[^1][^9][^11]. | Restage at progression; dental assessment before future marrow-toxic therapy[^1][^9][^11]. | Marrow reserve and prior RLT dose limit re-treatment intensity[^1][^11]. | PSMA-negative or mixed disease may exclude further radioligand; reassess taxane, PARP, or trial[^1][^11][^19]. |
 
 - Bone-protecting agent with radium-223 or extensive bone disease per PEACE-3/ALSYMPCA counseling[^4][^9].
 - Re-staging at progression documents visceral disease (excludes further radium-223) and PSMA avidity (selects radioligand)[^9][^1][^11].
@@ -73,10 +73,14 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 | PEACE-3 / EORTC 1333 | 1L mCRPC bone mets; N=446; BPA mandatory from 2018[^4] | Enzalutamide + Ra-223 ×6[^4] | Enzalutamide[^4] | rPFS 19.4 vs 16.4 mo; final OS 38.2 vs 32.6 mo; fractures 24.3% vs 13.4% (primary paper)[^4] | rPFS HR 0.69 (0.54–0.87); OS HR 0.76 (0.60–0.96)[^4] | Gillessen 2025 Ann Oncol PMID 40450503; OS 2026 PMID 41763609[^4] |
 
 ## Biomarkers
-- PSMA PET (approved tracer) for Pluvicto eligibility; mixed/PSMA-negative lesions argue against RLT[^1][^11].
-- Germline + somatic NGS for BRCA1/2 and other HRR genes; use the companion diagnostic that matches the intended PARP. ATM ≠ BRCA (TRITON3)[^3][^13].
-- MSI / dMMR / TMB for pembrolizumab[^19].
-- Testosterone to confirm castration[^19].
+
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| BRCA / HRR | Selects biomarker-restricted PARP monotherapy or PARP + ARPI combinations per current FDA label[^3][^13][^16][^17][^18] | Expanding companion-diagnostic lists[^16][^18] | Germline + somatic NGS; use the companion diagnostic that matches the intended PARP. Benefit concentrated in BRCA (TRITON3 ATM exploratory HR 0.95)[^3][^13]. | Do not use all-comer PROpel/TALAPRO-2 analyses as the indication; ATM ≠ BRCA[^16][^18][^13]. |
+| MSI-H / dMMR / TMB | Pembrolizumab when tumor-agnostic criteria are met[^19] | Broader IO combinations under study[^19] | Consider in later-line MSI-H/dMMR disease[^19]. | Prostate-specific randomized efficacy data for pembrolizumab are not in this source pack[^19]. |
+| PSMA PET | Pluvicto eligibility with an approved tracer[^1][^11] | Earlier radioligand use in HSPC changes prior-exposure counseling[^10] | Mixed/PSMA-negative lesions argue against RLT; PSMA+ after ARPI ± taxane opens 177Lu-PSMA-617 pathways[^1][^11]. | Prior HSPC Pluvicto (PSMAddition) changes marrow/eligibility counseling[^10][^11]. |
+| Prior ARPI / taxane exposure | Treatment-selection context for sequencing[^19][^2][^1] | — | Documents whether ARPI-naive, post-ARPI taxane-naive, or post-ARPI+taxane pathways apply (ARPI, Pluvicto, docetaxel, cabazitaxel/CARD)[^6][^7][^11][^5][^2][^1]. | Exposure history is clinical context, not a molecular biomarker[^19]. |
+| Testosterone | Confirms castration while ADT continues[^19] | — | Required to define mCRPC and continue ADT through all lines[^19]. | Does not select among ARPI, taxane, PARP, or radioligand options[^19]. |
 
 ## Upcoming research
 
@@ -146,6 +150,7 @@ Field direction: radioligand therapy is moving earlier (PSMAddition in PSMA-posi
 21. [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
 
 ## Changelog
+- 2026-09-22: Explicit Setting×PSA×Imaging surveillance table (PSA every 4–8 weeks early then q3mo; imaging q8–12 weeks); expanded Biomarkers to five-column clinic/emerging format (BRCA/HRR, MSI/TMB, PSMA, prior ARPI/taxane context, testosterone).
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparators or labeled single-arm rates in key monitoring cells; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" role="img" aria-labelledby="title desc">
+  <title id="title">ARTISTIC meta-analysis — 5-year event-free survival</title>
+  <desc id="desc">Published 5-year EFS landmark only (89% vs 88%); not a full KM reconstruction.</desc>
+  <style>
+    .t { fill:#1c1917; font:600 17px Arial,sans-serif; }
+    .s { fill:#57534e; font:12px Arial,sans-serif; }
+    .l { fill:#44403c; font:11px Arial,sans-serif; }
+    .v { fill:#1c1917; font:600 11px Arial,sans-serif; }
+    .axis { stroke:#78716c; stroke-width:1.25; }
+    .grid { stroke:#e7e5e4; stroke-width:1; }
+  </style>
+  <rect width="880" height="360" fill="#fffcf7"/>
+  <text x="40" y="32" class="t">ARTISTIC meta-analysis — 5-year event-free survival</text>
+  <text x="40" y="54" class="s">Adjuvant radiotherapy policy versus early-salvage policy</text>
+  <line x1="90" y1="290.0" x2="840" y2="290.0" class="grid"/>
+  <text x="78" y="294.0" text-anchor="end" class="l">0%</text>
+  <line x1="90" y1="240.0" x2="840" y2="240.0" class="grid"/>
+  <line x1="90" y1="190.0" x2="840" y2="190.0" class="grid"/>
+  <text x="78" y="194.0" text-anchor="end" class="l">50%</text>
+  <line x1="90" y1="140.0" x2="840" y2="140.0" class="grid"/>
+  <line x1="90" y1="90.0" x2="840" y2="90.0" class="grid"/>
+  <text x="78" y="94.0" text-anchor="end" class="l">100%</text>
+  <line x1="90" y1="90" x2="90" y2="290" class="axis"/>
+  <line x1="90" y1="290" x2="840" y2="290" class="axis"/>
+  <rect x="230.6" y="112.0" width="199.2" height="178.0" fill="#1d4ed8"/>
+  <text x="329.1" y="108.0" text-anchor="middle" class="v">89%</text>
+  <rect x="465.0" y="114.0" width="199.2" height="176.0" fill="#b45309"/>
+  <text x="563.4" y="110.0" text-anchor="middle" class="v">88%</text>
+  <text x="465.0" y="312" text-anchor="middle" class="l">5 y</text>
+  <rect x="90" y="322" width="14" height="14" fill="#1d4ed8"/>
+  <text x="110" y="334" class="l">Adjuvant policy</text>
+  <rect x="270" y="322" width="14" height="14" fill="#b45309"/>
+  <text x="290" y="334" class="l">Early-salvage policy</text>
+  <text x="40" y="352" class="s">Published 5-year EFS landmark only (89% vs 88%); not a full KM reconstruction.</text>
+</svg>

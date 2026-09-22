@@ -40,10 +40,10 @@ The pivotal trials do not provide a head-to-head comparison or ranking of apalut
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
-|---|---|---|---|
-| On ADT plus ARPI[^1][^3][^5] | PSA every 3 months; conventional CT and bone scan every 6–12 months per EAU/NCCN risk-adapted frameworks; testosterone to confirm castration[^10][^11]. | Continue ADT plus the selected ARPI until conventional-imaging metastasis, unacceptable toxicity, or shared decision to stop. Pivotal trials did not define a fixed treatment-stop duration. Hold ARPI for grade ≥3 toxicity; do not stop ADT at M0 progression on PET alone outside trial criteria[^1][^3][^5][^10]. | Conventional-imaging metastasis while castrate → mCRPC pathway; document prior ARPI agent and duration[^10]. |
-| Surveillance-only (outside pivotal population)[^10] | PSA every 3 months; imaging per PSADT and clinical concern[^10][^11]. | No ARPI if PSADT >10 months or PSMA-PET-only disease without conventional metastasis—individualize[^1][^7][^10]. | Rising PSA with new conventional metastases → mCRPC sequencing[^10]. |
+| Setting | PSA | Imaging | Stop/de-escalate | Re-escalate |
+|---|---|---|---|---|
+| On ADT plus ARPI[^1][^3][^5] | Every 3 months; testosterone to confirm castration; track PSADT for risk context[^10][^11]. | Conventional CT and bone scan every 6–12 months per EAU/NCCN risk-adapted frameworks[^10][^11]. | Continue ADT plus the selected ARPI until conventional-imaging metastasis, unacceptable toxicity, or shared decision to stop. Pivotal trials did not define a fixed treatment-stop duration. Hold ARPI for grade ≥3 toxicity; do not stop ADT at M0 progression on PET alone outside trial criteria[^1][^3][^5][^10]. | Conventional-imaging metastasis while castrate → mCRPC pathway; document prior ARPI agent and duration[^10]. |
+| Surveillance-only (outside pivotal population)[^10] | Every 3 months; continue PSADT assessment[^10][^11]. | Imaging per PSADT and clinical concern[^10][^11]. | No ARPI if PSADT >10 months or PSMA-PET-only disease without conventional metastasis—individualize[^1][^7][^10]. | Rising PSA with new conventional metastases → mCRPC sequencing[^10]. |
 
 - PSMA-PET-only disease lacks direct pivotal-trial efficacy estimates; do not use PET alone to stop ADT or ARPI without conventional-imaging confirmation when clinically appropriate[^7][^10].
 
@@ -60,12 +60,12 @@ The phase 3 studies were placebo-controlled, conventional-imaging nmCRPC trials.
 
 ## Biomarkers
 
-| Marker or feature | Role now | Practical boundary |
-|---|---|---|
-| PSA doubling time | Trial risk-enrichment and eligibility factor[^1][^3][^5] | A PSADT ≤10 months defined the pivotal-trial population; it is not an agent-selecting biomarker[^1][^3][^5]. |
-| Conventional imaging | Disease-state classification boundary[^1][^3][^5] | The phase 3 evidence used conventional CT/MRI and bone imaging to define nonmetastatic disease[^1][^3][^5]. |
-| Molecular testing | No validated treatment selector[^1][^3][^5] | The pivotal eligibility texts did not report molecular enrollment criteria that select among the three agents[^1][^3][^5]. |
-| PSMA PET | Staging information, not a validated treatment selector[^7] | In one retrospective 200-patient high-risk cohort, PSMA PET found M1 disease in 55% despite negative conventional imaging; prospective treatment-guidance value remains unestablished. [Fendler et al.](https://pubmed.ncbi.nlm.nih.gov/31511295/)[^7] |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| PSA doubling time | Trial risk-enrichment and eligibility factor[^1][^3][^5] | — | A PSADT ≤10 months defined the pivotal-trial population for ARPI with continued ADT[^1][^3][^5]. | Not an agent-selecting biomarker among enzalutamide, apalutamide, and darolutamide[^1][^3][^5]. |
+| Conventional imaging M0 definition | Disease-state classification boundary[^1][^3][^5] | — | Phase 3 evidence used conventional CT/MRI and bone imaging to define nonmetastatic disease eligible for treatment[^1][^3][^5]. | Pelvic N1 nodes <2 cm were allowed in SPARTAN/ARAMIS; distant metastases exclude this setting[^3][^5]. |
+| PSMA PET | Staging information[^7] | Prospective treatment-guidance studies (e.g., PSMACare)[^8] | May find occult M1 disease despite negative conventional imaging; does not by itself select among the three ARPIs[^7][^8]. | In one retrospective 200-patient high-risk cohort, PSMA PET found M1 disease in 55% despite negative conventional imaging; prospective treatment-guidance value remains unestablished[^7]. |
+| Molecular testing | No validated treatment selector among the three ARPIs[^1][^3][^5] | Broader panels for later-line planning after progression[^10] | Does not choose enzalutamide vs apalutamide vs darolutamide on this page[^1][^3][^5]. | Pivotal eligibility texts did not report molecular enrollment criteria that select among the three agents[^1][^3][^5]. |
 
 ## Upcoming research
 
@@ -125,6 +125,7 @@ No new practice-changing randomized result was identified in the source pack[^10
 13. [AUA/SUO Advanced Prostate Cancer guideline](https://www.auanet.org/guidelines-and-quality/guidelines/advanced-prostate-cancer)
 
 ## Changelog
+- 2026-09-22: Explicit Setting×PSA×Imaging surveillance table (PSA q3mo; conventional imaging every 6–12 months; PSADT context); expanded Biomarkers to five-column clinic/emerging format.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

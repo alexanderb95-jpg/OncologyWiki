@@ -32,13 +32,17 @@ Status: current — local therapy is the foundation; systemic intensification ev
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
-|---|---|---|---|
-| After radical prostatectomy[^3][^5] | PSA every 3–6 months for 5 years, then annually; pathology-directed imaging only for symptoms or rising PSA[^3][^5]. | No routine adjuvant radiotherapy for undetectable PSA in the modern-trial population[^4][^6]. | Biochemical persistence/recurrence → early salvage radiotherapy pathway[^4][^6]. |
-| After definitive radiotherapy plus ADT[^1][^2] | PSA every 6 months; long-course ADT per EORTC 22961 (3 years total androgen suppression after initial 6 months) or protocol STAMPEDE duration (abiraterone 2 years with 3 years ADT)[^1][^2]. | Complete planned ADT/abiraterone duration unless toxicity mandates hold; taper or stop ADT only after shared decision at planned end[^1][^2]. | PSA rise after local therapy → salvage options, systemic intensification, or mHSPC pathway if metastatic[^3][^5]. |
-| STAMPEDE-like intensification[^2] | PSA, blood pressure, potassium, LFTs on abiraterone/prednisolone[^2]. | Stop abiraterone at 2 years per trial; continue ADT to 3 years[^2]. | Metastatic progression → mHSPC page[^2][^3]. |
+| Setting | PSA | Imaging | Stop/de-escalate | Re-escalate |
+|---|---|---|---|---|
+| After radical prostatectomy[^3][^5] | Every 3–6 months for 5 years, then annually[^3][^5]. | Pathology-directed imaging only for symptoms or rising PSA[^3][^5]. | No routine adjuvant radiotherapy for undetectable PSA in the modern-trial population[^4][^6]. | Biochemical persistence/recurrence → early salvage radiotherapy pathway[^4][^6]. |
+| After definitive radiotherapy plus ADT[^1][^2] | Every 6 months[^1][^2]. | As clinically indicated for symptoms or rising PSA; ADT duration per EORTC 22961 (3 years total androgen suppression after initial 6 months) or protocol STAMPEDE (abiraterone 2 years with 3 years ADT)[^1][^2]. | Complete planned ADT/abiraterone duration unless toxicity mandates hold; taper or stop ADT only after shared decision at planned end[^1][^2]. | PSA rise after local therapy → salvage options, systemic intensification, or mHSPC pathway if metastatic[^3][^5]. |
+| STAMPEDE-like intensification[^2] | Per post-RT cadence above; also monitor blood pressure, potassium, and LFTs on abiraterone/prednisolone[^2]. | Same as post-RT setting[^2]. | Stop abiraterone at 2 years per trial; continue ADT to 3 years[^2]. | Metastatic progression → mHSPC page[^2][^3]. |
 
 - EAU/NCCN recommend risk-adapted PSA surveillance after local therapy; imaging for symptomatic or high-rate PSA rise[^3][^5].
+
+![STAMPEDE 6-year MFS landmark](figures/stampede-mfs-landmarks.svg)
+
+Published 6-year MFS 82% vs 69% (ADT+abiraterone vs ADT); not a full KM reconstruction[^2].
 
 ## Landmark evidence
 
@@ -50,11 +54,13 @@ Status: current — local therapy is the foundation; systemic intensification ev
 
 ## Biomarkers
 
-| Marker or feature | Role now | Practical boundary |
-|---|---|---|
-| Grade Group, PSA, clinical stage, and conventional imaging | Risk and treatment selection[^3][^4] | Define clinical risk; confirm before applying trial criteria[^1][^2]. |
-| Decipher | Investigational for tailoring ADT duration in this setting[^7] | NRG-GU009 is testing its use; do not substitute it for trial eligibility outside a protocol[^7]. |
-| Germline and somatic testing | Hereditary-risk and later-treatment planning[^3] | Does not select standard local therapy in the source pack[^3]. |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| Grade Group, PSA, clinical stage, and conventional imaging | Risk and local-therapy selection[^3][^4] | — | Define clinical risk and confirm STAMPEDE-like eligibility before intensification[^1][^2][^3]. | Do not equate a guideline high-risk label with every trial population[^1][^2]. |
+| Decipher | Not a standard local-therapy selector[^7] | NRG-GU009 is testing Decipher-directed ADT duration with radiotherapy[^7] | Do not substitute it for trial eligibility outside a protocol[^7]. | No efficacy results yet; investigational for ADT-duration tailoring in this setting[^7]. |
+| Germline BRCA / HRR | Hereditary-risk counseling and later-line planning[^3] | Broader HRR panels when indicated[^3] | Informs genetic counseling; does not select surgery vs radiotherapy or STAMPEDE abiraterone on this page[^3]. | Not a local-therapy selector in the source pack[^3]. |
+| PSMA PET | Staging information when clinically appropriate[^3][^5] | Expanding use for biochemical recurrence staging[^3][^5] | May refine staging before intensifying systemic therapy or salvage pathways[^3][^5]. | Does not replace conventional staging for applying STAMPEDE-like eligibility as written on this page[^2][^3]. |
+| MSI / TMB | Later-line immunotherapy consideration only[^3] | Expanding tumor-agnostic use[^3] | Does not select local therapy or ADT intensification in localized high-risk disease[^3]. | Not a local-therapy selector; relevant if metastatic progression leads to later-line options[^3]. |
 
 ## Upcoming research
 
@@ -96,6 +102,7 @@ Field direction: genomic risk–adapted ADT duration and ARPI intensification wi
 7. [NRG-GU009 / PREDICT-RT](https://clinicaltrials.gov/study/NCT04513717)
 
 ## Changelog
+- 2026-09-22: Explicit Setting×PSA×Imaging surveillance table; inserted STAMPEDE 6-year MFS landmark figure; expanded Biomarkers to five-column clinic/emerging format (including PSMA PET and MSI/TMB limits).
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
