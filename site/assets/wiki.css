@@ -162,8 +162,13 @@ body {
 .article-list li.planned { opacity: 0.65; }
 .evidence h2 { font-size: 1.05rem; margin-top: 1.35rem; border-bottom: 1px solid var(--line); padding-bottom: 0.2rem; }
 .evidence h3 { font-size: 0.95rem; margin-top: 1rem; }
-.evidence ul, .phrase-body, .start-here ul { padding-left: 1.1rem; }
+.evidence ul, .evidence ol, .phrase-body, .start-here ul { padding-left: 1.1rem; }
 .evidence li, .phrase-body li { margin: 0.18rem 0; }
+.evidence ol.sources { list-style: decimal; padding-left: 1.4rem; }
+.evidence ol.sources li { scroll-margin-top: 4.5rem; }
+.evidence sup.cite { font-size: 0.72em; line-height: 0; vertical-align: super; }
+.evidence a.cite-ref { color: var(--accent); text-decoration: none; font-weight: 650; }
+.evidence a.cite-ref:hover { text-decoration: underline; }
 .table-wrap { overflow-x: auto; margin: 0.55rem 0 0.95rem; }
 .evidence table { width: 100%; border-collapse: collapse; font-family: var(--sans); font-size: 0.74rem; line-height: 1.32; }
 .evidence th, .evidence td { border: 1px solid var(--line); padding: 0.28rem 0.4rem; text-align: left; vertical-align: top; }
