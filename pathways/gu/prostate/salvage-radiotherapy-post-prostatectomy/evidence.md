@@ -57,7 +57,9 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 | PSMA PET | Staging and target-definition information[^4][^5] | Negative imaging does not exclude microscopic disease; match treatment to clinical risk and evidence boundary[^4]. |
 | Pathology | Risk assessment[^4] | Grade Group, seminal-vesicle involvement, margin, and nodal status inform counseling[^4]. |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: PET-directed intensification of salvage radiotherapy and systemic therapy is the main care-changing research track after biochemical recurrence[^8].
 
 | Trial | Why it may change care | Evidence status |
 |---|---|---|
@@ -98,6 +100,7 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 8. [EA8191 / INDICATE](https://clinicaltrials.gov/study/NCT04423211)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

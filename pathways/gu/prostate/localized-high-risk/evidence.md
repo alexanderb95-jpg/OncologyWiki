@@ -56,7 +56,9 @@ Status: current — local therapy is the foundation; systemic intensification ev
 | Decipher | Investigational for tailoring ADT duration in this setting[^7] | NRG-GU009 is testing its use; do not substitute it for trial eligibility outside a protocol[^7]. |
 | Germline and somatic testing | Hereditary-risk and later-treatment planning[^3] | Does not select standard local therapy in the source pack[^3]. |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: genomic risk–adapted ADT duration and ARPI intensification with radiotherapy are the main care-changing experiments in localized high-risk disease[^7].
 
 | Trial | Why it may change care | Evidence status |
 |---|---|---|
@@ -94,6 +96,7 @@ Status: current — local therapy is the foundation; systemic intensification ev
 7. [NRG-GU009 / PREDICT-RT](https://clinicaltrials.gov/study/NCT04513717)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

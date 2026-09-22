@@ -58,7 +58,9 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 | Tumor size and rete testis invasion in seminoma | Prognostic discussion only[^5] | AUA advises against using these as a stand-alone management rule[^5]. |
 | miR-371a-3p | Investigational surveillance biomarker[^8][^9] | Do not replace imaging or standard markers outside a study[^8][^9]. |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: miR-371 assays are the main surveillance research track that could change relapse detection and adjuvant decision timing in stage I disease[^8][^9].
 
 | Trial or publication | Why it may change care | Evidence status |
 |---|---|---|
@@ -101,6 +103,7 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 9. [Belge et al. (2023). miR-371 surveillance cohort. PMID: 37967143](https://pubmed.ncbi.nlm.nih.gov/37967143/)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

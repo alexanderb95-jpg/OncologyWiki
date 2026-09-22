@@ -79,7 +79,9 @@ Trial results are not head-to-head efficacy comparisons: eligibility, recurrence
 | Tumor genomic or expression signature | Investigational[^14] | No validated molecular assay selects adjuvant pembrolizumab in this setting[^14]. |
 | Germline evaluation | Hereditary-risk assessment, not adjuvant selection[^14][^17] | Consider when age, bilateral/multifocal disease, family history, or syndrome features raise concern[^14][^17]. |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: adjuvant pembrolizumab remains the DFS-proven anchor; intensifying with HIF-2 (LITESPARK-022), broadening ICI platforms (RAMPART), and MRD- or VEGFR-guided strategies (MRD GATE RCC, STRIKE) are the next experiments[^5][^14][^1][^15].
 
 | Trial or publication | Why it may change care | Evidence status |
 |---|---|---|
@@ -143,6 +145,7 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 19. [FDA WELIREG label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215383s015lbl.pdf)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in Standard options / monitoring counseling rates and mirrored comparator-named toxicity counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

@@ -63,11 +63,17 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 - KEYNOTE-426 5-year: TcellinfGEP and angiogenesis signatures were associated with outcomes (exploratory)[^2].
 - Occasional germline (VHL, FH, etc.) for non-clear / hereditary syndromes — not required to start 1L IO doublets in sporadic ccRCC[^6][^9].
 
-## Upcoming trial results
-- Adjuvant pembro exposure at relapse (KEYNOTE-564)[^6][^7].
-- HIF-2 (belzutifan) moving earlier; combinations not in this 1L pack[^5][^6].
-- Non-clear-cell randomized 1L data — not retrieved as a dedicated landscape here[^6][^7].
-- No OS benefit from COSMIC-313 triplet[^6][^7].
+## Upcoming research
+
+Field direction: first-line IO doublets remain the core; HIF-2 (belzutifan) is moving earlier and into combinations, adjuvant pembrolizumab exposure changes relapse counseling, and non-clear-cell randomized first-line data remain thinner than clear-cell[^5][^6][^7].
+
+| Program or theme | Why it may change care | Evidence status |
+|---|---|---|
+| Relapse after adjuvant pembrolizumab (KEYNOTE-564) | Changes subsequent IO/VEGFR and trial eligibility counseling[^6][^7]. | Adjuvant SOC established; relapse-path sequencing still evolving in practice[^6][^7]. |
+| Earlier / combination HIF-2 (belzutifan) | Could move HIF-2 ahead of current later-line use[^5][^6]. | Later-line peer-reviewed/label evidence; earlier combinations not a 1L default in this pack[^5][^6]. |
+| Non-clear-cell randomized first-line landscape | Would define histology-specific doublets[^6][^7]. | Not retrieved as a dedicated landscape on this page[^6][^7]. |
+| COSMIC-313 triplet | Triplet did not improve OS versus doublet in retrieved sources[^6][^7]. | Negative OS for the triplet; not a care-changing upgrade[^6][^7]. |
+
 
 ## Toxicity
 
@@ -108,6 +114,7 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 9. [AUA localized renal mass guideline](https://pubmed.ncbi.nlm.nih.gov/34115531/)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named everolimus as the LITESPARK-005 comparator in belzutifan monitoring rates; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

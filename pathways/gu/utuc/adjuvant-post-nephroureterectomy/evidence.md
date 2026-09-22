@@ -58,7 +58,9 @@ Status: current — POUT supports adjuvant gemcitabine–platinum for its eligib
 | Renal function | Protocol platinum choice[^1] | POUT GFR thresholds are trial-specific, not a universal cisplatin rule[^1]. |
 | PD-L1 | Not a substitute for UTUC-specific evidence[^4][^6] | Do not assign an unreported UTUC subgroup effect for nivolumab or pembrolizumab[^4][^6]. |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: UTUC-specific adjuvant systemic research remains thin; all-MIUC adjuvant IO trials (for example AMBASSADOR) inform counseling but do not create a UTUC-only standard[^4][^6].
 
 No care-changing prospective UTUC-specific result was identified in the retrieved source pack[^4][^6]. [AMBASSADOR](https://pmc.ncbi.nlm.nih.gov/articles/PMC11698643/) is peer-reviewed all-MIUC evidence and does not establish a UTUC-specific standard[^4][^6].
 
@@ -95,6 +97,7 @@ No care-changing prospective UTUC-specific result was identified in the retrieve
 7. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named surveillance comparator in POUT toxicity/monitoring counseling rates; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

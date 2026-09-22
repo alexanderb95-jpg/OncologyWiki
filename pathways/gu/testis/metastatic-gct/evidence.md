@@ -60,7 +60,9 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 | Early marker decline | Risk refinement in poor-risk disease[^4] | Marker-directed intensification was studied in a selected GETUG-13 population[^4]. |
 | FDG-PET | Selected seminoma residual-mass assessment[^5] | Do not use for NSGCT residual disease; a single positive seminoma PET does not establish viable cancer[^5]. |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: intensification of first-line BEP and randomized first-salvage high-dose versus conventional salvage remain the highest-impact ongoing experiments[^8][^9].
 
 | Trial | Why it may change care | Evidence status |
 |---|---|---|
@@ -102,6 +104,7 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 9. [TIGER](https://clinicaltrials.gov/study/NCT02375204)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

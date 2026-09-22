@@ -67,7 +67,9 @@ The phase 3 studies were placebo-controlled, conventional-imaging nmCRPC trials.
 | Molecular testing | No validated treatment selector[^1][^3][^5] | The pivotal eligibility texts did not report molecular enrollment criteria that select among the three agents[^1][^3][^5]. |
 | PSMA PET | Staging information, not a validated treatment selector[^7] | In one retrospective 200-patient high-risk cohort, PSMA PET found M1 disease in 55% despite negative conventional imaging; prospective treatment-guidance value remains unestablished. [Fendler et al.](https://pubmed.ncbi.nlm.nih.gov/31511295/)[^7] |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: PSMA-directed approaches in conventional-imaging M0 / PET-positive CRPC and real-world ARPI delivery data may refine nmCRPC counseling, but do not yet replace the three ARPI phase 3 standards[^8][^9][^10].
 
 No new practice-changing randomized result was identified in the source pack[^10].
 
@@ -123,6 +125,7 @@ No new practice-changing randomized result was identified in the source pack[^10
 13. [AUA/SUO Advanced Prostate Cancer guideline](https://www.auanet.org/guidelines-and-quality/guidelines/advanced-prostate-cancer)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

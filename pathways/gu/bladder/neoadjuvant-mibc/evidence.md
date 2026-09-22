@@ -58,7 +58,9 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 | Histology and variant features | Pathology review and multidisciplinary planning[^5][^7] | Variant-specific efficacy for these newer perioperative regimens was not established in the retrieved trials[^1][^2][^3]. |
 | ctDNA | Investigational for selecting neoadjuvant treatment[^5] | Do not use it to omit curative-intent local therapy outside a protocol[^5][^6]. |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: perioperative EV plus pembrolizumab and durvalumab plus GC are now practice standards; longer follow-up and completion rates will refine durability counseling[^1][^2][^3].
 
 | Trial or publication | Why it may change care | Evidence status |
 |---|---|---|
@@ -100,6 +102,7 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 8. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Labeled FDA monitoring rates as single-arm label rates and restated trial-level grade ≥3 AEs with named comparators; mirrored comparator-named counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
