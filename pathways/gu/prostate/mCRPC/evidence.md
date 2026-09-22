@@ -78,11 +78,17 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 - MSI / dMMR / TMB for pembrolizumab[^19].
 - Testosterone to confirm castration[^19].
 
-## Upcoming trial results
-- Earlier Pluvicto (PSMAddition already moved RLT into PSMA+ HSPC)[^10].
-- CONTACT-02: PFS without OS — not a new default[^19].
-- AR degraders / novel AR ligands; lineage plasticity / NEPC[^19].
-- Optimal sequence among Pluvicto, taxane, and PARP after ARPI remains unsettled (no head-to-head in this pack)[^19].
+## Upcoming research
+
+Field direction: radioligand therapy is moving earlier (PSMAddition in PSMA-positive HSPC), while mCRPC sequencing among Pluvicto, taxane, and PARP after ARPI remains unsettled; AR degraders and neuroendocrine/lineage-plasticity strategies are next-wave themes without a new SOC default here[^10][^19].
+
+| Program or theme | Why it may change care | Evidence status |
+|---|---|---|
+| Earlier 177Lu-PSMA-617 (PSMAddition) | Already moved radioligand into PSMA-positive HSPC; spillover changes mCRPC prior-exposure counseling[^10]. | Peer-reviewed HSPC result; mCRPC sequencing implications ongoing[^10]. |
+| CONTACT-02 | Cabozantinib plus atezolizumab showed PFS without an OS standard-changing result in this pack[^19]. | Not a new default sequence on this page[^19]. |
+| AR degraders / novel AR ligands; NEPC / lineage plasticity | Potential options after ARPI failure when adenocarcinoma biology shifts[^19]. | Pipeline / investigational; no practice-changing phase 3 SOC here[^19]. |
+| Pluvicto vs taxane vs PARP after ARPI | Optimal order among these classes[^19]. | No head-to-head phase 3 preferred sequence in this pack[^19]. |
+
 
 ## Toxicity
 
@@ -140,6 +146,7 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 21. [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparators or labeled single-arm rates in key monitoring cells; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

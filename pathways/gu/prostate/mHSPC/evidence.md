@@ -71,10 +71,16 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 - PSMA PET (approved tracer) for staging and 177Lu-PSMA-617 eligibility[^3].
 - Testosterone to confirm castration once on ADT; PSA kinetics for response[^13][^14].
 
-## Upcoming trial results
-- Mature OS from CAPItello-281, PSMAddition, and AMPLITUDE[^12][^3][^4].
-- TALAPRO-3: no phase 3 primary in this pack[^15].
-- Prostate RT / MDT in oligometastatic HSPC — PEACE-1 RT coprimary not fully extracted here[^2].
+## Upcoming research
+
+Field direction: intensification beyond ADT/ARPI now includes radioligand (PSMAddition), PARP (AMPLITUDE), and AKT (CAPItello-281) pathways in selected mHSPC; mature OS and oligometastatic local therapy still shape uptake[^3][^4][^12][^2].
+
+| Program | Why it may change care | Evidence status |
+|---|---|---|
+| CAPItello-281, PSMAddition, AMPLITUDE mature OS | Confirms durability of AKT, radioligand, and PARP intensification beyond currently reported endpoints[^12][^3][^4]. | Peer-reviewed primary reports exist; longer OS follow-up ongoing / pending maturity[^12][^3][^4]. |
+| TALAPRO-3 | Would clarify talazoparib plus enzalutamide in hormone-sensitive disease[^15]. | No phase 3 primary result in this pack[^15]. |
+| Prostate radiotherapy / metastasis-directed therapy in oligometastatic HSPC | PEACE-1 radiotherapy coprimary not fully extracted here; local therapy remains a practice question[^2]. | Peer-reviewed PEACE-1 systemic data; RT coprimary incomplete in this pack[^2]. |
+
 
 ## Toxicity
 
@@ -124,6 +130,7 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 15. [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

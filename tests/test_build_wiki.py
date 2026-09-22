@@ -30,14 +30,15 @@ class BuildWikiTest(unittest.TestCase):
             setattr(wiki, name, value)
         self.tmp.cleanup()
 
-    def test_gu_evidence_pages_use_current_upcoming_results_heading(self) -> None:
+    def test_gu_evidence_pages_use_current_upcoming_research_heading(self) -> None:
         evidence_pages = list((ROOT / "pathways" / "gu").glob("**/evidence.md"))
         self.assertTrue(evidence_pages)
 
         for page in evidence_pages:
             content = page.read_text(encoding="utf-8")
             self.assertNotIn("## Watch" + " list", content, page)
-            self.assertIn("\n## Upcoming trial results\n", content, page)
+            self.assertNotIn("\n## Upcoming trial results\n", content, page)
+            self.assertIn("\n## Upcoming research\n", content, page)
             self.assertIn("\n### On-treatment monitoring\n", content, page)
 
         expected_sections = (
@@ -45,7 +46,7 @@ class BuildWikiTest(unittest.TestCase):
             "## Standard options",
             "## Landmark evidence",
             "## Biomarkers",
-            "## Upcoming trial results",
+            "## Upcoming research",
             "## Toxicity",
             "## Guideline references",
             "## Sources",
@@ -170,7 +171,7 @@ Owner: GU clinic
 Purpose: Decision support
 Status: current
 
-## Upcoming trial results
+## Upcoming research
 
 - Named trial
 

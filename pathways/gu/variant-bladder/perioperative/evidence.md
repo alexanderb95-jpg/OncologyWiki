@@ -55,7 +55,9 @@ Status: current — evidence is subtype-specific and predominantly nonrandomized
 | Expert GU-pathology review | Confirms variant and proportion[^9] | Changes diagnostic confidence; does not automatically determine a single regimen[^9][^4]. |
 | Genomic testing | Trial and hereditary-risk assessment[^6][^9] | No validated molecular selector for perioperative therapy across variants in this source set[^9]. |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: variant histology still lacks dedicated perioperative randomized programs; general-MIBC perioperative trials should not be treated as subtype-specific efficacy evidence without reported analyses[^9][^3].
 
 No named prospective variant-specific result was identified that is likely to change care[^9]. Do not use general-MIBC perioperative trials as variant-specific efficacy evidence without a reported subtype analysis[^9][^3].
 
@@ -94,6 +96,7 @@ No named prospective variant-specific result was identified that is likely to ch
 9. [EAU–ESMO variant bladder cancer consensus](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360152/)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

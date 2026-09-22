@@ -67,10 +67,17 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - PD-L1: not the selector for EV+pembro 1L in EV-302 as reported here[^1].
 - NGS for FGFR and other trial targets[^5][^10].
 
-## Upcoming trial results
-- Sequencing after 1L EV+pembro (FGFR, HER2, taxane, SG) — phase 3 post-EV+pembro data not in this pack[^1][^10].
-- US regulatory status of disitamab vedotin + toripalimab[^10][^11].
-- T-DXd urothelial-specific efficacy (not in retrieved DESTINY abstract)[^10][^11].
+## Upcoming research
+
+Field direction after EV plus pembrolizumab as first-line Nectin-4 ADC plus PD-1 standard: competing HER2-directed vedotin ADCs with PD-1 in biomarker-selected untreated disease, next-generation Nectin-4 ADCs with non-MMAE payloads after enfortumab exposure, and still-unsettled post-EV plus pembrolizumab sequencing (FGFR, HER2, taxane, TROP2) without a randomized preferred line in this source set[^1][^10][^13][^16].
+
+| Program | Why it may change care | Evidence status |
+|---|---|---|
+| [SGNDV-001 / DV-001](https://clinicaltrials.gov/study/NCT05911295) (NCT05911295) | Phase 3 disitamab vedotin (HER2 ADC) plus pembrolizumab versus gemcitabine–platinum in untreated HER2 IHC ≥1+ la/mUC; dual primary BICR PFS and OS[^13][^14][^15]. | Ongoing (active, not recruiting); design manuscript peer-reviewed; efficacy results pending[^13][^14]. |
+| [RC48-C016](https://pubmed.ncbi.nlm.nih.gov/41124210/) (NCT05302284) | Phase 3 disitamab vedotin plus toripalimab versus chemotherapy in untreated HER2 IHC 1+/2+/3+ la/mUC; peer-reviewed PFS/OS benefit versus chemotherapy[^18]. | Peer-reviewed (NEJM); US regulatory status as a first-line standard is not established in this pack[^10][^11][^18]. |
+| [NEXUS-01](https://clinicaltrials.gov/study/NCT06465069) (NCT06465069) | Phase 1 next-generation Nectin-4 ADC LY4052031 (camptothecin/topo-I payload) in advanced UC, including post-enfortumab cohorts[^16][^17]. | Ongoing phase 1 (recruiting); early activity congress-reported (ASCO 2026 / UroToday); not practice-changing yet[^16][^17]. |
+| Post–EV plus pembrolizumab sequencing | Preferred order among FGFR-directed therapy, HER2 options, taxane, and TROP2 ADC after first-line EV plus pembrolizumab[^1][^5][^9][^10]. | No randomized phase 3 preferred sequence in this source set; treat as an evidence gap[^1][^10]. |
+
 
 ## Toxicity
 
@@ -117,8 +124,15 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 10. [NCCN Bladder Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1417)
 11. [EAU Muscle-invasive and metastatic bladder cancer guideline](https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer)
 12. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
+13. [Galsky et al. / SGNDV-001 design (2025). *Future Oncology*. PMID: 40728126](https://pubmed.ncbi.nlm.nih.gov/40728126/)
+14. [ClinicalTrials.gov NCT05911295 (SGNDV-001 / DV-001)](https://clinicaltrials.gov/study/NCT05911295)
+15. [UroToday ASCO GU 2024: DV-001 design summary](https://www.urotoday.com/conference-highlights/asco-gu-2024/asco-gu-2024-bladder-cancer/149537-asco-gu-2024-phase-3-open-label-randomized-controlled-study-of-disitamab-vedotin-with-pembrolizumab-versus-chemotherapy-in-patients-with-previously-untreated-locally-advanced-or-metastatic-urothelial-carcinoma-that-expresses-her2-dv-001.html)
+16. [ClinicalTrials.gov NCT06465069 (NEXUS-01)](https://clinicaltrials.gov/study/NCT06465069)
+17. [UroToday ASCO 2026: NEXUS-01 initial results](https://www.urotoday.com/conference-highlights/asco-2026/asco-2026-bladder-cancer/169394-asco-2026-initial-results-from-nexus-01-a-phase-1-study-of-ly4052031-an-adc-targeting-nectin-4-in-participants-with-advanced-or-metastatic-urothelial-carcinoma.html)
+18. [Sheng et al. (2025). RC48-C016. *New England Journal of Medicine*. PMID: 41124210](https://pubmed.ncbi.nlm.nih.gov/41124210/)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction (SGNDV-001/DV-001, RC48-C016, NEXUS-01).
 - 2026-09-22: Labeled EV-302 monitoring rates as single-arm label rates and restated grade ≥3 TRAEs vs platinum; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

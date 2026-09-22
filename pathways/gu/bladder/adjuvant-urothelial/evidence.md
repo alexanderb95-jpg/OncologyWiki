@@ -66,10 +66,16 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 - ctDNA MRD (Signatera CDx): selects adjuvant atezolizumab after cystectomy (IMvigor011 / FDA)[^5]. Serial testing until positive or end of recommended 12-month window per label[^5]. CheckMate 274 5-year exploratory ctDNA remains exploratory — not the registration companion for nivo[^1].
 - Nectin-4 / HER2 / FGFR do not currently select adjuvant IO in these trials[^1][^5].
 
-## Upcoming trial results
-- How to treat high-risk yp residual disease after perioperative EV+pembro or NIAGARA — not in these sources[^3][^4].
-- Sequencing when both perioperative EV+pembro and later ctDNA MRD positivity arise — not defined in retrieved sources[^4][^5].
-- AMBASSADOR OS when posted[^2].
+## Upcoming research
+
+Field direction: perioperative EV plus pembrolizumab and NIAGARA are reshaping who still needs classic adjuvant IO, while ctDNA MRD (IMvigor011) adds a biomarker branch; residual disease after perioperative therapy and dual EV/IO then MRD-positive pathways remain open questions[^3][^4][^5].
+
+| Program or question | Why it may change care | Evidence status |
+|---|---|---|
+| AMBASSADOR overall survival | Clarifies whether adjuvant pembrolizumab DFS benefit translates to mature OS versus observation[^2]. | Peer-reviewed DFS report; OS follow-up pending in this pack[^2]. |
+| High-risk yp residual disease after perioperative EV plus pembrolizumab or NIAGARA | Defines adjuvant or next systemic options when pathologic residual disease persists[^3][^4]. | Not answered in retrieved sources; treat as a care-changing evidence gap[^3][^4]. |
+| Perioperative EV plus pembrolizumab then later ctDNA MRD positivity | Sequencing when both pathways apply[^4][^5]. | Not defined in retrieved sources[^4][^5]. |
+
 
 ## Toxicity
 
@@ -105,6 +111,7 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 7. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named placebo/observation/GC/surgery comparators in monitoring rates and labeled EV FDA rates as single-arm; mirrored comparator-named counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.

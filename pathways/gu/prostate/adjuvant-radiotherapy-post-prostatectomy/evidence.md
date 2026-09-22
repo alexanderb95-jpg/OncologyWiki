@@ -54,7 +54,9 @@ Status: current — modern trials support surveillance with early salvage radiot
 | Postoperative PSA | Defines the undetectable-PSA trial boundary[^1][^2][^4] | Persistent PSA requires a salvage rather than routine-adjuvant discussion[^4][^6]. |
 | Pathology | Recurrence-risk assessment[^1][^2][^3] | Margin, grade, extracapsular extension, and seminal-vesicle invasion characterize risk but do not mandate routine ART in the modern-trial population[^4]. |
 
-## Upcoming trial results
+## Upcoming research
+
+Field direction: PET-M0 node-positive disease with detectable PSA is the main intensification experiment after prostatectomy[^9].
 
 | Trial | Why it may change care | Evidence status |
 |---|---|---|
@@ -95,6 +97,7 @@ Status: current — modern trials support surveillance with early salvage radiot
 9. [NRG-GU008 / INNOVATE](https://clinicaltrials.gov/study/NCT04134260)
 
 ## Changelog
+- 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
