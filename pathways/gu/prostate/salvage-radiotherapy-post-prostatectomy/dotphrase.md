@@ -1,6 +1,7 @@
 #postprostatectomysalvage
 
-- Counseling: Reviewed detectable/rising PSA after prostatectomy and the value of early salvage radiotherapy while PSA is low. Reviewed that ADT and pelvic-node intensification depend on PSA, pathology, imaging, and trial-specific risk boundaries.
+- Counseling: GETUG-AFU 16 added short ADT to salvage RT: 10-year progression-free survival about 64% vs 49% (HR 0.54). RTOG 9601 12-year overall survival 76.3% vs 71.3% with 24 months bicalutamide (HR 0.77). SPPORT pelvic-node RT plus short ADT: 5-year freedom from progression 87.4% vs 70.9% with prostate-bed RT alone. Early treatment at low PSA improves outcomes.
+- Counseling: Reviewed surveillance and de-escalation: treat at low PSA (≤0.5 ng/mL when feasible); complete planned short or long ADT per trial boundary; post-salvage PSA every 3–6 months; imaging-confirmed metastases → systemic pathway.
 - Counseling: Reviewed sequence: evaluate PSA kinetics/pathology/testosterone/imaging → early salvage prostate-bed radiotherapy; add ADT for high-risk features; use pelvic-node treatment with short-course ADT for the selected SPPORT-like population; metastatic disease moves to a systemic pathway. ***
 - Monitoring: Review hot flashes, breast symptoms with bicalutamide, urinary/bowel effects, fatigue, sexual effects, and bone/metabolic effects with ADT. Contact oncology or radiation oncology for urinary retention, heavy bleeding, severe bowel symptoms, or intolerable treatment effects.
 - Decision: *** selects prostate-bed salvage radiotherapy / salvage radiotherapy plus ADT / pelvic-node plus prostate-bed radiotherapy with ADT / further staging or trial evaluation.

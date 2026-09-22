@@ -1,7 +1,7 @@
 # Bladder / urothelial → Adjuvant urothelial
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Disease → setting page for adjuvant urothelial-carcinoma decisions after radical surgery
 Status: clinic-ready — perioperative EV+pembro and NIAGARA now change who still needs classic adjuvant IO; ctDNA MRD selects adjuvant atezo
@@ -35,6 +35,16 @@ Status: clinic-ready — perioperative EV+pembro and NIAGARA now change who stil
 | High-risk disease after radical surgery without perioperative ICI | Adjuvant nivolumab or observation; pembrolizumab is a DFS-positive alternative in AMBASSADOR. | Choose after recovery and immune-risk assessment; the trials do not establish serial PD-1/PD-L1 therapy. |
 | ctDNA MRD-positive after cystectomy | Atezolizumab up to one year in the IMvigor011/FDA companion-diagnostic pathway. | This is distinct from unselected IMvigor010, which was negative. |
 | High-risk residual disease after perioperative EV plus pembrolizumab or NIAGARA | Surveillance or clinical trial discussion. | A preferred salvage-adjuvant sequence is not established in the retrieved sources. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| After cystectomy without adjuvant ICI | CT chest/abdomen/pelvis every 3–6 months × 2 years, then every 6–12 months per EAU/NCCN MIUC surveillance frameworks; urine cytology and ureteral remnant assessment when applicable. | Observation when risk, recovery, or prior perioperative ICI makes adjuvant PD-1 inappropriate. | Recurrence → systemic therapy (mUC page) or locoregional salvage when feasible. |
+| Adjuvant nivolumab or pembrolizumab ×1 year | Labs and immune-symptom review each cycle; ctDNA serial testing if using IMvigor011 pathway. | Complete 1-year adjuvant course unless grade ≥3/4 immune toxicity; hold for immune events per label. ctDNA-negative patients should not receive unselected adjuvant atezolizumab (IMvigor010 negative). | ctDNA conversion or radiographic recurrence → systemic therapy; avoid untested second adjuvant ICI after perioperative EV/pembro or NIAGARA. |
+| ctDNA MRD-positive adjuvant atezolizumab | ctDNA per companion-diagnostic schedule; immune monitoring. | Stop at 1 year or progression; hold for immune toxicity. | Progression → mUC systemic options. |
+
+- Prior perioperative EV plus pembrolizumab or NIAGARA completes the intended adjuvant component; separate CheckMate 274-style adjuvant ICI is not the default.
 
 ## Landmark evidence
 
@@ -92,6 +102,7 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 - [FDA Padcev label, revised 2026](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761137s037lbl.pdf)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 - 2026-09-21: Added EV-303 and EV-304 FDA-label neuropathy, glucose, and rash monitoring rates to the perioperative row.
 - 2026-09-21: Added treatment sequencing and regimen-level on-treatment monitoring, including the IMvigor011 safety-reporting boundary.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.

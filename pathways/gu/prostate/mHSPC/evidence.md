@@ -1,7 +1,7 @@
 # Prostate → mHSPC
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Disease → setting page for metastatic hormone-sensitive prostate cancer
 Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets; re-check NCCN (not retrieved this pass)
@@ -33,6 +33,16 @@ Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets
 | PSMA-positive disease eligible for radioligand | ADT plus ARPI → add 177Lu-PSMA-617 as the PSMAddition regimen. | This is an mHSPC intensification pathway; prior radioligand exposure changes future marrow and sequencing assessment. |
 | BRCA2-mutated or PTEN-deficient disease | Use the specifically labeled biomarker-directed ADT combination at mHSPC presentation when appropriate. | Do not generalize Akeega to non-BRCA2 HRR alterations or capivasertib to PTEN-unselected disease. |
 | Progression with castrate testosterone | Continue ADT and enter the mCRPC pathway with a full record of ARPI, docetaxel, radioligand, and biomarker-directed exposure. | This page does not establish a preferred sequence after mHSPC intensification. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| On ADT plus ARPI or triplet | PSA and testosterone every 3 months; CBC/CMP and regimen-specific labs per label; cross-sectional imaging every 6–12 months or for symptoms. | Continue systemic therapy until radiographic or clinical progression or unacceptable toxicity; hold individual agents for toxicity rather than stopping ADT. Fixed-cycle components (docetaxel ×6, 177Lu-PSMA-617 up to 6 doses) complete per protocol then continue the remaining backbone. | Castration-resistant progression on conventional or PSMA imaging → mCRPC pathway with full prior-exposure documentation. |
+| After completing fixed-cycle intensification | Same PSA/testosterone cadence; marrow and renal monitoring after radioligand or taxane exposure. | Do not stop ADT at progression to CRPC. | See Therapy sequencing for biomarker-directed and next-line options. |
+
+- Risk-adapted imaging follows EAU/NCCN frameworks: low burden may extend imaging intervals when clinically appropriate; symptomatic or PSA-rise triggers restaging.
+- PSMA PET may refine oligometastatic/local therapy decisions but does not replace castration assessment or conventional progression evaluation when clinically indicated.
 
 ## Landmark evidence
 
@@ -104,6 +114,7 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 - [Saad et al. (2024). ARANOTE. *Journal of Clinical Oncology*. PMID: 39279580](https://pubmed.ncbi.nlm.nih.gov/39279580/); [Chi et al. (2019). TITAN. *New England Journal of Medicine*. PMID: 31150574](https://pubmed.ncbi.nlm.nih.gov/31150574/); [Fizazi et al. (2017). LATITUDE. *New England Journal of Medicine*. PMID: 28578607](https://pubmed.ncbi.nlm.nih.gov/28578607/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 - 2026-09-21: Added pivotal named monitoring rates for each listed ARPI, taxane, radioligand, PARP, and AKT-pathway regimen.
 - 2026-09-21: Added mHSPC sequencing and regimen-level on-treatment monitoring, including ADT/ARPI, taxane, radioligand, PARP, and AKT-pathway monitoring.
 - 2026-09-21: Removed Bottom line; added a compact Guidelines table and disease → setting page framing. No treatment recommendations or trial statistics changed.

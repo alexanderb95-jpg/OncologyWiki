@@ -1,7 +1,7 @@
 # Bladder / urothelial → Metastatic urothelial carcinoma
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Disease → setting page for locally advanced or metastatic urothelial carcinoma
 Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HER2 as labeled
@@ -37,6 +37,15 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 | Progression after platinum plus PD-(L)1 without prior EV | EV monotherapy. | EV-301 directly studied this post-platinum, post-PD-(L)1 setting. |
 | Progression after EV plus pembrolizumab | Reassess FGFR3/HER2 and trial eligibility; use a biomarker-matched or non-cross-resistant option when its own label criteria are met. | A preferred post-EV plus pembrolizumab sequence is not established by a randomized phase 3 trial in this source set; do not assume EV monotherapy is evidence-based after EV-containing first line. |
 | FGFR3/2-altered disease after PD-(L)1 | Erdafitinib. | THOR cohort 1 supports this after prior PD-(L)1; it does not support substituting erdafitinib for an eligible first PD-1 pathway. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| On first-line EV plus pembrolizumab or platinum-ICI | Imaging every 9–12 weeks during active treatment; CBC, CMP, glucose, and neuropathy assessment on EV; immune-symptom review each cycle. | Continue until RECIST progression or unacceptable toxicity; hold EV for neuropathy grade ≥2 or hyperglycemia; hold pembrolizumab for immune events. Maintenance avelumab (JAVELIN) continues until progression up to 2 years. | Progression → EV monotherapy if post-platinum/post-PD-(L)1 without prior EV; FGFR/HER2-directed therapy; trial; supportive care. |
+| After platinum without progression | Imaging every 12 weeks on avelumab maintenance. | Stop avelumab at progression or 2-year cap per trial. | Progression → second-line options per sequencing table. |
+
+- EAU/NCCN recommend cross-sectional imaging for metastatic urothelial carcinoma on treatment and at progression; cystoscopy is not central for metastatic disease but remains relevant for bladder-primary local symptoms.
 
 ## Landmark evidence
 
@@ -106,6 +115,7 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 - [TROPiCS-04 (2025). *Annals of Oncology*. PMID: 39934055](https://pubmed.ncbi.nlm.nih.gov/39934055/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 - 2026-09-21: Updated on-treatment monitoring with retrieved EV-302 label, CheckMate 901, JAVELIN, THOR, and KEYNOTE-045 named-event rates.
 - 2026-09-21: Added therapy sequencing and regimen-level on-treatment monitoring, including trial-specific EV neuropathy, hyperglycemia, skin-reaction, and erdafitinib phosphate/ocular data.
 - 2026-09-21: Renamed the prospective-evidence section to Upcoming trial results.

@@ -1,6 +1,7 @@
 #localizedhighriskprostate
 
-- Counseling: Reviewed localized high-risk/locally advanced prostate cancer and local-treatment options: radical prostatectomy in a multimodality plan or definitive radiotherapy with ADT. ***
+- Counseling: For radiotherapy plus long-course ADT, EORTC 22961 showed lower 5-year mortality with 3 years vs 6 months of androgen suppression after radiotherapy. In STAMPEDE-like very-high-risk M0 disease, 6-year metastasis-free survival was about 82% vs 69% with abiraterone added to ADT (MFS HR 0.53; OS HR 0.60). These results apply to defined trial populations, not every high-risk localized patient.
+- Counseling: Reviewed surveillance and de-escalation: PSA every 3–6 months after surgery or every 6 months after RT; complete planned ADT (and 2 years abiraterone if STAMPEDE-like); biochemical recurrence after surgery → early salvage RT pathway; metastatic progression → mHSPC page.
 - Counseling: Reviewed sequence: surgery → PSA/pathology-directed surveillance or salvage pathway; or definitive radiotherapy plus long-course ADT, with abiraterone/prednisolone only for the defined STAMPEDE-like very-high-risk/cN1 population. ***
 - Monitoring: During radiotherapy plus ADT, review urinary/bowel symptoms, sexual function, hot flashes, fatigue, bone, metabolic, and cardiovascular effects. With abiraterone/prednisolone, check blood pressure, potassium, liver tests, and edema. ***
 - Counseling: Reviewed that STAMPEDE intensification applies to a defined high-risk nonmetastatic population, not every guideline-defined high-risk patient. For abiraterone, reviewed hypertension and liver-test monitoring; promptly report severe headache, chest symptoms, jaundice, or marked fatigue.

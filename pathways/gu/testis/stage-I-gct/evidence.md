@@ -1,7 +1,7 @@
 # Testis → Clinical stage I germ-cell tumor
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Shared decision support after orchiectomy for clinical stage I seminoma or nonseminomatous germ-cell tumor
 Status: current — surveillance is preferred when reliable follow-up is feasible; adjuvant treatment reduces relapse but does not establish a survival advantage over surveillance
@@ -31,6 +31,15 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 | Stage I seminoma selecting relapse reduction | One carboplatin AUC 7 cycle → structured surveillance. | TE19 compares carboplatin with radiotherapy, not surveillance. |
 | Stage I NSGCT, especially LVI-positive or surveillance unsuitable | One BEP cycle → structured surveillance. | The cited randomized trial compares one BEP cycle with RPLND, not either approach with surveillance. |
 | Highly selected NSGCT | Primary nerve-sparing RPLND → structured surveillance or pathology-directed management. | Center expertise and pathology matter; do not apply an RPLND strategy to seminoma. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| Surveillance (preferred when feasible) | Seminoma: MRI or CT plus markers per TRISST/guideline schedules (MRI may reduce advanced relapse vs CT); NSGCT: markers and imaging per IGCCCG/guideline stage I schedules. | No further adjuvant treatment after orchiectomy when surveillance selected. | Marker rise or imaging relapse → BEP or EP per metastatic/stage II pathway; refer to germ-cell center. |
+| One-cycle adjuvant (carboplatin or BEP) | Markers and imaging per guideline post-adjuvant schedules. | Single adjuvant cycle completes treatment; do not extend without relapse. | Relapse → standard metastatic GCT chemotherapy per IGCCCG group. |
+
+- Adjuvant carboplatin or one BEP reduces relapse but does not establish survival benefit over surveillance in the cited trials.
 
 ## Landmark evidence
 
@@ -86,6 +95,7 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 - [Albers et al. (2008). AH 01/94. *Journal of Clinical Oncology*. PMID: 18458040](https://pubmed.ncbi.nlm.nih.gov/18458040/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added stage-I treatment sequencing and monitoring tables for surveillance alternatives, chemotherapy, radiotherapy, and RPLND.
 - 2026-09-21: Created stage I seminoma and NSGCT reference with explicit surveillance, adjuvant, and fertility boundaries.

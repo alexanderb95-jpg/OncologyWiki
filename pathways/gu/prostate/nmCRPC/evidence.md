@@ -1,7 +1,7 @@
 # Prostate → nmCRPC
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Shared decision support for high-risk nonmetastatic castration-resistant prostate cancer
 Status: current — three placebo-controlled phase 3 trials support androgen-receptor pathway inhibition with continued ADT in the conventional-imaging, high-risk population
@@ -37,6 +37,15 @@ The pivotal trials do not provide a head-to-head comparison or ranking of apalut
 | High-risk nmCRPC on conventional imaging | Continue ADT → add one of enzalutamide, apalutamide, or darolutamide. | The pivotal trials do not compare the agents head-to-head and require PSADT ≤10 months with conventional-imaging M0 disease. |
 | PSMA-PET-only disease or PSADT >10 months | Individualize surveillance, staging, or trial evaluation. | Direct phase 3 treatment-selection evidence is absent for these states. |
 | Conventional-imaging metastasis or progression while castrate | Continue ADT and transition to the mCRPC pathway with prior ARPI exposure documented. | Do not presume sequential ARPI benefit from these trials. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| On ADT plus ARPI | PSA every 3 months; conventional CT and bone scan every 6–12 months per EAU/NCCN risk-adapted frameworks; testosterone to confirm castration. | Continue ADT plus the selected ARPI until conventional-imaging metastasis, unacceptable toxicity, or shared decision to stop. Pivotal trials did not define a fixed treatment-stop duration. Hold ARPI for grade ≥3 toxicity; do not stop ADT at M0 progression on PET alone outside trial criteria. | Conventional-imaging metastasis while castrate → mCRPC pathway; document prior ARPI agent and duration. |
+| Surveillance-only (outside pivotal population) | PSA every 3 months; imaging per PSADT and clinical concern. | No ARPI if PSADT >10 months or PSMA-PET-only disease without conventional metastasis—individualize. | Rising PSA with new conventional metastases → mCRPC sequencing. |
+
+- PSMA-PET-only disease lacks direct pivotal-trial efficacy estimates; do not use PET alone to stop ADT or ARPI without conventional-imaging confirmation when clinically appropriate.
 
 ## Landmark evidence
 
@@ -109,6 +118,7 @@ No new practice-changing randomized result was identified in the source pack.
 - [PSMACare registry](https://clinicaltrials.gov/study/NCT05849298); [Yu et al. (2026). DAROL interim analysis. *The Oncologist*. PMID: 41176520](https://pubmed.ncbi.nlm.nih.gov/41176520/).
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added nmCRPC sequencing and an explicit all-ARPI on-treatment monitoring table.
 - 2026-09-21: Created a setting-specific high-risk nmCRPC reference with source-verified PROSPER, SPARTAN, and ARAMIS evidence, trial boundaries, toxicity counseling, and an Epic phrase companion.

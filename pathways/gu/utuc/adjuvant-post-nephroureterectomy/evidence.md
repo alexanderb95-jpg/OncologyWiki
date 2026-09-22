@@ -1,7 +1,7 @@
 # Upper tract urothelial carcinoma → Adjuvant treatment after nephroureterectomy
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Shared decision support for high-risk UTUC after radical nephroureterectomy
 Status: current — POUT supports adjuvant gemcitabine–platinum for its eligible postoperative population
@@ -31,6 +31,15 @@ Status: current — POUT supports adjuvant gemcitabine–platinum for its eligib
 | Post-RNU GFR 30–49 mL/min | Gemcitabine–carboplatin. | POUT was not designed to compare cisplatin with carboplatin. |
 | Platinum-ineligible or declining, high-risk disease | Discuss nivolumab or trial/surveillance with explicit UTUC evidence limits. | CheckMate 274 is all-MIUC; do not claim an unreported UTUC subgroup efficacy result. |
 | No prior bladder cancer after RNU | Deliver the separate single intravesical postoperative chemotherapy intervention. | This reduces bladder recurrence; it is not systemic recurrence treatment. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| After RNU (surveillance arm or post-chemo) | CT chest/abdomen/pelvis every 6 months × 2 years, then annually per EAU UTUC frameworks; cystoscopy/urinary tract evaluation for bladder recurrence; single postoperative intravesical chemotherapy when indicated. | Complete four cycles of adjuvant gemcitabine–platinum within 90 days if selected; then surveillance only. | Local recurrence → re-resection when feasible; metastatic recurrence → systemic therapy (metastatic UTUC/mUC page). |
+| On adjuvant gemcitabine–platinum | CBC, renal function, electrolytes each cycle; audiometry if cisplatin. | Stop after four cycles per POUT; hold for febrile neutropenia or renal decline. | Progression on therapy → systemic second-line options; platinum-ineligible may discuss nivolumab with explicit all-MIUC evidence boundary. |
+
+- Bladder recurrence surveillance is distinct from systemic UTUC recurrence monitoring.
 
 ## Landmark evidence
 
@@ -82,6 +91,7 @@ No care-changing prospective UTUC-specific result was identified in the retrieve
 - [Coleman et al. (2023). AUA/SUO UTUC guideline. *Journal of Urology*. PMID: 37096584](https://pubmed.ncbi.nlm.nih.gov/37096584/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added post-RNU therapy sequencing and all-option on-treatment monitoring, retaining the all-MIUC boundary for nivolumab.
 - 2026-09-21: Created post-nephroureterectomy UTUC page with POUT eligibility, outcomes, and trial-first toxicity counseling.

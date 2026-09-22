@@ -1,7 +1,7 @@
 # Testis → Metastatic germ-cell tumor
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Decision support for stage IIC/III or systemic germ-cell tumor requiring first-line chemotherapy
 Status: current — treatment is IGCCCG-directed and should be coordinated by an experienced germ-cell tumor team
@@ -33,6 +33,15 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 | Intermediate-risk seminoma or intermediate-/poor-risk NSGCT | BEP ×4 → response assessment and residual-mass management. | No poor-prognosis seminoma group exists. |
 | Bleomycin contraindication in intermediate-/poor-risk disease | VIP ×4 with primary G-CSF → response assessment. | Use an expert germ-cell center; this is not simply an extra drug added to BEP. |
 | Poor-risk NSGCT with unfavorable marker decline after cycle 1 | Refer to a germ-cell center for the GETUG-13-style marker-directed intensification discussion. | The randomized signal applies only to the selected unfavorable-decline population; it does not establish universal first-line intensification. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| During BEP/EP/VIP | Markers before each cycle; imaging after cycle 2–3 and at completion; audiometry and pulmonary function when bleomycin used. | Complete planned cycles (BEP ×3/×4, EP ×4, VIP ×4); hold bleomycin for pulmonary symptoms; dose-reduce cisplatin for renal toxicity per center policy. GETUG-13 intensification only for selected poor-risk unfavorable marker decline. | Incomplete marker normalization or growing masses → salvage chemotherapy or post-chemo RPLND per germ-cell center. |
+| Post-chemotherapy remission | Markers every 1–3 months initially, then extend; imaging of residual masses per guideline (PET for seminoma residual >3 cm; RPLND for NSGCT residual). | Stop chemotherapy at protocol completion; no maintenance in standard first-line. | Relapse → salvage BEP/VIP/high-dose or experimental protocols at expert center. |
+
+- Residual mass management differs for seminoma (PET-directed observation or radiation) vs NSGCT (RPLND for teratoma/viable GCT).
 
 ## Landmark evidence
 
@@ -88,6 +97,7 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 - [Fizazi et al. (2024). GETUG-13. *Journal of Clinical Oncology*. PMID: 39167741](https://pubmed.ncbi.nlm.nih.gov/39167741/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added IGCCCG-directed treatment sequencing and all-regimen on-treatment monitoring for BEP, EP, VIP, and marker-directed intensification.
 - 2026-09-21: Created metastatic GCT page with IGCCCG boundaries, first-line regimens, and source-qualified toxicity counseling.

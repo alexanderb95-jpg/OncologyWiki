@@ -1,7 +1,7 @@
 # Prostate → Early salvage radiotherapy after prostatectomy
 
-Last reviewed: 2026-09-21
-Next review: 2026-12-20
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Decision support for biochemical recurrence or persistent PSA after radical prostatectomy
 Status: current — early salvage radiotherapy is most effective at low PSA; systemic and nodal intensification must match trial risk boundaries
@@ -30,6 +30,15 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 | High-risk features with salvage radiotherapy | Add ADT to prostate-bed radiotherapy. | Duration should match the risk and pivotal trial boundary; GETUG-AFU 16 does not establish long-course ADT for every patient. |
 | Selected nodal-risk disease | Prostate-bed plus pelvic-node radiotherapy with 4–6 months ADT. | SPPORT is a three-arm trial; it does not isolate a radiation-field effect without ADT. |
 | PET-detected distant disease or progression after salvage | Move to a metastatic systemic-therapy pathway. | This page does not establish a preferred systemic sequence after salvage radiotherapy. |
+
+## Surveillance and treatment de-escalation
+
+| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| Before and during salvage RT | PSA, testosterone, and imaging to exclude distant disease; treat at PSA ≤0.5 ng/mL when feasible (≤0.2 ng/mL for high-risk features per society guidance). | Complete radiotherapy course; ADT duration matches trial (GETUG-AFU 16: two goserelin injections; RTOG 9601: 24 months bicalutamide; SPPORT: 4–6 months ADT with nodal fields). | Progression after salvage → ADT intensification, metastatic systemic therapy, or repeat local assessment. |
+| After salvage RT ± ADT | PSA every 3–6 months; monitor ADT side effects and bone health. | Stop short-course ADT at planned end; long-course bicalutamide completes 24 months unless toxicity. | Rising PSA with imaging-confirmed metastases → mHSPC/mCRPC pathways. |
+
+- Pelvic-node radiotherapy plus short ADT (SPPORT) is for selected nodal-risk disease; do not extend nodal fields without trial-consistent indications.
 
 ## Landmark evidence
 
@@ -84,6 +93,7 @@ Status: current — early salvage radiotherapy is most effective at low PSA; sys
 - [Pollack et al. (2022). SPPORT. *Lancet*. PMID: 35569466](https://pubmed.ncbi.nlm.nih.gov/35569466/)
 
 ## Changelog
+- 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
 - 2026-09-21: Added early-salvage sequencing and radiotherapy/ADT monitoring tables.
 - 2026-09-21: Created early-salvage radiotherapy page with source-verified intensification evidence and toxicity counseling.
