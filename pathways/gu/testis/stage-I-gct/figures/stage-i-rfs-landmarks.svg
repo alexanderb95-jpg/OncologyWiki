@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" role="img">
+<rect width="100%" height="100%" fill="#fffcf7"/>
+<text x="40" y="28" style="font:600 17px Arial;fill:#1c1917">Stage I GCT — published relapse-free landmarks</text>
+<text x="40" y="50" style="font:12px Arial;fill:#57534e">TE19/EORTC 30982 (seminoma) and AH 01/94 (NSGCT); not vs surveillance head-to-head in both</text>
+<text x="80" y="120" style="font:600 14px Arial">TE19 5-year RFS</text>
+<rect x="80" y="170.6" width="55" height="189.4" fill="#1d4ed8"/>
+<text x="107" y="166.6" text-anchor="middle" style="font:600 11px Arial">94.7%</text>
+<text x="107" y="380" text-anchor="middle" style="font:10px Arial;fill:#444">Carboplatin</text>
+<rect x="150" y="168.0" width="55" height="192.0" fill="#b45309"/>
+<text x="177" y="164.0" text-anchor="middle" style="font:600 11px Arial">96.0%</text>
+<text x="177" y="380" text-anchor="middle" style="font:10px Arial;fill:#444">Adjuvant RT</text>
+<text x="480" y="120" style="font:600 14px Arial">AH 01/94 2-year RFS</text>
+<rect x="480" y="161.08" width="55" height="198.92" fill="#1d4ed8"/>
+<text x="507" y="157.08" text-anchor="middle" style="font:600 11px Arial">99.46%</text>
+<text x="507" y="380" text-anchor="middle" style="font:10px Arial;fill:#444">1× BEP</text>
+<rect x="550" y="176.26" width="55" height="183.74" fill="#b45309"/>
+<text x="577" y="172.26" text-anchor="middle" style="font:600 11px Arial">91.87%</text>
+<text x="577" y="380" text-anchor="middle" style="font:10px Arial;fill:#444">RPLND</text>
+<text x="40" y="388" style="font:11px Arial;fill:#57534e">Published landmark rates only; TE19 compared carboplatin with adjuvant RT (not surveillance). Sources as cited on page.</text>
+</svg>

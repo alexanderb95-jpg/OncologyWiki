@@ -36,11 +36,20 @@ The [EAU RCC guideline](https://uroweb.org/guidelines/renal-cell-carcinoma/chapt
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
-|---|---|---|---|
-| Risk-adapted surveillance (no adjuvant) | Cross-sectional imaging every 3–6 months × 3 years, then annually per EAU/NCCN RCC surveillance by stage; renal function and blood pressure[^14][^15]. | No systemic therapy when outside KEYNOTE-564 eligibility or patient declines[^1][^14]. | Recurrence → metastatic RCC page or metastasectomy discussion for oligometastatic disease[^14][^15]. |
-| Adjuvant pembrolizumab (± belzutifan US label) | CBC, CMP, TSH every 3 weeks (or q6wk if q6wk pembro); immune-symptom review each visit[^18][^2]. | Complete up to 17 cycles (pembro) or 1 year per label unless progression or toxicity; hold for grade ≥3 immune events[^1][^18]. Belzutifan continues with pembro for labeled duration; OS immature for combination—shared decision to stop at 1 year[^5][^19]. | Recurrence on or after adjuvant → mRCC page; prior adjuvant PD-1 exposure informs first-line metastatic choice[^14][^15]. |
+### EAU Leibovich-adapted imaging (chest + abdomen CT; abdominal MRI alternative)
 
+| Risk (ccRCC Leibovich 2003) | 3 mo | 6 mo | 12 mo | 18 mo | 24 mo | 30 mo | 36 mo | After year 3 | After year 5 |
+|---|---|---|---|---|---|---|---|---|---|
+| Low (score 0–2)[^14] | — | CT | — | CT | — | CT | — | CT every 2 years[^14] | Consider stopping oncologic imaging based on age/comorbidity/preference[^14] |
+| Intermediate (score 3–5)[^14] | — | CT | CT | — | CT | — | CT | Annual CT[^14] | CT every 2 years; consider stopping after year 5[^14] |
+| High (score ≥6)[^14] | CT | CT | CT | CT | CT | — | CT | Annual CT[^14] | CT every 2 years[^14] |
+
+| Phase | Labs / on-treatment monitoring | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|---|
+| Risk-adapted surveillance (no adjuvant)[^14][^15] | Renal function and blood pressure with imaging visits[^14]. | No systemic therapy when outside KEYNOTE-564 eligibility or patient declines[^1][^14]. | Recurrence → metastatic RCC page or metastasectomy discussion for oligometastatic disease[^14][^15]. |
+| Adjuvant pembrolizumab (± belzutifan US label)[^18][^2] | CBC, CMP, TSH every 3 weeks (or q6wk if q6wk pembro); immune-symptom review each visit[^18][^2]. | Complete up to 17 cycles (pembro) or 1 year per label unless progression or toxicity; hold for grade ≥3 immune events[^1][^18]. Belzutifan continues with pembro for labeled duration; OS immature for combination—shared decision to stop at 1 year[^5][^19]. | Recurrence on or after adjuvant → mRCC page; prior adjuvant PD-1 exposure informs first-line metastatic choice[^14][^15]. |
+
+- KEYNOTE-564 DFS/OS curves already appear under Landmark evidence (source-recreated); use them when counseling surveillance versus adjuvant pembrolizumab[^3][^4].
 - EAU recommends offering adjuvant pembrolizumab after restaging, preferably 12–16 weeks post-nephrectomy, for KEYNOTE-564-defined risk[^14].
 
 ## Landmark evidence
@@ -71,13 +80,14 @@ Trial results are not head-to-head efficacy comparisons: eligibility, recurrence
 
 ## Biomarkers
 
-| Marker or feature | Role now | Practical boundary |
-|---|---|---|
-| Clear-cell component and KEYNOTE-564 risk features | Direct-evidence selection[^1] | Confirm on nephrectomy pathology; do not substitute a prognostic score for the pivotal eligibility definition[^1]. |
-| PD-L1 | Not a routine adjuvant selector[^1][^14] | No validated threshold selects who benefits from adjuvant pembrolizumab[^1][^14]. |
-| ctDNA / molecular residual disease | Investigational[^14] | Do not withhold adjuvant therapy because MRD is negative outside a trial[^14]. [MRD GATE RCC](https://clinicaltrials.gov/study/NCT06005818) is testing an MRD-guided strategy in KEYNOTE-564–eligible clear-cell RCC[^14]. |
-| Tumor genomic or expression signature | Investigational[^14] | No validated molecular assay selects adjuvant pembrolizumab in this setting[^14]. |
-| Germline evaluation | Hereditary-risk assessment, not adjuvant selection[^14][^17] | Consider when age, bilateral/multifocal disease, family history, or syndrome features raise concern[^14][^17]. |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| Clear-cell + KEYNOTE-564 risk features | Direct-evidence selection for adjuvant pembrolizumab[^1] | — | Defines who is inside the pivotal population for adjuvant discussion[^1]. | Confirm on nephrectomy pathology; do not extend benefit claims to non-clear-cell or lower-risk disease[^1]. |
+| Leibovich score (2003) | Risk-adapted surveillance imaging intensity (EAU)[^14] | — | Sets chest/abdomen CT cadence for observation after nephrectomy[^14]. | Prognostic imaging framework only; not a substitute for KEYNOTE-564 adjuvant eligibility[^1][^14]. |
+| PD-L1 | Not a routine adjuvant selector[^1][^14] | Exploratory correlatives in adjuvant ICI trials[^1][^14] | Does not select who receives adjuvant pembrolizumab[^1][^14]. | No validated threshold for adjuvant benefit[^1][^14]. |
+| ctDNA / MRD | Not standard for adjuvant selection[^14] | [MRD GATE RCC](https://clinicaltrials.gov/study/NCT06005818) testing MRD-guided observation vs pembrolizumab in KEYNOTE-564–eligible ccRCC[^14] | Do not withhold adjuvant therapy for a negative MRD result outside a trial[^14]. | Assay performance and decision thresholds are not practice-ready on this page[^14]. |
+| Tumor genomic / expression signature | Not used to select adjuvant pembrolizumab[^14] | Investigational molecular classifiers[^14] | No change to adjuvant or surveillance choice today[^14]. | No validated assay for this setting[^14]. |
+| Germline evaluation | Hereditary-risk assessment when age, bilateral/multifocal disease, family history, or syndrome features raise concern[^14][^17] | Broader panel testing when indicated[^14][^17] | Informs genetic counseling and contralateral/family risk; not adjuvant drug selection[^14][^17]. | Does not replace KEYNOTE-564 pathology criteria[^1][^14]. |
 
 ## Upcoming research
 
@@ -145,6 +155,7 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 19. [FDA WELIREG label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215383s015lbl.pdf)
 
 ## Changelog
+- 2026-09-22: Replaced surveillance with EAU Leibovich-adapted chest/abdomen CT schedule; expanded Biomarkers to five-column clinic/investigational table; mirrored Leibovich cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in Standard options / monitoring counseling rates and mirrored comparator-named toxicity counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.

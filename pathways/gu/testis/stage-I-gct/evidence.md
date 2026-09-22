@@ -34,12 +34,32 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring cadence | Stop, hold, or de-escalate | Re-escalation / next line |
-|---|---|---|---|
-| Surveillance (preferred when feasible)[^2][^4] | Seminoma: MRI or CT plus markers per TRISST/guideline schedules (MRI may reduce advanced relapse vs CT); NSGCT: markers and imaging per IGCCCG/guideline stage I schedules[^2][^4]. | No further adjuvant treatment after orchiectomy when surveillance selected[^4]. | Marker rise or imaging relapse → BEP or EP per metastatic/stage II pathway; refer to germ-cell center[^4][^6]. |
-| One-cycle adjuvant (carboplatin or BEP)[^1][^3] | Markers and imaging per guideline post-adjuvant schedules[^4][^6]. | Single adjuvant cycle completes treatment; do not extend without relapse[^1][^3]. | Relapse → standard metastatic GCT chemotherapy per IGCCCG group[^4]. |
+#### Seminoma CS I (surveillance or after adjuvant carboplatin/RT)[^4]
+
+| Modality | Year 1 | Year 2 | Year 3 | Years 4–5 | After 5 years |
+|---|---|---|---|---|---|
+| Tumour markers ± visit[^4] | 2× | 2× | 2× | 1× | Survivorship plan[^4] |
+| Chest X-ray[^4] | — | — | — | — | — |
+| Abdominopelvic MRI/CT[^4] | 2× | 2× | Once at 36 mo | Once at 60 mo | — |
+
+#### NSGCT CS I on active surveillance[^4]
+
+| Modality | Year 1 | Year 2 | Year 3 | Years 4–5 | After 5 years |
+|---|---|---|---|---|---|
+| Tumour markers ± visit[^4] | 4× (minority suggest 6× if LVI+)[^4] | 4× | 2× | 1–2× | Survivorship plan[^4] |
+| Chest X-ray[^4] | 2× | 2× | Once if LVI+ | At 60 mo if LVI+ | — |
+| Abdominopelvic MRI/CT[^4] | 2× | At 24 mo (+18 mo if LVI+ per majority)[^4] | Once at 36 mo | Once at 60 mo | — |
+
+| Phase | Stop, hold, or de-escalate | Re-escalation / next line |
+|---|---|---|
+| Surveillance (preferred when feasible)[^2][^4] | No further adjuvant treatment after orchiectomy when surveillance selected[^4]. | Marker rise or imaging relapse → BEP or EP per metastatic/stage II pathway; refer to germ-cell center[^4][^6]. |
+| One-cycle adjuvant (carboplatin or BEP)[^1][^3] | Single adjuvant cycle completes treatment; do not extend without relapse[^1][^3]. Markers and imaging per EAU post-adjuvant schedules above[^4]. | Relapse → standard metastatic GCT chemotherapy per IGCCCG group[^4]. |
 
 - Adjuvant carboplatin or one BEP reduces relapse but does not establish survival benefit over surveillance in the cited trials[^1][^3].
+
+![Stage I GCT published relapse-free landmarks](figures/stage-i-rfs-landmarks.svg)
+
+Published landmark relapse-free rates only (TE19 5-year RFS; AH 01/94 2-year RFS); not full KM reconstructions; TE19 compared carboplatin with adjuvant RT, not surveillance[^1][^3].
 
 ## Landmark evidence
 
@@ -52,11 +72,12 @@ Status: current — surveillance is preferred when reliable follow-up is feasibl
 
 ## Biomarkers
 
-| Feature | Role now | Practical boundary |
-|---|---|---|
-| Lymphovascular invasion in NSGCT | Relapse-risk stratification[^4] | EAU estimates relapse about 15% without LVI and up to 50% with LVI; shared decision, not a survival mandate[^4]. |
-| Tumor size and rete testis invasion in seminoma | Prognostic discussion only[^5] | AUA advises against using these as a stand-alone management rule[^5]. |
-| miR-371a-3p | Investigational surveillance biomarker[^8][^9] | Do not replace imaging or standard markers outside a study[^8][^9]. |
+| Marker | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
+|---|---|---|---|---|
+| Lymphovascular invasion (NSGCT) | Best-validated relapse-risk factor for stage I NSGCT[^4] | — | Favors shared discussion of one BEP vs surveillance when LVI+; EAU estimates relapse about 15% without LVI and up to 50% with LVI[^3][^4]. | Shared decision, not a survival mandate for adjuvant therapy[^4]. |
+| Tumor size / rete testis invasion (seminoma) | Prognostic discussion only[^5] | — | May inform counseling intensity; do not use as a stand-alone management rule[^5]. | AUA advises against stand-alone management based on these features[^5]. |
+| AFP, hCG, LDH | Staging confirmation and surveillance follow-up[^4] | — | Persistently rising AFP/hCG after orchiectomy is occult systemic disease, not a stage I surveillance/adjuvant population; elevated AFP rules out pure seminoma[^4]. | Pre-orchiectomy values alone do not define metastatic IGCCCG groups[^4]. |
+| miR-371a-3p | Not standard for surveillance decisions[^8][^9] | [MAGESTIC](https://clinicaltrials.gov/study/NCT06060873) and observational cohorts testing relapse detection[^8][^9] | Do not replace imaging or standard markers outside a study[^8][^9]. | Not practice-ready as a treatment-selection assay on this page[^8][^9]. |
 
 ## Upcoming research
 
@@ -103,6 +124,7 @@ Field direction: miR-371 assays are the main surveillance research track that co
 9. [Belge et al. (2023). miR-371 surveillance cohort. PMID: 37967143](https://pubmed.ncbi.nlm.nih.gov/37967143/)
 
 ## Changelog
+- 2026-09-22: Replaced vague surveillance with EAU minimal follow-up tables for seminoma and NSGCT CS I; added published RFS landmark figure; expanded Biomarkers to five-column table; mirrored marker/imaging cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
