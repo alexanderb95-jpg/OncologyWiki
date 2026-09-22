@@ -95,6 +95,7 @@ Status: current — modern trials support surveillance with early salvage radiot
 9. [NRG-GU008 / INNOVATE](https://clinicaltrials.gov/study/NCT04134260)
 
 ## Changelog
+- 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 

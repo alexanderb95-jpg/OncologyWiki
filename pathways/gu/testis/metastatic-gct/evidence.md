@@ -102,6 +102,7 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 9. [TIGER](https://clinicaltrials.gov/study/NCT02375204)
 
 ## Changelog
+- 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 

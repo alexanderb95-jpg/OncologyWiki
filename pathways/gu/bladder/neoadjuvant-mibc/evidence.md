@@ -77,8 +77,8 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 
 | SOC/option regimen | Hallmark monitoring toxicity and available rate | Patient action / clinic response |
 |---|---|---|
-| Perioperative EV plus pembrolizumab, EV-303 | FDA label: rash 54%, grade 3–4 7%; peripheral neuropathy 39%, grade 3–4 3%; increased glucose 72%, grade 3–4 12%; increased creatinine 47%, grade 3–4 8%[^4]. | Check neuropathy, skin, glucose, renal function, visual symptoms, and immune-mediated bowel, lung, liver, and endocrine symptoms before each treatment; new numbness/weakness, thirst/polyuria, rash, vision change, dyspnea, or persistent diarrhea requires prompt contact and a pre-dose assessment[^4]. |
-| Perioperative EV plus pembrolizumab, EV-304 | FDA label: rash 63%, grade 3–4 12%; peripheral neuropathy 43%, grade 3–4 3%; hyperglycemia 20%, grade 3–4 7%; dry eye 25%, no grade 3–4 event; increased creatinine 49%, grade 3–4 8%[^4]. | Use the same EV and immune monitoring; focus on cumulative neuropathy, glucose, renal function, and visual symptoms before postoperative doses[^4]. |
+| Perioperative EV plus pembrolizumab, EV-303 | FDA label treatment-arm rates (single-arm label rates; no paired comparator % in the retained label table): rash 54%, grade 3–4 7%; peripheral neuropathy 39%, grade 3–4 3%; increased glucose 72%, grade 3–4 12%; increased creatinine 47%, grade 3–4 8%[^4]. Trial-level grade ≥3 AEs 71.3% vs 45.9% with RC+PLND alone[^1]. | Check neuropathy, skin, glucose, renal function, visual symptoms, and immune-mediated bowel, lung, liver, and endocrine symptoms before each treatment; new numbness/weakness, thirst/polyuria, rash, vision change, dyspnea, or persistent diarrhea requires prompt contact and a pre-dose assessment[^4]. |
+| Perioperative EV plus pembrolizumab, EV-304 | FDA label treatment-arm rates (single-arm label rates; no paired comparator % in the retained label table): rash 63%, grade 3–4 12%; peripheral neuropathy 43%, grade 3–4 3%; hyperglycemia 20%, grade 3–4 7%; dry eye 25%, no grade 3–4 event; increased creatinine 49%, grade 3–4 8%[^4]. Trial-level grade ≥3 AEs 75.7% vs 67.2% with neoadjuvant GC[^2]. | Use the same EV and immune monitoring; focus on cumulative neuropathy, glucose, renal function, and visual symptoms before postoperative doses[^4]. |
 | Perioperative durvalumab plus GC, NIAGARA | Grade 3–4 treatment-related AEs 40.6% vs 40.9%; a comparable named monitoring rate was not extracted from the retrieved primary source set[^3]. | Check CBC, renal function, electrolyte replacement needs, neuropathy/hearing symptoms, and immune-mediated bowel, lung, liver, and endocrine symptoms. Fever, infection symptoms, dyspnea, severe diarrhea, or reduced urine output needs urgent assessment[^3]. |
 
 ## Guideline references
@@ -100,6 +100,7 @@ Status: current — treatment is cystectomy-anchored; perioperative strategies m
 8. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
 ## Changelog
+- 2026-09-22: Labeled FDA monitoring rates as single-arm label rates and restated trial-level grade ≥3 AEs with named comparators; mirrored comparator-named counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 

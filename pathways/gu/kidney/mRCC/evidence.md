@@ -86,7 +86,7 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 | Pembrolizumab plus axitinib | KEYNOTE-426: hypertension 44.5%, grade 3–5 22.1%; ALT increase 26.8%, grade 3–5 13.3%; diarrhea 54.3%, grade 3–5 9.1%; proteinuria 17.5%, grade 3–5 2.8%[^2]. | Check blood pressure and liver tests and review diarrhea, hand-foot/skin effects, proteinuria, and immune symptoms; severe headache/chest symptoms, jaundice, persistent diarrhea, or dyspnea needs prompt contact[^2]. |
 | Nivolumab plus cabozantinib | CheckMate 9ER: diarrhea 63.8%, grade ≥3 6.9%; hypertension 34.7%, grade ≥3 12.5%; hand-foot syndrome 40.0%, grade ≥3 7.5%; ALT increase 28.1%, grade ≥3 5.3%[^3]. | Monitor blood pressure, renal protein loss, diarrhea, hand-foot/skin changes, liver tests, thyroid function, and immune symptoms; severe diarrhea, bleeding, chest symptoms, jaundice, or dyspnea needs prompt contact[^3]. |
 | Pembrolizumab plus lenvatinib | CLEAR: hypertension 55.4%, grade ≥3 27.6%; diarrhea 61.4%, grade ≥3 9.7%; proteinuria 29.5%, grade ≥3 7.7%; hypothyroidism 47.2%, grade ≥3 1.4%[^4]. | Monitor blood pressure, renal protein loss, diarrhea, hand-foot/skin changes, liver tests, thyroid function, and immune symptoms; severe diarrhea, bleeding, chest symptoms, jaundice, or dyspnea needs prompt contact[^4]. |
-| Belzutifan | LITESPARK-005 label: decreased hemoglobin 88%, grade 3–4 29%; hypoxia 15%, grade 3–4 10%[^5]. LITESPARK-005 trial: grade ≥3 any-cause AEs 61.8% vs 62.5%; discontinuation 5.9% vs 14.7%[^5]. | Check CBC and oxygen saturation; new fatigue, lightheadedness, palpitations, or shortness of breath should prompt contact and marked breathing difficulty needs urgent assessment[^5]. |
+| Belzutifan | LITESPARK-005 label treatment-arm rates (single-arm label rates for named events; no paired everolimus % in the retained label row): decreased hemoglobin 88%, grade 3–4 29%; hypoxia 15%, grade 3–4 10%[^5]. LITESPARK-005 trial: grade ≥3 any-cause AEs 61.8% vs 62.5% with everolimus; discontinuation 5.9% vs 14.7% with everolimus[^5]. | Check CBC and oxygen saturation; new fatigue, lightheadedness, palpitations, or shortness of breath should prompt contact and marked breathing difficulty needs urgent assessment[^5]. |
 
 ## Guideline references
 
@@ -108,6 +108,7 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 9. [AUA localized renal mass guideline](https://pubmed.ncbi.nlm.nih.gov/34115531/)
 
 ## Changelog
+- 2026-09-22: Named everolimus as the LITESPARK-005 comparator in belzutifan monitoring rates; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 - 2026-09-21: Added trial- and label-verified named monitoring rates for every listed IO/IO, IO/VEGFR, and belzutifan regimen.

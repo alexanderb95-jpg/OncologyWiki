@@ -124,6 +124,7 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 15. [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
 
 ## Changelog
+- 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 - 2026-09-21: Added pivotal named monitoring rates for each listed ARPI, taxane, radioligand, PARP, and AKT-pathway regimen.

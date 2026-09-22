@@ -88,7 +88,7 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 
 | SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
 |---|---|---|
-| EV plus pembrolizumab | EV-302 FDA label: peripheral neuropathy 67%, grade 3–4 8%; rash 68%, grade 3–4 15%; increased glucose 66%, grade 3–4 14%; dry eye 24%, no grade 3–4 event[^7]. | Check sensory and motor symptoms, skin, glucose, and visual symptoms at each treatment review. New or worsening numbness/weakness, thirst/polyuria, rash, or vision change should prompt contact before the next dose[^7]. |
+| EV plus pembrolizumab | EV-302 FDA label treatment-arm rates (single-arm label rates; no paired comparator % in the retained label table): peripheral neuropathy 67%, grade 3–4 8%; rash 68%, grade 3–4 15%; increased glucose 66%, grade 3–4 14%; dry eye 24%, no grade 3–4 event[^7]. Trial-level grade ≥3 TRAEs 55.9% vs 69.5% with platinum chemotherapy[^1]. | Check sensory and motor symptoms, skin, glucose, and visual symptoms at each treatment review. New or worsening numbness/weakness, thirst/polyuria, rash, or vision change should prompt contact before the next dose[^7]. |
 | Nivolumab plus GC | CheckMate 901: anemia 57.2%, grade ≥3 22.0%; neutropenia 30.6%, grade ≥3 18.8%; decreased neutrophils 24.7%, grade ≥3 14.5%; one treatment-related grade-5 sepsis[^2]. | Check CBC and renal function and review fever, neuropathy, hearing change, and immune-mediated diarrhea, dyspnea, hepatitis, or endocrinopathy; fever, dyspnea, or severe diarrhea needs urgent assessment[^2]. |
 | Avelumab maintenance | JAVELIN Bladder 100: infusion reaction 10.2%, grade ≥3 0.9%; long-term treatment-related-AE discontinuation 10.2%[^3]. | Premedicate during the first four infusions per label and review thyroid, hepatic, renal, pulmonary, and bowel symptoms during and after treatment; new cough/dyspnea, persistent diarrhea/abdominal pain, jaundice, or marked fatigue should prompt urgent contact[^3]. |
 | EV monotherapy | EV-301: peripheral neuropathy 48.0%, grade ≥3 7.4%; hyperglycemia 6.8%, grade ≥3 4.4%; skin reactions 47.3%, grade ≥3 14.9%[^4]. | Monitor sensory symptoms, glucose, and skin from the first cycles; hold and assess for progressive neuropathy, severe rash/blistering, or symptomatic hyperglycemia[^4][^7]. |
@@ -119,6 +119,7 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 12. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
 ## Changelog
+- 2026-09-22: Labeled EV-302 monitoring rates as single-arm label rates and restated grade ≥3 TRAEs vs platinum; mirrored comparator-named efficacy counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 - 2026-09-21: Updated on-treatment monitoring with retrieved EV-302 label, CheckMate 901, JAVELIN, THOR, and KEYNOTE-045 named-event rates.

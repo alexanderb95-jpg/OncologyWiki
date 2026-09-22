@@ -94,6 +94,7 @@ No named prospective variant-specific result was identified that is likely to ch
 9. [EAU–ESMO variant bladder cancer consensus](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360152/)
 
 ## Changelog
+- 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 

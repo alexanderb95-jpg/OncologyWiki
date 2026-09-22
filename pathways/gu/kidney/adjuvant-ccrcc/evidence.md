@@ -26,7 +26,7 @@ Status: current — pembrolizumab has randomized DFS and OS benefit; in the US, 
 | Circumstance | Option | Shared-decision discussion | Typical course |
 |---|---|---|---|
 | KEYNOTE-564–eligible clear-cell RCC | Pembrolizumab[^1] | Randomized benefit was versus placebo, not surveillance[^1]. Discuss the DFS/OS results, immune-related toxicity, and possibility of overtreatment[^4][^2]. | Trial regimen: 200 mg IV every 3 weeks for up to 17 cycles[^1]. The [current US label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf) also permits 400 mg IV every 6 weeks[^18]. |
-| US adult with intermediate-high/high-risk clear-cell RCC or qualifying M1 NED | Pembrolizumab plus belzutifan[^5][^19] | FDA-labeled in the US[^18][^19]. [LITESPARK-022](https://pubmed.ncbi.nlm.nih.gov/42384869/) showed a DFS benefit over pembrolizumab plus placebo, but OS was immature and grade ≥3 treatment-emergent AEs were more frequent[^5]. Do not present it as OS-proven or interchangeable with pembrolizumab alone[^5][^19]. | Pembrolizumab 200 mg IV every 3 weeks or 400 mg IV every 6 weeks plus belzutifan 120 mg orally daily; up to 1 year per label[^18][^19]. |
+| US adult with intermediate-high/high-risk clear-cell RCC or qualifying M1 NED | Pembrolizumab plus belzutifan[^5][^19] | FDA-labeled in the US[^18][^19]. [LITESPARK-022](https://pubmed.ncbi.nlm.nih.gov/42384869/) showed a DFS benefit over pembrolizumab plus placebo (24-month DFS 80.7% vs 73.7%; HR 0.72), but OS was immature and grade ≥3 treatment-emergent AEs were 52.1% vs 30.2% with pembrolizumab plus placebo[^5]. Do not present it as OS-proven or interchangeable with pembrolizumab alone[^5][^19]. | Pembrolizumab 200 mg IV every 3 weeks or 400 mg IV every 6 weeks plus belzutifan 120 mg orally daily; up to 1 year per label[^18][^19]. |
 | Eligible patient preferring no adjuvant systemic therapy, or with competing risk/frailty/major immune-risk concern | Risk-adapted surveillance[^14][^15] | Active management option; use postoperative imaging and functional follow-up individualized to recurrence risk, renal function, and preferences[^14][^15]. | Ongoing[^14] |
 | Non-clear-cell RCC or a patient outside the pivotal population | Clinical trial or risk-adapted surveillance[^1][^14] | There is no KEYNOTE-564 direct-evidence basis to select pembrolizumab[^1]. | Protocol or ongoing[^14] |
 
@@ -102,7 +102,7 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 | SOC/option regimen | Hallmark monitoring toxicity and published rate | Patient action / clinic response |
 |---|---|---|
 | Pembrolizumab | KEYNOTE-564: immune-mediated AEs 36% vs 7%; hypothyroidism 21% vs 4% and hyperthyroidism 13% vs 0%[^2]. | Check thyroid function and review fatigue, weight or temperature intolerance, palpitations, and other bowel, lung, liver, skin, or endocrine symptoms; persistent diarrhea, dyspnea, jaundice, or marked fatigue requires prompt contact[^2][^18]. |
-| Pembrolizumab plus belzutifan | LITESPARK-022 label: decreased hemoglobin 95%, grade 3–4 11%; increased ALT 57%, grade 3–4 13%; hypoxia 7%, grade ≥3 5%[^19]. | Monitor CBC, ALT, and oxygen saturation; new fatigue, lightheadedness, or dyspnea needs prompt contact and marked breathing difficulty needs urgent assessment[^19]. |
+| Pembrolizumab plus belzutifan | LITESPARK-022 label versus pembrolizumab plus placebo: decreased hemoglobin 95% vs 26%, grade 3–4 11% vs 0.7%; increased ALT 57% vs 33%, grade 3–4 13% vs 3.2%; hypoxia 7% (grade ≥3 5%) in the combination arm—comparator hypoxia rate not reported in the retained label row[^19]. | Monitor CBC, ALT, and oxygen saturation; new fatigue, lightheadedness, or dyspnea needs prompt contact and marked breathing difficulty needs urgent assessment[^19]. |
 
 ### Patient counseling and action plan
 
@@ -143,6 +143,7 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 19. [FDA WELIREG label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215383s015lbl.pdf)
 
 ## Changelog
+- 2026-09-22: Named comparator arms in Standard options / monitoring counseling rates and mirrored comparator-named toxicity counseling in the paired dotphrase.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 

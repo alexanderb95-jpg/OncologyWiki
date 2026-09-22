@@ -123,6 +123,7 @@ No new practice-changing randomized result was identified in the source pack[^10
 13. [AUA/SUO Advanced Prostate Cancer guideline](https://www.auanet.org/guidelines-and-quality/guidelines/advanced-prostate-cancer)
 
 ## Changelog
+- 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
 - 2026-09-22: Added line-level source superscripts ([^n]) linked to numbered Sources.
 - 2026-09-22: Added Surveillance and treatment de-escalation section; strengthened quantified benefit counseling in dotphrase.
 
