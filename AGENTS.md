@@ -12,7 +12,7 @@ pathways/{domain}/{disease}/{setting}/
 ```
 
 - One wiki page covers one disease + setting; keep disease trees split into setting pages.
-- Domains today: `gu`. Planned: `lung`, `heme`, …
+- Domains today: `gu`, `cellular` (Gene / cellular therapy overview). Planned: `lung`, `heme`, …
 - `inbox/` — unreviewed captures (never auto-promoted)
 - `site/` — generated wiki. Do not hand-edit.
 

@@ -29,13 +29,14 @@ WIKI_NAME = "MedOnc wiki"
 
 DOMAIN_LABEL = {
     "gu": "GU oncology",
+    "cellular": "Gene / cellular therapy",
     "lung": "Lung",
     "heme": "Hematologic",
     "melanoma": "Melanoma / skin",
     "breast": "Breast",
 }
 
-DOMAIN_ORDER = ["gu", "lung", "heme", "melanoma", "breast"]
+DOMAIN_ORDER = ["gu", "cellular", "lung", "heme", "melanoma", "breast"]
 
 # Planned settings keyed by (domain, disease). Empty when all settings have pages.
 # Non-GU domains may keep placeholder labels until first evidence pages land.
@@ -46,6 +47,7 @@ PLANNED: dict[tuple[str, str], list[str]] = {
     ("gu", "utuc"): [],
     ("gu", "kidney"): [],
     ("gu", "testis"): [],
+    ("cellular", "gene-cellular"): [],
     ("lung", "nsclc"): ["Not started — add first setting page when ready"],
     ("heme", "aml"): ["Not started — add first setting page when ready"],
 }
@@ -57,12 +59,14 @@ DISEASE_LABEL = {
     "utuc": "UTUC",
     "kidney": "RCC",
     "testis": "Testis",
+    "gene-cellular": "Gene and cellular therapy",
     "nsclc": "NSCLC",
     "aml": "AML",
 }
 
 DISEASE_ORDER = {
     "gu": ["prostate", "bladder", "variant-bladder", "utuc", "kidney", "testis"],
+    "cellular": ["gene-cellular"],
     "lung": ["nsclc"],
     "heme": ["aml"],
 }
@@ -83,6 +87,7 @@ SETTING_LABEL = {
     ("gu", "kidney", "mRCC"): "Metastatic RCC",
     ("gu", "testis", "stage-I-gct"): "Stage I GCT",
     ("gu", "testis", "metastatic-gct"): "Metastatic GCT",
+    ("cellular", "gene-cellular", "overview"): "Overview",
 }
 
 # Related: (domain, disease, setting) → list of (domain, disease, setting, label)
