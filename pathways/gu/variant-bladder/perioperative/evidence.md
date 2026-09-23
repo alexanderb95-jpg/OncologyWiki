@@ -1,7 +1,7 @@
 # Variant bladder → Perioperative disease
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-09-23
+Next review: 2026-12-22
 Owner: GU clinic
 Purpose: Decision support for muscle-invasive bladder cancer with variant histology or extensive differentiation
 Status: current — evidence is subtype-specific and predominantly nonrandomized; expert GU-pathology review is essential
@@ -64,6 +64,15 @@ Status: current — evidence is subtype-specific and predominantly nonrandomized
 | PD-L1 | Not a variant-specific perioperative selector[^5][^9] | All-MIUC adjuvant ICI correlatives (CheckMate 274)[^5] | Does not choose small-cell vs other-variant pathways on this page[^1][^2][^9]. | All-MIUC PD-L1 data are not subtype-specific estimates[^5]. |
 | SMARCB1 / INI1 | Not addressed as a perioperative selector in the retained sources for this page[^9] | — | No decision change stated from page sources[^9]. | Rhabdoid/SMARCB1 testing is outside the verified source pack for this setting; do not invent a cutoff[^9]. |
 
+## Gene and cellular therapy
+
+No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard perioperative therapy for variant-histology bladder cancer on this page[^6][^7]. Do not extrapolate NMIBC intravesical gene therapy or metastatic urothelial TCR-T data as perioperative SOC for variant histology[^10][^11].
+
+| Role | Content |
+|---|---|
+| Current / approved clinic role | None for this perioperative setting[^6][^7]. |
+| Emerging / investigational | Setting-specific verified gene/cellular programs were not identified; at metastatic relapse, consider disease-appropriate cellular-therapy trials rather than importing clear urothelial effect estimates unchanged[^10][^11]. |
+
 ## Upcoming research
 
 Field direction: variant histology still lacks dedicated perioperative randomized programs; general-MIBC perioperative trials should not be treated as subtype-specific efficacy evidence without reported analyses[^9][^3].
@@ -104,7 +113,11 @@ No named prospective variant-specific result was identified that is likely to ch
 8. [AUA/ASCO/ASTRO/SUO MIBC guideline](https://www.auanet.org/guidelines-and-quality/guidelines/bladder-cancer-non-metastatic-muscle-invasive-guideline)
 9. [EAU–ESMO variant bladder cancer consensus](https://pmc.ncbi.nlm.nih.gov/articles/PMC7360152/)
 
+10. [ClinicalTrials.gov NCT04044859 (SURPASS / ADP-A2M4CD8)](https://clinicaltrials.gov/study/NCT04044859)
+11. [FDA Adstiladrin (nadofaragene firadenovec) label / DailyMed — BCG-unresponsive NMIBC indication](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca20ed4-da4f-463c-ac2a-ccd6ab3774fa)
+
 ## Changelog
+- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Replaced post-cystectomy surveillance with EAU CT every 6 months ×3 years then annual; noted subtype may warrant longer counseling without a separate source-defined grid; expanded Biomarkers to five-column table (SMARCB1/INI1 marked as not in retained sources); mirrored EAU cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.

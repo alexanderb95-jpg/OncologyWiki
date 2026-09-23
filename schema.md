@@ -24,7 +24,7 @@ pathways/{domain}/{disease}/{setting}/
 | Next review | `2026-12-14` (~90 days) |
 | Owner / Purpose / Status | as in briefs |
 
-Required sections: Who this applies to, Standard options, Landmark evidence, Biomarkers, Upcoming research, Toxicity, Guideline references, Sources, Changelog. Do not add a Bottom line section.
+Required sections: Who this applies to, Standard options, Landmark evidence, Biomarkers, Gene and cellular therapy, Upcoming research, Toxicity, Guideline references, Sources, Changelog. Do not add a Bottom line section. Place Gene and cellular therapy after Biomarkers and before Upcoming research.
 
 ## Inbox
 

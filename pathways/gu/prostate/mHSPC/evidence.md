@@ -1,7 +1,7 @@
 # Prostate → mHSPC
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-09-23
+Next review: 2026-12-22
 Owner: GU clinic
 Purpose: Disease → setting page for metastatic hormone-sensitive prostate cancer
 Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets; re-check NCCN (not retrieved this pass)
@@ -76,6 +76,15 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 | Testosterone / PSA kinetics | Confirm castration on ADT; track response[^13][^14] | — | Document castrate testosterone; use PSA kinetics with imaging for response and progression assessment[^13][^14]. | PSA alone does not replace radiographic progression criteria[^13][^14]. |
 | PTEN IHC (VENTANA PTEN SP218) | Companion diagnostic for capivasertib + abiraterone in newly diagnosed PTEN-deficient disease[^12] | — | ≥90% viable malignant cells with no specific cytoplasmic staining defines deficiency for the labeled combination (FDA 12 Jun 2026); OS immature — shared decision[^12]. | Do not extend to PTEN-unselected disease[^12]. |
 
+## Gene and cellular therapy
+
+No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard for metastatic hormone-sensitive prostate cancer on this page[^13]. 177Lu-PSMA-617 (PSMAddition) and ARPIs/docetaxel are not gene or cellular therapy[^10][^13]. Investigational PSMA- and STEAP1-directed CAR-T programs are concentrated in mCRPC (e.g., NCT04249947, NCT03089203, NCT06236139) and are not SOC in mHSPC[^16][^17][^18].
+
+| Role | Content |
+|---|---|
+| Current / approved clinic role | None for mHSPC[^13]. |
+| Emerging / investigational | No verified mHSPC gene/cellular practice-changing program; reserve CAR-T/TCR trial counseling for later castration-resistant disease when criteria are met[^16][^17][^18]. |
+
 ## Upcoming research
 
 Field direction: intensification beyond ADT/ARPI now includes radioligand (PSMAddition), PARP (AMPLITUDE), and AKT (CAPItello-281) pathways in selected mHSPC; mature OS and oligometastatic local therapy still shape uptake[^3][^4][^12][^2].
@@ -134,7 +143,12 @@ Field direction: intensification beyond ADT/ARPI now includes radioligand (PSMAd
 14. [EAU Prostate Cancer guideline](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment)
 15. [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
 
+16. [ClinicalTrials.gov NCT04249947 (P-PSMA-101)](https://clinicaltrials.gov/study/NCT04249947)
+17. [ClinicalTrials.gov NCT03089203 (CART-PSMA-TGFβRDN)](https://clinicaltrials.gov/study/NCT03089203)
+18. [ClinicalTrials.gov NCT06236139 (STEAP1 CART ± enzalutamide)](https://clinicaltrials.gov/study/NCT06236139)
+
 ## Changelog
+- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Explicit Setting×PSA×Imaging surveillance table; expanded Biomarkers to five-column clinic/emerging format (volume/risk, BRCA/HRR, PSMA, MSI/TMB, testosterone/PSA kinetics).
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.

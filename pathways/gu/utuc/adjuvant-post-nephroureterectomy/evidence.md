@@ -1,7 +1,7 @@
 # Upper tract urothelial carcinoma → Adjuvant treatment after nephroureterectomy
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-09-23
+Next review: 2026-12-22
 Owner: GU clinic
 Purpose: Shared decision support for high-risk UTUC after radical nephroureterectomy
 Status: current — POUT supports adjuvant gemcitabine–platinum for its eligible postoperative population
@@ -71,6 +71,15 @@ Published DFS landmarks only: 3-year 71% vs 46% (primary); 5-year 62% vs 45% (fi
 | FGFR / HER2 | Not adjuvant selectors after RNU[^4][^6] | Metastatic biomarker-directed therapy if recurrence[^4][^6] | No change to adjuvant platinum vs surveillance choice on this page[^1][^4]. | Metastatic-context assays only; not used to select adjuvant chemotherapy[^1][^4]. |
 | ctDNA | Not standard for adjuvant selection after RNU[^4] | Investigational MRD correlatives in urothelial disease[^4] | Do not withhold or add adjuvant therapy based on ctDNA outside a protocol[^4]. | No practice-ready adjuvant assay on this page[^4]. |
 
+## Gene and cellular therapy
+
+No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard after nephroureterectomy for UTUC on this page[^4][^6]. Intravesical gene therapy labeled for BCG-unresponsive NMIBC does not define adjuvant UTUC care here[^8]. Metastatic urothelial cellular programs (e.g., SURPASS MAGE-A4 TCR-T, NCT04044859) may be relevant only at unresectable/metastatic relapse[^9].
+
+| Role | Content |
+|---|---|
+| Current / approved clinic role | None for this adjuvant UTUC setting[^4][^6][^8]. |
+| Emerging / investigational | No verified adjuvant UTUC gene/cellular practice-changing program in this source set[^9]. |
+
 ## Upcoming research
 
 Field direction: UTUC-specific adjuvant systemic research remains thin; all-MIUC adjuvant IO trials (for example AMBASSADOR) inform counseling but do not create a UTUC-only standard[^4][^6].
@@ -109,7 +118,11 @@ No care-changing prospective UTUC-specific result was identified in the retrieve
 6. [NCCN Bladder and Upper GU Tract Tumors](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1417)
 7. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
+8. [FDA Adstiladrin (nadofaragene firadenovec) label / DailyMed — BCG-unresponsive NMIBC indication](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca20ed4-da4f-463c-ac2a-ccd6ab3774fa)
+9. [ClinicalTrials.gov NCT04044859 (SURPASS / ADP-A2M4CD8)](https://clinicaltrials.gov/study/NCT04044859)
+
 ## Changelog
+- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Added explicit POUT/EAU cystoscopy every 6 months ×2 years then annually alongside CT; inserted POUT DFS landmark figure; expanded Biomarkers to five-column table; mirrored cystoscopy + CT cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named surveillance comparator in POUT toxicity/monitoring counseling rates; mirrored comparator-named efficacy counseling in the paired dotphrase.

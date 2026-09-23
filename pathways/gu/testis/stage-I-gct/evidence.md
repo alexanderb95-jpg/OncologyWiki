@@ -1,7 +1,7 @@
 # Testis → Clinical stage I germ-cell tumor
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-09-23
+Next review: 2026-12-22
 Owner: GU clinic
 Purpose: Shared decision support after orchiectomy for clinical stage I seminoma or nonseminomatous germ-cell tumor
 Status: current — surveillance is preferred when reliable follow-up is feasible; adjuvant treatment reduces relapse but does not establish a survival advantage over surveillance
@@ -79,6 +79,15 @@ Published landmark relapse-free rates only (TE19 5-year RFS; AH 01/94 2-year RFS
 | AFP, hCG, LDH | Staging confirmation and surveillance follow-up[^4] | — | Persistently rising AFP/hCG after orchiectomy is occult systemic disease, not a stage I surveillance/adjuvant population; elevated AFP rules out pure seminoma[^4]. | Pre-orchiectomy values alone do not define metastatic IGCCCG groups[^4]. |
 | miR-371a-3p | Not standard for surveillance decisions[^8][^9] | [MAGESTIC](https://clinicaltrials.gov/study/NCT06060873) and observational cohorts testing relapse detection[^8][^9] | Do not replace imaging or standard markers outside a study[^8][^9]. | Not practice-ready as a treatment-selection assay on this page[^8][^9]. |
 
+## Gene and cellular therapy
+
+No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard for stage I germ-cell tumor on this page[^4][^6]. Surveillance, adjuvant carboplatin, or RPLND pathways on this page are not gene or cellular therapy[^4][^6]. CLDN6 CAR-T programs (e.g., BNT211-01, NCT04503278) enroll relapsed/refractory advanced CLDN6-positive disease — not stage I adjuvant care[^10].
+
+| Role | Content |
+|---|---|
+| Current / approved clinic role | None for stage I GCT[^4][^6]. |
+| Emerging / investigational | No verified stage I gene/cellular practice-changing program; cellular-therapy trials are for relapsed/refractory metastatic settings[^10]. |
+
 ## Upcoming research
 
 Field direction: miR-371 assays are the main surveillance research track that could change relapse detection and adjuvant decision timing in stage I disease[^8][^9].
@@ -123,7 +132,10 @@ Field direction: miR-371 assays are the main surveillance research track that co
 8. [MAGESTIC](https://clinicaltrials.gov/study/NCT06060873)
 9. [Belge et al. (2023). miR-371 surveillance cohort. PMID: 37967143](https://pubmed.ncbi.nlm.nih.gov/37967143/)
 
+10. [ClinicalTrials.gov NCT04503278 (BNT211-01 / CLDN6 CAR-T ± RNA-LPX)](https://clinicaltrials.gov/study/NCT04503278)
+
 ## Changelog
+- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Replaced vague surveillance with EAU minimal follow-up tables for seminoma and NSGCT CS I; added published RFS landmark figure; expanded Biomarkers to five-column table; mirrored marker/imaging cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.

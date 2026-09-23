@@ -1,7 +1,7 @@
 # Prostate → Adjuvant radiotherapy after prostatectomy
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-09-23
+Next review: 2026-12-22
 Owner: GU clinic
 Purpose: Decision support for adverse-pathology prostate cancer with an undetectable postoperative PSA
 Status: current — modern trials support surveillance with early salvage radiotherapy for the studied population rather than routine adjuvant radiotherapy
@@ -60,6 +60,15 @@ Published 5-year EFS 89% vs 88% (adjuvant vs early-salvage policy); not a full K
 | PSMA PET | Staging information when PSA rises or salvage is planned[^5][^6] | Expanding use at low PSA for target definition[^5][^6] | May refine salvage planning when recurrence is suspected; does not by itself mandate adjuvant RT while PSA is undetectable[^4][^6]. | Not a validated selector for routine adjuvant radiotherapy in the ARTISTIC population[^4]. |
 | Germline testing | Hereditary-risk counseling when indicated[^5] | Broader panels for later-line planning[^5] | Informs genetic counseling; does not select adjuvant vs early-salvage policy on this page[^4][^5]. | Not an ART-versus-salvage treatment selector in the source pack[^4][^5]. |
 
+## Gene and cellular therapy
+
+No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard with adjuvant radiotherapy after prostatectomy on this page[^5][^7]. Radiotherapy ± ADT is not gene or cellular therapy[^5][^7]. Investigational cellular programs belong to later metastatic CRPC decision points, not adjuvant RT[^10].
+
+| Role | Content |
+|---|---|
+| Current / approved clinic role | None for this adjuvant RT setting[^5][^7]. |
+| Emerging / investigational | No verified adjuvant RT gene/cellular practice-changing program in this source set[^10]. |
+
 ## Upcoming research
 
 Field direction: PET-M0 node-positive disease with detectable PSA is the main intensification experiment after prostatectomy[^9].
@@ -102,7 +111,10 @@ Field direction: PET-M0 node-positive disease with detectable PSA is the main in
 8. [ESMO local and locoregional prostate cancer guideline](https://doi.org/10.1016/j.annonc.2025.12.009)
 9. [NRG-GU008 / INNOVATE](https://clinicaltrials.gov/study/NCT04134260)
 
+10. [ClinicalTrials.gov NCT04249947 (P-PSMA-101)](https://clinicaltrials.gov/study/NCT04249947)
+
 ## Changelog
+- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Explicit Setting×PSA×Imaging surveillance table; inserted ARTISTIC 5-year EFS landmark figure; expanded Biomarkers to five-column clinic/emerging format.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.

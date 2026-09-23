@@ -1,7 +1,7 @@
 # Prostate → Early salvage radiotherapy after prostatectomy
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-09-23
+Next review: 2026-12-22
 Owner: GU clinic
 Purpose: Decision support for biochemical recurrence or persistent PSA after radical prostatectomy
 Status: current — early salvage radiotherapy is most effective at low PSA; systemic and nodal intensification must match trial risk boundaries
@@ -62,6 +62,15 @@ Published 120-month PFS 64% vs 49% (SRT+short ADT vs SRT); not a full KM reconst
 | Pathology | Risk assessment for ADT and field discussion[^4] | — | Grade Group, seminal-vesicle involvement, margin, and nodal status inform counseling and intensification[^4]. | Pathology alone does not replace PSA timing or imaging assessment[^4]. |
 | Testosterone | Confirms castration status when ADT is used or considered[^4] | — | Document before and during salvage ± ADT; stop short-course ADT at planned end[^1][^2][^3][^4]. | Not a selector among salvage-field strategies[^4]. |
 
+## Gene and cellular therapy
+
+No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard with salvage radiotherapy after prostatectomy on this page[^5][^6]. Salvage RT ± ADT/ARPI is not gene or cellular therapy[^5][^6]. Investigational cellular programs belong to later metastatic CRPC decision points, not salvage RT[^9].
+
+| Role | Content |
+|---|---|
+| Current / approved clinic role | None for this salvage RT setting[^5][^6]. |
+| Emerging / investigational | No verified salvage RT gene/cellular practice-changing program in this source set[^9]. |
+
 ## Upcoming research
 
 Field direction: PET-directed intensification of salvage radiotherapy and systemic therapy is the main care-changing research track after biochemical recurrence[^8].
@@ -104,7 +113,10 @@ Field direction: PET-directed intensification of salvage radiotherapy and system
 7. [ESMO local and locoregional prostate cancer guideline](https://doi.org/10.1016/j.annonc.2025.12.009)
 8. [EA8191 / INDICATE](https://clinicaltrials.gov/study/NCT04423211)
 
+9. [ClinicalTrials.gov NCT04249947 (P-PSMA-101)](https://clinicaltrials.gov/study/NCT04249947)
+
 ## Changelog
+- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Inserted GETUG-AFU 16 120-month PFS landmark figure; expanded Biomarkers to five-column clinic/emerging format (PSA/PSADT, PSMA PET, pathology, testosterone).
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.

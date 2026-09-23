@@ -1,7 +1,7 @@
 # Prostate → nmCRPC
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-09-23
+Next review: 2026-12-22
 Owner: GU clinic
 Purpose: Shared decision support for high-risk nonmetastatic castration-resistant prostate cancer
 Status: current — three placebo-controlled phase 3 trials support androgen-receptor pathway inhibition with continued ADT in the conventional-imaging, high-risk population
@@ -67,6 +67,15 @@ The phase 3 studies were placebo-controlled, conventional-imaging nmCRPC trials.
 | PSMA PET | Staging information[^7] | Prospective treatment-guidance studies (e.g., PSMACare)[^8] | May find occult M1 disease despite negative conventional imaging; does not by itself select among the three ARPIs[^7][^8]. | In one retrospective 200-patient high-risk cohort, PSMA PET found M1 disease in 55% despite negative conventional imaging; prospective treatment-guidance value remains unestablished[^7]. |
 | Molecular testing | No validated treatment selector among the three ARPIs[^1][^3][^5] | Broader panels for later-line planning after progression[^10] | Does not choose enzalutamide vs apalutamide vs darolutamide on this page[^1][^3][^5]. | Pivotal eligibility texts did not report molecular enrollment criteria that select among the three agents[^1][^3][^5]. |
 
+## Gene and cellular therapy
+
+No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard for nonmetastatic CRPC on this page[^10]. ARPI options on this page are not gene or cellular therapy[^1][^2][^3]. Investigational cellular therapy is concentrated in metastatic CRPC, not nmCRPC SOC[^14][^15].
+
+| Role | Content |
+|---|---|
+| Current / approved clinic role | None for nmCRPC[^10]. |
+| Emerging / investigational | No verified nmCRPC gene/cellular practice-changing program; discuss mCRPC cellular-therapy trials if/when metastatic progression occurs[^14][^15]. |
+
 ## Upcoming research
 
 Field direction: PSMA-directed approaches in conventional-imaging M0 / PET-positive CRPC and real-world ARPI delivery data may refine nmCRPC counseling, but do not yet replace the three ARPI phase 3 standards[^8][^9][^10].
@@ -124,7 +133,11 @@ No new practice-changing randomized result was identified in the source pack[^10
 12. [ESMO Prostate Cancer guideline](https://www.annalsofoncology.org/article/S0923-7534(26)00042-6/fulltext)
 13. [AUA/SUO Advanced Prostate Cancer guideline](https://www.auanet.org/guidelines-and-quality/guidelines/advanced-prostate-cancer)
 
+14. [ClinicalTrials.gov NCT04249947 (P-PSMA-101)](https://clinicaltrials.gov/study/NCT04249947)
+15. [ClinicalTrials.gov NCT06236139 (STEAP1 CART ± enzalutamide)](https://clinicaltrials.gov/study/NCT06236139)
+
 ## Changelog
+- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Explicit Setting×PSA×Imaging surveillance table (PSA q3mo; conventional imaging every 6–12 months; PSADT context); expanded Biomarkers to five-column clinic/emerging format.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
