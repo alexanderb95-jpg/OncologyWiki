@@ -1,7 +1,7 @@
 # RCC → Adjuvant clear-cell RCC
 
-Last reviewed: 2026-09-23
-Next review: 2026-12-22
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Post-nephrectomy shared decision support for adjuvant clear-cell RCC
 Status: current — pembrolizumab has randomized DFS and OS benefit; in the US, pembrolizumab plus belzutifan is FDA-labeled with immature OS
@@ -89,15 +89,6 @@ Trial results are not head-to-head efficacy comparisons: eligibility, recurrence
 | Tumor genomic / expression signature | Not used to select adjuvant pembrolizumab[^14] | Investigational molecular classifiers[^14] | No change to adjuvant or surveillance choice today[^14]. | No validated assay for this setting[^14]. |
 | Germline evaluation | Hereditary-risk assessment when age, bilateral/multifocal disease, family history, or syndrome features raise concern[^14][^17] | Broader panel testing when indicated[^14][^17] | Informs genetic counseling and contralateral/family risk; not adjuvant drug selection[^14][^17]. | Does not replace KEYNOTE-564 pathology criteria[^1][^14]. |
 
-## Gene and cellular therapy
-
-No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard adjuvant therapy after nephrectomy for clear-cell RCC on this page[^15][^6]. Adjuvant pembrolizumab and other IO/TKI options on this page are not gene or cellular therapy[^1]. Metastatic CD70-directed allogeneic CAR-T (TRAVERSE/ALLO-316, NCT04696731) and related programs are investigational after prior ICI and VEGF therapy — not adjuvant[^20][^21].
-
-| Role | Content |
-|---|---|
-| Current / approved clinic role | None for adjuvant ccRCC[^15][^6]. |
-| Emerging / investigational | No verified adjuvant gene/cellular practice-changing program; discuss metastatic cellular-therapy trials at relapse when CD70/eligibility criteria allow[^20][^21]. |
-
 ## Upcoming research
 
 Field direction: adjuvant pembrolizumab remains the DFS-proven anchor; intensifying with HIF-2 (LITESPARK-022), broadening ICI platforms (RAMPART), and MRD- or VEGFR-guided strategies (MRD GATE RCC, STRIKE) are the next experiments[^5][^14][^1][^15].
@@ -163,11 +154,7 @@ The table preserves regimen-level safety outcomes and limits named-toxicity rows
 18. [FDA Keytruda label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/125514s194lbl.pdf)
 19. [FDA WELIREG label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215383s015lbl.pdf)
 
-20. [ClinicalTrials.gov NCT04696731 (TRAVERSE / ALLO-316)](https://clinicaltrials.gov/study/NCT04696731)
-21. [Srour et al. (2026). TRAVERSE / ALLO-316. *Journal of Clinical Oncology*. PMID: 42447427](https://pubmed.ncbi.nlm.nih.gov/42447427/)
-
 ## Changelog
-- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Replaced surveillance with EAU Leibovich-adapted chest/abdomen CT schedule; expanded Biomarkers to five-column clinic/investigational table; mirrored Leibovich cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in Standard options / monitoring counseling rates and mirrored comparator-named toxicity counseling in the paired dotphrase.

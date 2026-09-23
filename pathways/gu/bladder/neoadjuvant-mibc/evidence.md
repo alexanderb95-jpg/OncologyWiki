@@ -1,7 +1,7 @@
 # Bladder / urothelial → Neoadjuvant muscle-invasive bladder cancer
 
-Last reviewed: 2026-09-23
-Next review: 2026-12-22
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Preoperative decision support for resectable muscle-invasive bladder cancer
 Status: current — treatment is cystectomy-anchored; perioperative strategies must be distinguished from adjuvant-only evidence
@@ -71,15 +71,6 @@ Published 2-year EFS landmarks only across EV-303, EV-304, and NIAGARA; not head
 | ctDNA | Not standard for selecting neoadjuvant treatment[^5] | Investigational MRD / perioperative correlatives[^5] | Do not use it to omit curative-intent local therapy outside a protocol[^5][^6]. | Assay decision thresholds are not practice-ready for neoadjuvant selection here[^5]. |
 | Nectin-4 / HER2 / FGFR | Not selectors for perioperative EV/ICI in EV-303, EV-304, or NIAGARA[^1][^2][^3] | Metastatic biomarker-directed options after recurrence[^5] | No change to perioperative regimen choice in these trials[^1][^2][^3]. | Do not require Nectin-4/HER2/FGFR positivity to offer labeled perioperative EV plus pembrolizumab[^1][^2][^4]. |
 
-## Gene and cellular therapy
-
-No FDA-approved CAR-T, TCR-T, TIL, gene-edited cell therapy, or oncolytic-virus product is standard neoadjuvant therapy for MIBC on this page[^5][^6]. Intravesical nadofaragene firadenovec is labeled for BCG-unresponsive NMIBC and is not a neoadjuvant MIBC regimen[^9]. Metastatic MAGE-A4 TCR-T (SURPASS, NCT04044859) applies to unresectable/metastatic disease, not preoperative MIBC SOC[^10].
-
-| Role | Content |
-|---|---|
-| Current / approved clinic role | None for neoadjuvant MIBC[^5][^6][^9]. |
-| Emerging / investigational | No verified neoadjuvant gene/cellular practice-changing program in this source set; reserve cellular-therapy trial counseling for unresectable/metastatic relapse pathways[^10]. |
-
 ## Upcoming research
 
 Field direction: perioperative EV plus pembrolizumab and durvalumab plus GC are now practice standards; longer follow-up and completion rates will refine durability counseling[^1][^2][^3].
@@ -123,11 +114,7 @@ Field direction: perioperative EV plus pembrolizumab and durvalumab plus GC are 
 7. [AUA/ASCO/ASTRO/SUO MIBC guideline](https://www.auanet.org/guidelines-and-quality/guidelines/bladder-cancer-non-metastatic-muscle-invasive-guideline)
 8. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 
-9. [FDA Adstiladrin (nadofaragene firadenovec) label / DailyMed — BCG-unresponsive NMIBC indication](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca20ed4-da4f-463c-ac2a-ccd6ab3774fa)
-10. [ClinicalTrials.gov NCT04044859 (SURPASS / ADP-A2M4CD8)](https://clinicaltrials.gov/study/NCT04044859)
-
 ## Changelog
-- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Replaced post-cystectomy surveillance with EAU CT every 6 months ×3 years then annual through ~60 months; added perioperative 2-year EFS landmark figure; expanded Biomarkers to five-column table; mirrored EAU cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Labeled FDA monitoring rates as single-arm label rates and restated trial-level grade ≥3 AEs with named comparators; mirrored comparator-named counseling in the paired dotphrase.

@@ -1,7 +1,7 @@
 # Prostate → Localized high-risk
 
-Last reviewed: 2026-09-23
-Next review: 2026-12-22
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Shared decision support for localized high-risk or locally advanced prostate cancer
 Status: current — local therapy is the foundation; systemic intensification evidence applies to a defined very-high-risk/cN1 population
@@ -62,15 +62,6 @@ Published 6-year MFS 82% vs 69% (ADT+abiraterone vs ADT); not a full KM reconstr
 | PSMA PET | Staging information when clinically appropriate[^3][^5] | Expanding use for biochemical recurrence staging[^3][^5] | May refine staging before intensifying systemic therapy or salvage pathways[^3][^5]. | Does not replace conventional staging for applying STAMPEDE-like eligibility as written on this page[^2][^3]. |
 | MSI / TMB | Later-line immunotherapy consideration only[^3] | Expanding tumor-agnostic use[^3] | Does not select local therapy or ADT intensification in localized high-risk disease[^3]. | Not a local-therapy selector; relevant if metastatic progression leads to later-line options[^3]. |
 
-## Gene and cellular therapy
-
-No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard for localized high-risk prostate cancer on this page[^3][^5]. Definitive local therapy ± ADT/ARPI intensification on this page is not gene or cellular therapy[^3][^5]. Investigational PSMA/STEAP1 CAR-T programs are metastatic CRPC–focused and are not localized SOC[^8].
-
-| Role | Content |
-|---|---|
-| Current / approved clinic role | None for localized high-risk disease[^3][^5]. |
-| Emerging / investigational | No verified localized gene/cellular practice-changing program in this source set[^8]. |
-
 ## Upcoming research
 
 Field direction: genomic risk–adapted ADT duration and ARPI intensification with radiotherapy are the main care-changing experiments in localized high-risk disease[^7].
@@ -110,10 +101,7 @@ Field direction: genomic risk–adapted ADT duration and ARPI intensification wi
 6. [ESMO local and locoregional prostate cancer guideline](https://doi.org/10.1016/j.annonc.2025.12.009)
 7. [NRG-GU009 / PREDICT-RT](https://clinicaltrials.gov/study/NCT04513717)
 
-8. [ClinicalTrials.gov NCT04249947 (P-PSMA-101)](https://clinicaltrials.gov/study/NCT04249947)
-
 ## Changelog
-- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Explicit Setting×PSA×Imaging surveillance table; inserted STAMPEDE 6-year MFS landmark figure; expanded Biomarkers to five-column clinic/emerging format (including PSMA PET and MSI/TMB limits).
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.

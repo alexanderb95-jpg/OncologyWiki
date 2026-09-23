@@ -1,7 +1,7 @@
 # Bladder / urothelial → Metastatic urothelial carcinoma
 
-Last reviewed: 2026-09-23
-Next review: 2026-12-22
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Disease → setting page for locally advanced or metastatic urothelial carcinoma
 Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HER2 as labeled
@@ -71,15 +71,6 @@ Status: clinic-ready — EV+pembro is the 1L OS-proven default for many; FGFR/HE
 | Nectin-4 context | Target of enfortumab vedotin; not used as a clinic assay to start EV plus pembrolizumab in EV-302[^1][^7] | Next-generation Nectin-4 ADCs after enfortumab exposure (e.g., NEXUS-01)[^16][^17] | No pretreatment Nectin-4 assay required for labeled EV use on this page[^1][^7]. | Expression assays are not decision tools for SOC EV plus pembrolizumab here[^1][^7]. |
 | NGS / TMB / MSI | NGS for FGFR and other trial targets when tissue/liquid testing is obtained[^5][^10] | TMB/MSI-high tumor-agnostic ICI pathways when criteria are met[^10][^11] | Can open trial or labeled biomarker-matched options beyond FGFR[^5][^10]. | TMB/MSI cutoffs and urothelial-specific rates are not detailed as practice selectors on this page[^10][^11]. |
 
-## Gene and cellular therapy
-
-No FDA-approved CAR-T, TCR-T, TIL, gene-edited cell therapy, or oncolytic-virus product is a standard option for locally advanced or metastatic urothelial carcinoma on this page[^10][^11]. Intravesical nadofaragene firadenovec is labeled for BCG-unresponsive NMIBC and does not apply to la/mUC[^19]. Do not classify enfortumab vedotin, HER2 ADCs, FGFR inhibitors, or other small molecules as gene or cellular therapy[^1][^5][^7].
-
-| Program | Construct | Population | Maturity |
-|---|---|---|---|
-| Current / approved clinic role | None for la/mUC in this source set[^10][^11][^19]. | — | — |
-| [SURPASS](https://clinicaltrials.gov/study/NCT04044859) (NCT04044859) | Autologous MAGE-A4–directed TCR T cells (ADP-A2M4CD8) ± PD-1 inhibitor after lymphodepletion[^20][^21]. | HLA-A*02–eligible, MAGE-A4–positive advanced solid tumors including unresectable/metastatic urothelial carcinoma[^20][^21]. | Ongoing phase 1 (active, not recruiting); UC subset activity congress-reported; not practice-changing[^20][^21]. |
-
 ## Upcoming research
 
 Field direction after EV plus pembrolizumab as first-line Nectin-4 ADC plus PD-1 standard: competing HER2-directed vedotin ADCs with PD-1 in biomarker-selected untreated disease, next-generation Nectin-4 ADCs with non-MMAE payloads after enfortumab exposure, and still-unsettled post-EV plus pembrolizumab sequencing (FGFR, HER2, taxane, TROP2) without a randomized preferred line in this source set[^1][^10][^13][^16].
@@ -144,12 +135,7 @@ Field direction after EV plus pembrolizumab as first-line Nectin-4 ADC plus PD-1
 17. [UroToday ASCO 2026: NEXUS-01 initial results](https://www.urotoday.com/conference-highlights/asco-2026/asco-2026-bladder-cancer/169394-asco-2026-initial-results-from-nexus-01-a-phase-1-study-of-ly4052031-an-adc-targeting-nectin-4-in-participants-with-advanced-or-metastatic-urothelial-carcinoma.html)
 18. [Sheng et al. (2025). RC48-C016. *New England Journal of Medicine*. PMID: 41124210](https://pubmed.ncbi.nlm.nih.gov/41124210/)
 
-19. [FDA Adstiladrin (nadofaragene firadenovec) label / DailyMed — BCG-unresponsive NMIBC indication](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca20ed4-da4f-463c-ac2a-ccd6ab3774fa)
-20. [ClinicalTrials.gov NCT04044859 (SURPASS / ADP-A2M4CD8)](https://clinicaltrials.gov/study/NCT04044859)
-21. [Aggen et al. / SURPASS UC cohort TPS (2024). *Journal of Clinical Oncology* ASCO GU abstract TPS708](https://ascopubs.org/doi/10.1200/JCO.2024.42.4_suppl.TPS708)
-
 ## Changelog
-- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Clarified on-treatment imaging every 9–12 weeks and avelumab maintenance imaging every 12 weeks; noted cystoscopy is not central for metastatic disease; expanded Biomarkers to five-column table.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction (SGNDV-001/DV-001, RC48-C016, NEXUS-01).
 - 2026-09-22: Labeled EV-302 monitoring rates as single-arm label rates and restated grade ≥3 TRAEs vs platinum; mirrored comparator-named efficacy counseling in the paired dotphrase.

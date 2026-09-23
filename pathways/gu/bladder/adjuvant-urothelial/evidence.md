@@ -1,7 +1,7 @@
 # Bladder / urothelial → Adjuvant urothelial
 
-Last reviewed: 2026-09-23
-Next review: 2026-12-22
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Disease → setting page for adjuvant urothelial-carcinoma decisions after radical surgery
 Status: clinic-ready — perioperative EV+pembro and NIAGARA now change who still needs classic adjuvant IO; ctDNA MRD selects adjuvant atezo
@@ -82,15 +82,6 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 | HER2 | Not an adjuvant IO selector[^1][^5] | Metastatic / tumor-agnostic HER2 context elsewhere[^5] | No adjuvant decision change on this page[^1][^5]. | No validated adjuvant assay role here[^1][^5]. |
 | FGFR | Not an adjuvant IO selector[^1][^5] | Metastatic FGFR3 / erdafitinib pathway[^5] | No adjuvant decision change on this page[^1][^5]. | Adjuvant setting does not use FGFR to select IO[^1][^5]. |
 
-## Gene and cellular therapy
-
-No FDA-approved CAR-T, TCR-T, TIL, gene-edited cell therapy, or oncolytic-virus product is standard after cystectomy for urothelial carcinoma on this page[^5][^6]. Intravesical nadofaragene firadenovec is labeled for BCG-unresponsive NMIBC and is not adjuvant systemic therapy here[^9]. Metastatic MAGE-A4 TCR-T (SURPASS, NCT04044859) may be relevant only at unresectable/metastatic relapse[^10].
-
-| Role | Content |
-|---|---|
-| Current / approved clinic role | None for this adjuvant setting[^5][^6][^9]. |
-| Emerging / investigational | No verified adjuvant gene/cellular practice-changing program in this source set; discuss metastatic cellular-therapy trials at relapse when criteria are met[^10]. |
-
 ## Upcoming research
 
 Field direction: perioperative EV plus pembrolizumab and NIAGARA are reshaping who still needs classic adjuvant IO, while ctDNA MRD (IMvigor011) adds a biomarker branch; residual disease after perioperative therapy and dual EV/IO then MRD-positive pathways remain open questions[^3][^4][^5].
@@ -136,11 +127,7 @@ Field direction: perioperative EV plus pembrolizumab and NIAGARA are reshaping w
 7. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 8. [Galsky et al. (2026). CheckMate 274 5-year efficacy and ctDNA. *Annals of Oncology*. PMID: 41110694](https://pubmed.ncbi.nlm.nih.gov/41110694/)
 
-9. [FDA Adstiladrin (nadofaragene firadenovec) label / DailyMed — BCG-unresponsive NMIBC indication](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca20ed4-da4f-463c-ac2a-ccd6ab3774fa)
-10. [ClinicalTrials.gov NCT04044859 (SURPASS / ADP-A2M4CD8)](https://clinicaltrials.gov/study/NCT04044859)
-
 ## Changelog
-- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Replaced surveillance with EAU post-cystectomy CT every 6 months ×3 years then annual through ~60 months; added CheckMate 274 DFS landmark figure and Source #8; clarified median DFS vs landmark % in the landmark table; expanded Biomarkers to five-column table; mirrored EAU cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named placebo/observation/GC/surgery comparators in monitoring rates and labeled EV FDA rates as single-arm; mirrored comparator-named counseling in the paired dotphrase.

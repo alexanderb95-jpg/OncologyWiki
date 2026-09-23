@@ -1,7 +1,7 @@
 # Testis → Metastatic germ-cell tumor
 
-Last reviewed: 2026-09-23
-Next review: 2026-12-22
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Decision support for stage IIC/III or systemic germ-cell tumor requiring first-line chemotherapy
 Status: current — treatment is IGCCCG-directed and should be coordinated by an experienced germ-cell tumor team
@@ -71,16 +71,6 @@ Status: current — treatment is IGCCCG-directed and should be coordinated by an
 | FDG-PET | Selected seminoma residual-mass assessment after chemotherapy[^5] | — | Helps triage observation vs further local therapy for seminoma residual >3 cm[^5]. | Do not use for NSGCT residual disease; a single positive seminoma PET does not establish viable cancer[^5]. |
 | Histology (teratoma / viable GCT) | Directs post-chemotherapy residual-mass surgery for NSGCT[^5] | — | Growing or residual NSGCT masses → RPLND for teratoma or viable GCT rather than PET-directed observation[^5]. | Residual-mass histology is post-treatment pathology, not a pretreatment IGCCCG classifier[^5]. |
 
-## Gene and cellular therapy
-
-No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard for metastatic germ-cell tumor on this page[^5][^6]. BEP/EP/VIP chemotherapy and high-dose chemotherapy with autologous stem-cell support are not CAR-T/TCR/TIL gene-edited cellular immunotherapy; HDCT/ASCT remains in salvage sequencing when indicated[^5][^9].
-
-| Program | Construct | Population | Maturity |
-|---|---|---|---|
-| Current / approved clinic role | None for metastatic GCT in this source set[^5][^6]. | — | — |
-| [BNT211-01](https://clinicaltrials.gov/study/NCT04503278) (NCT04503278) | Autologous CLDN6-directed CAR-T ± CLDN6 RNA lipoplex vaccine (CARVac)[^10][^11]. | CLDN6-positive relapsed/refractory advanced solid tumors, including testicular germ-cell tumors[^10][^11]. | Peer-reviewed phase 1 (Nature Medicine); active, not recruiting — not SOC[^10][^11]. |
-| [AVENTURINE](https://clinicaltrials.gov/study/NCT06940804) (NCT06940804) | CLDN6 CAR-T ± CLDN6 RNA-LPX in male R/R CLDN6-positive testicular or extragonadal GCT[^12]. | Relapsed/refractory GCT after prior salvage therapy[^12]. | Withdrawn (sponsor decision); listed for landscape awareness only[^12]. |
-
 ## Upcoming research
 
 Field direction: intensification of first-line BEP and randomized first-salvage high-dose versus conventional salvage remain the highest-impact ongoing experiments[^8][^9].
@@ -124,12 +114,7 @@ Field direction: intensification of first-line BEP and randomized first-salvage 
 8. [P3BEP](https://clinicaltrials.gov/study/NCT02582697)
 9. [TIGER](https://clinicaltrials.gov/study/NCT02375204)
 
-10. [ClinicalTrials.gov NCT04503278 (BNT211-01 / CLDN6 CAR-T ± RNA-LPX)](https://clinicaltrials.gov/study/NCT04503278)
-11. [Mackensen et al. (2023). BNT211-01. *Nature Medicine*. PMID: 37872225](https://pubmed.ncbi.nlm.nih.gov/37872225/)
-12. [ClinicalTrials.gov NCT06940804 (AVENTURINE — withdrawn)](https://clinicaltrials.gov/study/NCT06940804)
-
 ## Changelog
-- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Added EAU-style post-remission CR follow-up schedule for good/intermediate prognosis; expanded Biomarkers to five-column table including teratoma histology; mirrored post-chemo cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.

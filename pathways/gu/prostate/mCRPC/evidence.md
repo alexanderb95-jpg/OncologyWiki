@@ -1,7 +1,7 @@
 # Prostate → mCRPC
 
-Last reviewed: 2026-09-23
-Next review: 2026-12-22
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Disease → setting page for metastatic castration-resistant prostate cancer
 Status: clinic-ready — numbers from retrieved primary abstracts; re-check current FDA PARP labels and NCCN (NCCN not retrieved)
@@ -82,17 +82,6 @@ Status: clinic-ready — numbers from retrieved primary abstracts; re-check curr
 | Prior ARPI / taxane exposure | Treatment-selection context for sequencing[^19][^2][^1] | — | Documents whether ARPI-naive, post-ARPI taxane-naive, or post-ARPI+taxane pathways apply (ARPI, Pluvicto, docetaxel, cabazitaxel/CARD)[^6][^7][^11][^5][^2][^1]. | Exposure history is clinical context, not a molecular biomarker[^19]. |
 | Testosterone | Confirms castration while ADT continues[^19] | — | Required to define mCRPC and continue ADT through all lines[^19]. | Does not select among ARPI, taxane, PARP, or radioligand options[^19]. |
 
-## Gene and cellular therapy
-
-No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard for mCRPC on this page[^19]. Radioligand therapy (177Lu-PSMA-617), ADCs, PARP inhibitors, ARPIs, taxanes, and radium-223 are not gene or cellular therapy and remain in Standard options / Upcoming research[^1][^11][^3].
-
-| Program | Construct | Population | Maturity |
-|---|---|---|---|
-| Current / approved clinic role | None for mCRPC in this source set[^19]. | — | — |
-| [P-PSMA-101](https://clinicaltrials.gov/study/NCT04249947) (NCT04249947) | Autologous PSMA-directed CAR-T enriched for stem-like memory T cells (piggyBac platform; iCasp9 safety switch)[^22][^23]. | Metastatic castration-resistant prostate cancer after ARPI ± taxane (trial also enrolled salivary gland cancer)[^22][^23]. | Peer-reviewed phase 1; ClinicalTrials.gov status terminated/closed — not SOC[^22][^23]. |
-| [CART-PSMA-TGFβRDN](https://clinicaltrials.gov/study/NCT03089203) (NCT03089203) | Autologous PSMA CAR-T with dominant-negative TGFβ receptor[^24]. | Advanced mCRPC after ≥1 standard mCRPC therapy[^24]. | Ongoing phase 1 (active, not recruiting); early published cohorts — investigational[^24]. |
-| [STEAP1 CART](https://clinicaltrials.gov/study/NCT06236139) (NCT06236139) | Autologous STEAP1-directed CAR-T ± enzalutamide after lymphodepletion[^25]. | mCRPC after multiple prior lines including a second-generation AR pathway inhibitor[^25]. | Ongoing recruiting phase 1/2; efficacy pending[^25]. |
-
 ## Upcoming research
 
 Field direction: radioligand therapy is moving earlier (PSMAddition in PSMA-positive HSPC), while mCRPC sequencing among Pluvicto, taxane, and PARP after ARPI remains unsettled; AR degraders and neuroendocrine/lineage-plasticity strategies are next-wave themes without a new SOC default here[^10][^19].
@@ -160,13 +149,7 @@ Field direction: radioligand therapy is moving earlier (PSMAddition in PSMA-posi
 20. [EAU Prostate Cancer guideline](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment)
 21. [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
 
-22. [ClinicalTrials.gov NCT04249947 (P-PSMA-101)](https://clinicaltrials.gov/study/NCT04249947)
-23. [Phase I P-PSMA-101 in mCRPC (2026). *Clinical Cancer Research*. PMID: 41779004](https://pubmed.ncbi.nlm.nih.gov/41779004/)
-24. [ClinicalTrials.gov NCT03089203 (CART-PSMA-TGFβRDN)](https://clinicaltrials.gov/study/NCT03089203)
-25. [ClinicalTrials.gov NCT06236139 (STEAP1 CART ± enzalutamide)](https://clinicaltrials.gov/study/NCT06236139)
-
 ## Changelog
-- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Explicit Setting×PSA×Imaging surveillance table (PSA every 4–8 weeks early then q3mo; imaging q8–12 weeks); expanded Biomarkers to five-column clinic/emerging format (BRCA/HRR, MSI/TMB, PSMA, prior ARPI/taxane context, testosterone).
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparators or labeled single-arm rates in key monitoring cells; mirrored comparator-named efficacy counseling in the paired dotphrase.

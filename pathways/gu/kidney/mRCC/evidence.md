@@ -1,7 +1,7 @@
 # RCC → Metastatic RCC
 
-Last reviewed: 2026-09-23
-Next review: 2026-12-22
+Last reviewed: 2026-09-22
+Next review: 2026-12-21
 Owner: GU clinic
 Purpose: Disease → setting page for metastatic RCC systemic-therapy decisions
 Status: clinic-ready — 1L IO/IO vs IO/TKI by IMDC; no head-to-head among doublets in this pack
@@ -70,17 +70,6 @@ KEYNOTE-564 adjuvant (watch): pembro ×1 y vs placebo after nephrectomy; 5-y OS 
 | Angiogenesis / T-cell expression signatures | Not used for routine regimen choice[^2] | KEYNOTE-426 exploratory: TcellinfGEP and angiogenesis signatures associated with outcomes[^2] | Does not change first-line doublet selection today[^2]. | Exploratory analyses only; no practice-ready cutoffs on this page[^2]. |
 | Germline (VHL, FH, etc.) | Consider for non-clear histology or hereditary-syndrome features[^6][^9] | Broader hereditary panels when indicated[^6][^9] | Informs genetic counseling and selected targeted pathways; not required to start 1L IO doublets in sporadic ccRCC[^6][^9]. | Does not replace IMDC or histology for 1L IO selection[^6][^7]. |
 
-## Gene and cellular therapy
-
-No FDA-approved CAR-T, TCR-T, TIL, or gene-edited cell product is standard for metastatic RCC on this page[^6][^7]. IO/TKI doublets, belzutifan, and other small molecules are not gene or cellular therapy[^1][^5].
-
-| Program | Construct | Population | Maturity |
-|---|---|---|---|
-| Current / approved clinic role | None for mRCC in this source set[^6][^7]. | — | — |
-| [TRAVERSE / ALLO-316](https://clinicaltrials.gov/study/NCT04696731) (NCT04696731) | Allogeneic CD70-directed CAR-T (ALLO-316) after fludarabine/cyclophosphamide ± ALLO-647[^10][^11]. | Advanced/metastatic clear-cell RCC after checkpoint inhibitor and VEGF-targeted therapy[^10][^11]. | Peer-reviewed phase 1 (JCO); active, not recruiting — not SOC[^10][^11]. |
-| [COBALT-RCC / CTX130](https://clinicaltrials.gov/study/NCT04438083) (NCT04438083) | Allogeneic CRISPR-edited CD70-directed CAR-T (CTX130)[^12]. | Relapsed/refractory RCC with clear-cell differentiation after standard therapy[^12]. | Terminated phase 1; early allogeneic CD70 experience — not SOC[^12]. |
-| [AB-2100](https://clinicaltrials.gov/study/NCT06245915) (NCT06245915) | Autologous logic-gated integrated-circuit T cells targeting PSMA and CA9[^13]. | Recurrent advanced/metastatic clear-cell RCC after ICI and VEGF therapy[^13]. | Ongoing phase 1/2 (active, not recruiting); efficacy pending[^13]. |
-
 ## Upcoming research
 
 Field direction: first-line IO doublets remain the core; HIF-2 (belzutifan) is moving earlier and into combinations, adjuvant pembrolizumab exposure changes relapse counseling, and non-clear-cell randomized first-line data remain thinner than clear-cell[^5][^6][^7].
@@ -131,13 +120,7 @@ Field direction: first-line IO doublets remain the core; HIF-2 (belzutifan) is m
 8. [ESMO RCC guideline](https://doi.org/10.1016/j.annonc.2024.05.537)
 9. [AUA localized renal mass guideline](https://pubmed.ncbi.nlm.nih.gov/34115531/)
 
-10. [ClinicalTrials.gov NCT04696731 (TRAVERSE / ALLO-316)](https://clinicaltrials.gov/study/NCT04696731)
-11. [Srour et al. (2026). TRAVERSE / ALLO-316. *Journal of Clinical Oncology*. PMID: 42447427](https://pubmed.ncbi.nlm.nih.gov/42447427/)
-12. [ClinicalTrials.gov NCT04438083 (COBALT-RCC / CTX130)](https://clinicaltrials.gov/study/NCT04438083)
-13. [ClinicalTrials.gov NCT06245915 (AB-2100)](https://clinicaltrials.gov/study/NCT06245915)
-
 ## Changelog
-- 2026-09-23: Added Gene and cellular therapy section (after Biomarkers, before Upcoming research); clinic vs investigational framing; no approved GU solid-tumor CAR-T/TCR/TIL products in these settings.
 - 2026-09-22: Clarified response-assessment vs prolonged-response imaging schedule; expanded Biomarkers to five-column table (histology, IMDC, PD-L1, expression signatures, germline); mirrored extended-interval language in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named everolimus as the LITESPARK-005 comparator in belzutifan monitoring rates; mirrored comparator-named efficacy counseling in the paired dotphrase.
