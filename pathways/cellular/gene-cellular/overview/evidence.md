@@ -3,121 +3,174 @@
 Last reviewed: 2026-09-23
 Next review: 2026-12-22
 Owner: MedOnc wiki
-Purpose: Cross-disease clinic landscape for gene and cellular therapy (CAR-T, TCR-T, TIL, gene therapy, oncolytics), including GU-relevant investigational programs
-Status: clinic-ready overview — heme CAR-T and melanoma TIL as orientation; GU solid-tumor programs investigational
+Purpose: Heme/onc–wide clinic landscape for gene and cellular therapy (SCD gene therapy, heme CAR-T, TIL/TCR/oncolytics, and solid-tumor investigational programs including GU)
+Status: clinic-ready overview — SCD gene therapy and heme CAR-T as labeled SOC where indicated; solid-tumor cellular mostly investigational outside melanoma TIL
 
 ## Who this applies to
 
-- Clinic orientation when discussing FDA-approved cellular products (mostly hematologic malignancies and melanoma TIL) or referring a solid-tumor patient—including GU—to a gene/cellular therapy trial.[^1][^2][^3]
-- Not a substitute for disease-setting SOC pages under GU oncology; radioligands (e.g. Pluvicto), ADCs, and small molecules stay on those disease pages.[^4]
-- Confirm product label / trial eligibility (antigen, HLA, prior lines, organ function, manufacturing logistics) before counseling as SOC or trial.[^1][^2]
+- Clinic orientation across hematology and oncology when counseling FDA-approved gene or cellular products (sickle cell disease gene therapy; autologous CD19/BCMA CAR-T; melanoma TIL) or referring to investigational CAR-T/TCR-T/TIL/gene-therapy trials, including GU solid tumors.[^1][^2][^3][^4][^5]
+- Not a substitute for disease-specific heme or solid-tumor SOC pages; radioligands (e.g. Pluvicto), ADCs, and small molecules stay on those disease pages.[^6]
+- Confirm product label / trial eligibility (antigen, HLA, prior lines, organ function, donor availability, manufacturing logistics) before counseling as SOC or trial.[^1][^2][^3][^4]
 
 ## Standard options
 
-Approved products below are for orientation across oncology. No FDA-approved CAR-T, TCR-T, or TIL product is standard of care for GU solid tumors (prostate, urothelial, RCC, testis) on current GU pathway pages.[^3][^4]
-
-| Clinical context | Option | Key inclusion | Typical course |
+| Clinical context | Option | Key inclusion | Typical course / counseling anchor |
 |---|---|---|---|
-| Relapsed/refractory B-cell malignancies or multiple myeloma (heme) | Autologous CD19- or BCMA-directed CAR-T products (e.g. axi-cel, tisa-cel, liso-cel, brexu-cel; ide-cel, cilta-cel)[^1][^5] | Match exact FDA label (histology, prior lines, antigen pathway)[^1][^5] | Leukapheresis → manufacturing → lymphodepletion → single infusion; label-directed CRS/neurologic monitoring[^1][^5] |
-| Unresectable/metastatic melanoma after PD-1 (± BRAF/MEK if BRAF V600+) | Lifileucel (Amtagvi) autologous TIL[^2][^3] | FDA solid-tumor cellular indication as labeled[^2] | Tumor harvest → TIL manufacture → lymphodepletion → infusion ± IL-2 per label/protocol[^2][^3] |
-| BCG-unresponsive high-risk NMIBC with CIS | Nadofaragene firadenovec (Adstiladrin) intravesical gene therapy[^6] | NMIBC label only — not MIBC neoadjuvant/adjuvant or la/mUC SOC[^6] | Intravesical instillation per label[^6] |
-| GU metastatic solid tumors (prostate, urothelial, RCC, GCT) | No approved CAR-T/TCR-T/TIL SOC on this wiki; trial referral when criteria and fitness allow[^4] | Antigen/HLA and prior-line gates are trial-specific[^7][^8][^9][^10] | See Emerging / investigational table |
+| SCD with recurrent VOCs (age per current label) | Exagamglogene autotemcel (Casgevy; CRISPR-Cas9 BCL11A edit)[^1][^7] | Label: patients aged 2 years and older with SCD and recurrent VOCs; pivotal Trial 1 required ≥2 severe VOCs in each of 2 years before screening; no available 10/10 HLA-matched related donor[^1][^7] | Mobilization/apheresis → myeloablative busulfan → single autologous infusion; single-arm label VF12 29/31 (93.5%) VOC-free ≥12 mo (no randomized comparator)[^1][^7] |
+| SCD with history of VOEs (age ≥12) | Lovotibeglogene autotemcel (Lyfgenia; lentiviral βA-T87Q-globin)[^2] | Label: patients 12 years or older with SCD and a history of vaso-occlusive events; Study 1-C efficacy set required ≥4 VOEs in 24 mo before consent; α-thalassemia trait limitation of use[^2] | Mobilization/apheresis → myeloablative busulfan → single infusion; single-arm VOE-CR 28/32 (88%) and sVOE-CR 30/32 (94%) between mo 6–18 (no randomized comparator); boxed warning for hematologic malignancy[^2] |
+| Transfusion-dependent β-thalassemia | Casgevy (same product class as SCD indication)[^1] | Label TDT indication (age ≥2 years); pivotal trials separate from SCD[^1] | Same autologous gene-edited HSPC pathway with busulfan conditioning[^1] |
+| R/R LBCL (2L early failure) | Axi-cel (Yescarta) or liso-cel (Breyanzi)[^3][^8][^9][^10] | Primary refractory or relapse ≤12 mo after 1L chemoimmunotherapy per product labels / ZUMA-7 and TRANSFORM populations[^3][^8][^9][^10] | Leukapheresis → lymphodepletion → single CAR-T infusion; see Landmark for EFS vs salvage±ASCT[^8][^9][^10] |
+| R/R LBCL (≥3L or transplant-ineligible pathways) | Axi-cel, tisa-cel (Kymriah), or liso-cel per label[^3][^4][^11] | Match histology and prior-line gates on each label; many pivotal cohorts single-arm[^3][^4][^11] | Same CAR-T pathway; single-arm ORR/CR where no randomized comparator[^3][^4][^11] |
+| R/R FL (≥2 prior lines) | Axi-cel or tisa-cel (accelerated / label-specific)[^3][^4] | Label FL criteria[^3][^4] | Single-arm pivotal designs for these FL indications[^3][^4] |
+| R/R MCL | Brexu-cel (Tecartus)[^3][^12] | Adult R/R MCL (ZUMA-2; BTKi-exposed pivotal population)[^3][^12] | Single-arm pivotal approval basis[^3][^12] |
+| R/R B-ALL | Tisa-cel (≤25 y) or brexu-cel (adults) per labels[^3][^4] | Match age and prior-therapy gates[^3][^4] | Single-arm pivotal designs[^3][^4] |
+| R/R multiple myeloma | Ide-cel (Abecma) or cilta-cel (Carvykti)[^3][^13][^14][^15][^16] | Label prior-line / triple-class exposure gates (earlier-line expansions based on KarMMa-3 and CARTITUDE-4)[^3][^13][^14][^15][^16] | Leukapheresis → lymphodepletion → infusion; randomized PFS benefit vs SOC regimens in earlier-line phase 3 trials[^14][^15] |
+| Unresectable/metastatic melanoma after PD-1 (± BRAF/MEK if BRAF V600+) | Lifileucel (Amtagvi) autologous TIL[^5][^17] | FDA solid-tumor cellular indication as labeled[^5][^17] | Tumor harvest → TIL manufacture → lymphodepletion → infusion ± IL-2; single-arm approval cohort ORR 31.5% among 73 at recommended dose (no randomized comparator)[^5][^17] |
+| BCG-unresponsive high-risk NMIBC with CIS | Nadofaragene firadenovec (Adstiladrin)[^18] | NMIBC label only[^18] | Intravesical gene therapy per label[^18] |
+| GU metastatic solid tumors | No approved CAR-T/TCR-T/TIL SOC on this wiki; trial referral when criteria allow[^6][^19][^20][^21][^22] | Antigen/HLA and prior-line gates are trial-specific[^19][^20][^21][^22] | See Upcoming research |
+
+### Eligibility boundaries (pivotal / label)
+
+| Product / trial | Histology / disease | Key inclusion window | Noneligible / caution boundary |
+|---|---|---|---|
+| Casgevy SCD (Trial 1 / label)[^1][^7] | SCD with recurrent severe VOCs[^1][^7] | ≥2 severe VOCs each of 2 years pre-screening (pivotal); age ≥2 on current US label[^1][^7] | Available 10/10 HLA-matched related donor; advanced liver disease; untreated/high-risk Moyamoya; chronic-pain ED/hospitalization pattern as in protocol[^1][^7] |
+| Lyfgenia Study 1-C / label[^2] | SCD with VOE history[^2] | Age ≥12; efficacy set ≥4 VOEs in 24 mo; busulfan conditioning required[^2] | α-thalassemia trait (−α3.7/−α3.7) anemia/dysplasia limitation; not studied with >2 α-globin gene deletions; willing matched sibling donor excluded in pivotal design[^2] |
+| ZUMA-7 / TRANSFORM (2L LBCL)[^8][^9][^10] | Early R/R LBCL[^8][^9][^10] | Primary refractory or relapse ≤12 mo after 1L[^8][^9][^10] | BELINDA (tisa-cel vs SOC) did not show EFS superiority — tisa-cel is not a 2L early-failure label pathway from that trial[^3][^23] |
+| KarMMa-3 / CARTITUDE-4[^14][^15] | Lenalidomide-exposed / triple-class–exposed RRMM as defined in each protocol[^14][^15] | Prior-line windows per trial (ide-cel 2–4 prior; cilta-cel 1–3 prior, len-refractory)[^14][^15] | Do not import cross-trial ORR as head-to-head product ranking without matching[^3] |
 
 ## Therapy sequencing
 
 | Starting point | Preferred order | Evidence boundary |
 |---|---|---|
-| Heme CAR-T–eligible disease | Follow disease-specific heme pathways and current product labels; this page does not rank CD19 vs BCMA products[^1][^5] | Line-of-therapy and bridging rules are label- and disease-specific[^1][^5] |
-| Melanoma after PD-1 failure | Consider lifileucel when label criteria are met; otherwise trial/SOC alternatives on melanoma pages when available[^2][^3] | Not a GU indication[^2] |
-| GU solid tumor progressing on disease-setting SOC | Stay on the disease page for next systemic line; offer gene/cellular trial referral only as investigational[^4][^7][^8][^9][^10] | Do not substitute investigational CAR-T/TCR-T for labeled GU SOC (EV+pembro, IO/TKI, ARPI/taxane/RLT, etc.)[^4] |
+| SCD with recurrent severe VOCs / VOEs eligible for autologous gene therapy | Discuss Casgevy vs Lyfgenia at a qualified center after hydroxyurea/disease-modifying therapy counseling; both require myeloablative busulfan and fertility planning; neither has a randomized comparator arm[^1][^2][^7] | Product choice is label-, center-, and risk-profile–driven (e.g. Lyfgenia hematologic malignancy boxed warning); not ranked head-to-head on this page[^1][^2] |
+| Early R/R LBCL (primary refractory or ≤12 mo) | Prefer axi-cel or liso-cel over salvage chemo → ASCT when fit for CAR-T and label-eligible (ZUMA-7 / TRANSFORM)[^8][^9][^10] | Tisa-cel BELINDA did not improve EFS vs SOC in this window[^23] |
+| RRMM after 1–4 prior lines (triple-class / len-refractory contexts) | Prefer labeled ide-cel or cilta-cel over continuing SOC triplets when KarMMa-3 / CARTITUDE-4–like criteria met[^14][^15][^16] | Exact line and regimen gates are label-specific and evolving[^3][^16] |
+| Melanoma after PD-1 failure | Consider lifileucel when label criteria are met[^5][^17] | Not a GU indication[^5] |
+| GU solid tumor progressing on disease-setting SOC | Stay on the disease page for next systemic line; offer gene/cellular trial referral only as investigational[^6][^19][^20][^21][^22] | Do not substitute investigational CAR-T/TCR-T for labeled GU SOC[^6] |
 
 ## Surveillance and treatment de-escalation
 
-| Phase | Monitoring | Stop / hold | Re-escalation / next step |
+| Phase | Monitoring cadence | Stop / hold / de-escalate | Re-escalation / next step |
 |---|---|---|---|
-| Peri-infusion autologous CAR-T (heme labels) | CRS and neurologic toxicity surveillance per product labeling; cytopenias and infection risk after lymphodepletion[^1][^5] | Hold further cellular dosing per protocol; manage CRS/ICANS per institutional pathways and label[^1][^5] | Progressive disease after CAR-T → disease-specific next line or trial[^1][^5] |
-| Lifileucel | Peri-infusion and IL-2–related toxicity monitoring per label[^2] | Hold/manage per label for severe toxicity[^2] | Progression → melanoma SOC/trial[^2][^3] |
-| GU investigational cellular trial | Protocol-defined imaging and CRS/ICANS labs; do not invent a clinic SOC schedule[^7][^8][^9] | Follow protocol holds[^7] | Off-study progression → return to disease-setting SOC page[^4] |
+| Autologous CD19/BCMA CAR-T peri-infusion[^4][^24][^25] | At least daily CRS/ICANS monitoring for ≥7 days post-infusion; remain within proximity of treating facility for ≥2 weeks; ICE/neuro checks per institutional ASTCT pathway[^4][^24][^25] | Manage CRS/ICANS with tocilizumab ± steroids per label/ASTCT; hold driving ≥2 weeks (product-specific)[^4][^24] | Progressive disease → disease-specific next line or trial[^3] |
+| Post–CAR-T months 1–3+[^3][^4][^24][^25] | CBC for prolonged cytopenias; IgG monitoring with IVIG when IgG <400 mg/dL (e.g. cilta-cel label guidance); infection prophylaxis per center[^3][^4][^25] | Growth factors / transfusions / IVIG as needed for cytopenias and hypogammaglobulinemia[^3][^24] | Recurrent severe infection or grade ≥3 cytopenia → intensify supportive care / workup for marrow failure or HLH-like toxicity[^3][^24] |
+| Lifelong after CAR-T[^4][^25][^26] | Secondary malignancy surveillance including T-cell malignancy warning for BCMA- and CD19-directed autologous CAR-T; lifelong monitoring per labels[^4][^25][^26] | Report new cytopenias, lymphadenopathy, or unexplained B symptoms promptly[^4][^26] | Biopsy / hematopathology if secondary malignancy suspected; contact manufacturer for sample instructions[^4][^25] |
+| Casgevy / Lyfgenia engraftment period[^1][^2] | Frequent ANC and platelet counts until engraftment; bleeding precautions until platelets recover; consider VOD prophylaxis with busulfan conditioning[^1][^2] | Rescue CD34+ cells if neutrophil engraftment failure; manage mucositis/febrile neutropenia as transplant-level care[^1][^2] | Delayed platelet engraftment → continued transfusion support / TPO mimetic per center[^1][^2] |
+| Post–SCD gene therapy long-term[^1][^2] | Lyfgenia: CBC with differential ≥ every 6 months for ≥15 years; integration-site analysis at Months 6 and 12 and as warranted[^2]. Casgevy: enroll/continue long-term follow-up intended through 15 years after infusion[^1]. SCD organ surveillance (CNS, renal, cardiopulmonary, pain) continues per SCD specialist practice while VOC phenotype is reassessed[^1][^2][^7] | Fertility counseling completed before conditioning; infertility risk is from myeloablative busulfan, not a separate gene-edit–specific fertility trial endpoint[^1][^2] | New VOC/VOE, cytopenia, or suspected hematologic malignancy → urgent evaluation; Lyfgenia malignancy pathway includes bone-marrow workup when indicated[^2] |
+| Lifileucel[^5] | Peri-infusion and high-dose IL-2 monitoring per label[^5] | Hold/manage severe cardiopulmonary or capillary-leak toxicity per label[^5] | Progression → melanoma SOC/trial[^5][^17] |
+| GU investigational cellular trial[^19][^20][^21][^22] | Protocol-defined imaging and CRS/ICANS labs — do not invent a clinic SOC schedule[^19][^20][^21][^22] | Protocol holds[^19][^20][^21][^22] | Off-study progression → return to disease-setting SOC page[^6] |
 
 ## Landmark evidence
 
 <!-- .cross_trial -->
 | Trial / approval | Population | Intervention | Comparator | Primary / key endpoint | Clinically meaningful outcomes | Generalizability-critical differences |
 |---|---|---|---|---|---|---|
-| FDA Amtagvi (lifileucel)[^2][^3] | Unresectable/metastatic melanoma after PD-1 (± BRAF pathway therapy if indicated)[^2] | Autologous TIL product lifileucel[^2] | Single-arm approval cohort[^2][^3] | ORR / durability in labeled cohort[^2][^3] | FDA-reported ORR 31.5% (3 CR, 20 PR among 73 at recommended dose); responses ongoing at 6/9/12 mo in 56.5%/47.8%/43.5% of responders[^2][^3] | Solid-tumor TIL approval — melanoma, not GU[^2] |
-| FDA autologous CD19/BCMA CAR-T class[^1][^5] | Label-defined R/R leukemia, lymphoma, or myeloma[^1][^5] | Product-specific CAR-T[^1][^5] | Product-specific pivotal designs[^1][^5] | Label primary endpoints vary by product[^1][^5] | Practice-changing in heme; boxed-warning CRS and neurologic toxicity class risks[^1][^5] | Not transferable as GU SOC efficacy estimates[^1][^4] |
-| TRAVERSE / ALLO-316 (NCT04696731)[^9][^11] | Advanced/metastatic clear-cell RCC after ICI and VEGF therapy[^9][^11] | Allogeneic CD70 CAR-T (ALLO-316)[^9][^11] | Single-arm phase 1[^9][^11] | DLTs / safety; ORR secondary[^9][^11] | Peer-reviewed phase 1 activity in CD70-positive ccRCC; not FDA-approved SOC[^9][^11] | Allogeneic solid-tumor CAR-T; GU investigational[^9][^11] |
-| BNT211-01 (NCT04503278)[^10][^12] | CLDN6-positive R/R solid tumors including testicular GCT[^10][^12] | CLDN6 CAR-T ± RNA vaccine[^10][^12] | Dose-escalation ± vaccine[^10][^12] | Safety / preliminary ORR[^10][^12] | Peer-reviewed phase 1; GCT subset among highest early responses in that report — not SOC[^10][^12] | Antigen-selected solid tumors; GU-relevant for R/R GCT trial counseling[^10][^12] |
-| P-PSMA-101 (NCT04249947)[^8][^13] | mCRPC (trial also enrolled salivary gland cancer)[^8][^13] | Autologous PSMA CAR-T (piggyBac TSCM platform)[^8][^13] | Phase 1 dose escalation[^8][^13] | Safety / MTD; activity secondary[^8][^13] | Peer-reviewed phase 1; ClinicalTrials.gov terminated/closed — not SOC[^8][^13] | Do not confuse with 177Lu-PSMA radioligand therapy[^4][^8] |
-| SURPASS ADP-A2M4CD8 (NCT04044859)[^7][^14] | HLA-A*02+, MAGE-A4+ advanced solid tumors including urothelial carcinoma[^7][^14] | Autologous MAGE-A4 TCR-T ± PD-1[^7][^14] | Phase 1[^7][^14] | Safety; ORR secondary[^7][^14] | Ongoing phase 1; UC subset congress-reported — not practice-changing[^7][^14] | TCR-T requires HLA and antigen gates[^7][^14] |
+| Casgevy SCD Trial 1 / CLIMB SCD-121 (NCT03745287)[^1][^7] | SCD ≥2 severe VOCs/yr ×2 yr; infused N=44; efficacy-evaluable N=31 (label) / 30 (NEJM primary set)[^1][^7] | Exa-cel after PK-adjusted busulfan[^1][^7] | Single-arm (no randomized comparator)[^1][^7] | VF12: severe VOC-free ≥12 consecutive months[^1][^7] | Label VF12 29/31 (93.5%); HF12 30/30 (100%); NEJM: 29/30 (97%) VOC-free ≥12 mo and 30/30 (100%) hospitalization-free ≥12 mo[^1][^7] | Autologous CRISPR edit; myeloablative conditioning required; not head-to-head vs Lyfgenia[^1][^2][^7] |
+| Lyfgenia Study 1-C (HGB-206 Group C)[^2] | SCD with ≥4 VOEs in 24 mo; VOE efficacy N=32[^2] | Lovo-cel after busulfan[^2] | Single-arm (no randomized comparator)[^2] | VOE-CR / sVOE-CR between mo 6–18[^2] | VOE-CR 28/32 (88%); sVOE-CR 30/32 (94%)[^2] | Lentiviral insertion; boxed hematologic malignancy warning; α-thalassemia trait limitation[^2] |
+| ZUMA-7[^8][^10] | Early R/R LBCL (primary refractory or relapse ≤12 mo)[^8][^10] | Axi-cel[^8][^10] | Salvage chemoimmunotherapy ± high-dose chemo/ASCT[^8][^10] | EFS[^8] | Median EFS 8.3 mo vs 2.0 mo with SOC; ORR 83% vs 50%; CR 65% vs 32%; longer follow-up median OS not reached vs 31.1 mo with SOC[^8][^10] | Randomized 2L CAR-T vs transplant-intended SOC[^8][^10] |
+| TRANSFORM[^9] | Early R/R LBCL[^9] | Liso-cel[^9] | Salvage chemo → ASCT SOC[^9] | EFS[^9] | Median EFS 10.1 mo vs 2.3 mo with SOC[^9] | Randomized 2L; manufacturing/bridging differences vs other products matter clinically[^3][^9] |
+| BELINDA[^23] | Early R/R aggressive B-cell lymphoma[^23] | Tisa-cel[^23] | SOC salvage ± ASCT[^23] | EFS[^23] | No significant EFS difference vs SOC[^23] | Explains why tisa-cel is not preferred as 2L early-failure from this trial[^3][^23] |
+| KarMMa-3[^14] | RRMM after 2–4 prior regimens, triple-class exposed[^14] | Ide-cel[^14] | Physician’s choice SOC regimens[^14] | PFS[^14] | Median PFS 13.3 mo vs 4.4 mo with SOC; ORR 71% vs 42%; CRR 39% vs 5%[^14] | Randomized vs active SOC; OS mature analyses must account for crossover[^14][^16] |
+| CARTITUDE-4[^15] | Lenalidomide-refractory MM after 1–3 prior lines[^15] | Cilta-cel[^15] | DPd or PVd SOC[^15] | PFS[^15] | PFS HR 0.26 vs SOC; 12-mo PFS 75.9% vs 48.6%; ORR 84.6% vs 67.3%; ≥CR 73.1% vs 21.8%[^15] | Randomized earlier-line BCMA CAR-T[^15] |
+| ZUMA-1 / TRANSCEND / KarMMa / CARTITUDE-1 / ZUMA-2 (single-arm class anchors)[^3][^11][^12][^13][^27] | Label-defined R/R LBCL, MCL, or MM[^3] | Product-specific CAR-T[^3] | Single-arm (no randomized comparator)[^3] | ORR / DOR as labeled[^3] | Examples: ZUMA-1 ORR 82% (CR 54%); KarMMa ORR 73%; CARTITUDE-1 ORR 97%; ZUMA-2 high ORR in BTKi-exposed MCL[^3][^11][^12][^13][^27] | Do not treat single-arm ORR as comparative efficacy across products[^3] |
+| FDA Amtagvi (lifileucel)[^5][^17] | Melanoma after PD-1 (± BRAF pathway therapy if indicated)[^5][^17] | Lifileucel TIL[^5] | Single-arm approval cohort[^5][^17] | ORR / durability[^5][^17] | FDA-reported ORR 31.5% (3 CR, 20 PR among 73 at recommended dose); responses ongoing at 6/9/12 mo in 56.5%/47.8%/43.5% of responders[^5][^17] | Solid-tumor TIL approval — melanoma, not GU[^5] |
+| TRAVERSE / ALLO-316; BNT211-01; P-PSMA-101; SURPASS[^19][^20][^21][^22][^28][^29][^30][^31] | Advanced RCC, CLDN6+ solid tumors/GCT, mCRPC, HLA-A*02+/MAGE-A4+ solid tumors[^19][^20][^21][^22] | Investigational CAR-T/TCR-T[^19][^20][^21][^22] | Phase 1 / single-arm[^19][^20][^21][^22] | Safety ± preliminary ORR[^19][^20][^21][^22] | Peer-reviewed early activity in select GU-relevant cohorts — not FDA-approved SOC[^28][^29][^30] | Antigen/HLA gates; do not import heme ORR[^6] |
 
 ## Biomarkers
 
 | Marker / gate | Current clinic role | Emerging / investigational | How it changes decision now | Limits |
 |---|---|---|---|---|
-| CD19 / BCMA | Selects labeled autologous CAR-T in heme indications[^1][^5] | Next-gen constructs / earlier lines per evolving labels[^1][^5] | Confirms product class eligibility with histology and prior therapy[^1][^5] | Not GU solid-tumor SOC selectors[^1][^4] |
-| Tumor harvest feasibility (TIL) | Required for lifileucel manufacturing in melanoma[^2] | TIL programs in other solid tumors under study[^2][^3] | Operable tumor for harvest is a practical gate[^2] | Melanoma label does not authorize GU TIL SOC[^2] |
-| MAGE-A4 + HLA-A*02 | Trial gate for ADP-A2M4CD8 / SURPASS[^7][^14] | Broader TCR pipelines[^7] | Opens urothelial and other solid-tumor TCR-T trial discussion when both positive[^7][^14] | Investigational; not a labeled GU therapy selector[^7] |
-| PSMA (cellular vs radioligand) | PSMA PET selects radioligand on prostate pages; PSMA CAR-T is separate investigational modality[^4][^8] | PSMA CAR-T / STEAP1 CAR-T trials in mCRPC[^8][^15] | Do not equate PSMA PET positivity with CAR-T eligibility[^4][^8] | Radioligand ≠ gene/cellular therapy[^4] |
-| CD70 | Investigational selector for allogeneic CD70 CAR-T in ccRCC trials[^9][^11] | Logic-gated CA9/PSMA constructs (e.g. AB-2100)[^16] | May enrich RCC trial counseling after ICI+VEGF[^9][^11][^16] | No approved CD70 CAR-T for RCC[^9][^11] |
-| CLDN6 | Investigational gate for CLDN6 CAR-T ± RNA vaccine[^10][^12] | GCT-focused follow-on designs (some withdrawn)[^17] | Relevant for R/R CLDN6+ GCT trial referral[^10][^12] | Not stage I or first-line metastatic GCT SOC[^10][^12] |
+| Severe VOC / VOE history | Defines Casgevy / Lyfgenia label and pivotal enrichment[^1][^2][^7] | Gene-therapy earlier in SCD course under study[^1][^2] | Quantifies need for disease-modifying gene therapy referral[^1][^2][^7] | Single-arm VOC endpoints; not comparative between products[^1][^2] |
+| HLA-matched related donor availability | Exclusion from pivotal SCD gene-therapy designs when 10/10 related donor available[^1][^7] | Alternative donor allo-HCT pathways remain separate[^1] | Directs allo-HCT vs autologous gene therapy discussion[^1][^7] | Center-dependent |
+| CD19 / BCMA | Selects labeled autologous CAR-T in heme indications[^3][^4] | Next-gen constructs / dual-target CARs[^3] | Confirms product class with histology and prior therapy[^3][^4] | Antigen loss is a relapse mechanism; not a GU SOC selector[^3][^6] |
+| Early LBCL failure (≤12 mo) | Selects ZUMA-7 / TRANSFORM–style 2L CAR-T[^8][^9][^10] | First-line CAR-T trials ongoing[^3] | Favors axi-cel or liso-cel over tisa-cel in this window[^8][^9][^10][^23] | Fitness, bridging, and manufacturing time still matter[^3] |
+| Tumor harvest feasibility (TIL) | Required for lifileucel manufacturing[^5] | TIL in other solid tumors under study[^5][^17] | Operable tumor for harvest is a practical gate[^5] | Melanoma label does not authorize GU TIL SOC[^5] |
+| MAGE-A4 + HLA-A*02 | Trial gate for ADP-A2M4CD8 / SURPASS[^19][^31] | Broader TCR pipelines[^19] | Opens urothelial/other solid-tumor TCR-T trial discussion when both positive[^19][^31] | Investigational[^19] |
+| PSMA (cellular vs radioligand) | PSMA PET selects radioligand on prostate pages; PSMA CAR-T is separate[^6][^20] | PSMA / STEAP1 CAR-T trials in mCRPC[^20][^32] | Do not equate PSMA PET positivity with CAR-T eligibility[^6][^20] | Radioligand ≠ gene/cellular therapy[^6] |
+| CD70 / CLDN6 | Investigational selectors for RCC and GCT cellular trials[^21][^22][^28][^29] | Logic-gated and vaccine-boosted constructs[^33] | May enrich trial counseling after SOC failure[^21][^22] | No approved CD70/CLDN6 CAR-T[^21][^22] |
 
 ## Upcoming research
 
-Field direction: autologous CAR-T remains SOC in defined heme settings; lifileucel established the first US solid-tumor TIL approval in melanoma; GU solid tumors remain investigational for CAR-T/TCR-T with antigen-gated early-phase programs (PSMA/STEAP1, MAGE-A4 TCR, CD70 allogeneic, CLDN6).[^1][^2][^7][^8][^9][^10]
+Field direction: autologous gene therapy is labeled SOC for selected SCD (and Casgevy for TDT); autologous CAR-T is SOC across defined heme indications with randomized 2L LBCL and earlier-line MM evidence; lifileucel established US solid-tumor TIL approval in melanoma; GU solid tumors remain investigational for CAR-T/TCR-T.[^1][^2][^3][^5][^6]
 
 | Program | Why it may change care | Evidence status |
 |---|---|---|
-| [SURPASS / ADP-A2M4CD8](https://clinicaltrials.gov/study/NCT04044859) (NCT04044859) | MAGE-A4 TCR-T ± PD-1 in HLA-A*02+ urothelial and other solid tumors[^7][^14] | Ongoing phase 1 (active, not recruiting); congress-only UC activity[^7][^14] |
-| [P-PSMA-101](https://clinicaltrials.gov/study/NCT04249947) (NCT04249947) / [CART-PSMA-TGFβRDN](https://clinicaltrials.gov/study/NCT03089203) (NCT03089203) / [STEAP1 CART](https://clinicaltrials.gov/study/NCT06236139) (NCT06236139) | PSMA- or STEAP1-directed CAR-T approaches in mCRPC[^8][^13][^15][^18] | Mixed: peer-reviewed phase 1 (P-PSMA-101; trial closed); other programs ongoing/recruiting[^8][^13][^15][^18] |
-| [TRAVERSE / ALLO-316](https://clinicaltrials.gov/study/NCT04696731) (NCT04696731); [COBALT-RCC / CTX130](https://clinicaltrials.gov/study/NCT04438083) (NCT04438083); [AB-2100](https://clinicaltrials.gov/study/NCT06245915) (NCT06245915) | Allogeneic CD70 CAR-T and logic-gated ICT cells after ICI+VEGF in ccRCC[^9][^11][^16][^19] | TRAVERSE peer-reviewed; CTX130 terminated after early phase 1; AB-2100 ongoing phase 1/2[^9][^11][^16][^19] |
-| [BNT211-01](https://clinicaltrials.gov/study/NCT04503278) (NCT04503278) | CLDN6 CAR-T ± RNA vaccine in CLDN6+ solid tumors including GCT[^10][^12] | Peer-reviewed phase 1; active, not recruiting[^10][^12] |
-| Broader solid-tumor TIL / TCR / armored CAR platforms | Could extend beyond melanoma if randomized or labeled evidence emerges[^2][^3] | Pipeline; no GU SOC default on this page[^4] |
+| Longer SCD gene-therapy follow-up (Casgevy CLIMB-131–style 15-year surveillance; Lyfgenia long-term registry)[^1][^2] | Durability of VOC/VOE freedom and delayed malignancy/insertional risk[^1][^2] | Ongoing long-term follow-up; peer-reviewed SCD exa-cel primary analysis published[^1][^2][^7] |
+| Earlier-line and dual-target CAR-T in lymphoma / myeloma; outpatient CRS pathways[^3] | Could move CAR-T earlier and broaden eligible patients[^3] | Mixed: some labels already expanded; many trials ongoing[^3][^16] |
+| [SURPASS / ADP-A2M4CD8](https://clinicaltrials.gov/study/NCT04044859) (NCT04044859)[^19][^31] | MAGE-A4 TCR-T ± PD-1 in HLA-A*02+ urothelial and other solid tumors[^19][^31] | Ongoing phase 1; congress-only UC activity[^19][^31] |
+| PSMA / STEAP1 CAR-T in mCRPC (e.g. NCT03089203, NCT06236139; P-PSMA-101 closed)[^20][^30][^32][^34] | Cellular PSMA approaches distinct from radioligand therapy[^6][^20] | Mixed maturity; P-PSMA-101 peer-reviewed phase 1 then closed[^20][^30] |
+| CD70 allogeneic / logic-gated RCC programs (TRAVERSE/ALLO-316; AB-2100; CTX130 terminated)[^21][^28][^33][^35] | Off-the-shelf cellular options after ICI+VEGF in ccRCC[^21][^28] | TRAVERSE peer-reviewed; AB-2100 ongoing[^21][^28][^33] |
+| [BNT211-01](https://clinicaltrials.gov/study/NCT04503278) CLDN6 CAR-T ± RNA vaccine[^22][^29] | Antigen-selected GCT/solid-tumor activity[^22][^29] | Peer-reviewed phase 1[^22][^29] |
+| Broader solid-tumor TIL / TCR / armored CAR platforms[^5][^17] | Could extend beyond melanoma if randomized or labeled evidence emerges[^5][^17] | Pipeline; no GU SOC default[^6] |
 
 ## Toxicity
 
-| Regimen class | Trial- / label-level safety signal | Counseling focus |
+| Regimen | Trial- / label-level safety signal | Counseling focus |
 |---|---|---|
-| Autologous CD19/BCMA CAR-T | Boxed-warning risks of cytokine release syndrome and neurologic toxicities on labeled products; prolonged cytopenias and infection risk after lymphodepletion[^1][^5] | Urgent contact for fever, hypotension, confusion, aphasia, seizures, or severe infection symptoms; institutional CRS/ICANS pathway[^1][^5] |
-| Lifileucel TIL | Label-directed peri-infusion and IL-2–related toxicities[^2] | Report fever, capillary-leak symptoms, dyspnea, arrhythmias, or severe infection promptly[^2] |
-| Investigational GU cellular products | Protocol-specific CRS/ICANS and on-target off-tumor risks; do not import heme ORR/toxicity percentages as GU estimates[^7][^8][^9][^10] | Counsel as trial therapy with protocol monitoring — not labeled SOC[^4] |
+| Casgevy (SCD)[^1][^7] | After busulfan + exa-cel, most common grade 3–4 non-laboratory AEs (≥25%) include mucositis and febrile neutropenia; grade 3–4 mucositis 38/44 (86%) in Trial 1 SCD; all patients engrafted neutrophils in Trials 1/4; infertility risk from myeloablative conditioning; consider VOD prophylaxis with busulfan; single-arm safety (no randomized comparator)[^1][^7] | Expect transplant-level mucositis, cytopenias, infection risk; discuss fertility preservation before busulfan; urgent contact for fever, bleeding, jaundice, RUQ pain, or weight gain suggesting VOD[^1][^2] |
+| Lyfgenia[^2] | Boxed warning: hematologic malignancy (AML in earlier manufacturing Group A; MDS in a Group C patient with α-thalassemia trait); most common grade ≥3 AEs (≥20%) stomatitis, thrombocytopenia, neutropenia, febrile neutropenia, anemia, leukopenia; stomatitis 32/45 (71%) in labeled safety table; single-arm (no randomized comparator)[^2] | Lifelong cancer surveillance (CBC ≥ q6 mo for ≥15 y); fertility preservation before busulfan; same engraftment/bleeding counseling as autologous transplant[^2] |
+| Autologous CD19/BCMA CAR-T (class)[^3][^4][^24][^25][^26] | Boxed warnings for CRS and neurologic toxicity/ICANS; prolonged cytopenias common; hypogammaglobulinemia (cilta-cel: lab IgG <500 mg/dL in 93% in CARTITUDE-1/4 pooled label description); infections; HLH-like presentations reported as a recognized CAR-T complication class; secondary T-cell malignancy warning for BCMA- and CD19-directed products[^3][^4][^24][^25][^26] | Urgent contact for fever, hypotension, confusion, aphasia, seizures, severe infection; plan proximity to center for ≥2 weeks; IgG/IVIG and antimicrobial prophylaxis per center[^4][^24][^25] |
+| Axi-cel 2L (ZUMA-7 context)[^8][^10] | Randomized efficacy vs SOC transplant-intended therapy; product-specific CRS/ICANS rates are label-detail — counsel with the treating center’s product pathway rather than cross-trial grade mixes[^3][^8][^10] | Same CRS/ICANS action plan; do not quote unverified cross-product grade ≥3 rates as comparative[^3] |
+| Ide-cel / cilta-cel (randomized MM)[^14][^15] | Efficacy superior to named SOC regimens on PFS/ORR; CRS remains common after BCMA CAR-T (product labels)[^14][^15][^25] | Name the SOC comparator when discussing benefit; still counsel CRS/ICANS/infection/hypogammaglobulinemia[^14][^15][^25] |
+| Lifileucel TIL[^5] | Label-directed peri-infusion and IL-2–related toxicities; single-arm approval safety[^5] | Report fever, capillary-leak symptoms, dyspnea, arrhythmias, or severe infection promptly[^5] |
+| Investigational GU cellular products[^19][^20][^21][^22] | Protocol-specific CRS/ICANS and on-target off-tumor risks; do not import heme ORR/toxicity percentages as GU estimates[^19][^20][^21][^22] | Counsel as trial therapy with protocol monitoring — not labeled SOC[^6] |
 
 ### On-treatment monitoring
 
-| SOC/option regimen | Hallmark monitoring toxicity | Patient action / clinic response |
+| SOC/option regimen | Hallmark monitoring toxicity (rate when reported) | Patient action / clinic response |
 |---|---|---|
-| Labeled autologous CAR-T (heme) | CRS and ICANS per product label; cytopenias[^1][^5] | Inpatient/close observation per institutional pathway; tocilizumab/steroids per protocol when indicated[^1][^5] |
-| Lifileucel | Infusion and high-dose IL-2 toxicity per label[^2] | Monitor vitals, volume status, cardiopulmonary symptoms; escalate per label[^2] |
-| GU investigational CAR-T/TCR-T | Protocol CRS/ICANS labs and imaging[^7][^8][^9] | Follow trial schedule; off-protocol symptoms → contact trial team urgently[^7][^8][^9] |
+| Casgevy / Lyfgenia[^1][^2] | Neutrophil and platelet engraftment failure/delay; mucositis/febrile neutropenia; busulfan-related VOD risk (prophylaxis recommended); Lyfgenia hematologic malignancy surveillance[^1][^2] | Daily inpatient transplant-level monitoring until engraftment; CBC frequently after discharge until counts recover; Lyfgenia CBC ≥ q6 mo for ≥15 y + integration-site testing at mo 6/12[^1][^2] |
+| Labeled autologous CAR-T (heme)[^4][^24][^25] | CRS and ICANS — monitor at least daily × ≥7 days and for ≥2 weeks post-infusion; cytopenias; hypogammaglobulinemia (IVIG if IgG <400 mg/dL on cilta-cel label)[^4][^24][^25] | Tocilizumab/steroids per ASTCT/label; ICE score / handwriting checks; IgG replacement and infection prophylaxis; lifelong secondary malignancy vigilance[^4][^24][^25][^26] |
+| Lifileucel[^5] | Infusion and high-dose IL-2 toxicity per label[^5] | Monitor vitals, volume status, cardiopulmonary symptoms; escalate per label[^5] |
+| GU investigational CAR-T/TCR-T[^19][^20][^21][^22] | Protocol CRS/ICANS labs and imaging[^19][^20][^21][^22] | Follow trial schedule; off-protocol symptoms → contact trial team urgently[^19][^20][^21][^22] |
 
 ## Guideline references
 
-- Product-specific FDA labels for autologous CAR-T and lifileucel (indication and boxed warnings)[^1][^2][^5]
-- Disease-setting GU guidelines remain on GU oncology pathway pages (NCCN/EAU/ESMO/AUA as applicable) — this page does not replace them[^4]
+- Product-specific FDA / DailyMed labels for Casgevy, Lyfgenia, autologous CAR-T products, and lifileucel (indications, boxed warnings, monitoring)[^1][^2][^4][^5][^25]
+- ASCO CAR-T irAE guideline and EBMT/JACIE practice recommendations for CRS/ICANS and late-effect monitoring frameworks[^24][^36]
+- Disease-setting heme and GU guidelines remain on their pathway pages — this page does not replace them[^6]
 - ClinicalTrials.gov entries for named investigational programs listed in Sources
 
 ## Sources
 
-1. [FDA: elimination of REMS for autologous CD19- and BCMA-directed CAR-T immunotherapies (lists Abecma, Breyanzi, Carvykti, Kymriah, Tecartus, Yescarta)](https://www.fda.gov/news-events/press-announcements/fda-eliminates-risk-evaluation-and-mitigation-strategies-rems-autologous-chimeric-antigen-receptor)
-2. [FDA press announcement: Amtagvi (lifileucel) approval for unresectable or metastatic melanoma (2024-02-16)](https://www.fda.gov/news-events/press-announcements/fda-approves-first-cellular-therapy-treat-patients-unresectable-or-metastatic-melanoma)
-3. [NCI Cancer Currents: lifileucel first cancer TIL therapy FDA approval](https://www.cancer.gov/news-events/cancer-currents-blog/2024/fda-amtagvi-til-therapy-melanoma)
-4. MedOnc wiki GU oncology pathway pages (prostate, bladder/urothelial, kidney, testis settings) — radioligand, ADC, and small-molecule SOC sequencing lives on those pages, not here
-5. [Approved CAR-T therapies review (PMC11305028) — product class orientation](https://pmc.ncbi.nlm.nih.gov/articles/PMC11305028/)
-6. [DailyMed: Adstiladrin (nadofaragene firadenovec) — BCG-unresponsive NMIBC](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca20ed4-da4f-463c-ac2a-ccd6ab3774fa)
-7. [ClinicalTrials.gov NCT04044859 (SURPASS / ADP-A2M4CD8)](https://clinicaltrials.gov/study/NCT04044859)
-8. [ClinicalTrials.gov NCT04249947 (P-PSMA-101)](https://clinicaltrials.gov/study/NCT04249947)
-9. [ClinicalTrials.gov NCT04696731 (TRAVERSE / ALLO-316)](https://clinicaltrials.gov/study/NCT04696731)
-10. [ClinicalTrials.gov NCT04503278 (BNT211-01 / CLDN6 CAR-T ± RNA-LPX)](https://clinicaltrials.gov/study/NCT04503278)
-11. [Srour et al. (2026). TRAVERSE / ALLO-316. *Journal of Clinical Oncology*. PMID: 42447427](https://pubmed.ncbi.nlm.nih.gov/42447427/)
-12. [Mackensen et al. (2023). BNT211-01. *Nature Medicine*. PMID: 37872225](https://pubmed.ncbi.nlm.nih.gov/37872225/)
-13. [Phase I P-PSMA-101 in mCRPC. *Clinical Cancer Research*. PMID: 41779004](https://pubmed.ncbi.nlm.nih.gov/41779004/)
-14. [Aggen et al. / SURPASS UC cohort TPS (2024). *Journal of Clinical Oncology* ASCO GU abstract TPS708](https://ascopubs.org/doi/10.1200/JCO.2024.42.4_suppl.TPS708)
-15. [ClinicalTrials.gov NCT06236139 (STEAP1 CART ± enzalutamide)](https://clinicaltrials.gov/study/NCT06236139)
-16. [ClinicalTrials.gov NCT06245915 (AB-2100)](https://clinicaltrials.gov/study/NCT06245915)
-17. [ClinicalTrials.gov NCT06940804 (AVENTURINE — withdrawn)](https://clinicaltrials.gov/study/NCT06940804)
-18. [ClinicalTrials.gov NCT03089203 (CART-PSMA-TGFβRDN)](https://clinicaltrials.gov/study/NCT03089203)
-19. [ClinicalTrials.gov NCT04438083 (COBALT-RCC / CTX130)](https://clinicaltrials.gov/study/NCT04438083)
+1. [DailyMed / FDA PI: CASGEVY (exagamglogene autotemcel) — SCD and TDT indications, VF12/HF12, conditioning and safety](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7c3e12ad-e2fe-4d3f-a630-ea7364d9e846)
+2. [DailyMed / FDA PI: LYFGENIA (lovotibeglogene autotemcel) — VOE-CR/sVOE-CR, boxed hematologic malignancy warning, q6-month CBC ≥15 years](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0d1b475e-5781-2bd1-e063-6294a90a7311)
+3. [Bhaskar et al. (2024). Overview of approved CAR-T products. *Clin Hematol Int*. PMC11514108](https://pmc.ncbi.nlm.nih.gov/articles/PMC11514108/)
+4. [FDA package insert: KYMRIAH (tisagenlecleucel) — CRS/ICANS boxed warning, ≥7-day daily monitoring, ≥2-week proximity, secondary T-cell malignancy](https://www.fda.gov/media/107296/download)
+5. [FDA press announcement: Amtagvi (lifileucel) approval for unresectable or metastatic melanoma (2024-02-16)](https://www.fda.gov/news-events/press-announcements/fda-approves-first-cellular-therapy-treat-patients-unresectable-or-metastatic-melanoma)
+6. MedOnc wiki disease pathway pages (GU oncology and future heme/solid-tumor settings) — radioligand, ADC, and small-molecule SOC sequencing lives on those pages, not here
+7. [Frangoul et al. (2024). Exagamglogene autotemcel for severe sickle cell disease. *N Engl J Med*. PMID: 38661449](https://pubmed.ncbi.nlm.nih.gov/38661449/)
+8. [Locke et al. (2022). Axicabtagene ciloleucel as second-line therapy for large B-cell lymphoma (ZUMA-7). *N Engl J Med*. PMID: 34891224](https://pubmed.ncbi.nlm.nih.gov/34891224/)
+9. [Kamdar et al. (2022). TRANSFORM: liso-cel vs SOC second-line LBCL. *Lancet*. PMID: 35717989](https://pubmed.ncbi.nlm.nih.gov/35717989/)
+10. [Westin et al. (2023). Survival with axicabtagene ciloleucel in large B-cell lymphoma (ZUMA-7 OS). *N Engl J Med*. PMID: 37272527](https://pubmed.ncbi.nlm.nih.gov/37272527/)
+11. [Neelapu et al. (2017). ZUMA-1 axi-cel in refractory LBCL. *N Engl J Med*. PMID: 29226797](https://pubmed.ncbi.nlm.nih.gov/29226797/)
+12. [Wang et al. (2020). ZUMA-2 brexu-cel in R/R MCL. *N Engl J Med*. PMID: 32242358](https://pubmed.ncbi.nlm.nih.gov/32242358/)
+13. [Munshi et al. (2021). KarMMa ide-cel in RRMM. *N Engl J Med*. PMID: 33626253](https://pubmed.ncbi.nlm.nih.gov/33626253/)
+14. [Rodriguez-Otero et al. (2023). KarMMa-3: ide-cel vs standard regimens in RRMM. *N Engl J Med*. PMID: 36762851](https://pubmed.ncbi.nlm.nih.gov/36762851/)
+15. [San-Miguel et al. (2023). CARTITUDE-4: cilta-cel vs standard care in lenalidomide-refractory myeloma. *N Engl J Med*. PMID: 37272512](https://pubmed.ncbi.nlm.nih.gov/37272512/)
+16. [Approved CAR-T therapies review (PMC11305028) — earlier-line ide-cel/cilta-cel label context](https://pmc.ncbi.nlm.nih.gov/articles/PMC11305028/)
+17. [NCI Cancer Currents: lifileucel first cancer TIL therapy FDA approval](https://www.cancer.gov/news-events/cancer-currents-blog/2024/fda-amtagvi-til-therapy-melanoma)
+18. [DailyMed: Adstiladrin (nadofaragene firadenovec) — BCG-unresponsive NMIBC](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5ca20ed4-da4f-463c-ac2a-ccd6ab3774fa)
+19. [ClinicalTrials.gov NCT04044859 (SURPASS / ADP-A2M4CD8)](https://clinicaltrials.gov/study/NCT04044859)
+20. [ClinicalTrials.gov NCT04249947 (P-PSMA-101)](https://clinicaltrials.gov/study/NCT04249947)
+21. [ClinicalTrials.gov NCT04696731 (TRAVERSE / ALLO-316)](https://clinicaltrials.gov/study/NCT04696731)
+22. [ClinicalTrials.gov NCT04503278 (BNT211-01 / CLDN6 CAR-T ± RNA-LPX)](https://clinicaltrials.gov/study/NCT04503278)
+23. [Bishop et al. (2022). BELINDA: second-line tisa-cel vs standard care in aggressive B-cell lymphoma. *N Engl J Med*. PMID: 34904798](https://pubmed.ncbi.nlm.nih.gov/34904798/)
+24. [Santomasso et al. / ASCO (2021). Management of immune-related adverse events in patients treated with CAR T-cell therapy: ASCO guideline. *J Clin Oncol*. DOI: 10.1200/JCO.21.01992](https://ascopubs.org/doi/10.1200/JCO.21.01992)
+25. [DailyMed / FDA PI: CARVYKTI (ciltacabtagene autoleucel) — CRS/ICANS monitoring window, IgG/IVIG, lifelong secondary malignancy monitoring](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7d040b91-3fb8-41db-ba7f-60a36f06e2c2)
+26. [FDA: investigating serious risk of T-cell malignancy following BCMA- or CD19-directed autologous CAR-T](https://www.fda.gov/vaccines-blood-biologics/safety-availability-biologics/fda-investigating-serious-risk-t-cell-malignancy-following-bcma-directed-or-cd19-directed-autologous)
+27. [Berdeja et al. (2021). CARTITUDE-1 cilta-cel in RRMM. *Lancet*. PMID: 34175021](https://pubmed.ncbi.nlm.nih.gov/34175021/)
+28. [Srour et al. (2026). TRAVERSE / ALLO-316. *Journal of Clinical Oncology*. PMID: 42447427](https://pubmed.ncbi.nlm.nih.gov/42447427/)
+29. [Mackensen et al. (2023). BNT211-01. *Nature Medicine*. PMID: 37872225](https://pubmed.ncbi.nlm.nih.gov/37872225/)
+30. [Phase I P-PSMA-101 in mCRPC. *Clinical Cancer Research*. PMID: 41779004](https://pubmed.ncbi.nlm.nih.gov/41779004/)
+31. [Aggen et al. / SURPASS UC cohort TPS (2024). *Journal of Clinical Oncology* ASCO GU abstract TPS708](https://ascopubs.org/doi/10.1200/JCO.2024.42.4_suppl.TPS708)
+32. [ClinicalTrials.gov NCT06236139 (STEAP1 CART ± enzalutamide)](https://clinicaltrials.gov/study/NCT06236139)
+33. [ClinicalTrials.gov NCT06245915 (AB-2100)](https://clinicaltrials.gov/study/NCT06245915)
+34. [ClinicalTrials.gov NCT03089203 (CART-PSMA-TGFβRDN)](https://clinicaltrials.gov/study/NCT03089203)
+35. [ClinicalTrials.gov NCT04438083 (COBALT-RCC / CTX130)](https://clinicaltrials.gov/study/NCT04438083)
+36. [EBMT/JACIE best practice recommendations for adults and children undergoing CAR T-cell therapy. *Haematologica*](https://haematologica.org/article/view/9515)
 
 ## Changelog
 
+- 2026-09-23: Expanded to heme/onc–wide scope — added SCD gene therapy (Casgevy/Lyfgenia) with label efficacy and conditioning risks; product-level heme CAR-T indications with randomized ZUMA-7/TRANSFORM/KarMMa-3/CARTITUDE-4 comparators; detailed Toxicity and Surveillance cadences (CRS/ICANS, IgG/IVIG, secondary malignancy, SCD engraftment/VOD/fertility/malignancy monitoring).
 - 2026-09-23: Created standalone cellular-domain overview page (not a GU evidence section); approved heme CAR-T and melanoma TIL for orientation; GU programs listed as investigational with verified NCTs.
