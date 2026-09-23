@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NECTINIUM-2 — GU oncologist brief</title>
+<style>
+  :root {
+    --bg: #eef1f4;
+    --paper: #ffffff;
+    --ink: #1a1d23;
+    --muted: #5c6570;
+    --line: #d5dae2;
+    --accent: #0f3d68;
+    --accent-soft: #e7eef5;
+    --warn-bg: #f7f1e8;
+    --warn-ink: #7a4a12;
+    --ok-bg: #e8f2ec;
+    --ok-ink: #1f5a38;
+    --gap-bg: #f3eef5;
+    --gap-ink: #4a3560;
+    --font: "IBM Plex Sans", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --serif: "IBM Plex Serif", "Source Serif 4", Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  html { font-size: 15.5px; scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background:
+      radial-gradient(ellipse 80% 50% at 0% 0%, #d9e4ef 0%, transparent 55%),
+      radial-gradient(ellipse 60% 40% at 100% 10%, #e4ebe4 0%, transparent 45%),
+      var(--bg);
+    color: var(--ink);
+    font-family: var(--font);
+    line-height: 1.45;
+  }
+  .wrap {
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.1rem 3rem;
+  }
+  header.hero {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 1.35rem 1.4rem 1.15rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 0 rgba(15, 61, 104, 0.04);
+  }
+  .kicker {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 0.35rem;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 1.55rem;
+    line-height: 1.2;
+    margin: 0 0 0.45rem;
+    color: var(--accent);
+  }
+  .lede {
+    margin: 0 0 0.85rem;
+    color: var(--ink);
+    max-width: 42rem;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.85rem;
+    font-size: 0.82rem;
+    color: var(--muted);
+    border-top: 1px solid var(--line);
+    padding-top: 0.75rem;
+  }
+  .pill {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    padding: 0.15rem 0.45rem;
+    border-radius: 2px;
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .pill.warn { background: var(--warn-bg); color: var(--warn-ink); }
+  .pill.gap { background: var(--gap-bg); color: var(--gap-ink); }
+  nav.toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.75rem;
+    margin: 0 0 1.25rem;
+    font-size: 0.84rem;
+  }
+  nav.toc a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  nav.toc a:hover { border-bottom-color: var(--accent); }
+  section {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 1.1rem 1.25rem 1.2rem;
+    margin-bottom: 0.85rem;
+  }
+  h2 {
+    font-family: var(--serif);
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin: 0 0 0.65rem;
+    color: var(--accent);
+  }
+  h3 {
+    font-size: 0.88rem;
+    font-weight: 650;
+    margin: 0.95rem 0 0.4rem;
+    color: var(--ink);
+  }
+  p, li { font-size: 0.92rem; }
+  p { margin: 0 0 0.55rem; }
+  ul, ol { margin: 0.2rem 0 0.55rem; padding-left: 1.15rem; }
+  li { margin-bottom: 0.28rem; }
+  .callout {
+    border-left: 3px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 0.55rem 0.75rem;
+    margin: 0.65rem 0;
+    font-size: 0.88rem;
+  }
+  .callout.warn {
+    border-left-color: var(--warn-ink);
+    background: var(--warn-bg);
+  }
+  .callout.gap {
+    border-left-color: var(--gap-ink);
+    background: var(--gap-bg);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.82rem;
+    margin: 0.45rem 0 0.7rem;
+  }
+  th, td {
+    border: 1px solid var(--line);
+    padding: 0.4rem 0.5rem;
+    vertical-align: top;
+    text-align: left;
+  }
+  th {
+    background: #f5f7fa;
+    font-weight: 650;
+  }
+  .flow {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+    margin: 0.55rem 0 0.75rem;
+  }
+  @media (min-width: 640px) {
+    .flow { grid-template-columns: repeat(3, 1fr); }
+  }
+  .flow-step {
+    border: 1px solid var(--line);
+    padding: 0.65rem 0.7rem;
+    background: #fafbfc;
+  }
+  .flow-step strong {
+    display: block;
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 0.25rem;
+  }
+  .muted { color: var(--muted); }
+  .sources li { font-size: 0.8rem; color: var(--muted); }
+  .sources a { color: var(--accent); }
+  footer.note {
+    font-size: 0.78rem;
+    color: var(--muted);
+    margin-top: 0.5rem;
+    padding: 0 0.2rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <p class="kicker">GU oncology · Radiopharmaceutical brief · Not SOC</p>
+  <h1>NECTINIUM-2 (Aktis AKY-1189)</h1>
+  <p class="lede">
+    First-in-human Phase&nbsp;1b theranostic study of a Nectin-4–targeted
+    miniprotein delivering actinium-225, with copper-64 PET for patient selection.
+    For GU oncologists: where it sits relative to EV, what data exist, and what is still unknown.
+  </p>
+  <div class="meta">
+    <span class="pill">NCT07020117</span>
+    <span class="pill">Phase 1b · recruiting</span>
+    <span class="pill warn">No published Ac-225 efficacy yet</span>
+    <span>Reviewed for fidelity: 2026-09-22</span>
+  </div>
+</header>
+
+<nav class="toc" aria-label="On this page">
+  <a href="#overview">Trial overview</a>
+  <a href="#theranostic">Theranostic approach</a>
+  <a href="#evidence">Supporting evidence</a>
+  <a href="#prelim">Preliminary results</a>
+  <a href="#clinic">What to know in clinic</a>
+  <a href="#gaps">Unanswered questions</a>
+  <a href="#sources">Sources</a>
+</nav>
+
+<section id="overview">
+  <h2>1. Trial overview</h2>
+  <table>
+    <tr><th>Item</th><th>Detail</th></tr>
+    <tr><td>Official name</td><td>NECTINIUM-2: Phase 1b, 2-part, open-label study of [²²⁵Ac]Ac-AKY-1189 in previously treated locally advanced or metastatic solid tumors</td></tr>
+    <tr><td>Sponsor</td><td>Aktis Oncology</td></tr>
+    <tr><td>Agent</td><td>AKY-1189 — high-affinity Nectin-4 miniprotein radioconjugate</td></tr>
+    <tr><td>Imaging</td><td>[⁶⁴Cu]Cu-AKY-1189 PET/CT (selection / target engagement)</td></tr>
+    <tr><td>Therapy</td><td>[²²⁵Ac]Ac-AKY-1189 (α-particle emitter; up to 6 cycles in Part 1)</td></tr>
+    <tr><td>Status</td><td>Recruiting (US); start 2025-08-22; dose escalation ongoing as of ASCO GU 2026</td></tr>
+    <tr><td>Planned N</td><td>~150 (estimated)</td></tr>
+    <tr><td>Populations named</td><td>mUC, TNBC, HR+ breast, NSCLC, cervical adenocarcinoma, CRC, head &amp; neck</td></tr>
+  </table>
+
+  <h3>Design</h3>
+  <ul>
+    <li><strong>Part 1 (dose escalation):</strong> ascending doses of [²²⁵Ac]Ac-AKY-1189 to define MTD/MAD and RP2D; primary endpoints DLTs and AEs. Congress materials describe ~30 patients with locally advanced/metastatic solid tumors including mUC.</li>
+    <li><strong>Part 2 (dose expansion):</strong> treat at RP2D in patients identified as Nectin-4 positive by [⁶⁴Cu]Cu-AKY-1189; primary endpoint ORR by tumor type (RECIST 1.1). Planned cohorts include mUC, TNBC, and a solid-tumor basket.</li>
+  </ul>
+
+  <h3>Key eligibility (public materials)</h3>
+  <ul>
+    <li>Age ≥18; measurable disease (RECIST 1.1); ECOG 0–1; progression on prior metastatic therapy.</li>
+    <li>Congress / TPS language: <strong>tumor uptake on [⁶⁴Cu]Cu-AKY-1189 PET/CT</strong> confirms eligibility.</li>
+    <li>Prior <strong>enfortumab vedotin allowed</strong>; other prior Nectin-4–targeted therapy excluded; prior therapeutic radiopharmaceutical excluded.</li>
+    <li>Note: the ClinicalTrials.gov bullet eligibility list is thinner than the ASCO GU / JCO TPS language on PET uptake—use congress text when counseling trial fit.</li>
+  </ul>
+</section>
+
+<section id="theranostic">
+  <h2>2. How the theranostic approach works</h2>
+  <p>Same Nectin-4 binder (AKY-1189); isotope chooses the job.</p>
+  <div class="flow">
+    <div class="flow-step">
+      <strong>Step 1 · Image</strong>
+      Inject [⁶⁴Cu]Cu-AKY-1189 → PET/CT. Ask: does tumor take up the ligand?
+    </div>
+    <div class="flow-step">
+      <strong>Step 2 · Select</strong>
+      Public gate = tumor uptake (“Nectin-4 positive by Cu-64 PET”). No published SUVmax / TBR cutoff.
+    </div>
+    <div class="flow-step">
+      <strong>Step 3 · Treat</strong>
+      Inject [²²⁵Ac]Ac-AKY-1189. α-particles (high energy, short path length) for localized tumor kill.
+    </div>
+  </div>
+  <div class="callout">
+    This is <em>not</em> EV-based imaging and not an IHC H-score gate in public NECTINIUM-2 materials.
+    Tissue Nectin-4 IHC is background rationale only. Selection is a same-binder PET phenotype.
+  </div>
+</section>
+
+<section id="evidence">
+  <h2>3. Supporting evidence</h2>
+
+  <h3>Why Nectin-4 is a credible UC target</h3>
+  <ul>
+    <li>Nectin-4 is highly expressed in urothelial carcinoma and is clinically validated by enfortumab vedotin (MMAE ADC).</li>
+    <li>EV + pembrolizumab is 1L SOC in la/mUC (EV-302); EV monotherapy after platinum + PD-(L)1 (EV-301). That validates the <em>target</em>, not the radioligand modality.</li>
+  </ul>
+
+  <h3>Drug-specific rationale</h3>
+  <table>
+    <thead>
+      <tr><th>Evidence tier</th><th>Finding (as reported)</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Preclinical UC models</td>
+        <td>Single [²²⁵Ac]Ac-AKY-1189 dose → tumor regression or stasis; target-dependent activity at tolerated doses</td>
+        <td>Company / congress</td>
+      </tr>
+      <tr>
+        <td>Human imaging (Ga-68 / Lu-177)</td>
+        <td>Favorable biodistribution; robust lesion uptake across UC and other Nectin-4–expressing tumors (incl. brain mets shown); kidney potentially dose-limiting; marrow/kidney dosimetry below stated clinical benchmarks</td>
+        <td>Congress (Sathekge 2024)</td>
+      </tr>
+      <tr>
+        <td>Human Ac-225 therapy</td>
+        <td>First-in-human dose escalation ongoing; no peer-reviewed ORR/PFS/OS yet</td>
+        <td>Pending</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>How expression was measured in precursor imaging (not the Cu-64 charter)</h3>
+  <ul>
+    <li>Metric: lesion <strong>SUVmax</strong> on multiple ROIs (primary ± mets), ~1–3 h after [⁶⁸Ga]Ga-AKY-1189 (~185 MBq).</li>
+    <li>Binary call in that deck: “uptake positive” vs “Nectin-4 negative” (15/15 evaluable positive).</li>
+    <li>Example SUVmax with [⁶⁸Ga]Ga-AKY-1189 (1 h / 3 h): bone 27.7 / 27.8; lung 10.3 / 16.2; liver 38.5 / 49.3.</li>
+    <li>NECTINIUM-2 switches the imaging isotope to <strong>Cu-64</strong>; the enrollment SUV rule is not public.</li>
+  </ul>
+</section>
+
+<section id="prelim">
+  <h2>4. Preliminary results (what exists vs what does not)</h2>
+  <div class="callout warn">
+    <strong>Do not counsel response rates.</strong> No published clinical efficacy for [²²⁵Ac]Ac-AKY-1189 (ORR, DoR, PFS, OS) was found as of 2026-09-22.
+  </div>
+
+  <h3>Available (imaging / safety / dosimetry — pre–NECTINIUM-2 or concurrent imaging program)</h3>
+  <ul>
+    <li>[⁶⁸Ga]Ga-AKY-1189 imaging cohort n=20 (bladder primary n=9); 15 evaluable → all uptake-positive.</li>
+    <li>[¹⁷⁷Lu]Lu-AKY-1189 dosimetry subset; reported no AEs attributable to Ga-68 or Lu-177 conjugates in that presentation; one patient received a therapeutic Lu-177 administered activity for therapy/dosimetry.</li>
+    <li>Kidney median absorbed dose ~0.30 Gy/GBq and bone marrow ~0.01 Gy/GBq with Lu-177 (authors compared to ~1 and ~0.1 Gy/GBq benchmarks).</li>
+    <li>Physiologic uptake in salivary/lacrimal glands and GI with washout by 48 h on SPECT in presented cases; kidney flagged as main normal-tissue concern.</li>
+  </ul>
+
+  <h3>NECTINIUM-2 itself (as of ASCO GU 2026 TPS)</h3>
+  <ul>
+    <li>Actively enrolling in the US; dose escalation ongoing.</li>
+    <li>No dose levels, DLTs, RP2D, or antitumor activity reported in the public TPS poster.</li>
+  </ul>
+</section>
+
+<section id="clinic">
+  <h2>5. What a GU oncologist should know</h2>
+  <ol>
+    <li><strong>Modality:</strong> α-emitting Nectin-4 radioligand (miniprotein), not an ADC and not EV. Cross-resistance with EV is unknown.</li>
+    <li><strong>Selection:</strong> Companion [⁶⁴Cu]Cu-AKY-1189 PET uptake — not BRCA1, not published IHC H-score, not FGFR/HER2.</li>
+    <li><strong>Prior EV:</strong> Explicitly allowed. Other Nectin-4 drugs (non-EV) and prior therapeutic RPT are exclusions.</li>
+    <li><strong>Clinic niche today:</strong> Trial option after progression on prior metastatic therapy — most relevant post–EV±pembro or later-line mUC when RPT logistics and PET selection are available at a site.</li>
+    <li><strong>Counseling honesty:</strong> Target and imaging look promising; therapeutic Ac-225 benefit and toxicity profile in humans are still being defined in Phase 1b.</li>
+    <li><strong>Practical logistics:</strong> Needs nuclear medicine capable of Cu-64 PET + Ac-225 handling; kidney dosimetry will matter; cycles up to 6 in escalation.</li>
+    <li><strong>Do not conflate with platinum DDR biomarkers:</strong> BRCA1 mRNA/IHC and ERCC2/ATM–RB1–FANCC data apply to cisplatin sensitivity in UC, not to AKY-1189 selection.</li>
+  </ol>
+  <div class="callout">
+    Positioning relative to SOC: EV+pembro remains 1L for most la/mUC. NECTINIUM-2 is investigational sequencing after (or instead of, only on trial) standard systemic options—not a replacement pathway.
+  </div>
+</section>
+
+<section id="gaps">
+  <h2>6. Unanswered questions</h2>
+  <div class="callout gap">
+    <span class="pill gap">Open</span> These are gaps in the public evidence, not protocol criticisms.
+  </div>
+  <ul>
+    <li>What is the operational Cu-64 PET cutoff (SUVmax, TBR, visual score, central vs local read)?</li>
+    <li>Does prior EV select for lower surface Nectin-4 and blunt α-RLT activity, or does PET still enrich responders?</li>
+    <li>Will kidney absorbed dose, not marrow or salivary toxicity, set the RP2D?</li>
+    <li>ORR / DoR / PFS in post-EV mUC at RP2D — and how they compare with other post-EV options (FGFR, HER2 ADCs, chemo, trials)?</li>
+    <li>Is there any additive predictive value from tissue Nectin-4 IHC, molecular subtype, or DDR genotype beyond PET uptake?</li>
+    <li>Intralesional heterogeneity: FDG-avid but Cu-64–cold lesions — how often, and clinical meaning?</li>
+    <li>Brain metastases: imaging uptake was shown; therapeutic CNS activity of Ac-225–AKY-1189 is unproven.</li>
+    <li>Combination path (e.g., with PD-1) — not part of NECTINIUM-2 as publicly described.</li>
+  </ul>
+</section>
+
+<section id="sources">
+  <h2>7. Sources</h2>
+  <ul class="sources">
+    <li>ClinicalTrials.gov. <a href="https://www.clinicaltrials.gov/study/NCT07020117">NCT07020117</a> — NECTINIUM-2 / AKY-1189-01.</li>
+    <li>Yap TA, et al. [²²⁵Ac]Ac-AKY-1189… Phase 1b Nectinium-2 study. <em>J Clin Oncol</em>. 2026;44(7_suppl):TPS902. DOI: <a href="https://doi.org/10.1200/jco.2026.44.7_suppl.tps902">10.1200/jco.2026.44.7_suppl.tps902</a>.</li>
+    <li>Aktis Oncology. ASCO GU 2026 TPS poster (NECTINIUM-2). <a href="https://www.aktisoncology.com/wp-content/uploads/2026/02/Aktis_ASCO-GU-2026_20260209.pdf">PDF</a>.</li>
+    <li>Sathekge M, et al. AKY-1189 miniprotein radiopharmaceutical — EORTC–NCI–AACR 2024 oral. <a href="https://www.aktisoncology.com/wp-content/uploads/2024/10/Aktis-EORTC-NCI-AACR-Symposium-on-Molecular-Targets-and-Cancer-Therapeutics_ORAL-PRESENTATION_FINAL.pdf">Company PDF</a>.</li>
+    <li>Ramonaheng K, et al. Allometric scaling / SUVmax comparison AKY-807 vs AKY-1189. EORTC–NCI–AACR 2024. <a href="https://www.aktisoncology.com/wp-content/uploads/2024/10/Aktis_EORTC-NCI-AACR-Symposium-on-Molecular-Targets-and-Cancer-Therapeutics_Allometric-Scaling-of-AKY-807-and-AKY-1189_FINAL.pdf">Company PDF</a>.</li>
+    <li>Powles T, et al. EV-302. <em>N Engl J Med</em>. 2024. (Nectin-4 clinical validation via EV+pembro; adjacent SOC context.)</li>
+  </ul>
+  <p class="muted" style="font-size:0.8rem;margin-top:0.75rem;">
+    Inbox-style brief for review. Not promoted to pathways wiki. Claims limited to retrieved public sources; congress materials labeled as such.
+  </p>
+</section>
+
+<footer class="note">
+  OncologyWiki docs · NECTINIUM-2 GU brief · fidelity-checked 2026-09-22
+</footer>
+
+</div>
+</body>
+</html>
