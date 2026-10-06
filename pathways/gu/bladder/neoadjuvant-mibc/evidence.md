@@ -1,7 +1,7 @@
 # Bladder / urothelial → Neoadjuvant muscle-invasive bladder cancer
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-10-06
+Next review: 2027-01-04
 Owner: GU clinic
 Purpose: Preoperative decision support for resectable muscle-invasive bladder cancer
 Status: current — treatment is cystectomy-anchored; perioperative strategies must be distinguished from adjuvant-only evidence
@@ -70,13 +70,17 @@ Published 2-year EFS landmarks only across EV-303, EV-304, and NIAGARA; not head
 | PD-L1 | Not a selector for perioperative EV plus pembrolizumab or NIAGARA in the retrieved reports[^1][^2][^3] | Exploratory correlatives in ICI trials[^5] | Does not choose among EV-303, EV-304, and NIAGARA on this page[^1][^2][^3]. | No validated perioperative threshold in these sources[^1][^2][^3]. |
 | ctDNA | Not standard for selecting neoadjuvant treatment[^5] | Investigational MRD / perioperative correlatives[^5] | Do not use it to omit curative-intent local therapy outside a protocol[^5][^6]. | Assay decision thresholds are not practice-ready for neoadjuvant selection here[^5]. |
 | Nectin-4 / HER2 / FGFR | Not selectors for perioperative EV/ICI in EV-303, EV-304, or NIAGARA[^1][^2][^3] | Metastatic biomarker-directed options after recurrence[^5] | No change to perioperative regimen choice in these trials[^1][^2][^3]. | Do not require Nectin-4/HER2/FGFR positivity to offer labeled perioperative EV plus pembrolizumab[^1][^2][^4]. |
+| CCND1 amplification | Not a selector among EV-303, EV-304, NIAGARA, or cCR bladder-sparing protocols in retrieved sources[^1][^2][^3][^10] | Prognostic in node-positive cystectomy series; no approved CCND1-directed UC drug; CDK4/6 investigational[^12][^13][^14] | Do not use CCND1 amp to omit cystectomy or to pick perioperative ICI versus chemo[^1][^10][^12]. | Amp status did not predict chemo response in Seiler 2014; CyclinD1 protein in metastases did[^12]. No retrieved source links CCND1 amp to HCRN GU16-257 cCR[^10]. |
+| MSH2 germline / Lynch / MSI-H–dMMR | Genetics referral when personal/family history or UTUC phenotype suggests Lynch; dMMR/MSI-H is more common in UTUC than bladder[^15][^16][^17] | Tumor-agnostic pembrolizumab after failure of prior therapy in unresectable/metastatic MSI-H/dMMR cancer; retrospective advanced UTUC ICI series[^18][^19] | Does not replace cystectomy-anchored perioperative packages on this page; MODERN (adjuvant, post-surgery) does not list MSI as a randomization factor[^1][^9]. | KEYNOTE-158 is not a neoadjuvant MIBC trial; urothelial-specific ORR was not in the retrieved abstract[^18]. Not found as a cCR eligibility marker in HCRN GU16-257[^10]. |
 
 ## Upcoming research
 
-Field direction: perioperative EV plus pembrolizumab and durvalumab plus GC are now practice standards; longer follow-up and completion rates will refine durability counseling[^1][^2][^3].
+Field direction: perioperative EV plus pembrolizumab and durvalumab plus GC are now practice standards; longer follow-up and completion rates will refine durability counseling. Alliance A032103 / MODERN is not a neoadjuvant or cCR bladder-sparing trial—it randomizes after radical surgery on Signatera ctDNA (see the adjuvant urothelial page). cCR selection for omitting immediate cystectomy is a separate research construct, most clearly defined in HCRN GU16-257[^1][^2][^3][^9][^10].
 
 | Trial or publication | Why it may change care | Evidence status |
 |---|---|---|
+| [Alliance A032103 / MODERN](https://clinicaltrials.gov/study/NCT05987241) NCT05987241 | Does not use cCR. Post-cystectomy (or NU/ureterectomy) ctDNA-guided adjuvant nivolumab versus nivolumab plus relatlimab if ctDNA+, or immediate nivolumab versus ctDNA surveillance if ctDNA−. Estimated N=992; recruiting; no primary efficacy publication found in PubMed as of 2026-10-06[^9]. | Protocol on ClinicalTrials.gov; details on the adjuvant urothelial page[^9]. |
+| [HCRN GU16-257](https://pubmed.ncbi.nlm.nih.gov/37783966/) NCT03558087 | Stringently defined cCR after gemcitabine 1,000 mg/m² days 1 and 8 plus cisplatin 70 mg/m² day 1 plus nivolumab 360 mg day 1, every 21 days ×4, then restaging MRI/CT, rigid cystoscopy with mapped biopsies, and urine cytology. cCR required all of: no malignancy on biopsy except low-grade Ta; no malignant cells on cytology; no local or metastatic disease on imaging. cCR 33/76 (43%, 95% CI 32–55%); 32 of 33 with cCR deferred immediate cystectomy and received nivolumab 240 mg every 2 weeks ×8 then surveillance. PPV of cCR for the composite 2-year metastasis-free survival (if deferred cystectomy) or <ypT1N0 (if immediate cystectomy) was 0.97 (95% CI 0.91–1). Single-arm phase 2; no randomized comparator. The PubMed abstract lists NCT03451331, which is a different metastatic Galsky trial; Nature Medicine methods and ClinicalTrials.gov register this organ-sparing study as NCT03558087[^10][^11]. | Peer-reviewed phase 2 (2023); completed[^10][^11]. |
 | [EV-304 / KEYNOTE-B15](https://pubmed.ncbi.nlm.nih.gov/42485627/) longer follow-up | Clarifies durability and postoperative treatment completion for a perioperative EV plus pembrolizumab strategy against GC[^2]. | Peer-reviewed report; continued follow-up[^2]. |
 | [NIAGARA](https://pubmed.ncbi.nlm.nih.gov/39282910/) longer follow-up | Clarifies durability of the perioperative durvalumab plus GC result[^3]. | Peer-reviewed phase 3 report; continued follow-up[^3]. |
 
@@ -113,8 +117,20 @@ Field direction: perioperative EV plus pembrolizumab and durvalumab plus GC are 
 6. [EAU Muscle-invasive and metastatic bladder cancer guideline](https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer)
 7. [AUA/ASCO/ASTRO/SUO MIBC guideline](https://www.auanet.org/guidelines-and-quality/guidelines/bladder-cancer-non-metastatic-muscle-invasive-guideline)
 8. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
+9. [ClinicalTrials.gov NCT05987241. MODERN / Alliance A032103. Retrieved 2026-10-06](https://clinicaltrials.gov/study/NCT05987241)
+10. [Galsky et al. (2023). Gemcitabine and cisplatin plus nivolumab as organ-sparing treatment. *Nature Medicine*. PMID: 37783966](https://pubmed.ncbi.nlm.nih.gov/37783966/)
+11. [ClinicalTrials.gov NCT03558087. HCRN GU16-257. Retrieved 2026-10-06](https://clinicaltrials.gov/study/NCT03558087)
+12. [Seiler et al. (2014). CCND1/CyclinD1 in metastasizing bladder cancer. *Modern Pathology*. PMID: 23887292](https://pubmed.ncbi.nlm.nih.gov/23887292/)
+13. [Lin et al. (2022). Amplification of CCND1 in urothelial carcinoma. *Journal of the Association of Genetic Technologists*. PMID: 35247258](https://pubmed.ncbi.nlm.nih.gov/35247258/)
+14. [Jardim et al. (2023). Cyclin pathway genes and FGF/FGFR in urinary tract tumors. *The Oncologist*. PMID: 36082904](https://pubmed.ncbi.nlm.nih.gov/36082904/)
+15. [Labbate et al. (2026). Lynch syndrome–associated UTUC genotype-phenotype. *European Urology Oncology*. PMID: 41176509](https://pubmed.ncbi.nlm.nih.gov/41176509/)
+16. [Spooner et al. (2026). Universally offered germline testing in UTUC. *Urologic Oncology*. PMID: 42542401](https://pubmed.ncbi.nlm.nih.gov/42542401/)
+17. [Chelluri et al. (2026). UTUC associated with Lynch syndrome. *Current Opinion in Oncology*. PMID: 41920568](https://pubmed.ncbi.nlm.nih.gov/41920568/)
+18. [Marabelle et al. (2020). KEYNOTE-158 pembrolizumab in noncolorectal MSI-H/dMMR cancer. *Journal of Clinical Oncology*. PMID: 31682550](https://pubmed.ncbi.nlm.nih.gov/31682550/)
+19. [Moussa et al. (2026). ICI in advanced dMMR/MSI-H UTUC. *JCO Precision Oncology*. PMID: 41911516](https://pubmed.ncbi.nlm.nih.gov/41911516/)
 
 ## Changelog
+- 2026-10-06: Added CCND1 amplification and MSH2 germline/Lynch biomarker rows; Upcoming research now distinguishes Alliance A032103 / MODERN (post-cystectomy ctDNA adjuvant; not a cCR trial) from HCRN GU16-257 stringently defined cCR bladder-sparing (NCT03558087).
 - 2026-09-22: Replaced post-cystectomy surveillance with EAU CT every 6 months ×3 years then annual through ~60 months; added perioperative 2-year EFS landmark figure; expanded Biomarkers to five-column table; mirrored EAU cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Labeled FDA monitoring rates as single-arm label rates and restated trial-level grade ≥3 AEs with named comparators; mirrored comparator-named counseling in the paired dotphrase.

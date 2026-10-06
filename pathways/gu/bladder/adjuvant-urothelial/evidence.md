@@ -1,7 +1,7 @@
 # Bladder / urothelial → Adjuvant urothelial
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-10-06
+Next review: 2027-01-04
 Owner: GU clinic
 Purpose: Disease → setting page for adjuvant urothelial-carcinoma decisions after radical surgery
 Status: clinic-ready — perioperative EV+pembro and NIAGARA now change who still needs classic adjuvant IO; ctDNA MRD selects adjuvant atezo
@@ -81,16 +81,21 @@ These rows mix perioperative (changes adjuvant need) and true adjuvant trials. I
 | Nectin-4 | Not an adjuvant IO selector in these trials[^1][^5] | Perioperative EV plus pembrolizumab context on neoadjuvant/mUC pages[^4] | No change to classic adjuvant IO choice on this page[^1][^5]. | Not used to select adjuvant nivolumab, pembrolizumab, or atezolizumab[^1][^5]. |
 | HER2 | Not an adjuvant IO selector[^1][^5] | Metastatic / tumor-agnostic HER2 context elsewhere[^5] | No adjuvant decision change on this page[^1][^5]. | No validated adjuvant assay role here[^1][^5]. |
 | FGFR | Not an adjuvant IO selector[^1][^5] | Metastatic FGFR3 / erdafitinib pathway[^5] | No adjuvant decision change on this page[^1][^5]. | Adjuvant setting does not use FGFR to select IO[^1][^5]. |
+| CCND1 amplification (not CCDN1) | Not a selector for adjuvant nivolumab, atezolizumab, or MODERN cohort assignment[^1][^5][^9] | Prognostic in a node-positive cystectomy series; CDK4/6 inhibitors investigational; no approved CCND1-directed drug in UC[^13][^14][^15] | Do not use CCND1 amp to choose or omit adjuvant PD-1 or to assign MODERN arms[^9][^13]. | Amp status did not predict adjuvant chemotherapy response in Seiler 2014; high nuclear CyclinD1 in lymph-node metastases did[^13]. Pan-solid-tumor ICI correlatives are not a UC perioperative selector[^16]. No retrieved source ties CCND1 amp to cCR bladder-sparing[^11][^13]. |
+| MSH2 germline / Lynch / MSI-H–dMMR | Triggers germline counseling and UTUC-focused hereditary evaluation; dMMR/MSI-H is more common in UTUC than bladder UC[^17][^18][^19] | Tumor-agnostic pembrolizumab for previously treated unresectable/metastatic MSI-H/dMMR cancer (KEYNOTE-158 mixed histologies); retrospective single-institution ICI activity in advanced dMMR/MSI-H UTUC, including Lynch[^19][^20][^21] | Does not change CheckMate 274 ITT adjuvant PD-1 or Signatera-based MODERN randomization; MSI/MSH2 is not listed as a MODERN stratum on ClinicalTrials.gov[^1][^9]. Refer genetics; consider tumor-agnostic ICI if disease is unresectable/metastatic and label criteria are met[^20][^21]. | KEYNOTE-158 is not a perioperative MIBC trial; the retrieved abstract does not report a urothelial-specific ORR[^20]. Advanced UTUC ICI series are retrospective and not adjuvant phase 3[^21]. |
 
 ## Upcoming research
 
-Field direction: perioperative EV plus pembrolizumab and NIAGARA are reshaping who still needs classic adjuvant IO, while ctDNA MRD (IMvigor011) adds a biomarker branch; residual disease after perioperative therapy and dual EV/IO then MRD-positive pathways remain open questions[^3][^4][^5].
+Field direction: perioperative EV plus pembrolizumab and NIAGARA are reshaping who still needs classic adjuvant IO, while ctDNA MRD (IMvigor011) adds a biomarker branch; Alliance A032103 / MODERN is the open phase 2/3 test of Signatera-guided adjuvant nivolumab escalation versus de-escalation after radical surgery. Residual disease after perioperative therapy and dual EV/IO then MRD-positive pathways remain open questions[^3][^4][^5][^9][^10][^12].
+
+Clinical complete response (cCR) is not an eligibility or randomization construct in MODERN. The trial enrolls after radical cystectomy (or nephroureterectomy or ureterectomy) with no measurable residual disease by RECIST 1.1; cohort assignment is postoperative Signatera ctDNA(+) versus ctDNA(−), not restaging of an intact bladder. Cystoscopy on MODERN is a permitted follow-up procedure, not a cCR definition. cCR-based bladder-sparing lives on the neoadjuvant MIBC page (HCRN GU16-257)[^9][^11].
 
 | Program or question | Why it may change care | Evidence status |
 |---|---|---|
+| [Alliance A032103 / MODERN](https://clinicaltrials.gov/study/NCT05987241) NCT05987241 | After high-risk radical surgery, Signatera assigns Cohort A (ctDNA+) to nivolumab every 28 days ×12 versus nivolumab plus relatlimab every 28 days ×12, and Cohort B (ctDNA−) to immediate nivolumab ×12 versus serial ctDNA surveillance with nivolumab only if conversion to ctDNA+. Primary endpoints: Cohort A phase 2, 12-week ctDNA clearance; Cohort A phase 3, overall survival; Cohort B, DFS non-inferiority of surveillance versus immediate nivolumab (90% CI for HR must exclude 1.39). Estimated enrollment 992; recruiting; start 2024-02-02; primary completion listed 2030-09-02. Open-label. Drug doses are not stated on the retrieved ClinicalTrials.gov record. No primary efficacy readout was found in PubMed as of 2026-10-06[^9][^10][^12]. | Protocol on ClinicalTrials.gov; Alliance activation 1 Apr 2024; named in 2025–2026 ctDNA reviews; primary journal publication not found[^9][^10][^12]. |
 | AMBASSADOR overall survival | Clarifies whether adjuvant pembrolizumab DFS benefit translates to mature OS versus observation[^2]. | Peer-reviewed DFS report; OS follow-up pending in this pack[^2]. |
 | High-risk yp residual disease after perioperative EV plus pembrolizumab or NIAGARA | Defines adjuvant or next systemic options when pathologic residual disease persists[^3][^4]. | Not answered in retrieved sources; treat as a care-changing evidence gap[^3][^4]. |
-| Perioperative EV plus pembrolizumab then later ctDNA MRD positivity | Sequencing when both pathways apply[^4][^5]. | Not defined in retrieved sources[^4][^5]. |
+| Perioperative EV plus pembrolizumab then later ctDNA MRD positivity | Sequencing when both IMvigor011-style MRD therapy and prior perioperative EV/ICI apply[^4][^5][^9]. | Not defined in retrieved sources; MODERN allows prior neoadjuvant cisplatin plus PD-1/PD-L1 or EV plus PD-1/PD-L1 but is not a published sequencing guide[^4][^5][^9]. |
 
 
 ## Toxicity
@@ -126,8 +131,22 @@ Field direction: perioperative EV plus pembrolizumab and NIAGARA are reshaping w
 6. [EAU Muscle-invasive and metastatic bladder cancer guideline](https://uroweb.org/guidelines/muscle-invasive-and-metastatic-bladder-cancer)
 7. [ESMO bladder cancer guideline](https://www.esmo.org/guidelines/esmo-clinical-practice-guideline-bladder-cancer)
 8. [Galsky et al. (2026). CheckMate 274 5-year efficacy and ctDNA. *Annals of Oncology*. PMID: 41110694](https://pubmed.ncbi.nlm.nih.gov/41110694/)
+9. [ClinicalTrials.gov NCT05987241. MODERN / Alliance A032103. Retrieved 2026-10-06](https://clinicaltrials.gov/study/NCT05987241)
+10. [Natera and Alliance for Clinical Trials in Oncology. Activation of Alliance A032103 (MODERN). 1 Apr 2024](https://www.natera.com/company/news/natera-and-alliance-for-clinical-trials-in-oncology-announce-activation-of-alliance-a032103-modern-a-randomized-phase-ii-iii-adjuvant-trial-in-urothelial-cancer/)
+11. [Galsky et al. (2023). HCRN GU16-257 cCR organ-sparing. *Nature Medicine*. PMID: 37783966](https://pubmed.ncbi.nlm.nih.gov/37783966/)
+12. [Manolitsis et al. (2025). ctDNA for MIBC before and after radical cystectomy. *Expert Review of Anticancer Therapy*. PMID: 40418565](https://pubmed.ncbi.nlm.nih.gov/40418565/)
+13. [Seiler et al. (2014). CCND1/CyclinD1 in metastasizing bladder cancer. *Modern Pathology*. PMID: 23887292](https://pubmed.ncbi.nlm.nih.gov/23887292/)
+14. [Lin et al. (2022). Amplification of CCND1 in urothelial carcinoma. *Journal of the Association of Genetic Technologists*. PMID: 35247258](https://pubmed.ncbi.nlm.nih.gov/35247258/)
+15. [Jardim et al. (2023). Cyclin pathway genes and FGF/FGFR in urinary tract tumors. *The Oncologist*. PMID: 36082904](https://pubmed.ncbi.nlm.nih.gov/36082904/)
+16. [Chen et al. (2020). CCND1 amplification and ICI outcomes in solid tumors. *Frontiers in Immunology*. PMID: 32903763](https://pubmed.ncbi.nlm.nih.gov/32903763/)
+17. [Labbate et al. (2026). Lynch syndrome–associated UTUC genotype-phenotype. *European Urology Oncology*. PMID: 41176509](https://pubmed.ncbi.nlm.nih.gov/41176509/)
+18. [Spooner et al. (2026). Universally offered germline testing in UTUC. *Urologic Oncology*. PMID: 42542401](https://pubmed.ncbi.nlm.nih.gov/42542401/)
+19. [Chelluri et al. (2026). UTUC associated with Lynch syndrome. *Current Opinion in Oncology*. PMID: 41920568](https://pubmed.ncbi.nlm.nih.gov/41920568/)
+20. [Marabelle et al. (2020). KEYNOTE-158 pembrolizumab in noncolorectal MSI-H/dMMR cancer. *Journal of Clinical Oncology*. PMID: 31682550](https://pubmed.ncbi.nlm.nih.gov/31682550/)
+21. [Moussa et al. (2026). ICI in advanced dMMR/MSI-H UTUC. *JCO Precision Oncology*. PMID: 41911516](https://pubmed.ncbi.nlm.nih.gov/41911516/)
 
 ## Changelog
+- 2026-10-06: Added CCND1 amplification and MSH2 germline/Lynch/MSI-H–dMMR rows to Biomarkers (treatment implications and MODERN/cCR boundaries); added Alliance A032103 / MODERN (NCT05987241) to Upcoming research as the open Signatera-guided adjuvant nivolumab ± relatlimab trial; stated that cCR is not a MODERN eligibility construct and pointed to HCRN GU16-257 for bladder-sparing cCR.
 - 2026-09-22: Replaced surveillance with EAU post-cystectomy CT every 6 months ×3 years then annual through ~60 months; added CheckMate 274 DFS landmark figure and Source #8; clarified median DFS vs landmark % in the landmark table; expanded Biomarkers to five-column table; mirrored EAU cadence in paired dotphrase.
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named placebo/observation/GC/surgery comparators in monitoring rates and labeled EV FDA rates as single-arm; mirrored comparator-named counseling in the paired dotphrase.
