@@ -1,10 +1,10 @@
 # Prostate → mHSPC
 
-Last reviewed: 2026-09-22
-Next review: 2026-12-21
+Last reviewed: 2026-10-05
+Next review: 2027-01-03
 Owner: GU clinic
 Purpose: Disease → setting page for metastatic hormone-sensitive prostate cancer
-Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets; re-check NCCN (not retrieved this pass)
+Status: Intermittent-ADT claims and citations audited against primary sources 2026-10-05; other sections retain the 2026-09-22 review. NCCN text was not retrieved in this update.
 
 ## Who this applies to
 - Synchronous or metachronous metastatic hormone-sensitive prostate cancer (mHSPC / mCSPC / mAPMN/S)[^13].
@@ -36,6 +36,31 @@ Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets
 
 ## Surveillance and treatment de-escalation
 
+### Intermittent ADT in mCSPC
+
+- Continuous ADT-based combination therapy remains the standard. EAU states that intermittent ADT has been superseded by continuous combination treatment; survival equivalence in metastatic disease remains unproven. The 2026 AUA/SUO panel generally advises against intermittent ADT in mHSPC[^14][^28].
+- A-DREAM supplies prospective evidence that some exceptional responders can have a meaningful treatment-free interval after ADT plus an androgen-receptor pathway inhibitor (ARPI). It is a small, single-arm phase 2 study; it cannot establish survival equivalence to continued treatment[^20][^21].
+
+| Situation | Decision supported by the evidence | Boundary |
+|---|---|---|
+| Routine mCSPC treatment | Continue ADT plus the indicated combination[^14]. | The pivotal combination evidence uses continuous ADT[^14]. |
+| Exceptional response; substantial treatment burden; considering a break | Discuss trial participation and the A-DREAM eligibility and monitoring framework[^20][^22]. | Clinical interpretation: a selected-patient discussion, not an established replacement for continuous therapy; no randomized survival comparison[^20][^21]. |
+| Low-volume / oligometastatic disease | Discuss local therapy in the appropriate multidisciplinary setting[^23]. | EXTEND tested adding metastasis-directed therapy (MDT) to intermittent hormone therapy; it did not compare intermittent with continuous therapy[^23]. |
+| Nonmetastatic PSA recurrence after radiotherapy | PR.7 supports an intermittent strategy in its enrolled population[^18]. | This is adjacent evidence; do not transfer its noninferiority result to mCSPC[^17][^18]. |
+
+### Published interruption protocols
+
+These are trial-specific schedules and thresholds, not interchangeable prescribing rules[^16][^22][^24][^25].
+
+| Protocol | Who entered the interruption phase | What stops / continues | Surveillance and restart |
+|---|---|---|---|
+| SWOG 9346 — historical | Stable/falling PSA ≤4 ng/mL at months 6 and 7 of LHRH-agonist plus older antiandrogen induction[^16]. | Stop hormonal treatment; subsequent cycles permitted if response criteria recur[^16]. | Monthly PSA; assessment every 3 months. Restart at PSA 20 ng/mL (or pretreatment baseline if lower); earlier at PSA 10 or symptoms at investigator discretion. Rising PSA by month 3 of a break required continuous treatment[^16]. |
+| A-DREAM — investigational | 18–24 months ADT; ≥12 months ARPI; PSA <0.2 ng/mL, stable/falling over 3 consecutive same-laboratory measurements; testosterone <50 ng/dL. No liver/brain metastases[^21][^22]. | Stop both ADT and ARPI[^22]. | Clinical assessment, PSA/testosterone and labs every 3 months; CT/MRI chest/abdomen/pelvis plus bone scan every 6 months, with 3-month interim imaging recommended for rising PSA. Restart for PSA ≥5 ng/mL, radiographic progression or cancer-related symptoms[^22]. |
+| LIBERTAS — investigational | PSA <0.2 ng/mL after 6 months apalutamide plus ADT[^24]. | Interrupt ADT; apalutamide continues[^24]. | Protocol restart triggers include new/worsening cancer symptoms, PSA >10 ng/mL (or pretreatment baseline if lower), or PSA doubling time <6 months[^27]. |
+| EORTC 2238 DE-ESCALATE — investigational | PSA ≤0.2 ng/mL after 6–12 months ADT plus ARPI[^25]. | Interrupt both ADT and ARPI[^25]. | Restart at investigator discretion for significant PSA increase; the registry permits another interruption once PSA <0.2 ng/mL[^25]. |
+
+Clinical interpretation: before an off-protocol discussion, document the disease extent, response duration, exact drugs being interrupted, patient priorities, monitoring plan and explicit restart triggers. A low PSA alone does not establish that interruption preserves survival[^14][^20][^22].
+
 | Setting | PSA | Imaging | Stop/de-escalate | Re-escalate |
 |---|---|---|---|---|
 | On ADT plus ARPI or triplet[^13] | PSA and testosterone every 3 months; CBC/CMP and regimen-specific labs per label[^13][^14]. | Cross-sectional imaging every 6–12 months or for symptoms[^13][^14]. | Continue systemic therapy until radiographic or clinical progression or unacceptable toxicity; hold individual agents for toxicity rather than stopping ADT. Fixed-cycle components (docetaxel ×6, 177Lu-PSMA-617 up to 6 doses) complete per protocol then continue the remaining backbone[^1][^3][^13]. | Castration-resistant progression on conventional or PSMA imaging → mCRPC pathway with full prior-exposure documentation[^13]. |
@@ -46,7 +71,43 @@ Status: clinic-ready — numbers from retrieved primary abstracts / FDA snippets
 
 ## Landmark evidence
 
-Cross-trial comparisons are indirect. Abstract-level unless noted. HR with 95% CI only if published in the retrieved source[^13].
+Cross-trial comparisons are indirect. Source access and endpoint-specific confidence levels are identified below and in Sources.
+
+### Intermittent-therapy evidence
+
+The SWOG primary interval is 90%; the PR.7 and EXTEND intervals below are 95%. The A-DREAM primary registry interval is 80%. These endpoints and populations should not be ranked against one another[^16][^18][^21][^23].
+
+<!-- .cross_trial -->
+| Trial | Population | Intervention | Comparator | Primary endpoint | Clinically meaningful outcomes | Generalizability-critical differences |
+|---|---|---|---|---|---|---|
+| SWOG 9346; phase 3 | 1,535 metastatic responders in the primary analysis (770 intermittent; 765 continuous)[^16]. | Intermittent LHRH agonist plus older antiandrogen after 7-month induction (goserelin/bicalutamide or equivalents)[^16]. | Continuous hormonal treatment with the same backbone[^16]. | Coprimary: overall survival (OS; noninferiority margin HR 1.20) and 3-month quality of life[^16]. | Median OS 5.1 vs 5.8 years; death HR 1.10 (90% CI 0.99–1.23). Noninferiority not established[^16]. | Pre-modern-ARPI treatment; result inconclusive, not proof of either equivalence or significant inferiority[^16]. |
+| A-DREAM / Alliance A032101; phase 2 | 78 eligible exceptional responders to ADT plus ARPI[^20][^21]. | Stop both drugs[^22]. | None: single-arm[^20]. | Treatment-free at 18 months with testosterone recovery to study threshold ≥150 ng/dL[^21]. | 32/78 (41.0%); registry 80% CI 33.1–48.9%. ASCO abstract: 45/78 (58%) treatment-free regardless of testosterone; 52/78 (67%) recovered testosterone[^20][^21]. | Highly selected; no randomized control; abstract median follow-up 21.2 months. OS preservation not demonstrated; the study threshold is not a general definition of normal testosterone[^20][^21]. |
+| PR.7; phase 3 | 1,386 patients with PSA >3 ng/mL, >1 year after primary/salvage radiotherapy; no distant metastases[^18]. | LHRH agonist in 8-month cycles plus nonsteroidal antiandrogen for ≥4 weeks each cycle[^18]. | Continuous LHRH agonist plus antiandrogen for ≥4 weeks, or orchiectomy[^18]. | OS noninferiority; margin HR 1.25[^18]. | Median OS 8.8 vs 9.1 years; HR 1.02 (95% CI 0.86–1.21); noninferior in this population[^18]. | M0 biochemical recurrence; does not resolve the metastatic question[^17][^18]. |
+| EXTEND; randomized phase 2 | 87 men with ≤5 metastases; intermittent-hormone basket[^23]. | Definitive radiation to all metastases plus intermittent hormone therapy[^23]. | Intermittent hormone therapy alone[^23]. | Progression-free survival (PFS)[^23]. | Median PFS not reached vs 15.8 months; HR 0.25 (95% CI 0.12–0.55)[^23]. | Planned hormone break at 6 months in both arms; tests MDT addition, not interruption safety versus continuous therapy. Abstract-only retrieval; no inference of a pure mCSPC cohort or uniform modern ARPI regimen[^23]. |
+
+![SWOG 9346: death hazard ratio 1.10, 90% confidence interval 0.99 to 1.23, crossing both 1.00 and the 1.20 noninferiority boundary.](figures/swog9346-noninferiority.svg)
+
+Source-recreated interval summary, not a Kaplan–Meier curve. The upper bound crosses the prespecified margin, so a 20% higher death hazard cannot be excluded; the interval also includes 1.00[^16][^17].
+
+### Low disease burden does not establish interruption safety
+
+- SWOG’s exploratory minimal-disease subgroup had median OS 5.4 years with intermittent versus 6.9 years with continuous treatment (HR 1.19; 95% CI 0.98–1.43). “Minimal” meant metastases confined to spine, pelvic bones or nodes, not the CHAARTED low-volume definition. Interpretation: this subgroup result does not identify a population in which survival equivalence is established[^16].
+
+### Why older pooled evidence looks more reassuring
+
+- Magnan et al. included 15 trials / 6,856 patients; the OS analysis used 8 trials / 5,352 patients: HR 1.02 (95% CI 0.93–1.11). The pooled analysis met its noninferiority criterion; most studies had unclear/high risk of bias[^19].
+- Interpretation: mixed recurrent/advanced populations and pre-ARPI regimens make this indirect evidence for current mCSPC treatment. The metastatic-only SWOG result and modern combination-treatment evidence remain central[^14][^17][^19].
+
+### A-DREAM evidence maturity
+
+- ASCO 2026 abstract 5004 reports the phase 2 primary objective was met; patient-reported outcomes and biomarker analyses were still in progress[^20].
+- ClinicalTrials.gov results were posted 2026-08-31. The registry confirms the 41.0% primary rate, but OS, radiographic PFS and duration-off-treatment results are not posted[^21].
+- Source discrepancy retained: the abstract gives an 80% CI of 33.5–48.9%; the registry gives 33.1–48.9%. The table uses the posted registry interval. No full peer-reviewed efficacy manuscript was located in this search[^20][^21].
+- The registry primary endpoint uses testosterone ≥150 ng/dL; the abstract describes >150 ng/dL. This page uses the registry definition and reports the difference rather than silently merging the two. The registry description also contains an ng/mL unit typo; its endpoint title and protocol schema use ng/dL[^20][^21][^22].
+
+### Modern observational evidence
+
+- Talmor et al. reported a retrospective cohort of 69 selected deep responders with mHSPC or mCRPC who stopped ADT plus ARPI after ≥12 months without progression. Pooled median treatment-free survival was 35 months; the mHSPC subgroup median was not reached. These are single-cohort findings with no randomized continuous-treatment comparator; they support feasibility and cannot establish survival noninferiority. Only the published abstract was retrieved[^29].
 
 <!-- .cross_trial -->
 | Trial | Population | Intervention arm | Control arm | Key outcomes (both arms) | Key HR | Evidence status |
@@ -78,6 +139,13 @@ STAMPEDE abi (James 2017 NEJM PMID 28578639): mixed M0/M1 starting ADT; OS HR 0.
 
 ## Upcoming research
 
+### Modern treatment-interruption trials
+
+| Program | Strategy and key question | Status checked 2026-10-05 |
+|---|---|---|
+| LIBERTAS — NCT05884398 | Apalutamide continues while ADT is intermittent versus continuous; co-primary outcomes are 18-month radiographic PFS and hot-flash score[^24]. | Active, not recruiting; no registry results. Estimated primary completion 2026-10-12, not a guaranteed readout date. ASCO 2026 data retrieved here describe induction PSA response, not randomized interruption efficacy[^24][^26]. |
+| EORTC 2238 DE-ESCALATE — NCT05974774 | Intermittent versus continuous ADT plus ARPI after a deep response; co-primary objectives include OS noninferiority and avoiding restart for 1 year[^25]. | Recruiting in the latest registry record; no results posted[^25]. |
+
 Field direction: intensification beyond ADT/ARPI now includes radioligand (PSMAddition), PARP (AMPLITUDE), and AKT (CAPItello-281) pathways in selected mHSPC; mature OS and oligometastatic local therapy still shape uptake[^3][^4][^12][^2].
 
 | Program | Why it may change care | Evidence status |
@@ -88,6 +156,13 @@ Field direction: intensification beyond ADT/ARPI now includes radioligand (PSMAd
 
 
 ## Toxicity
+
+### Does an intermittent strategy reduce treatment burden?
+
+| Evidence | Finding | Counseling implication |
+|---|---|---|
+| SWOG 9346 | Erectile function and mental health favored intermittent treatment at 3 months. Table 2 also shows an erectile-function difference at 9 months; neither difference was significant at 15 months. Grade 3–4 treatment-related events: 30.4% intermittent vs 32.7% continuous, P=0.53[^16][^17]. | Selected symptoms may improve versus continuous therapy; a reduction in severe toxicity was not established[^16]. |
+| A-DREAM | 41% reached the combined treatment-free/testosterone-recovery endpoint; comparative quality-of-life benefit is not established by the available results[^20][^21]. | Recovery is not guaranteed; discuss benefit alongside unresolved long-term cancer-control risk[^20][^21]. |
 
 | Regimen group | Trial-first safety signal | Counseling focus |
 |---|---|---|
@@ -112,6 +187,9 @@ Field direction: intensification beyond ADT/ARPI now includes radioligand (PSMAd
 
 ## Guideline references
 
+- [EAU Prostate Cancer — treatment, §§6.6.4.b and 6.6.5](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment): continuous ADT-based combination treatment is the standard; intermittent metastatic survival equivalence remains unresolved[^14].
+- [AUA/SUO 2026 amendment, Part I](https://www.auajournals.org/doi/10.1097/JU.0000000000005220): generally advises against intermittent ADT in mHSPC; its evidence search ended 2025-08-26 and therefore predates A-DREAM 2026[^28].
+- [ASCO initial management guideline, 2021](https://ascopubs.org/doi/10.1200/JCO.20.03256): separates M0 recurrent disease from the inconclusive metastatic SWOG evidence; historical guidance, preceding A-DREAM 2026[^17].
 - [NCCN Prostate Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459)
 - [EAU Prostate Cancer guideline](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment)
 - [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
@@ -131,10 +209,27 @@ Field direction: intensification beyond ADT/ARPI now includes radioligand (PSMAd
 11. [James et al. (2017). STAMPEDE abiraterone. *New England Journal of Medicine*. PMID: 28578639](https://pubmed.ncbi.nlm.nih.gov/28578639/)
 12. CAPItello-281; FDA approval of capivasertib with abiraterone for PTEN-deficient mAPMN/S (12 Jun 2026).
 13. [NCCN Prostate Cancer](https://www.nccn.org/guidelines/guidelines-detail?category=1&id=1459)
-14. [EAU Prostate Cancer guideline](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment)
+14. [EAU Prostate Cancer guideline, 2026. Full treatment chapter retrieved 2026-10-05; §§6.6.4.b and 6.6.5 support the intermittent-ADT and continuous-combination statements.](https://uroweb.org/guidelines/prostate-cancer/chapter/treatment)
 15. [ASCO guideline portal](https://www.asco.org/practice-patients/guidelines)
+16. [Hussain et al. (2013). SWOG 9346. *NEJM*. DOI: 10.1056/NEJMoa1212299; PMID: 23550669. PMC3682658 full text retrieved through NCBI BioC; Methods: Treatment Plan/Statistical Analysis; Results: Patients, Survival and Quality of Life; Figures 2–3 and Table 2.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3682658/)
+17. [Virgo et al. (2021). Initial management of noncastrate advanced, recurrent, or metastatic prostate cancer: ASCO guideline update. *JCO*. DOI: 10.1200/JCO.20.03256; PMID: 33497248. Historical guideline; PubMed abstract Recommendations and publisher-indexed intermittent-ADT discussion retrieved, not a newly verified complete guideline.](https://ascopubs.org/doi/10.1200/JCO.20.03256)
+18. [Crook et al. (2012). PR.7. *NEJM*. DOI: 10.1056/NEJMoa1201546; PMID: 22931259. PMC3521033 full text retrieved through NCBI BioC; Methods: Eligibility Criteria/Treatment Schema; Results: Overall Survival.](https://pmc.ncbi.nlm.nih.gov/articles/PMC3521033/)
+19. [Magnan et al. (2015). Intermittent versus continuous ADT: systematic review and meta-analysis. *JAMA Oncology*. DOI: 10.1001/jamaoncol.2015.2895; PMID: 26378418. PubMed abstract only: Data Synthesis, Results and Conclusions; full manuscript not retrieved.](https://pubmed.ncbi.nlm.nih.gov/26378418/)
+20. [Choudhury et al. (2026). A-DREAM / Alliance A032101. *JCO* 44(suppl), abstract 5004. DOI: 10.1200/JCO.2026.44.16_suppl.5004. Conference abstract, not a full efficacy manuscript; abstract cutoff 2026-05-12. Methods, Results and Conclusions retrieved from publisher-indexed PDF text; direct publisher/PDF access returned 403.](https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.5004)
+21. [A-DREAM — NCT05241860. ClinicalTrials.gov: Eligibility; Results → Outcome measures. Results first posted 2026-08-31; record last updated 2026-09-24. Retrieved via API 2026-10-05.](https://clinicaltrials.gov/study/NCT05241860?tab=results)
+22. [Alliance A032101 protocol/SAP, update 3, 2025-08-19. Full public registry protocol retrieved: schema p5; §3.2 eligibility; §5 calendar pp19–20; §7 restart and §11.1 imaging. Printed page numbers.](https://cdn.clinicaltrials.gov/large-docs/60/NCT05241860/Prot_SAP_000.pdf)
+23. [Tang et al. (2023). EXTEND intermittent-hormone basket. *JAMA Oncology*. DOI: 10.1001/jamaoncol.2023.0161; PMID: 37022702. PubMed abstract: Design/Interventions/Results. PMC full text attempted but unavailable (recaptcha; BioC no result; author-repository PDF 403).](https://pubmed.ncbi.nlm.nih.gov/37022702/)
+24. [LIBERTAS — NCT05884398. ClinicalTrials.gov: arms, endpoints and status; last updated 2026-09-25. Retrieved via API 2026-10-05.](https://clinicaltrials.gov/study/NCT05884398)
+25. [EORTC 2238 DE-ESCALATE — NCT05974774. ClinicalTrials.gov: arms, eligibility, endpoints and status; latest update 2025-09-19. Retrieved via API 2026-10-05.](https://clinicaltrials.gov/study/NCT05974774)
+26. [Gomes et al. (2026). LIBERTAS Latin American subgroup induction PSA responses. *JCO* 44(suppl), abstract 5021. DOI: 10.1200/JCO.2026.44.16_suppl.5021. Publisher-indexed conference abstract Methods/Results; induction outcomes rather than randomized interruption efficacy. Full efficacy manuscript not retrieved.](https://ascopubs.org/doi/10.1200/JCO.2026.44.16_suppl.5021)
+27. [Azad et al. (2026). LIBERTAS initial-treatment hot flashes and sleep metrics. ASCO GU poster, Figure 1 and footnote c: study design and ADT restart rules. Sponsor-hosted conference material.](https://www.jnjmedicalconnect.com/media/attestation/congresses/oncology/2026/asco-gu/impact-of-baseline-hot-flashes-on-sleep-metrics-during-initial-treatment-in-libe.pdf)
+
+28. [Scarpato et al. (2026). AUA/SUO Advanced Prostate Cancer Guideline Amendment, Part I. *Journal of Urology*. DOI: 10.1097/JU.0000000000005220; PMID: 42462144. PubMed identity/abstract verified; publisher-indexed Therapeutic Decision-Making in mHSPC discussion retrieved. Direct publisher access returned 403; evidence-search end 2025-08-26.](https://www.auajournals.org/doi/10.1097/JU.0000000000005220)
+29. [Talmor et al. (2026). De-Escalation Therapy in Metastatic Prostate Cancer: A Retrospective Study on Intermittent ADT and ARPI Combination Treatment. *Clinical Genitourinary Cancer* 24, 102639. DOI: 10.1016/j.clgc.2026.102639; PMID: 42680612. PubMed abstract only: Patients, Methods and Results; publisher full text inaccessible.](https://pubmed.ncbi.nlm.nih.gov/42680612/)
 
 ## Changelog
+- 2026-10-05: Applied dot’s primary-source citation standard before this revision. Corrected SWOG coprimary endpoint/regimen and early-rise restart rule, PR.7 eligibility/regimen, exact QoL timing, and A-DREAM source-definition discrepancies. Added AUA/SUO 2026 and modern observational evidence with access/population limitations; added citations to interruption counseling. Claim-to-source ledger saved separately. Other mHSPC content remains outside this citation audit.
+- 2026-10-05: Added intermittent-therapy decision table, trial-specific interruption/monitoring, SWOG/PR.7/A-DREAM/EXTEND evidence, pooled-evidence limitations and modern trial status. Added source-recreated SWOG interval figure and matched counseling. A-DREAM conference and posted-registry findings distinguished from randomized survival evidence. Other existing mHSPC sections were not re-audited.
 - 2026-09-22: Explicit Setting×PSA×Imaging surveillance table; expanded Biomarkers to five-column clinic/emerging format (volume/risk, BRCA/HRR, PSMA, MSI/TMB, testosterone/PSA kinetics).
 - 2026-09-22: Renamed Upcoming trial results to Upcoming research; reframed for ongoing trials and field direction.
 - 2026-09-22: Named comparator arms in paired dotphrase counseling for efficacy/toxicity rates.
